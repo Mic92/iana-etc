@@ -1,7 +1,24 @@
-language: generic
-
-script: bash ./ci/deploy.sh
+language: python
+python:
+- '3.6'
+script: bash ~/iana-etc/ci/deploy.sh
 env:
   global:
-  - ENCRYPTION_LABEL: "c751830db763"
-  - COMMIT_AUTHOR_EMAIL: "joerg@thalheim.io"
+  - ENCRYPTION_LABEL: c751830db763
+  - COMMIT_AUTHOR_EMAIL: joerg@thalheim.io
+before_install:
+- openssl aes-256-cbc -K $encrypted_c751830db763_key -iv $encrypted_c751830db763_iv
+  -in deploy_key.enc -out deploy_key -d
+- rm -rf ~/iana-etc
+- chmod 600 deploy_key
+- eval "$(ssh-agent -s)"
+- ssh-add deploy_key
+- git clone "git@github.com:Mic92/iana-etc.git" ~/iana-etc
+deploy:
+  provider: releases
+  api_key:
+    secure: eNPebAqPVrTotzmZoiyzADMOcEthSrGi00ds6JePinTEgjDFlJb2jgNr4a+oA1fmTEE4r2jJl3lcYp/mRGQ1mwA0L+wWI/UgRHrQXIxk2rX8lsNJzfnK5ppRC3t5AGbYnBrcBHeytDt2iiAh+bHIBI2D3Pb/Vq1xGts52pHDtutVRu3a37vPTn4dlwH5h6crOJvn7rEst36D5LldSbTtjyIs+JuhHknwJianyVeTn850Q95xOFGklU1b+2YCaNkO10qXUFyFZZSWoIoC+MFBNzf+O3mUtD6dSwgE+QdsgtzvtR3n+Q6KnKtBZnw7MpZGaIdiHGBoSWiuDl928ICwzl+fyj6V/pgJKATyLLnkT+Tau/aT7GuiYjgHzEcZDGI7bVSkFt5kgqgssLzhvly+mFk315N6+rIYcJ/mbT0IJiST0dcfQHCARM7OodOGl+cZGFcDkkR7g1cFF0G5+hVrlryK0B7ICe5jcjDQw9VMLN1gAsFMAy6DpA+6fV6ly8KjevRzLithXdGgN0hDTiv17gzj9csOpzvemEU92KR3OFKXm4S4v9yhZ4oHKZttxPPxiAhnRTlGP+NL18rPvgl3cS619dDqpA1sModDo21ENLqfxK2Zipfp7f1zoINNt2e2ZxOGoItDZ676WtLZBbp5BUhd6z6RXIUgvzeXNURePzg=
+  file_glob: true
+  file: dist/*
+  on:
+    repo: Mic92/iana-etc
