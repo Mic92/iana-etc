@@ -5,15 +5,13 @@ set -eux # Exit with nonzero exit code if anything fails
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [[ "$TRAVIS_PULL_REQUEST" != "false" ]] || \
 	[[ "$TRAVIS_BRANCH" != master ]] && \
-	[[ "$TRAVIS_BRANCH" != iana-numbers ]]; then
+	[[ "$TRAVIS_BRANCH" != "$(cat .version)" ]]; then
     echo "Skipping deploy; just doing a build."
     python update.py out
     exit 0
 fi
 
-# Clone the existing gh-pages for this repo into out/
-# Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
-git clone "$REPO" out
+git clone "git@github.com:Mic92/iana-etc.git" out
 (
   cd out 
   git checkout iana-numbers || git checkout --orphan iana-numbers
@@ -22,9 +20,8 @@ git clone "$REPO" out
 # Clean out existing contents
 rm -rf out/**/* || exit 0
 
-git show MASTER:update.py > /tmp/update.py
-
-python /tmp/update.py out
+python ~/iana-etc/update.py out
+cp -r out/dist dist
 
 if [ "$TRAVIS_BRANCH" = master ]; then
     cd out
@@ -36,25 +33,9 @@ if [ "$TRAVIS_BRANCH" = master ]; then
     	exit 0
     fi
     
-    git add .
-    git commit -m "New to GitHub Pages: ${SHA}"
-    git tag "$(cat out/.version)"
+    git add --all
+    git commit -m "add new iana release $(cat .version)"
+    git tag "$(cat .version)"
     
-    ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
-    ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
-    ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
-    ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
-    openssl aes-256-cbc \
-	    -K "$ENCRYPTED_KEY" \
-	    -iv "$ENCRYPTED_IV" \
-	    -in deploy_key.enc \
-	    -out deploy_key \
-	    -d
-    chmod 600 deploy_key
-    eval "$(ssh-agent -s)"
-    ssh-add deploy_key
-    
-    git push "$SSH_REPO" iana-numbers
-elif [ "$TRAVIS_BRANCH" = iana-numbers ]; then
-    cp out/dist ..
+    git push --tags origin iana-numbers
 fi
