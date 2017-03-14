@@ -3,5 +3,5 @@ language: generic
 script: bash ./ci/deploy.sh
 env:
   global:
-  - ENCRYPTION_LABEL: "<.... encryption label from previous step ....>"
+  - ENCRYPTION_LABEL: "c751830db763"
   - COMMIT_AUTHOR_EMAIL: "joerg@thalheim.io"
