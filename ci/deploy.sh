@@ -33,7 +33,7 @@ if [ "$TRAVIS_BRANCH" = master ]; then
     	exit 0
     fi
     
-    git add .
+    git add --all .
     git commit -m "add new iana release $(cat .version)"
     # release already exists
     git tag "$(cat .version)" || exit 0
