@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-03-10</updated>
+  <updated>2017-03-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -90978,6 +90978,16 @@ fwver=&lt;firmware version&gt;</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Michael_S_Bogovich"/>
   </record>
+  <record date="2017-03-14">
+    <name>displaysrc</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Wi-Fi_Alliance_3"/>
+    </assignee>
+    <description>Wi-Fi Alliance Display Source service</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Gaurav_Jain"/>
+  </record>
   <record updated="2013-04-10">
     <name>dist-opencl</name>
     <description>Distributed OpenCL discovery protocol</description>
@@ -103231,6 +103241,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Conceptworld Corporation</org>
       <uri>mailto:admin&amp;conceptworld.com</uri>
       <updated>2013-08-20</updated>
+    </person>
+    <person id="Gaurav_Jain">
+      <name>Gaurav Jain</name>
+      <org>Wi-Fi Alliance</org>
+      <uri>mailto:gjain&amp;wifi.org</uri>
+      <updated>2017-03-14</updated>
     </person>
     <person id="Gavin_Hutchinson">
       <name>Gavin Hutchinson</name>
@@ -118896,6 +118912,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Wi-Fi Alliance</org>
       <uri>mailto:mconley&amp;wi-fi.org</uri>
       <updated>2013-12-31</updated>
+    </person>
+    <person id="Wi-Fi_Alliance_3">
+      <org>Wi-Fi Alliance</org>
+      <uri>mailto:gjain&amp;wi-fi.org</uri>
+      <updated>2017-03-14</updated>
     </person>
     <person id="Wi-SUN_Alliance">
       <org>Wi-SUN Alliance</org>
