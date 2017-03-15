@@ -35,7 +35,8 @@ if [ "$TRAVIS_BRANCH" = master ]; then
     
     git add .
     git commit -m "add new iana release $(cat .version)"
-    git tag "$(cat .version)"
+    # release already exists
+    git tag "$(cat .version)" || exit 0
     
     git push --tags origin iana-numbers
 fi
