@@ -77,6 +77,7 @@ IGNORE_PATTERN = re.compile(r'.*(unassigned|deprecated|reserved|historic).*', fl
 def write_services_file(source, destination):
     root = parse_xml(source)
     updated = parse_date(root)
+    seen = set()
     with atomic_write(destination) as dst:
         dst.write(SERVICES_HEADER.format(updated.strftime("%Y-%m-%d")))
         for r in root.iter('record'):
@@ -86,13 +87,20 @@ def write_services_file(source, destination):
             name = r.find("name")
             protocol = r.find("protocol")
             number = r.find("number")
-            if IGNORE_PATTERN.match(desc) or name is None or protocol is None or number is None:
+            if IGNORE_PATTERN.match(desc) \
+                    or name is None \
+                    or protocol is None \
+                    or number is None:
                 continue
-            name = name.text.lower()
+            name = name.text.lower().replace("_", "-")
             protocol = protocol.text.lower()
             number = int(number.text.split("-")[0])
             assignments = "%s/%s" % (number, protocol)
-            dst.write("%-16s %-10s" % (name, assignments))
+            entry = "%-16s %-10s" % (name, assignments)
+            if entry in seen:
+                continue
+            seen.add(entry)
+            dst.write(entry)
             if desc != "" and len(desc) < 70:
                 dst.write(" # %s" % desc.replace("\n", ""))
             dst.write("\n")
