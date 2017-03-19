@@ -126,14 +126,14 @@ def write_protocols_file(source, destination):
             dst.write("\n")
     return updated
 
-def add_entry(tar, file):
+def add_entry(tar, name, file):
     def reset(tarinfo):
         tarinfo.uid = tarinfo.gid = 0
         tarinfo.uname = tarinfo.gname = "root"
         tarinfo.mtime = 0 
         tarinfo.mode = 0o644
         return tarinfo
-    tar.add(file, os.path.basename(file), filter=reset)
+    tar.add(file, os.path.join(name, os.path.basename(file)), filter=reset)
 
 def download(url, path):
     with atomic_write(path, "wb") as dst, \
@@ -164,12 +164,13 @@ def main():
 
     version = max(services_xml_date, protocols_xml_date).strftime("%Y%m%d")
 
-    tarball = os.path.join(dest, "dist/iana-etc-%s.tar.gz" % version)
+    name = "iana-etc-%s" % version
+    tarball = os.path.join(dest, "dist", name + ".tar.gz")
     with tarfile.open(tarball, "w:gz") as tar:
-        add_entry(tar, services_xml)
-        add_entry(tar, services_file)
-        add_entry(tar, protocols_xml)
-        add_entry(tar, protocols_file)
+        add_entry(tar, name, services_xml)
+        add_entry(tar, name, services_file)
+        add_entry(tar, name, protocols_xml)
+        add_entry(tar, name, protocols_file)
 
     with atomic_write(os.path.join(dest, "dist/iana-etc-%s.tar.gz.sha256" % version)) as f:
         f.write(compute_sha256(tarball))
