@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-03-16</updated>
+  <updated>2017-03-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -95386,6 +95386,26 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: version=? description=?</note>
     <xref type="person" data="Brady_Anderson"/>
   </record>
+  <record date="2017-03-17">
+    <name>wpl-ers-http</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="World_Programming_Limited"/>
+    </assignee>
+    <description>World Programming repository server</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Thomas_Quarendon"/>
+  </record>
+  <record date="2017-03-17">
+    <name>wpl-ers-zmq</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="World_Programming_Limited"/>
+    </assignee>
+    <description>World Programming repository server</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Thomas_Quarendon"/>
+  </record>
   <record>
     <name>writietalkie</name>
     <description>Writie Talkie Data Sharing</description>
@@ -117511,6 +117531,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Thomas Obermair</name>
       <uri>mailto:tommy&amp;inlab.m.eunet.de</uri>
     </person>
+    <person id="Thomas_Quarendon">
+      <name>Thomas Quarendon</name>
+      <org>World Programming Limited</org>
+      <uri>mailto:tom.quarendon&amp;worldprogramming.com</uri>
+      <updated>2017-03-17</updated>
+    </person>
     <person id="Thomas_Revesz">
       <name>Thomas Revesz</name>
       <org>Thermo-Calc Software AB</org>
@@ -119161,6 +119187,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="World_DAB">
       <name>World DAB</name>
       <uri>mailto:worlddab_irc&amp;worlddab.org</uri>
+    </person>
+    <person id="World_Programming_Limited">
+      <org>World Programming Limited</org>
+      <uri>mailto:support&amp;worldprogramming.com</uri>
+      <updated>2017-03-17</updated>
     </person>
     <person id="World_Fusion">
       <name>World Fusion</name>
