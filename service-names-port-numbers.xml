@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-03-17</updated>
+  <updated>2017-03-28</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -70768,9 +70768,29 @@ common service discovery mechanisms.</note>
     <description>Talon Webserver</description>
     <number>7015</number>
   </record>
+  <record date="2017-03-27">
+    <name>spg</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="SPG_Controls_Ltd"/>
+    </assignee>
+    <description>SPG Controls Carrier</description>
+    <number>7016</number>
+    <xref type="person" data="Steve_Barton_2"/>
+  </record>
+  <record date="2017-03-27">
+    <name>spg</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="SPG_Controls_Ltd"/>
+    </assignee>
+    <description>SPG Controls Carrier</description>
+    <number>7016</number>
+    <xref type="person" data="Steve_Barton_2"/>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>7016-7017</number>
+    <number>7017</number>
   </record>
   <record date="2011-05-19">
     <name>fisa-svc</name>
@@ -80012,7 +80032,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>10011-10049</number>
+    <number>10011-10019</number>
+  </record>
+  <record date="2017-03-28">
+    <name>abb-hw</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="ABB"/>
+    </assignee>
+    <description>Hardware configuration and maintenance</description>
+    <number>10020</number>
+    <xref type="person" data="Adam_Norén"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>10020</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>10021-10049</number>
   </record>
   <record date="2006-02">
     <name>zabbix-agent</name>
@@ -95715,6 +95754,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Aaron Stein</name>
       <uri>mailto:aaron.stein&amp;ca.com</uri>
     </person>
+    <person id="ABB">
+      <org>ABB</org>
+      <uri>mailto:adam.noren&amp;se.abb.com</uri>
+      <updated>2017-03-28</updated>
+    </person>
     <person id="Abdullah_Obeid">
       <name>Abdullah Obeid</name>
       <uri>mailto:a.obeid&amp;contamac.nl</uri>
@@ -95788,6 +95832,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Adam_Maxwell">
       <name>Adam Maxwell</name>
       <uri>mailto:amaxwell&amp;mac.com</uri>
+    </person>
+    <person id="Adam_Norén">
+      <name>Adam Norén</name>
+      <org>ABB</org>
+      <uri>mailto:adam.noren&amp;se.abb.com</uri>
+      <updated>2017-03-28</updated>
     </person>
     <person id="Adam_Robinson">
       <name>Adam Robinson</name>
@@ -116198,6 +116248,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:steran&amp;ars.com</uri>
       <updated>2004-11</updated>
     </person>
+    <person id="SPG_Controls_Ltd">
+      <org>SPG Controls Ltd</org>
+      <uri>mailto:steveb&amp;spgcontrols.com</uri>
+      <updated>2017-03-27</updated>
+    </person>
     <person id="Sphera_Software">
       <name>Sphera Software</name>
       <uri>mailto:contact&amp;sphera-soft.com</uri>
@@ -116506,6 +116561,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Steve Barton</name>
       <uri>mailto:steveb&amp;pacom.com</uri>
       <updated>2002-03</updated>
+    </person>
+    <person id="Steve_Barton_2">
+      <name>Steve Barton</name>
+      <org>SPG Controls Ltd</org>
+      <uri>mailto:steveb&amp;spgcontrols.com</uri>
+      <updated>2017-03-27</updated>
     </person>
     <person id="Steve_Beigel">
       <name>Steve Beigel</name>
