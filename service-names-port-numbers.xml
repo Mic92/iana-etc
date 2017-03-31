@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-03-28</updated>
+  <updated>2017-03-30</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -21,11 +21,11 @@ documented in <xref type="rfc" data="rfc6335"/>.
 Port numbers are assigned in various ways, based on three ranges: System
 Ports (0-1023), User Ports (1024-49151), and the Dynamic and/or Private
 Ports (49152-65535); the difference uses of these ranges is described in
-<xref type="rfc" data="rfc6335"/>. System Ports are assigned by IETF
-process for standards-track protocols, as per <xref type="rfc" data="rfc6335"/>.  User Ports
-are assigned by IANA using the "IETF Review" process, the "IESG 
-Approval" process, or the "Expert Review" process, as per
-<xref type="rfc" data="rfc6335"/>.  Dynamic Ports are not assigned.
+<xref type="rfc" data="rfc6335"/>. According to Section 8.1.2 of <xref type="rfc" data="rfc6335"/>, System Ports are 
+assigned by the "IETF Review" or "IESG Approval" procedures described in 
+<xref type="rfc" data="rfc5226"/>. User Ports are assigned by IANA using the "IETF Review" process, 
+the "IESG Approval" process, or the "Expert Review" process, as per 
+<xref type="rfc" data="rfc6335"/>. Dynamic Ports are not assigned.
 
 The registration procedures for service names and port numbers are
 described in <xref type="rfc" data="rfc6335"/>.
@@ -75768,7 +75768,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>8418-8441</number>
+    <number>8418-8422</number>
+  </record>
+  <record date="2017-03-30">
+    <name>aritts</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Aristech_GmbH"/>
+    </assignee>
+    <description>Aristech text-to-speech server</description>
+    <number>8423</number>
+    <xref type="person" data="Mirko_Hering"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8423</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>8424-8441</number>
   </record>
   <record date="2007-05">
     <name>cybro-a-bus</name>
@@ -97207,6 +97226,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ari Valtanen</name>
       <uri>mailto:ari.valtanen&amp;solidtech.com</uri>
     </person>
+    <person id="Aristech_GmbH">
+      <org>Aristech GmbH</org>
+      <uri>mailto:mirko.hering&amp;aristech.de</uri>
+      <updated>2017-03-30</updated>
+    </person>
     <person id="Arjen_Lentz">
       <name>Arjen Lentz</name>
       <uri>mailto:arjen&amp;mysql.com</uri>
@@ -111079,6 +111103,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Miriam_Wohlgelernter">
       <name>Miriam Wohlgelernter</name>
       <uri>mailto:miriamw&amp;adirtech.com</uri>
+    </person>
+    <person id="Mirko_Hering">
+      <name>Mirko Hering</name>
+      <org>Aristech GmbH</org>
+      <uri>mailto:mirko.hering&amp;aristech.de</uri>
+      <updated>2017-03-30</updated>
     </person>
     <person id="Mitch_Kaufman">
       <name>Mitch Kaufman</name>
