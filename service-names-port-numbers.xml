@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-04-03</updated>
+  <updated>2017-04-04</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -74030,9 +74030,29 @@ common service discovery mechanisms.</note>
     <description>MXI Generation II for z/OS</description>
     <number>8005</number>
   </record>
+  <record date="2017-04-04">
+    <name>wpl-analytics</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="World_Programming_Limited"/>
+    </assignee>
+    <description>World Programming analytics</description>
+    <number>8006</number>
+    <xref type="person" data="Thomas_Quarendon"/>
+  </record>
+  <record date="2017-04-04">
+    <name>wpl-disc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="World_Programming_Limited"/>
+    </assignee>
+    <description>World Programming analytics discovery</description>
+    <number>8006</number>
+    <xref type="person" data="Thomas_Quarendon"/>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>8006-8007</number>
+    <number>8007</number>
   </record>
   <record>
     <name>http-alt</name>
@@ -117650,7 +117670,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Thomas Quarendon</name>
       <org>World Programming Limited</org>
       <uri>mailto:tom.quarendon&amp;worldprogramming.com</uri>
-      <updated>2017-03-17</updated>
+      <updated>2017-04-04</updated>
     </person>
     <person id="Thomas_Revesz">
       <name>Thomas Revesz</name>
@@ -119306,7 +119326,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="World_Programming_Limited">
       <org>World Programming Limited</org>
       <uri>mailto:support&amp;worldprogramming.com</uri>
-      <updated>2017-03-17</updated>
+      <updated>2017-04-04</updated>
     </person>
     <person id="World_Fusion">
       <name>World Fusion</name>
