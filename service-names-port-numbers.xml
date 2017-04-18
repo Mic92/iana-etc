@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-04-04</updated>
+  <updated>2017-04-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -90403,6 +90403,16 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: txtvers, protovers</note>
     <xref type="person" data="Damien_Plisson"/>
   </record>
+  <record date="2017-04-17">
+    <name>autosendimages</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Canon_Inc_2"/>
+    </assignee>
+    <description>automatic sending Image data protocol</description>
+    <note/>
+    <xref type="person" data="Kazuo_Moritomo"/>
+  </record>
   <record date="2015-12-28">
     <name>autotargets-ap</name>
     <protocol>tcp</protocol>
@@ -98818,7 +98828,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Canon_Inc_2">
       <org>Canon Inc</org>
       <uri>mailto:fujii.ken-ichi149&amp;canon.co.jp</uri>
-      <updated>2013-03-28</updated>
+      <updated>2017-04-17</updated>
     </person>
     <person id="Canon_Inc_3">
       <org>Canon Inc.</org>
@@ -107634,7 +107644,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Kazuo Moritomo</name>
       <org>Canon Inc</org>
       <uri>mailto:moritomo.kazuo&amp;canon.co.jp</uri>
-      <updated>2013-03-28</updated>
+      <updated>2017-04-17</updated>
     </person>
     <person id="Kazuya_Ogata">
       <name>Kazuya Ogata</name>
