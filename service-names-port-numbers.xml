@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-04-18</updated>
+  <updated>2017-04-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -89530,9 +89530,29 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>49000</number>
   </record>
+  <record date="2017-04-20">
+    <name>nusrp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Nuance_Communications_Inc3"/>
+    </assignee>
+    <description>Nuance Unity Service Request Protocol</description>
+    <number>49001</number>
+    <xref type="person" data="Andrew_Andrews"/>
+  </record>
+  <record date="2017-04-20">
+    <name>nusdp-disc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Nuance_Communications_Inc3"/>
+    </assignee>
+    <description>Nuance Unity Service Discovery Protocol</description>
+    <number>49001</number>
+    <xref type="person" data="Andrew_Andrews"/>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>49001-49150</number>
+    <number>49002-49150</number>
   </record>
   <record>
     <description>IANA Reserved</description>
@@ -93196,6 +93216,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Carl_Ellis"/>
   </record>
+  <record date="2017-04-20">
+    <name>nusdp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Nuance_Communications_Inc"/>
+    </assignee>
+    <description>Nuance Unity Service Discovery Protocol</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Andrew_Andrews"/>
+  </record>
   <record date="2017-02-09">
     <name>oak</name>
     <protocol>tcp</protocol>
@@ -96850,8 +96880,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Andrew_Andrews">
       <name>Andrew Andrews</name>
-      <uri>mailto:Andrew.Andrews&amp;nsius.com</uri>
-      <updated>2011-09-01</updated>
+      <uri>mailto:Andrew.Andrews&amp;Nuance.com</uri>
+      <updated>2017-04-20</updated>
     </person>
     <person id="Andrew_Beekhof ">
       <name>Andrew Beekhof </name>
@@ -111898,6 +111928,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Nuance Communications</org>
       <uri>mailto:NOD_SolutionsArchitecture&amp;nuance.com</uri>
       <updated>2012-10-05</updated>
+    </person>
+    <person id="Nuance_Communications_Inc3">
+      <org>Nuance Communications, Inc.</org>
+      <uri>mailto:Andrew.Andrews&amp;Nuance.com</uri>
+      <updated>2017-04-20</updated>
     </person>
     <person id="NVM_Express_Workgroup">
       <name>NVM Express Workgroup</name>
