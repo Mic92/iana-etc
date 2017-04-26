@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-04-21</updated>
+  <updated>2017-04-26</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -88940,34 +88940,34 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>44901-44999</number>
   </record>
-  <record date="2011-09-01">
+  <record date="2011-09-01" updated="2017-04-26">
     <name>asmp</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Notable_Solutions_Inc"/>
+      <xref type="person" data="Nuance_Communications_Inc4"/>
     </assignee>
     <xref type="person" data="Andrew_Andrews"/>
-    <description>NSi AutoStore Status Monitoring Protocol data transfer</description>
+    <description>Nuance AutoStore Status Monitoring Protocol (data transfer)</description>
     <number>45000</number>
   </record> 
-  <record date="2011-09-01">
+  <record date="2011-09-01" updated="2017-04-26">
     <name>asmp-mon</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="Notable_Solutions_Inc"/>
+      <xref type="person" data="Nuance_Communications_Inc4"/>
     </assignee>
     <xref type="person" data="Andrew_Andrews"/>
-    <description>NSi AutoStore Status Monitoring Protocol device monitoring</description>
+    <description>Nuance AutoStore Status Monitoring Protocol (device monitoring)</description>
     <number>45000</number>
   </record>
-  <record date="2011-09-01">
+  <record date="2011-09-01" updated="2017-04-26">
     <name>asmps</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Notable_Solutions_Inc"/>
+      <xref type="person" data="Nuance_Communications_Inc4"/>
     </assignee>
     <xref type="person" data="Andrew_Andrews"/>
-    <description>NSi AutoStore Status Monitoring Protocol secure data transfer</description>
+    <description>Nuance AutoStore Status Monitoring Protocol (secure data transfer)</description>
     <number>45001</number>
   </record>
   <record>
@@ -96921,7 +96921,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Andrew_Andrews">
       <name>Andrew Andrews</name>
       <uri>mailto:Andrew.Andrews&amp;Nuance.com</uri>
-      <updated>2017-04-20</updated>
+      <updated>2017-04-26</updated>
     </person>
     <person id="Andrew_Beekhof ">
       <name>Andrew Beekhof </name>
@@ -111955,11 +111955,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:northon.rodrigues&amp;thomson.net</uri>
       <updated>2004-02</updated>
     </person>
-    <person id="Notable_Solutions_Inc">
-      <org>Notable Solutions, Inc.</org>
-      <uri>mailto:dev&amp;nsius.com</uri>
-      <updated>2011-09-01</updated>
-    </person>
     <person id="NovaWiz_LTD">
       <name>NovaWiz LTD</name>
       <uri>mailto:Moshe&amp;novawiz.com</uri>
@@ -111978,6 +111973,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Nuance Communications, Inc.</org>
       <uri>mailto:Andrew.Andrews&amp;Nuance.com</uri>
       <updated>2017-04-20</updated>
+    </person>
+    <person id="Nuance_Communications_Inc4">
+      <org>Nuance Communications, Inc.</org>
+      <uri>mailto:dev&amp;nsius.com</uri>
+      <updated>2017-04-26</updated>
     </person>
     <person id="NVM_Express_Workgroup">
       <name>NVM Express Workgroup</name>
