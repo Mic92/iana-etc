@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-04-26</updated>
+  <updated>2017-04-28</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -414,6 +414,7 @@ or prior to IANA registration.
     <name>smtp</name>
     <protocol>tcp</protocol>
     <xref type="person" data="Jon_Postel"/>
+    <xref type="rfc" data="rfc5321"/>
     <description>Simple Mail Transfer</description>
     <number>25</number>
   </record>
@@ -421,6 +422,7 @@ or prior to IANA registration.
     <name>smtp</name>
     <protocol>udp</protocol>
     <xref type="person" data="Jon_Postel"/>
+    <xref type="rfc" data="rfc5321"/>
     <description>Simple Mail Transfer</description>
     <number>25</number>
   </record>
@@ -2130,6 +2132,7 @@ Port 126 Previously assigned to application above</note>
     <name>imap</name>
     <protocol>tcp</protocol>
     <xref type="person" data="Mark_Crispin_2"/>
+    <xref type="rfc" data="rfc3501"/>
     <description>Internet Message Access Protocol</description>
     <number>143</number>
   </record>
@@ -2137,6 +2140,7 @@ Port 126 Previously assigned to application above</note>
     <name>imap</name>
     <protocol>udp</protocol>
     <xref type="person" data="Mark_Crispin_2"/>
+    <xref type="rfc" data="rfc3501"/>
     <description>Internet Message Access Protocol</description>
     <number>143</number>
   </record>
