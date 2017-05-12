@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-05-08</updated>
+  <updated>2017-05-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -88350,7 +88350,7 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>40023</number>
   </record>
-  <record date="2015-12-02">
+  <record date="2015-12-02" updated="2017-05-12">
     <name>k-patentssensor</name>
     <protocol>udp</protocol>
     <assignee>
@@ -88358,7 +88358,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>K-PatentsSensorInformation</description>
     <number>40023</number>
-    <xref type="person" data="Arttu_Leinonen"/>
+    <xref type="person" data="Saku_Lahteenmaki"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -115527,6 +115527,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Sailalong_Software">
       <name>Sailalong Software</name>
       <uri>mailto:CustomerService&amp;sailalong.com</uri>
+    </person>
+    <person id="Saku_Lahteenmaki">
+      <name>Saku Lähteenmäki</name>
+      <uri>mailto:saku.lahteenmaki&amp;kpatents.com</uri>
+      <updated>2017-05-12</updated>
     </person>
     <person id="Salvo_Nassisi">
       <name>Salvo Nassisi</name>
