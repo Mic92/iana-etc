@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-05-12</updated>
+  <updated>2017-05-16</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -55444,19 +55444,25 @@ common service discovery mechanisms.</note>
     <description>Hellgate London</description>
     <number>4306</number>
   </record>
-  <record date="2007-10-22">
-    <name>visicron-vs</name>
+  <record date="2007-10-22" updated="2017-05-12">
+    <name>trueconf</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Alexey_Vlaskin"/>
-    <description>Visicron Videoconference Service</description>
+    <assignee>
+      <xref type="person" data="Dmitry_Odintsov"/>
+    </assignee>
+    <description>TrueConf Videoconference Service</description>
     <number>4307</number>
+    <xref type="person" data="Lev_Yakupov"/>
   </record>
-  <record date="2007-10-22">
-    <name>visicron-vs</name>
+  <record date="2007-10-22" updated="2017-05-12">
+    <name>trueconf</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Alexey_Vlaskin"/>
-    <description>Visicron Videoconference Service</description>
+    <assignee>
+      <xref type="person" data="Dmitry_Odintsov"/>
+    </assignee>
+    <description>TrueConf Videoconference Service</description>
     <number>4307</number>
+    <xref type="person" data="Lev_Yakupov"/>
   </record>
   <record date="2007-10-22">
     <name>compx-lockview</name>
@@ -71490,7 +71496,7 @@ common service discovery mechanisms.</note>
     (Passive Optical Network) systems</description>
     <number>7202</number>
     <xref type="person" data="William_Lupton"/>
-    <xref type="text">TR352</xref>
+    <xref type="text">TR-352</xref>
     <xref type="text">Inter-Channel-Termination protocol (ICTP) is a peer-to-peer protocol with
       a binary message format that is used by a set of optical line terminal (OLT) channel terminations (CT) 
       comprising a 40-Gigabit-capable next-generation passive optical network (NG-PON2) system to
@@ -79787,9 +79793,24 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>9978</number>
   </record>
+  <record date="2017-05-12">
+    <name>visweather</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Valley_Information_Systems_Inc"/>
+    </assignee>
+    <description>Valley Information Systems Weather station data</description>
+    <number>9979</number>
+    <xref type="person" data="Michael_Walsh_2"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>9979</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>9979-9986</number>
+    <number>9980</number>
   </record>
   <record date="2017-04-18">
     <name>pumpkindb</name>
@@ -79805,6 +79826,10 @@ common service discovery mechanisms.</note>
     <protocol>udp</protocol>
     <description>Reserved</description>
     <number>9981</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>9982-9986</number>
   </record>
   <record date="2006-08">
     <name>dsm-scm-target</name>
@@ -101915,6 +101940,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:pulse.cc&amp;mail.ru</uri>
       <updated>2006-02</updated>
     </person>
+    <person id="Dmitry_Odintsov">
+      <name>Dmitry Odintsov</name>
+      <uri>mailto:dimodin&amp;trueconf.com</uri>
+      <updated>2017-05-12</updated>
+    </person>
     <person id="DOCKER">
       <org>DOCKER</org>
       <uri>mailto:iana&amp;cdl.asgaard.org</uri>
@@ -108825,6 +108855,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:ljm&amp;exegin.com</uri>
       <updated>2013-05-28</updated>
     </person>
+    <person id="Lev_Yakupov">
+      <name>Lev Yakupov</name>
+      <uri>mailto:lyakupov&amp;trueconf.com</uri>
+      <updated>2017-05-12</updated>
+    </person>
     <person id="Lewis_Donzis">
       <name>Lewis Donzis</name>
       <uri>mailto:ldonzis&amp;nortelnetworks.com</uri>
@@ -110816,6 +110851,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Michael_Walsh">
       <name>Michael Walsh</name>
       <uri>mailto:mww&amp;warwick.net</uri>
+    </person>
+    <person id="Michael_Walsh_2">
+      <name>Michael Walsh</name>
+      <uri>mailto:michael.walsh&amp;valleyinfosys.com</uri>
+      <updated>2017-05-12</updated>
     </person>
     <person id="Michael_Werski">
       <name>Michael Werski</name>
@@ -118836,6 +118876,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Valery_Fremaux">
       <name>Valery Fremaux</name>
       <uri>mailto:vf&amp;eisti.fr</uri>
+    </person>
+    <person id="Valley_Information_Systems_Inc">
+      <org>Valley Information Systems, Inc.</org>
+      <uri>mailto:info@valleyinfosys.com&gt;</uri>
+      <updated>2017-05-12</updated>
     </person>
     <person id="Van_Doren_MES">
       <org>Van Doren MES</org>
