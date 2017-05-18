@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-05-16</updated>
+  <updated>2017-05-18</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -692,19 +692,17 @@ or prior to IANA registration.
     <description>MPM [default send]</description>
     <number>46</number>
   </record>
-  <record>
-    <name>ni-ftp</name>
+  <record updated="2017-05-18">
     <protocol>tcp</protocol>
-    <xref type="person" data="Steve_Kille"/>
-    <description>NI FTP</description>
+    <description>Reserved</description>
     <number>47</number>
+    <note>This entry has been removed on 2017-05-18.</note>
   </record>
-  <record>
-    <name>ni-ftp</name>
+  <record updated="2017-05-18">
     <protocol>udp</protocol>
-    <xref type="person" data="Steve_Kille"/>
-    <description>NI FTP</description>
+    <description>Reserved</description>
     <number>47</number>
+    <note>This entry has been removed on 2017-05-18.</note>
   </record>
   <record>
     <name>auditd</name>
@@ -869,19 +867,17 @@ or prior to IANA registration.
     <description>Unassigned</description>
     <number>60</number>
   </record>
-  <record>
-    <name>ni-mail</name>
+  <record updated="2017-05-18">
     <protocol>tcp</protocol>
-    <xref type="person" data="Steve_Kille"/>
-    <description>NI MAIL</description>
+    <description>Reserved</description>
     <number>61</number>
+    <note>This entry has been removed on 2017-05-18.</note>
   </record>
-  <record>
-    <name>ni-mail</name>
+  <record updated="2017-05-18">
     <protocol>udp</protocol>
-    <xref type="person" data="Steve_Kille"/>
-    <description>NI MAIL</description>
+    <description>Reserved</description>
     <number>61</number>
+    <note>This entry has been removed on 2017-05-18.</note>
   </record>
   <record>
     <name>acas</name>
@@ -88291,7 +88287,49 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>38204-38799</number>
+    <number>38204-38411</number>
+  </record>
+  <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>38412</number>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>38412</number>
+  </record>
+  <record date="2017-05-18">
+    <name>ng-control</name>
+    <protocol>sctp</protocol>
+    <description>3GPP NG application Protocol</description>
+    <number>38412</number>
+    <xref type="person" data="Luis_Lopes"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>38413-38421</number>
+  </record>
+  <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>38422</number>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>38422</number>
+  </record>
+  <record date="2017-05-18">
+    <name>xn-control</name>
+    <protocol>sctp</protocol>
+    <description>3GPP Xn application Protocol</description>
+    <number>38422</number>
+    <xref type="person" data="Luis_Lopes"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>38423-38799</number>
   </record>
   <record date="2012-05-07">
     <name>sruth</name>
@@ -93244,6 +93282,46 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <description>National Instruments Network Device</description>
     <note>Defined TXT keys: MAC, DevClass, ProdId, ProdName, SerialNo, Status, ImgPath, Comment</note>
     <xref type="person" data="Joshua_Prewitt"/>
+  </record>
+  <record date="2017-05-18">
+    <name>ni-ftp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Steve_Kille"/>
+    </assignee>
+    <description>NI FTP</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Steve_Kille"/>
+  </record>
+  <record date="2017-05-18">
+    <name>ni-ftp</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Steve_Kille"/>
+    </assignee>
+    <description>NI FTP</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Steve_Kille"/>
+  </record>
+  <record date="2017-05-18">
+    <name>ni-mail</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Steve_Kille"/>
+    </assignee>
+    <description>NI MAIL</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Steve_Kille"/>
+  </record>
+  <record date="2017-05-18">
+    <name>ni-mail</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Steve_Kille"/>
+    </assignee>
+    <description>NI MAIL</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Steve_Kille"/>
   </record>
   <record date="2011-10-24">
     <name>ni-rt</name>
@@ -109026,6 +109104,11 @@ implementations.  See RFC 3692 for details.</footnote>
         <uri>mailto:l.kannicht&amp;thedarkhorse.de</uri>
         <updated>2015-06-02</updated>
     </person>
+    <person id="Luis_Lopes">
+      <name>Luis Lopes</name>
+      <uri>mailto:llopes&amp;qti.qualcomm.com</uri>
+      <updated>2017-05-18</updated>
+    </person>
     <person id="Luis_Zugasti">
       <name>Luis Zugasti</name>
       <uri>mailto:lzugasti&amp;fagorautomation.es</uri>
@@ -116937,7 +117020,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Steve_Kille">
       <name>Steve Kille</name>
-      <uri>mailto:S.Kille&amp;isode.com</uri>
+      <uri>mailto:steve.kille&amp;isode.com</uri>
+      <updated>2017-05-18</updated>
     </person>
     <person id="Steve_Kirsch">
       <name>Steve Kirsch</name>
