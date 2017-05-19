@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-05-18</updated>
+  <updated>2017-05-19</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -91073,6 +91073,26 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Heath_Raftery"/>
   </record>
+  <record date="2017-05-19">
+    <name>coviot</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Coviot"/>
+    </assignee>
+    <description>Service for coviot branded devices</description>
+    <note>Defined TXT keys: FW_VERSION, PROTOCOL_VERSION, SERVICE_DESCRIPTION</note>
+    <xref type="person" data="Adnan_Senyurt"/>
+  </record>
+  <record date="2017-05-19">
+    <name>coviot</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Coviot"/>
+    </assignee>
+    <description>Service for coviot branded devices</description>
+    <note>Defined TXT keys: FW_VERSION, PROTOCOL_VERSION, SERVICE_DESCRIPTION</note>
+    <xref type="person" data="Adnan_Senyurt"/>
+  </record>
   <record>
     <name>cpnotebook2</name>
     <description>NoteBook 2</description>
@@ -93461,6 +93481,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     </assignee>
     <description>Secure OCP.1 protocol, which is the secure TCP/IP implementation of the Object Control Architecture</description>
     <note>Defined TXT keys: txtvers=1 protovers=x</note>
+    <xref type="person" data="Stephan_van_Tienen"/>
+  </record>
+  <record date="2017-05-19">
+    <name>ocaws</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="OCA_Alliance"/>
+    </assignee>
+    <description>Insecure OCP.1 hosted on a WebSocket</description>
+    <note>Defined TXT keys: txtvers protovers path</note>
     <xref type="person" data="Stephan_van_Tienen"/>
   </record>
   <record>
@@ -96175,6 +96205,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Administrator</name>
       <uri>mailto:admin&amp;ipcore.co.za</uri>
       <updated>2005-12</updated>
+    </person>
+    <person id="Adnan_Senyurt">
+      <name>Adnan Senyurt</name>
+      <org>Coviot</org>
+      <uri>mailto:adnansenyurt&amp;coviot.com</uri>
+      <updated>2017-05-19</updated>
     </person>
     <person id="Adobe_Systems">
       <org>Adobe Systems Inc.</org>
@@ -100283,6 +100319,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Corpus Collusion</org>
       <uri>mailto:developer&amp;corpuscollusion.com</uri>
       <updated>2011-08-23</updated>
+    </person>
+    <person id="Coviot">
+      <org>Coviot</org>
+      <uri>mailto:tubainci&amp;coviot.com</uri>
+      <updated>2017-05-19</updated>
     </person>
     <person id="Craig_Calef">
       <name>Craig Calef</name>
@@ -112191,7 +112232,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="OCA_Alliance">
       <org>OCA Alliance</org>
       <uri>mailto:tina.lipscomb&amp;oca-alliance.com</uri>
-      <updated>2012-10-11</updated>
+      <updated>2017-05-19</updated>
     </person>
     <person id="Odo_Maletzki">
       <name>Odo Maletzki</name>
@@ -116912,7 +116953,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Stephan van Tienen</name>
       <org>OCA Alliance</org>
       <uri>mailto:stephan.vantienen&amp;bosch.com</uri>
-      <updated>2012-10-11</updated>
+      <updated>2017-05-19</updated>
     </person>
     <person id="Steve_Bannister">
       <name>Steve Bannister</name>
