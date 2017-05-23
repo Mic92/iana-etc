@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-05-19</updated>
+  <updated>2017-05-23</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -59245,18 +59245,25 @@ Further keys may be added in the future.</note>
     <description>Varadero-2</description>
     <number>4839</number>
   </record>
-  <record>
+  <record updated="2017-05-23">
     <name>opcua-tcp</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="OPC_Foundation"/>
+    </assignee>
     <description>OPC UA TCP Protocol</description>
     <number>4840</number>
+    <xref type="person" data="Randy_Armstrong"/>
   </record>
-  <record date="2006-09">
+  <record date="2006-09" updated="2017-05-23">
     <name>opcua-udp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Randy_Armstrong"/>
+    <assignee>
+      <xref type="person" data="OPC_Foundation"/>
+    </assignee>
     <description>OPC UA TCP Protocol</description>
     <number>4840</number>
+    <xref type="person" data="Randy_Armstrong"/>
   </record>
   <record date="2006-09">
     <name>quosa</name>
@@ -59279,26 +59286,32 @@ Further keys may be added in the future.</note>
     <description>nCode ICE-flow Library AppServer</description>
     <number>4842</number>
   </record>
-  <record date="2006-09">
+  <record date="2006-09" updated="2017-05-23">
     <name>gw-asv</name>
     <protocol>udp</protocol>
     <xref type="person" data="Ross_Swithenbank"/>
     <description>nCode ICE-flow Library AppServer</description>
     <number>4842</number>
   </record>
-  <record date="2006-09">
+  <record date="2006-09" updated="2017-05-23">
     <name>opcua-tls</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Randy_Armstrong"/>
+    <assignee>
+      <xref type="person" data="OPC_Foundation"/>
+    </assignee>
     <description>OPC UA TCP Protocol over TLS/SSL</description>
     <number>4843</number>
+    <xref type="person" data="Randy_Armstrong"/>
   </record>
   <record date="2006-09">
     <name>opcua-tls</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Randy_Armstrong"/>
+    <assignee>
+      <xref type="person" data="OPC_Foundation"/>
+    </assignee>
     <description>OPC UA TCP Protocol over TLS/SSL</description>
     <number>4843</number>
+    <xref type="person" data="Randy_Armstrong"/>
   </record>
   <record date="2006-09">
     <name>gw-log</name>
@@ -88299,10 +88312,10 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>38412</number>
   </record>
-  <record date="2017-05-18">
+  <record date="2017-05-18" updated="2017-05-19">
     <name>ng-control</name>
     <protocol>sctp</protocol>
-    <description>3GPP NG application Protocol</description>
+    <description>NG Control Plane (3GPP)</description>
     <number>38412</number>
     <xref type="person" data="Luis_Lopes"/>
   </record>
@@ -88320,10 +88333,10 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>38422</number>
   </record>
-  <record date="2017-05-18">
+  <record date="2017-05-18" updated="2017-05-19">
     <name>xn-control</name>
     <protocol>sctp</protocol>
-    <description>3GPP Xn application Protocol</description>
+    <description>Xn Control Plane (3GPP)</description>
     <number>38422</number>
     <xref type="person" data="Luis_Lopes"/>
   </record>
@@ -112334,6 +112347,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>One Laptop per Child/Collabora Ltd.</org>
       <uri>mailto:devel&amp;lists.laptop.org</uri>
     </person>
+    <person id="OPC_Foundation">
+      <org>OPC Foundation</org>
+      <uri>mailto:tcb&amp;opcfoundation.org</uri>
+      <updated>2017-05-23</updated>
+    </person>
     <person id="OpeniT_Inc">
       <org>OpeniT Inc.</org>
       <uri>mailto:mmaano&amp;openit.com</uri>
@@ -114034,8 +114052,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Randy_Armstrong">
       <name>Randy Armstrong</name>
-      <uri>mailto:randy.armstrong&amp;opcfoundation.org</uri>
-      <updated>2006-09</updated>
+      <uri>mailto:tcb&amp;opcfoundation.org</uri>
+      <updated>2017-05-23</updated>
     </person>
     <person id="Randy_Cassidy">
       <name>Randy Cassidy</name>
@@ -118466,8 +118484,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Tom_Herbert">
       <name>Tom Herbert</name>
-      <uri>mailto:therbert&amp;google.com</uri>
-      <updated>2015-03-05</updated>
+      <uri>mailto:tom&amp;herbertland.com</uri>
+      <updated>2017-05-19</updated>
     </person>
     <person id="Tom_Kee">
       <name>Tom Kee</name>
