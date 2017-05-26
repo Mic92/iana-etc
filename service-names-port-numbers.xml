@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-05-23</updated>
+  <updated>2017-05-25</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -69086,28 +69086,28 @@ common service discovery mechanisms.</note>
     <number>6567</number>
     <note>This entry has been removed on 2011-08-26.</note>
   </record>
-  <record date="2009-04-22">
+  <record date="2009-04-22" updated="2017-05-25">
     <name>canit-store</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="David_F_Skoll"/>
+    <xref type="person" data="Dianne_Skoll"/>
     <description>CanIt Storage Manager<br/><br/>
 IANA assigned this well-formed service name as a replacement for "canit_store".</description>
     <number>6568</number>
   </record>
-  <record date="2009-04-22">
+  <record date="2009-04-22" updated="2017-05-25">
     <name>canit_store</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="David_F_Skoll"/>
+    <xref type="person" data="Dianne_Skoll"/>
     <description>CanIt Storage Manager</description>
     <number>6568</number>
     <note>This entry is an alias to "canit-store".
 This entry is now historic, not usable for use with many
 common service discovery mechanisms.</note>
   </record>
-  <record date="2010-02-05">
+  <record date="2010-02-05" updated="2017-05-25">
     <name>rp-reputation</name>
     <protocol>udp</protocol>
-    <xref type="person" data="David_F_Skoll"/>
+    <xref type="person" data="Dianne_Skoll"/>
     <description>Roaring Penguin IP Address Reputation Collection</description>
     <number>6568</number>
   </record>
@@ -101254,10 +101254,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:david.erel&amp;emc.com</uri>
       <updated>2013-09-18</updated>
     </person>
-    <person id="David_F_Skoll">
-      <name>David F. Skoll</name>
+    <person id="Dianne_Skoll">
+      <name>Dianne Skoll</name>
       <uri>mailto:dfs&amp;roaringpenguin.com</uri>
-      <updated>2010-02-05</updated>
+      <updated>2017-05-25</updated>
     </person>
     <person id="David_Farajun">
       <name>David Farajun</name>
