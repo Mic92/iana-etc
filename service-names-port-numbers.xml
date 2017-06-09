@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-06-05</updated>
+  <updated>2017-06-08</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -10309,7 +10309,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>914-988</number>
+    <number>914-952</number>
+  </record>
+  <record date="2017-06-08">
+    <name>rndc</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Internet_Systems_Consortium_Inc"/>
+    </assignee>
+    <description>BIND9 remote name daemon controller</description>
+    <number>953</number>
+    <xref type="person" data="Ray_Bellis"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>953</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>954-988</number>
   </record>
   <record>
     <name>ftps-data</name>
@@ -105357,6 +105376,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:support&amp;intelliadmin.com</uri>
       <updated>2016-11-18</updated>
     </person>
+    <person id="Internet_Systems_Consortium_Inc">
+      <org>Internet Systems Consortium, Inc.</org>
+      <uri>mailto:info&amp;isc.org</uri>
+      <updated>2017-06-08</updated>
+    </person>
     <person id="IOSPIRIT_GmbH">
       <org>IOSPIRIT GmbH</org>
       <uri>mailto:info&amp;iospirit.com</uri>
@@ -114143,6 +114167,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ravi Tavakely</name>
       <uri>mailto:ravi.tavakley&amp;veritas.com</uri>
       <updated>2002-02</updated>
+    </person>
+    <person id="Ray_Bellis">
+      <name>Ray Bellis</name>
+      <uri>mailto:ray&amp;isc.org</uri>
+      <updated>2017-06-08</updated>
     </person>
     <person id="Ray_Caruso">
       <name>Ray Caruso</name>
