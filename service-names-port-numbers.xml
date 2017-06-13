@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-06-08</updated>
+  <updated>2017-06-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -72552,15 +72552,15 @@ common service discovery mechanisms.</note>
     <description>Cloud Signaling Service</description>
     <number>7550</number>
   </record>
-  <record date="2014-11-07">
+  <record date="2014-11-07" updated="2017-06-13">
     <name>controlone-con</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="SIMB_Tecnologia"/>
+      <xref type="person" data="BYNE"/>
     </assignee>
     <description>ControlONE Console signaling</description>
     <number>7551</number>
-    <xref type="person" data="Diego_Dias"/>
+    <xref type="person" data="Andre_Nazario"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -97008,6 +97008,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Andre Kramer</name>
       <uri>mailto:Andre.Kramer&amp;ansa.co.uk</uri>
     </person>
+    <person id="Andre_Nazario">
+      <name>Andre Nazario</name>
+      <uri>mailto:andre.nazario&amp;byne.com.br</uri>
+      <updated>2017-06-13</updated>
+    </person>
     <person id="Andre_Petras">
       <name>Andre Petras</name>
       <uri>mailto:a.petras&amp;arcor.de</uri>
@@ -99076,6 +99081,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Bulent_Kasman">
       <name>Bulent Kasman</name>
       <uri>mailto:BKasman&amp;symantec.com</uri>
+    </person>
+    <person id="BYNE">
+      <org>BYNE</org>
+      <uri>mailto:devel&amp;byne.com.br</uri>
+      <updated>2017-06-13</updated>
     </person>
     <person id="Byron_Jones">
       <name>Byron Jones</name>
