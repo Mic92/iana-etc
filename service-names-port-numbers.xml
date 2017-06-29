@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-06-27</updated>
+  <updated>2017-06-28</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -74292,9 +74292,25 @@ common service discovery mechanisms.</note>
     <description>Ampify Messaging Protocol</description>
     <number>8040</number>
   </record>
-  <record>
-    <description>Unassigned</description>
+  <record date="2017-06-28">
+    <name>enguity-xccetp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Enguity_Technology_Corp"/>
+    </assignee>
+    <description>Xcorpeon ASIC Carrier Ethernet Transport</description>
     <number>8041</number>
+    <xref type="person" data="Kraig_Beahn_Jr"/>
+  </record>
+  <record date="2017-06-28">
+    <name>enguity-xccetp</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Enguity_Technology_Corp"/>
+    </assignee>
+    <description>Xcorpeon ASIC Carrier Ethernet Transport</description>
+    <number>8041</number>
+    <xref type="person" data="Kraig_Beahn_Jr"/>
   </record>
   <record date="2008-10-16">
     <name>fs-agent</name>
@@ -102810,6 +102826,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Engineering Dept.</name>
       <uri>mailto:domains&amp;badgernt.com</uri>
     </person>
+    <person id="Enguity_Technology_Corp">
+      <org>Enguity Technology Corp.</org>
+      <uri>mailto:kraig.beahn&amp;enguity.com</uri>
+      <updated>2017-06-28</updated>
+    </person>
     <person id="Enphase_Energy_Inc">
       <org>Enphase Energy, Inc.</org>
       <uri>mailto:ceich&amp;enphaseenergy.com</uri>
@@ -108631,6 +108652,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Kouji Sugisawa</name>
       <uri>mailto:sugisawa.kouji&amp;soft.fujitsu.com</uri>
       <updated>2003-01</updated>
+    </person>
+    <person id="Kraig_Beahn_Jr">
+      <name>Kraig Beahn Jr.</name>
+      <uri>mailto:kraig&amp;enguity.com</uri>
+      <updated>2017-06-28</updated>
     </person>
     <person id="Kristean_Heisler">
       <name>Kristean Heisler</name>
