@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-06-28</updated>
+  <updated>2017-07-03</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -45481,14 +45481,14 @@ common service discovery mechanisms.</note>
   <record>
     <name>lsp-ping</name>
     <protocol>tcp</protocol>
-    <xref type="draft" data="RFC-ietf-mpls-rfc4379bis-09"/>
+    <xref type="rfc" data="rfc8029"/>
     <description>MPLS LSP-echo Port</description>
     <number>3503</number>
   </record>
   <record>
     <name>lsp-ping</name>
     <protocol>udp</protocol>
-    <xref type="draft" data="RFC-ietf-mpls-rfc4379bis-09"/>
+    <xref type="rfc" data="rfc8029"/>
     <description>MPLS LSP-echo Port</description>
     <number>3503</number>
   </record>
