@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-07-03</updated>
+  <updated>2017-07-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -57332,10 +57332,11 @@ common service discovery mechanisms.</note>
     <description>IPsec NAT-Traversal</description>
     <number>4500</number>
   </record>
-  <record updated="2017-06-27">
+  <record updated="2017-07-07">
     <name>ipsec-nat-t</name>
     <protocol>udp</protocol>
-    <xref type="rfc" data="rfc3947"/>
+    <xref type="rfc" data="rfc3948"/>
+    <xref type="rfc" data="rfc7296"/>
     <description>IPsec NAT-Traversal</description>
     <number>4500</number>
   </record>
@@ -94479,6 +94480,16 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Arno_Odermatt"/>
   </record>
+  <record date="2017-07-07">
+    <name>schsrmp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Arno_Odermatt"/>
+    </assignee>
+    <description>Schindler internal messaging service</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Arno_Odermatt"/>
+  </record>
   <record>
     <name>scone</name>
     <description>Scone</description>
@@ -97717,8 +97728,8 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Arno_Odermatt">
       <name>Arno Odermatt</name>
       <org>Schindler Aufzuege ag</org>
-      <uri>mailto:arno.odermatt&amp;ch.schindler.com</uri>
-      <updated>2015-12-05</updated>
+      <uri>mailto:arno.odermatt&amp;schindler.com</uri>
+      <updated>2017-07-07</updated>
     </person>
     <person id="Arnold_Dittmann">
       <name>Arnold Dittmann</name>
