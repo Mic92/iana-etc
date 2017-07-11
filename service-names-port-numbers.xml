@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-07-07</updated>
+  <updated>2017-07-10</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -94480,11 +94480,11 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Arno_Odermatt"/>
   </record>
-  <record date="2017-07-07">
+  <record date="2017-07-07" updated="2017-07-10">
     <name>schsrmp</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Arno_Odermatt"/>
+      <xref type="person" data="Schindler_Aufzuege_ag"/>
     </assignee>
     <description>Schindler internal messaging service</description>
     <note>Defined TXT keys: None</note>
@@ -115982,7 +115982,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Schindler_Aufzuege_ag">
       <org>Schindler Aufzuege ag</org>
       <uri>mailto:arno.odermatt&amp;ch.schindler.com</uri>
-      <updated>2015-12-05</updated>
+      <updated>2017-07-10</updated>
     </person>
     <person id="SCOOP_at_F_Project">
       <org>SCOOP@F Project</org>
