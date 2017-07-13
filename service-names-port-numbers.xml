@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-07-10</updated>
+  <updated>2017-07-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -70215,19 +70215,25 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>6792-6800</number>
   </record>
-  <record date="2007-02">
+  <record date="2007-02" updated="2017-07-13">
     <name>acnet</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Rich_Neswold"/>
+    <assignee>
+      <xref type="person" data="Fermilab"/>
+    </assignee>
     <description>ACNET Control System Protocol</description>
     <number>6801</number>
+    <xref type="person" data="Rich_Neswold"/>
   </record>
-  <record date="2007-02">
+  <record date="2007-02" updated="2017-07-13">
     <name>acnet</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Rich_Neswold"/>
+    <assignee>
+      <xref type="person" data="Fermilab"/>
+    </assignee>
     <description>ACNET Control System Protocol</description>
     <number>6801</number>
+    <xref type="person" data="Rich_Neswold"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -103284,6 +103290,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Fraxion Software</org>
       <uri>mailto:f.lad.mail&amp;gmail.com</uri>
       <updated>2012-03-21</updated>
+    </person>
+    <person id="Fermilab">
+      <org>Fermilab</org>
+      <uri>mailto:neswold&amp;fnal.gov</uri>
+      <updated>2017-07-13</updated>
     </person>
     <person id="Ferruccio_Barletta">
       <name>Ferruccio Barletta</name>
