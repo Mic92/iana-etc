@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-07-19</updated>
+  <updated>2017-07-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -70869,29 +70869,27 @@ common service discovery mechanisms.</note>
     <number>7016</number>
     <xref type="person" data="Steve_Barton_2"/>
   </record>
-  <record date="2017-04-28">
+  <record date="2017-04-28" updated="2017-07-20">
     <name>grasp</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="IESG"/>
     </assignee>
-    <description>GeneRic Autonomic Signaling Protocol 
-    (TEMPORARY - registered 2017-04-28, expires 2018-04-28)</description>
+    <description>GeneRic Autonomic Signaling Protocol</description>
     <number>7017</number>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="draft-ietf-anima-grasp"/>
+    <xref type="draft" data="RFC-ietf-anima-grasp-15"/>
   </record>
-  <record date="2017-04-28">
+  <record date="2017-04-28" updated="2017-07-20">
     <name>grasp</name>
     <protocol>udp</protocol>
     <assignee>
       <xref type="person" data="IESG"/>
     </assignee>
-    <description>GeneRic Autonomic Signaling Protocol 
-    (TEMPORARY - registered 2017-04-28, expires 2018-04-28)</description>
+    <description>GeneRic Autonomic Signaling Protocol</description>
     <number>7017</number>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="draft-ietf-anima-grasp"/>
+    <xref type="draft" data="RFC-ietf-anima-grasp-15"/>
   </record>
   <record date="2011-05-19">
     <name>fisa-svc</name>
