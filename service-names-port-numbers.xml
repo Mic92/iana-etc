@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-07-20</updated>
+  <updated>2017-07-26</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -5528,17 +5528,17 @@ IANA assigned this well-formed service name as a replacement for "cvc_hostd".</d
 This entry is now historic, not usable for use with many
 common service discovery mechanisms.</note>
   </record>
-  <record>
+  <record updated="2017-07-26">
     <name>https</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Kipp_E_B_Hickman"/>
+    <xref type="person" data="IESG"/>
     <description>http protocol over TLS/SSL</description>
     <number>443</number>
   </record>
-  <record>
+  <record updated="2017-07-26">
     <name>https</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Kipp_E_B_Hickman"/>
+    <xref type="person" data="IESG"/>
     <description>http protocol over TLS/SSL</description>
     <number>443</number>
   </record>
@@ -46825,14 +46825,14 @@ common service discovery mechanisms.</note>
     <description>Quasar Accounting Server</description>
     <number>3599</number>
   </record>
-  <record date="2002-09">
+  <record date="2002-09" updated="2017-07-26">
     <name>trap-daemon</name>
     <protocol>tcp</protocol>
     <xref type="person" data="John_Willis"/>
     <description>text relay-answer</description>
     <number>3600</number>
   </record>
-  <record date="2002-09">
+  <record date="2002-09" updated="2017-07-26">
     <name>trap-daemon</name>
     <protocol>udp</protocol>
     <xref type="person" data="John_Willis"/>
@@ -107402,8 +107402,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="John_Willis">
       <name>John Willis</name>
-      <uri>mailto:jwillis&amp;arielusa.com</uri>
-      <updated>2002-09</updated>
+      <uri>mailto:jpw&amp;coherent-logic.com</uri>
+      <updated>2017-07-26</updated>
     </person>
     <person id="John_Wood">
       <name>John Wood</name>
