@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-07-26</updated>
+  <updated>2017-08-10</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -86928,7 +86928,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>30261-30831</number>
+    <number>30261-30399</number>
+  </record>
+  <record date="2017-08-10">
+    <name>gs-realtime</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="INFORM_GmbH"/>
+    </assignee>
+    <description>GroundStar RealTime System</description>
+    <number>30400</number>
+    <xref type="person" data="Benjamin_Schleinzer"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>30400</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>30401-30831</number>
   </record>
   <record date="2013-05-29">
     <name>samsung-disc</name>
@@ -98171,6 +98190,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Benjamin Rosenberg</name>
       <uri>mailto:brosenberg&amp;advsyscon.com</uri>
     </person>
+    <person id="Benjamin_Schleinzer">
+      <name>Benjamin Schleinzer</name>
+      <uri>mailto:benjamin.schleinzer&amp;inform-software.com</uri>
+      <updated>2017-08-10</updated>
+    </person>
     <person id="Bernard_Aboba">
       <name>Bernard Aboba</name>
       <uri>mailto:bernarda&amp;microsoft.com</uri>
@@ -105430,6 +105454,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Infinite Loop</org>
       <uri>mailto:nasmon&amp;infinite-loop.dk</uri>
       <updated>2012-10-09</updated>
+    </person>
+    <person id="INFORM_GmbH">
+      <org>INFORM GmbH</org>
+      <uri>mailto:benjamin.schleinzer&amp;inform-software.com</uri>
+      <updated>2017-08-10</updated>
     </person>
     <person id="InfoVista">
       <org>InfoVista</org>
