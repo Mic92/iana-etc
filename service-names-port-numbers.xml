@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-08-14</updated>
+  <updated>2017-08-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -39942,18 +39942,18 @@ common service discovery mechanisms.</note>
     <description>Jiiva RapidMQ Registry</description>
     <number>3094</number>
   </record>
-  <record>
+  <record updated="2017-08-17">
     <name>panasas</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Peter_Berger"/>
-    <description>Panasas rendevous port</description>
+    <xref type="person" data="Patrick_Keane"/>
+    <description>Panasas rendezvous port</description>
     <number>3095</number>
   </record>
-  <record>
+  <record updated="2017-08-17">
     <name>panasas</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Peter_Berger"/>
-    <description>Panasas rendevous port</description>
+    <xref type="person" data="Patrick_Keane"/>
+    <description>Panasas rendezvous port</description>
     <number>3095</number>
   </record>
   <record>
@@ -112788,6 +112788,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Patrick Kara</name>
       <uri>mailto:Patrick&amp;eba.net</uri>
     </person>
+    <person id="Patrick_Keane">
+      <name>Patrick Keane</name>
+      <uri>mailto:pkeane&amp;panasas.com</uri>
+      <updated>2017-08-17</updated>
+    </person>
     <person id="Patrick_Lee">
       <name>Patrick Lee</name>
       <uri>mailto:leecotechnologies&amp;comcast.net</uri>
@@ -113317,10 +113322,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Peter Beahan</name>
       <uri>mailto:peter_beahan&amp;technologyonecorp.com</uri>
       <updated>2004-11</updated>
-    </person>
-    <person id="Peter_Berger">
-      <name>Peter Berger</name>
-      <uri>mailto:peterb&amp;panasas.com</uri>
     </person>
     <person id="Peter_Boers">
       <name>Peter Boers</name>
