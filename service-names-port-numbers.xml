@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-08-23</updated>
+  <updated>2017-08-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -39594,24 +39594,19 @@ common service discovery mechanisms.</note>
     <description>MGXSWITCH</description>
     <number>3070</number>
   </record>
-  <record updated="2014-07-18">
-    <name>csd-mgmt-port</name>
+  <record updated="2017-08-24">
+    <name>xplat-replicate</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="NetApp"/>
+      <xref type="person" data="NetApp_3"/>
     </assignee>
-    <xref type="person" data="MSW_architecture_team"/>
-    <description>ContinuStor Manager Port</description>
+    <xref type="person" data="Ravindra_Kuramkote"/>
+    <description>Crossplatform replication protocol</description>
     <number>3071</number>
   </record>
-  <record updated="2014-07-18">
-    <name>csd-mgmt-port</name>
+  <record updated="2017-08-24">
     <protocol>udp</protocol>
-    <assignee>
-      <xref type="person" data="NetApp"/>
-    </assignee>
-    <xref type="person" data="MSW_architecture_team"/>
-    <description>ContinuStor Manager Port</description>
+    <description>Reserved</description>
     <number>3071</number>
   </record>
   <record updated="2014-07-18">
@@ -112048,6 +112043,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:pmu&amp;netapp.com.</uri>
       <updated>2014-08-12</updated>
     </person>
+    <person id="NetApp_3">
+      <org>NetApp, Inc.</org>
+      <uri>mailto:ravindra.kuramkote&amp;netapp.com</uri>
+      <updated>2017-08-24</updated>
+    </person>
     <person id="NetOp_Technical_Supp">
       <name>NetOp Technical Support</name>
       <uri>mailto:support&amp;danware.dk</uri>
@@ -114320,6 +114320,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ravi Tavakely</name>
       <uri>mailto:ravi.tavakley&amp;veritas.com</uri>
       <updated>2002-02</updated>
+    </person>
+    <person id="Ravindra_Kuramkote">
+      <name>Ravindra Kuramkote</name>
+      <uri>mailto:ravindra.kuramkote&amp;netapp.com</uri>
+      <updated>2017-08-24</updated>
     </person>
     <person id="Ray_Bellis">
       <name>Ray Bellis</name>
