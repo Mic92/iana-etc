@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-09-05</updated>
+  <updated>2017-09-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -65010,9 +65010,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>5647-5669</number>
-    <unauthorized>Known UNAUTHORIZED USE: Port 5666</unauthorized>
-    
+    <number>5647-5665</number>
+  </record>
+  <record date="2017-09-06">
+    <name>nrpe</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Nagios_Enterprises_LLC"/>
+    </assignee>
+    <description>Nagios Remote Plugin Executor</description>
+    <number>5666</number>
+    <xref type="person" data="Bryan_Heden"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>5666</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>5667-5669</number>
   </record>
   <record date="2012-11-01" updated="2013-02-25">
     <name>filemq</name>
@@ -99147,6 +99164,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Bryan Cole</name>
       <uri>mailto:bryan.cole&amp;teraview.com</uri>
     </person>
+    <person id="Bryan_Heden">
+      <name>Bryan Heden</name>
+      <uri>mailto:bheden&amp;nagios.com</uri>
+      <updated>2017-09-06</updated>
+    </person>
     <person id="Bryan_Otey">
       <name>Bryan Otey</name>
       <uri>mailto:bwo&amp;softdesk.com</uri>
@@ -111875,6 +111897,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>n-Count Technology B.V.</org>
       <uri>mailto:ncount&amp;dejongfrz.nl</uri>
       <updated>2013-01-22</updated>
+    </person>
+    <person id="Nagios_Enterprises_LLC">
+      <org>Nagios Enterprises, LLC</org>
+      <uri>mailto:techteam&amp;nagios.com</uri>
+      <updated>2017-09-06</updated>
     </person>
     <person id="Nancy_Davoust">
       <name>Nancy Davoust</name>
