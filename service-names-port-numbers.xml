@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-09-28</updated>
+  <updated>2017-10-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -91724,6 +91724,16 @@ the target host and port where DNS Dynamic Update Service is provided for the na
     <note>Defined TXT keys: none</note>
     <xref type="person" data="Loren_Barr"/>
   </record>
+  <record date="2017-10-06">
+    <name>est</name>
+    <protocol>tcp</protocol>
+    <description>Enrollment Over Secure Transport</description>
+    <assignee>
+      <xref type="person" data="Jack_Visoky"/>
+    </assignee>
+    <note><xref type="rfc" data="rfc7030"/>. Defined TXT keys: none</note>
+    <xref type="person" data="Jack_Visoky"/>
+  </record>
   <record>
     <name>eucalyptus</name>
     <description>Eucalyptus Discovery</description>
@@ -105697,6 +105707,11 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Jack_ONeil">
       <name>Jack O'Neil</name>
+    </person>
+    <person id="Jack_Visoky">
+      <name>Jack Visoky</name>
+      <uri>mailto:jmvisoky&amp;ra.rockwell.com</uri>
+      <updated>2017-10-06</updated>
     </person>
     <person id="Jack_Waller_III">
       <name>Jack Waller III</name>
