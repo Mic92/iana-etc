@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-10-06</updated>
+  <updated>2017-10-26</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -84688,21 +84688,21 @@ common service discovery mechanisms.</note>
   <record updated="2017-09-05">
     <name>nfsrdma</name>
     <protocol>tcp</protocol>
-    <xref type="draft" data="RFC-ietf-nfsv4-rfc5667bis-13"/>
+    <xref type="rfc" data="rfc8267"/>
     <description>Network File System (NFS) over RDMA</description>
     <number>20049</number>
   </record>
   <record updated="2017-09-05">
     <name>nfsrdma</name>
     <protocol>udp</protocol>
-    <xref type="draft" data="RFC-ietf-nfsv4-rfc5667bis-13"/>
+    <xref type="rfc" data="rfc8267"/>
     <description>Network File System (NFS) over RDMA</description>
     <number>20049</number>
   </record>
   <record updated="2017-09-05">
     <name>nfsrdma</name>
     <protocol>sctp</protocol>
-    <xref type="draft" data="RFC-ietf-nfsv4-rfc5667bis-13"/>
+    <xref type="rfc" data="rfc8267"/>
     <description>Network File System (NFS) over RDMA</description>
     <number>20049</number>
   </record>
