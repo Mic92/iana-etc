@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-10-27</updated>
+  <updated>2017-11-01</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -92331,6 +92331,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Yuval_Rakavy"/>
   </record>
+  <record date="2017-11-01">
+    <name>hue</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Philips_Lighting"/>
+    </assignee>
+    <description>Philips hue protocol</description>
+    <note>Defined TXT keys: bridgeid, modelid</note>
+    <xref type="person" data="Walter_Slegers"/>
+  </record>
   <record>
     <name>hyperstream</name>
     <description>Atempo HyperStream deduplication server</description>
@@ -113848,6 +113858,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:Philip.stephenson&amp;oracle.com</uri>
       <updated>2005-08</updated>
     </person>
+    <person id="Philips_Lighting">
+      <org>Philips Lighting</org>
+      <uri>mailto:leon.bouwmeester&amp;lighting.com</uri>
+      <updated>2017-11-01</updated>
+    </person>
     <person id="Philipp_Dreiss">
       <name>Philipp Dreiss</name>
       <uri>mailto:dreiss&amp;isparx.de</uri>
@@ -119677,6 +119692,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Walter_Poxon">
       <name>Walter Poxon</name>
       <uri>mailto:wdp&amp;ironwood.cray.com</uri>
+    </person>
+    <person id="Walter_Slegers">
+      <name>Walter Slegers</name>
+      <uri>mailto:Walter.Slegers&amp;philips.com</uri>
+      <updated>2017-11-01</updated>
     </person>
     <person id="Walter_Underwood">
       <name>Walter Underwood</name>
