@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-11-01</updated>
+  <updated>2017-11-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -89824,7 +89824,22 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>49002-49150</number>
+    <number>49002-49149</number>
+  </record>
+  <record date="2017-11-06">
+    <name>inspider</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="AnRobot"/>
+    </assignee>
+    <xref type="person" data="Zhang_Xinnan"/>
+    <description>InSpider System</description>
+    <number>49150</number>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>49150</number>
   </record>
   <record>
     <description>IANA Reserved</description>
@@ -97627,6 +97642,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Anoop_Tewari">
       <name>Anoop Tewari</name>
       <uri>mailto:anoop&amp;next.distinct.com</uri>
+    </person>
+    <person id="AnRobot">
+      <org>AnRobot</org>
+      <uri>mailto:webmaster&amp;anrobot.org</uri>
+      <updated>2017-11-06</updated>
     </person>
     <person id="Ansgar_Bergmann">
       <name>Ansgar Bergmann</name>
@@ -120382,6 +120402,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>ZeroMQ.org</org>
       <uri>mailto:ph&amp;imatix.com</uri>
       <updated>2012-11-01</updated>
+    </person>
+    <person id="Zhang_Xinnan">
+      <name>Zhang Xinnan</name>
+      <uri>mailto:70331471&amp;qq.com</uri>
+      <updated>2017-11-06</updated>
     </person>
     <person id="Zhengli">
       <name>Zhengli</name>
