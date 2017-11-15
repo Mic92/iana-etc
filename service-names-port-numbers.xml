@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-11-06</updated>
+  <updated>2017-11-14</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -97367,8 +97367,8 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:Andrew.Andrews&amp;Nuance.com</uri>
       <updated>2017-04-26</updated>
     </person>
-    <person id="Andrew_Beekhof ">
-      <name>Andrew Beekhof </name>
+    <person id="Andrew_Beekhof">
+      <name>Andrew Beekhof</name>
       <uri>mailto:andrew&amp;beekhof.net</uri>
       <updated>2013-03-15</updated>
     </person>
@@ -104654,6 +104654,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:Richards&amp;codu.org</uri>
       <updated>2002-04</updated>
     </person>
+    <person id="Grexie">
+      <org>Grexie</org>
+      <uri>mailto:webmaster&amp;grexie.com</uri>
+      <updated>2012-06-15</updated>
+    </person>
     <person id="Growl_Project">
       <org>The Growl Project</org>
       <uri>mailto:support&amp;growl.info</uri>
@@ -105489,7 +105494,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:igorko&amp;microsoft.com</uri>
       <updated>2002-08</updated>
     </person>
-    <person id="Igor-Ratner">
+    <person id="Igor_Ratner">
       <name>Igor Ratner</name>
       <uri>mailto:igor&amp;zixi.com</uri>
       <updated>2015-11-16</updated>
@@ -112650,6 +112655,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:zzf66jjlm&amp;time-lines.com</uri>
       <updated>2003-01</updated>
     </person>
+    <person id="Oliver_Breyel">
+      <name>Oliver Breyel</name>
+      <uri>mailto:oliver.breyel&amp;hp.com</uri>
+      <updated>2013-02-07</updated>
+    </person>
     <person id="Oliver_Heinz">
       <name>Oliver Heinz</name>
       <uri>mailto:heinz&amp;arago.de</uri>
@@ -117253,7 +117263,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Stephen Gildea</name>
       <uri>mailto:gildea&amp;lcs.mit.edu</uri>
     </person>
-    
+    <person id="Stephen_Gold">
+      <name>Stephen Gold</name>
+      <uri/>
+      <updated>2003-01</updated>
+    </person>
     <person id="Stephen_Hanna">
       <name>Stephen Hanna</name>
       <uri>mailto:hanna&amp;world.std.com</uri>
@@ -118511,6 +118525,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Tim Behne</name>
       <uri>mailto:timothyb&amp;microwavenetworks.com</uri>
       <updated>2003-06</updated>
+    </person>
+    <person id="Tim_Behrsin">
+      <name>Tim Behrsin</name>
+      <uri>mailto:tim&amp;behrsin.com</uri>
+      <updated>2012-06-15</updated>
     </person>
     <person id="Tim_Berners_Lee">
       <name>Tim Berners-Lee</name>
