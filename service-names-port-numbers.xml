@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-11-16</updated>
+  <updated>2017-11-29</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -84870,7 +84870,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>21011-21220</number>
+    <number>21011-21211</number>
+  </record>
+  <record date="2017-11-29">
+    <name>trinket-agent</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Holvonix_LLC"/>
+    </assignee>
+    <description>Distributed artificial intelligence</description>
+    <number>21212</number>
+    <xref type="person" data="Advay_Mengle"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>21212</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>21213-21220</number>
   </record>
   <record date="2017-03-16">
     <name>aigairserver</name>
@@ -96504,6 +96523,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Adrien de Croy</name>
       <uri>mailto:adrien&amp;qbik.com</uri>
     </person>
+    <person id="Advay_Mengle">
+      <name>Advay Mengle</name>
+      <uri>mailto:internet-assignments-contact&amp;holvonix.com</uri>
+      <updated>2017-11-29</updated>
+    </person>
     <person id="Adwait_Sathe">
       <name>Adwait Sathe</name>
       <uri>mailto:asathe&amp;sonusnet.com</uri>
@@ -105182,6 +105206,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Holger_Reif">
       <name>Holger Reif</name>
       <uri>mailto:Holger.Reif&amp;prakinf.tu-ilmenau.de</uri>
+    </person>
+    <person id="Holvonix_LLC">
+      <org>Holvonix LLC</org>
+      <uri>mailto:internet-assignments-contact&amp;holvonix.com</uri>
+      <updated>2017-11-29</updated>
     </person>
     <person id="Hong_Jungkih">
       <name>Hong, Jungkih</name>
