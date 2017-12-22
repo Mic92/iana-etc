@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-12-13</updated>
+  <updated>2017-12-22</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -65245,9 +65245,13 @@ common service discovery mechanisms.</note>
     <description>BrightCore control &amp; data transfer exchange</description>
     <number>5682</number>
   </record>
-  <record>
+  <record date="2017-12-22">
+    <name>coap</name>
     <protocol>tcp</protocol>
-    <description>Reserved</description>
+    <xref type="draft" data="RFC-ietf-core-coap-tcp-tls-11"/>    
+    <assignee><xref type="person" data="IESG"/></assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <description>Constrained Application Protocol (CoAP)</description>
     <number>5683</number>
   </record>
   <record date="2011-06-13" updated="2013-07-25">
@@ -65259,9 +65263,14 @@ common service discovery mechanisms.</note>
     <description>Constrained Application Protocol</description>
     <number>5683</number>
   </record>
-  <record>
+  <record date="2017-12-22">
+    <name>coaps</name>
     <protocol>tcp</protocol>
-    <description>Reserved</description>
+    <xref type="rfc" data="rfc7301"/>
+    <xref type="draft" data="RFC-ietf-core-coap-tcp-tls-11"/>
+    <assignee><xref type="person" data="IESG"/></assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <description>Constrained Application Protocol (CoAP)</description>
     <number>5684</number>
   </record>
   <record date="2013-07-25">
@@ -87730,8 +87739,24 @@ common service discovery mechanisms.</note>
     <number>33434</number>
   </record>
   <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>33435</number>
+  </record>
+  <record date="2017-12-13">
+    <name>mtrace</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Hitoshi_Asaeda"/>
+    </assignee>
+    <xref type="person" data="Hitoshi_Asaeda"/>
+    <description>IP Multicast Traceroute</description>
+    <xref type="draft" data="draft-ietf-mboned-mtrace-v2"/>
+    <number>33435</number>
+  </record>
+  <record>
     <description>Unassigned</description>
-    <number>33435-33655</number>
+    <number>33436-33655</number>
   </record>
   <record date="2005-08">
     <name>snip-slave</name>
@@ -91096,6 +91121,16 @@ common service discovery mechanisms.</note>
     <description>buddycloud API</description>
     <note>Defined TXT keys: v, host, protocol, path, port</note>
     <xref type="person" data="Simon_Tennant"/>
+  </record>
+  <record date="2017-12-22">
+    <name>buzzer</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Mnemo.ai"/>
+    </assignee>
+    <description>Service for opening electric doors</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Arturo_Falck"/>
   </record>
   <record date="2012-02-17">
     <name>caldav</name>
@@ -97997,6 +98032,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Arttu Leinonen</name>
       <uri>mailto:arttu.leinonen&amp;kpatents.com</uri>
       <updated>2015-12-02</updated>
+    </person>
+    <person id="Arturo_Falck">
+      <name>Arturo Falck</name>
+      <uri>mailto:info&amp;mnemo.ai</uri>
+      <updated>2017-12-22</updated>
     </person>
     <person id="Artyom_Nikolaev">
       <name>Artyom Nikolaev</name>
@@ -105192,6 +105232,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:hirsin&amp;microsoft.com</uri>
       <updated>2016-03-03</updated>
     </person>
+    <person id="Hitoshi_Asaeda">
+      <name>Hitoshi Asaeda</name>
+      <uri>mailto:asaeda&amp;nict.go.jp</uri>
+      <updated>2017-12-13</updated>
+    </person>
     <person id="Hitoshi_Ishida">
       <name>Hitoshi Ishida</name>
       <uri>mailto:ishida.hitoshi&amp;exc.epson.co.jp</uri>
@@ -111902,6 +111947,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>MJA Technology LLC</org>
       <uri>mailto:markapp&amp;roadrunner.com</uri>
       <updated>2014-04-23</updated>
+    </person>
+    <person id="Mnemo.ai">
+      <org>Mnemo.ai</org>
+      <uri>mailto:info&amp;mnemo.ai</uri>
+      <updated>2017-12-22</updated>
     </person>
     <person id="Mobsya_Association">
       <org>Mobsya Association</org>
