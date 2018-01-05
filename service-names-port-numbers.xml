@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2017-12-29</updated>
+  <updated>2018-01-05</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -59294,23 +59294,23 @@ Further keys may be added in the future.</note>
     <description>Varadero-2</description>
     <number>4839</number>
   </record>
-  <record updated="2017-05-23">
+  <record updated="2018-01-04">
     <name>opcua-tcp</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="OPC_Foundation"/>
     </assignee>
-    <description>OPC UA TCP Protocol</description>
+    <description>OPC UA Connection Protocol</description>
     <number>4840</number>
     <xref type="person" data="Randy_Armstrong"/>
   </record>
-  <record date="2006-09" updated="2017-05-23">
+  <record date="2006-09" updated="2018-01-04">
     <name>opcua-udp</name>
     <protocol>udp</protocol>
     <assignee>
       <xref type="person" data="OPC_Foundation"/>
     </assignee>
-    <description>OPC UA TCP Protocol</description>
+    <description>OPC UA Multicast Datagram Protocol</description>
     <number>4840</number>
     <xref type="person" data="Randy_Armstrong"/>
   </record>
@@ -114485,7 +114485,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Ram_Sudama">
       <name>Ram Sudama</name>
-      <uri>mailto:rsudama&amp;on.com</uri>
+      <uri>mailto:ram&amp;fikus.net</uri>
+      <updated>2018-01-05</updated>
     </person>
     <person id="Ramakrishna_Nadendla">
       <name>Ramakrishna Nadendla</name>
