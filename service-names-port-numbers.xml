@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-01-05</updated>
+  <updated>2018-01-08</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -94379,6 +94379,16 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7585"/>
   </record>
+  <record date="2018-01-08">
+    <name>railduino</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Railduino"/>
+    </assignee>
+    <description>Model Railroad Messaging</description>
+    <note>Defined TXT keys: role=master</note>
+    <xref type="person" data="Volker_Wiegand_2"/>
+  </record>
   <record updated="2011-10-14">
     <name>raop</name>
     <description>Remote Audio Output Protocol (AirTunes)</description>
@@ -114397,6 +114407,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:rahul.bansal&amp;rtcamp.com</uri>
       <updated>2014-03-10</updated>
     </person>
+    <person id="Railduino">
+      <org>Railduino</org>
+      <uri>mailto:volker&amp;railduino.de</uri>
+      <updated>2018-01-08</updated>
+    </person>
     <person id="Raimond_Diederik">
       <name>Raimond Diederik</name>
       <uri>mailto:rdiederik&amp;descartes.com</uri>
@@ -119808,6 +119823,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Volker Wiegand</name>
       <uri>mailto:volker.wiegand&amp;t-online.de</uri>
       <updated>2007-07-10</updated>
+    </person>
+    <person id="Volker_Wiegand_2">
+      <name>Volker Wiegand</name>
+      <uri>mailto:volker&amp;railduino.de</uri>
+      <updated>2018-01-08</updated>
     </person>
     <person id="Von_Welch">
       <name>Von Welch</name>
