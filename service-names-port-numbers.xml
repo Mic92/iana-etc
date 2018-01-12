@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-01-08</updated>
+  <updated>2018-01-11</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -5838,7 +5838,7 @@ common service discovery mechanisms.</note>
     <name>urd</name>
     <protocol>tcp</protocol>
     <xref type="person" data="Toerless_Eckert"/>
-    <description>URL Rendesvous Directory for SSM</description>
+    <description>URL Rendezvous Directory for SSM</description>
     <number>465</number>
   </record>
   <record date="2017-12-12">
@@ -93932,6 +93932,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Marc_Manthey_2"/>
   </record>
+  <record date="2018-01-11">
+    <name>openpath</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="OpenPath_Security_Inc"/>
+    </assignee>
+    <description>Discovery of OpenPath appliances</description>
+    <note>Defined TXT keys: Proprietary</note>
+    <xref type="person" data="John_Hickey"/>
+  </record>
   <record>
     <name>oprofile</name>
     <description>oprofile server protocol</description>
@@ -107459,6 +107469,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>John Hinsdale</name>
       <uri>mailto:hin&amp;alma.com</uri>
     </person>
+    <person id="John_Hickey">
+      <name>John Hickey</name>
+      <uri>mailto:john+iana&amp;openpath.com</uri>
+      <updated>2018-01-11</updated>
+    </person>
     <person id="John_Hogg">
       <name>John Hogg</name>
       <uri>mailto:it&amp;discoverysoftware.com</uri>
@@ -112902,6 +112917,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="OpenMail_Encyclopedi">
       <org>OpenMail Encyclopedia</org>
       <uri>mailto:opencyc&amp;hpopd.pwd.hp.com</uri>
+    </person>
+    <person id="OpenPath_Security_Inc">
+      <org>OpenPath Security Inc</org>
+      <uri>mailto:john+iana&amp;openpath.com</uri>
+      <updated>2018-01-11</updated>
     </person>
     <person id="OpenRemote_Inc">
       <org>OpenRemote, Inc.</org>
