@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-01-16</updated>
+  <updated>2018-01-18</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -72161,7 +72161,22 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>7412-7420</number>
+    <number>7412-7419</number>
+  </record>
+  <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>7420</number>
+  </record>
+  <record date="2018-01-18">
+    <name>ipluminary</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Tristan_Seifert_3"/>
+    </assignee>
+    <description>Multichannel real-time lighting control</description>
+    <number>7420</number>
+    <xref type="person" data="Tristan_Seifert_3"/>
   </record>
   <record date="2004-11">
     <name>mtportmon</name>
@@ -119405,7 +119420,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Squee! Application Development</org>
       <uri>mailto:tristan&amp;squee.co</uri>
       <updated>2011-07-19</updated>
-    </person>  
+    </person>
+    <person id="Tristan_Seifert_3">
+      <name>Tristan Seifert</name>
+      <uri>mailto:t&amp;tseifert.me</uri>
+      <updated>2018-01-18</updated>
+    </person>
     <person id="Trond_Borsting">
       <name>Trond Børsting</name>
       <uri>mailto:Trond.Borsting&amp;snota.no</uri>
