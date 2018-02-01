@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-01-24</updated>
+  <updated>2018-01-31</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -95846,6 +95846,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Widgetschmie_de"/>
   </record>
+  <record date="2018-01-31">
+    <name>ucdynamics-tuc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="UC_Dynamics_LLC"/>
+    </assignee>
+    <description>Tactical Unified Communicator</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Shaun_Botha"/>
+  </record>
   <record>
     <name>uddi</name>
     <description>Universal Description, Discovery and Integration</description>
@@ -116849,6 +116859,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:ports&amp;shaperai.com</uri>
       <updated>2012-06-22</updated>
     </person>
+    <person id="Shaun_Botha">
+      <name>Shaun Botha</name>
+      <org>UC Dynamics, LLC</org>
+      <uri>mailto:shaun.botha&amp;ucdynamics.com</uri>
+      <updated>2018-01-31</updated>
+    </person>
     <person id="Shaun_Byrne">
       <name>Shaun Byrne</name>
       <uri>mailto:s_byrne&amp;tunstall.co.uk</uri>
@@ -119485,9 +119501,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Tzvika Chumash</name>
       <uri>mailto:tzvikac&amp;netvision.net.il</uri>
     </person>
-    <person id="UPnP_Forum">
-      <name>UPnP Forum</name>
-      <uri>mailto:upnpadmin&amp;forum.upnp.org</uri>
+    <person id="UC_Dynamics_LLC">
+      <org>UC Dynamics, LLC</org>
+      <uri>mailto:shaun.botha&amp;ucdynamics.com</uri>
+      <updated>2018-01-31</updated>
     </person>
     <person id="Udi_Nir">
       <name>Udi Nir</name>
@@ -119549,6 +119566,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>UpdateLogic, Inc.</org>
       <uri>mailto:it&amp;updatelogic.com</uri>
       <updated>2014-10-27</updated>
+    </person>
+    <person id="UPnP_Forum">
+      <name>UPnP Forum</name>
+      <uri>mailto:upnpadmin&amp;forum.upnp.org</uri>
     </person>
     <person id="Urban_Fosseus">
       <name>Urban Fosseus</name>
