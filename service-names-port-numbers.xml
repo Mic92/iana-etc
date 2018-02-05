@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-01-31</updated>
+  <updated>2018-02-05</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -5849,7 +5849,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>Message Submission over TLS protocol</description>
-    <xref type="draft" data="RFC-ietf-uta-email-deep-12"/>
+    <xref type="rfc" data="rfc8314"/>
     <number>465</number>
   </record>
   <record>
@@ -10405,7 +10405,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>IMAP over TLS protocol</description>
-    <xref type="draft" data="RFC-ietf-uta-email-deep-12"/>
+    <xref type="rfc" data="rfc8314"/>
     <number>993</number>
   </record>
   <record>
@@ -10433,7 +10433,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>POP3 over TLS protocol</description>
-    <xref type="draft" data="RFC-ietf-uta-email-deep-12"/>
+    <xref type="rfc" data="rfc8314"/>
     <number>995</number>
   </record>
   <record>
@@ -26013,19 +26013,25 @@ common service discovery mechanisms.</note>
     <description>HSL StoRM</description>
     <number>2113</number>
   </record>
-  <record>
-    <name>newheights</name>
+  <record updated="2018-02-05">
+    <name>ariascribe</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Michael_Levy"/>
-    <description>NEWHEIGHTS</description>
+    <assignee>
+      <xref type="person" data="Aria_Scribe_Software_Ltd"/>
+    </assignee>
+    <description>Classical Music Meta-Data Access and Enhancement</description>
     <number>2114</number>
+    <xref type="person" data="Michael_Levy"/>
   </record>
-  <record>
-    <name>newheights</name>
+  <record updated="2018-02-05">
+    <name>ariascribe</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Michael_Levy"/>
-    <description>NEWHEIGHTS</description>
+    <assignee>
+      <xref type="person" data="Aria_Scribe_Software_Ltd"/>
+    </assignee>
+    <description>Classical Music Meta-Data Access and Enhancement</description>
     <number>2114</number>
+    <xref type="person" data="Michael_Levy"/>
   </record>
   <record>
     <name>kdm</name>
@@ -98003,6 +98009,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Ari_Valtanen">
       <name>Ari Valtanen</name>
       <uri>mailto:ari.valtanen&amp;solidtech.com</uri>
+    </person>
+    <person id="Aria_Scribe_Software_Ltd">
+      <org>Aria Scribe Software Ltd</org>
+      <uri>mailto:scribe&amp;ariascribe.com</uri>
+      <updated>2018-02-05</updated>
     </person>
     <person id="Aristech_GmbH">
       <org>Aristech GmbH</org>
