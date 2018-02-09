@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-02-07</updated>
+  <updated>2018-02-09</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -91829,6 +91829,16 @@ the target host and port where DNS Dynamic Update Service is provided for the na
     <note>Defined TXT keys: ip, mac, dhcp, mask, gtwy, wins, name, version</note>
     <xref type="person" data="Nicolas_Bouilleaud"/>
   </record>
+  <record date="2018-02-09">
+    <name>edge1</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Skycatch_Inc."/>
+    </assignee>
+    <description>Edge1 Base Station</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Ruben_Beltran_del_Rio_3"/>
+  </record>
   <record date="2016-07-19">
     <name>edsservice</name>
     <protocol>tcp</protocol>
@@ -96124,6 +96134,26 @@ cport= the port for the content HTTP server
     T (tags)</note>
     <xref type="person" data="Hirsch_Singhal"/>
   </record>
+  <record date="2018-02-09">
+    <name>webex</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Mobile_Team"/>
+    </assignee>
+    <description>Cisco WebEx serials products will release Bonjour based service</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Aulion_Huang"/>
+  </record>
+  <record date="2018-02-09">
+    <name>webex</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Mobile_Team"/>
+    </assignee>
+    <description>Cisco WebEx serials products will release Bonjour based service</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Aulion_Huang"/>
+  </record>
   <record>
     <name>we-jell</name>
     <description>Proprietary collaborative messaging protocol</description>
@@ -98284,6 +98314,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Austin_Meyer">
       <name>Austin Meyer</name>
       <uri>mailto:austin&amp;x-plane.com</uri>
+    </person>
+    <person id="Aulion_Huang">
+      <name>Aulion Huang</name>
+      <uri>mailto:aulionh&amp;cisco.com</uri>
+      <updated>2018-02-09</updated>
     </person>
     <person id="Autodesk">
       <name>Autodesk</name>
@@ -112120,6 +112155,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:stephane.magnenat&amp;mobsya.org</uri>
       <updated>2016-08-18</updated>
     </person>
+    <person id="Mobile_Team">
+      <org>Mobile Team</org>
+      <uri>mailto:group.felix&amp;cisco.com</uri>
+      <updated>2018-02-09</updated>
+    </person>
     <person id="MobilePro_Systems">
       <org>MobilePro Systems</org>
       <uri>mailto:info&amp;mobileprosystems.com</uri>
@@ -116089,6 +116129,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:ben&amp;freshout.us</uri>
       <updated>2014-04-14</updated>
     </person>
+    <person id="Ruben_Beltran_del_Rio_3">
+      <name>Ruben Beltran del Rio</name>
+      <uri>mailto:benb&amp;skycatch.com</uri>
+      <updated>2018-02-09</updated>
+    </person>
     <person id="Rudi_Chiarito">
       <name>Rudi Chiarito</name>
       <uri>mailto:nutello&amp;sweetness.com</uri>
@@ -117212,6 +117257,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Sky Schulz</name>
       <uri>mailto:sky&amp;edgeofreality.com</uri>
       <updated>2011-05-09</updated>
+    </person>
+    <person id="Skycatch_Inc.">
+      <org>Skycatch, Inc.</org>
+      <uri>mailto:dev&amp;skycatch.com</uri>
+      <updated>2018-02-09</updated>
     </person>
     <person id="Slava_Monich">
       <name>Slava Monich</name>
