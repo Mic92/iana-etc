@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-02-09</updated>
+  <updated>2018-02-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -71146,9 +71146,25 @@ common service discovery mechanisms.</note>
     <description>IWGADTS Aircraft Housekeeping Message</description>
     <number>7071</number>
   </record>
-  <record>
-    <description>Unassigned</description>
+  <record date="2018-02-12">
+    <name>iba-cfg</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="iba_AG"/>
+    </assignee>
+    <description>iba Device Configuration Protocol</description>
     <number>7072</number>
+    <xref type="person" data="Alexander_Melamed"/>
+  </record>
+  <record date="2018-02-12">
+    <name>iba-cfg-disc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="iba_AG"/>
+    </assignee>
+    <description>iba Device Configuration Protocol</description>
+    <number>7072</number>
+    <xref type="person" data="Alexander_Melamed"/>
   </record>
   <record date="2013-09-02">
     <name>martalk</name>
@@ -97132,6 +97148,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Alexander Medvinsky</name>
       <uri>mailto:smedvinsky&amp;gi.com</uri>
     </person>
+    <person id="Alexander_Melamed">
+      <name>Alexander Melamed</name>
+      <uri>mailto:alexander.melamed&amp;iba-ag.com</uri>
+      <updated>2018-02-12</updated>
+    </person>
     <person id="Alexander_Philippou">
       <name>Alexander Philippou</name>
       <uri>mailto:alex&amp;noemax.com</uri>
@@ -105585,6 +105606,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="IANA">
       <org>IANA</org>
       <uri>mailto:iana&amp;iana.org</uri>
+    </person>
+    <person id="iba_AG">
+      <org>iba AG</org>
+      <uri>mailto:info&amp;iba-ag.com</uri>
+      <updated>2018-02-12</updated>
     </person>
     <person id="IEEE_1722_1">
       <org>IEEE-1722.1</org>
