@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-02-12</updated>
+  <updated>2018-02-15</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -86658,14 +86658,14 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>26490-26999</number>
   </record>
-  <record>
+  <record updated="2018-02-15">
     <name>flex-lm</name>
     <assignee>
       <xref type="person" data="Flexera_Software"/>
     </assignee>
     <description>FLEX LM (1-10)</description>
     <number>27000-27009</number>
-    <xref type="person" data="Mathieu_Baissac"/>
+    <xref type="person" data="Paul_Bland"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -113408,6 +113408,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Paul_Blacknell">
       <name>Paul Blacknell</name>
       <uri>mailto:paul&amp;insitu.com</uri>
+    </person>
+    <person id="Paul_Bland">
+      <name>Paul Bland</name>
+      <uri>mailto:PBland&amp;flexera.com</uri>
+      <updated>2018-02-15</updated>
     </person>
     <person id="Paul_Bohm">
       <name>Paul Bohm</name>
