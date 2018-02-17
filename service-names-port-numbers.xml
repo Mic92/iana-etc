@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-02-15</updated>
+  <updated>2018-02-16</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -89789,7 +89789,22 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>48006-48048</number>
+    <number>48006-48047</number>
+  </record>
+  <record date="2018-02-16">
+    <name>juliar</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Juliar"/>
+    </assignee>
+    <description>Juliar Programming Language Protocol</description>
+    <number>48048</number>
+    <xref type="person" data="Andrei_Mak"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>48048</number>
   </record>
   <record date="2009-12-07">
     <name>3gpp-cbsp</name>
@@ -97499,6 +97514,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Andre_Schroter">
       <name>Andre Schroter</name>
       <uri>mailto:A.Schroeter&amp;chili-radiology.com</uri>
+    </person>
+    <person id="Andrei_Mak">
+      <name>Andrei Mak</name>
+      <uri>mailto:andreim&amp;juliar.org</uri>
+      <updated>2018-02-16</updated>
     </person>
     <person id="Andrea_Gazzaniga">
       <name>Andrea Gazzaniga</name>
@@ -108337,6 +108357,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Juliana_Hsu">
       <name>Juliana Hsu</name>
       <uri>mailto:jhsu&amp;ca.ibm.com</uri>
+    </person>
+    <person id="Juliar">
+      <org>Juliar</org>
+      <uri>mailto:admin&amp;juliar.org</uri>
+      <updated>2018-02-16</updated>
     </person>
     <person id="Julien_Danjou">
       <name>Julien Danjou</name>
