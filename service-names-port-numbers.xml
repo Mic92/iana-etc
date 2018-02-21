@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-02-16</updated>
+  <updated>2018-02-21</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -65254,7 +65254,7 @@ common service discovery mechanisms.</note>
   <record date="2017-12-22">
     <name>coap</name>
     <protocol>tcp</protocol>
-    <xref type="draft" data="RFC-ietf-core-coap-tcp-tls-11"/>    
+    <xref type="rfc" data="rfc8323"/>    
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>Constrained Application Protocol (CoAP)</description>
@@ -65273,7 +65273,7 @@ common service discovery mechanisms.</note>
     <name>coaps</name>
     <protocol>tcp</protocol>
     <xref type="rfc" data="rfc7301"/>
-    <xref type="draft" data="RFC-ietf-core-coap-tcp-tls-11"/>
+    <xref type="rfc" data="rfc8323"/>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>Constrained Application Protocol (CoAP)</description>
@@ -71065,9 +71065,24 @@ common service discovery mechanisms.</note>
     <description>Vormetric Service II</description>
     <number>7025</number>
   </record>
+  <record date="2018-02-21">
+    <name>loreji-panel</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="J.A._Smit"/>
+    </assignee>
+    <description>Loreji Webhosting Panel</description>
+    <number>7026</number>
+    <xref type="person" data="DALTCORE"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>7026</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>7026-7029</number>
+    <number>7027-7029</number>
   </record>
   <record date="2002-04">
     <name>op-probe</name>
@@ -101084,6 +101099,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:david.chassin&amp;pnl.gov</uri>
       <updated>2002-06</updated>
     </person>
+    <person id="DALTCORE">
+      <org>DALTCORE</org>
+      <uri>mailto:Info&amp;daltcore.com</uri>
+      <updated>2018-02-21</updated>
+    </person>
     <person id="Dale_Bethers">
       <name>Dale Bethers</name>
       <uri>mailto:dbethers&amp;novell.com</uri>
@@ -106049,6 +106069,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="J_A_Sever">
       <name>J. A. (Tony) Sever</name>
       <uri>mailto:J.A.Sever&amp;bra0119.wins.icl.co.uk</uri>
+    </person>
+    <person id="J.A._Smit">
+      <name>J.A. Smit</name>
+      <uri>mailto:rsmit&amp;daltcore.com</uri>
+      <updated>2018-02-21</updated>
     </person>
     <person id="J_C_Canessa">
       <name>J. C. Canessa</name>
