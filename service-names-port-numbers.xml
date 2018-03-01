@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-02-21</updated>
+  <updated>2018-02-28</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -89092,7 +89092,22 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>43211-43438</number>
+    <number>43211-43437</number>
+  </record>
+  <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>43438</number>
+  </record>
+  <record date="2018-02-28">
+    <name>hmip-routing</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="eQ-3_Entwicklung_GmbH"/>
+    </assignee>
+    <description>HmIP LAN Routing</description>
+    <number>43438</number>
+    <xref type="person" data="Tido_de_Vries"/>
   </record>
   <record date="2012-02-10" updated="2014-05-09">
     <name>eq3-update</name>
@@ -103389,7 +103404,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="eQ-3_Entwicklung_GmbH">
       <org>eQ-3 Entwicklung GmbH</org>
       <uri>mailto:ports&amp;entwicklung.eq-3.de</uri>
-      <updated>2014-05-09</updated>
+      <updated>2018-02-28</updated>
     </person>
     <person id="Eran_Gampel">
       <name>Eran Gampel</name>
@@ -118929,7 +118944,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Tido de Vries</name>
       <org>eQ-3 Entwicklung GmbH</org>
       <uri>mailto:tido.devries&amp;entwicklung.eq-3.de</uri>
-      <updated>2014-05-09</updated>
+      <updated>2018-02-28</updated>
     </person>
     <person id="Tightrope_Media_Systems">
       <org>Tightrope Media Systems, Inc.</org>
