@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-02-28</updated>
+  <updated>2018-03-16</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -77496,8 +77496,23 @@ common service discovery mechanisms.</note>
     <number>9010</number>
   </record>
   <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>9011</number>
+  </record>
+  <record date="2018-03-16">
+    <name>d-star</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="QuadNet2_USA_IRC_Network"/>
+    </assignee>
+    <description>D-Star Routing digital voice+data for amateur radio</description>
+    <number>9011</number>
+    <xref type="person" data="Thomas_A_Early"/>
+  </record>
+  <record>
     <description>Unassigned</description>
-    <number>9011-9019</number>
+    <number>9012-9019</number>
   </record>
   <record date="2002-03">
     <name>tambora</name>
@@ -114577,6 +114592,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:iad&amp;iwncomm.com</uri>
       <updated>2006-10</updated>
     </person>
+    <person id="QuadNet2_USA_IRC_Network">
+      <org>QuadNet2 USA IRC Network</org>
+      <uri>mailto:admins&amp;openquad.net</uri>
+      <updated>2018-03-16</updated>
+    </person>
     <person id="Qualcomm_Innovation_Center">
       <org>Qualcomm Innovation Center, Inc.</org>
       <uri>mailto:cdowell&amp;quicinc.com</uri>
@@ -118708,6 +118728,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Thomas_Driemeyer">
       <name>Thomas Driemeyer</name>
       <uri>mailto:thomas&amp;bitrot.de</uri>
+    </person>
+    <person id="Thomas_A_Early">
+      <name>Thomas A Early</name>
+      <uri>mailto:tom.n7tae&amp;tearly.net</uri>
+      <updated>2018-03-16</updated>
     </person>
     <person id="Thomas_E_Ludwig">
       <name>Thomas E. Ludwig</name>
