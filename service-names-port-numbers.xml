@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-03-16</updated>
+  <updated>2018-03-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -90876,6 +90876,16 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Markus_Brand"/>
   </record>
+  <record date="2018-03-20">
+    <name>atnet</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Selectron_BVBA"/>
+    </assignee>
+    <description>AT protocol over IP</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Jan_Verschaeve"/>
+  </record>
   <record>
     <name>atlassianapp</name>
     <description>Atlassian Application (JIRA, Confluence, Fisheye, Crucible, Crowd, Bamboo) discovery service</description>
@@ -106449,6 +106459,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:janrutger&amp;roadware.nl</uri>
       <updated>2006-10</updated>
     </person>
+    <person id="Jan_Verschaeve">
+      <name>Jan Verschaeve</name>
+      <uri>mailto:jv&amp;selectron.be</uri>
+      <updated>2018-03-20</updated>
+    </person>
     <person id="Jan_Vrsinsky">
       <name>Jan Vrsinsky</name>
       <uri>mailto:jan.vrsinsky&amp;illusionsoftworks.com</uri>
@@ -116429,6 +116444,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>SEGGER Microcontroller GmbH &amp; Co. KG</org>
       <uri>mailto:info&amp;segger.com</uri>
       <updated>2009-01-16</updated>
+    </person>
+    <person id="Selectron_BVBA">
+      <org>Selectron BVBA</org>
+      <uri>mailto:jv&amp;selectron.be</uri>
+      <updated>2018-03-20</updated>
     </person>
     <person id="SEIKO_EPSON">
       <org>SEIKO EPSON</org>
