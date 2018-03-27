@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-03-20</updated>
+  <updated>2018-03-27</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -56794,21 +56794,21 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>4419</number>
   </record>
-  <record date="2016-03-31">
-    <name>nvm-express</name>
+  <record date="2016-03-31" updated="2018-03-27">
+    <name>nvme</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="NVM_Express_Workgroup"/>
+      <xref type="person" data="NVM_Express_Inc"/>
     </assignee>
     <description>NVM Express over Fabrics storage access</description>
     <number>4420</number>
     <xref type="person" data="Amber_Huffman"/>
   </record>
-  <record date="2016-03-31">
-    <name>nvm-express</name>
+  <record date="2016-03-31" updated="2018-03-27">
+    <name>nvme</name>
     <protocol>udp</protocol>
     <assignee>
-    <xref type="person" data="NVM_Express_Workgroup"/>
+    <xref type="person" data="NVM_Express_Inc"/>
     </assignee>
     <description>NVM Express over Fabrics storage access</description>
     <number>4420</number>
@@ -74304,9 +74304,24 @@ common service discovery mechanisms.</note>
     <description>HTTP Alternate</description>
     <number>8008</number>
   </record>
+  <record date="2018-03-27">
+    <name>nvme-disc</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="NVM_Express_Inc"/>
+    </assignee>
+    <description>NVMe over Fabrics Discovery Service</description>
+    <number>8009</number>
+    <xref type="person" data="Amber_Huffman"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8009</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>8009-8018</number>
+    <number>8010-8018</number>
   </record>
   <record date="2008-02-15">
     <name>qbdb</name>
@@ -97423,7 +97438,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Amber_Huffman">
       <name>Amber Huffman</name>
       <uri>mailto:amber.huffman&amp;intel.com</uri>
-      <updated>2016-03-31</updated>
+      <updated>2018-03-27</updated>
     </person>
     <person id="American_Power_Conve">
       <org>American Power Conversion</org>
@@ -112970,10 +112985,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:dev&amp;nsius.com</uri>
       <updated>2017-04-26</updated>
     </person>
-    <person id="NVM_Express_Workgroup">
-      <name>NVM Express Workgroup</name>
-      <uri>mailto:membership&amp;nvmexpress.org</uri>
-      <updated>2016-03-31</updated>
+    <person id="NVM_Express_Inc">
+      <name>NVM Express, Inc.</name>
+      <uri>mailto:admin&amp;nvmexpress.org</uri>
+      <updated>2018-03-27</updated>
     </person>
     <person id="nyantec">
       <org>nyantec</org>
