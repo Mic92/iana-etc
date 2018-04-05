@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-03-27</updated>
+  <updated>2018-04-05</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -3064,17 +3064,17 @@ common service discovery mechanisms.</note>
     <description>AppleTalk Unused</description>
     <number>208</number>
   </record>
-  <record>
+  <record updated="2018-04-05">
     <name>qmtp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Dan_Bernstein"/>
+    <xref type="person" data="D_J_Bernstein"/>
     <description>The Quick Mail Transfer Protocol</description>
     <number>209</number>
   </record>
-  <record>
+  <record updated="2018-04-05">
     <name>qmtp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Dan_Bernstein"/>
+    <xref type="person" data="D_J_Bernstein"/>
     <description>The Quick Mail Transfer Protocol</description>
     <number>209</number>
   </record>
@@ -8095,17 +8095,17 @@ common service discovery mechanisms.</note>
     <description>PassGo Tivoli</description>
     <number>627</number>
   </record>
-  <record>
+  <record updated="2018-04-05">
     <name>qmqp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Dan_Bernstein_2"/>
+    <xref type="person" data="D_J_Bernstein"/>
     <description>QMQP</description>
     <number>628</number>
   </record>
-  <record>
+  <record updated="2018-04-05">
     <name>qmqp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Dan_Bernstein_2"/>
+    <xref type="person" data="D_J_Bernstein"/>
     <description>QMQP</description>
     <number>628</number>
   </record>
@@ -21521,17 +21521,17 @@ common service discovery mechanisms.</note>
     <description>psmond</description>
     <number>1788</number>
   </record>
-  <record>
+  <record updated="2018-04-05">
     <name>hello</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="D_J_Bernstein_2"/>
+    <xref type="person" data="D_J_Bernstein"/>
     <description>hello</description>
     <number>1789</number>
   </record>
-  <record>
+  <record updated="2018-04-05">
     <name>hello</name>
     <protocol>udp</protocol>
-    <xref type="person" data="D_J_Bernstein_2"/>
+    <xref type="person" data="D_J_Bernstein"/>
     <description>hello</description>
     <number>1789</number>
   </record>
@@ -52723,17 +52723,17 @@ PORT 4000 also used by ICQ &lt;www.icq.com&gt;</note>
     <description>ACL Manager</description>
     <number>4013</number>
   </record>
-  <record>
+  <record updated="2018-04-05">
     <name>taiclock</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Dan_Bernstein_3"/>
+    <xref type="person" data="D_J_Bernstein"/>
     <description>TAICLOCK</description>
     <number>4014</number>
   </record>
-  <record>
+  <record updated="2018-04-05">
     <name>taiclock</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Dan_Bernstein_3"/>
+    <xref type="person" data="D_J_Bernstein"/>
     <description>TAICLOCK</description>
     <number>4014</number>
   </record>
@@ -101124,11 +101124,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="D_J_Bernstein">
       <name>D. J. Bernstein</name>
-      <uri>mailto:djb&amp;silverton.berkeley.edu</uri>
-    </person>
-    <person id="D_J_Bernstein_2">
-      <name>D. J. Bernstein</name>
-      <uri>mailto:djb&amp;koobera.math.uic.edu</uri>
+      <uri>mailto:ports&amp;box.cr.yp.to</uri>
+      <updated>2018-04-05</updated>
     </person>
     <person id="D_Thomas_Podnar">
       <name>D. Thomas Podnar</name>
@@ -101207,18 +101204,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Dan_Amstutz">
       <name>Dan Amstutz</name>
       <uri>mailto:dan&amp;iliumsoft.com</uri>
-    </person>
-    <person id="Dan_Bernstein">
-      <name>Dan Bernstein</name>
-      <uri>mailto:djb&amp;silverton.berkeley.edu</uri>
-    </person>
-    <person id="Dan_Bernstein_2">
-      <name>Dan Bernstein</name>
-      <uri>mailto:djb&amp;cr.yp.to</uri>
-    </person>
-    <person id="Dan_Bernstein_3">
-      <name>Dan Bernstein</name>
-      <uri>mailto:djb&amp;koobera.math.uic.edu</uri>
     </person>
     <person id="Dan_Burrows">
       <name>Dan Burrows</name>
