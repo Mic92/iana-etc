@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-04-05</updated>
+  <updated>2018-04-19</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -61777,12 +61777,11 @@ common service discovery mechanisms.</note>
     
     <number>5152</number>
   </record>
-  <record date="2009-07-01">
-    <name>toruxserver</name>
+  <record date="2009-07-01" updated="2018-04-19">
     <protocol>tcp</protocol>
-    <xref type="person" data="Josse_van_Dobben_de"/>
-    <description>ToruX Game Server</description>
+    <description>Reserved</description>
     <number>5153</number>
+    <note>Historic usage was toruxserver. De-Assigned on 2018-04-19</note>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -108334,11 +108333,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Josip Medved</name>
       <uri>mailto:jmedved&amp;jmedved.com</uri>
       <updated>2010-10-20</updated>
-    </person>
-    <person id="Josse_van_Dobben_de">
-      <name>Josse van Dobben de Bruyn</name>
-      <uri>mailto:jossedobben&amp;hotmail.com</uri>
-      <updated>2009-07-01</updated>
     </person>
     <person id="Jost_Faganel">
       <name>Jost Faganel</name>
