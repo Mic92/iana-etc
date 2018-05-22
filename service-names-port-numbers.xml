@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-05-03</updated>
+  <updated>2018-05-21</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -6976,23 +6976,36 @@ common service discovery mechanisms.</note>
     <description>DHCPv6 Client</description>
     <number>546</number>
   </record>
-  <record>
+  <record updated="2018-05-21">
     <name>dhcpv6-client</name>
     <protocol>udp</protocol>
     <description>DHCPv6 Client</description>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-dhc-rfc3315bis-13"/>
     <number>546</number>
   </record>
-  <record>
+  <record updated="2018-05-21">
     <name>dhcpv6-server</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Jim_Bound"/>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="rfc" data="rfc5460"/>
     <description>DHCPv6 Server</description>
     <number>547</number>
   </record>
-  <record>
+  <record updated="2018-05-21">
     <name>dhcpv6-server</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Jim_Bound"/>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-dhc-rfc3315bis-13"/>
     <description>DHCPv6 Server</description>
     <number>547</number>
   </record>
@@ -8363,10 +8376,14 @@ common service discovery mechanisms.</note>
     <description>LDP</description>
     <number>646</number>
   </record>
-  <record>
+  <record updated="2018-05-21">
     <name>dhcp-failover</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Bernard_Volz"/>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="rfc" data="rfc8156"/>
     <description>DHCP Failover</description>
     <number>647</number>
   </record>
