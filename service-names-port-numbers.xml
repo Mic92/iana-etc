@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-05-24</updated>
+  <updated>2018-06-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -59729,7 +59729,41 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>4886-4893</number>
+    <number>4886-4887</number>
+  </record>
+  <record date="2018-06-06">
+    <name>xcap-portal</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="_88solutions_Corporation"/>
+    </assignee>
+    <description>xcap code analysis portal public user access</description>
+    <number>4888</number>
+    <xref type="person" data="Manfred_Koethe"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>4888</number>
+  </record>
+  <record date="2018-06-06">
+    <name>xcap-control</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="_88solutions_Corporation"/>
+    </assignee>
+    <description>xcap code analysis portal cluster control and administration</description>
+    <number>4889</number>
+    <xref type="person" data="Manfred_Koethe"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>4889</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>4890-4893</number>
   </record>
   <record>
     <name>lyskom</name>
@@ -96697,6 +96731,11 @@ cport= the port for the content HTTP server
 configured experiments; they MUST NOT be shipped as defaults in
 implementations.  See RFC 3692 for details.</footnote>
   <people>
+    <person id="_88solutions_Corporation">
+      <org>88solutions Corporation</org>
+      <uri>mailto:koethe&amp;88solutions.com</uri>
+      <updated>2018-06-06</updated>
+    </person>
     <person id="_1026_Labs">
       <org>1026 Labs</org>
       <uri>mailto:contact&amp;1026labs.com</uri>
@@ -110176,6 +110215,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Mandos_Maintainers">
       <name>Mandos Maintainers</name>
       <uri>mailto:mandos&amp;fukt.bsnet.se</uri>
+    </person>
+    <person id="Manfred_Koethe">
+      <name>Manfred Koethe</name>
+      <uri>mailto:koethe&amp;88solutions.com</uri>
+      <updated>2018-06-06</updated>
     </person>
     <person id="Manfred_Randelzofer">
       <name>Manfred Randelzofer</name>
