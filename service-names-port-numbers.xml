@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-06-06</updated>
+  <updated>2018-06-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -93791,6 +93791,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
   mxs.cluster.id=&lt;cluster id the system belongs to&gt;</note>
     <xref type="person" data="Object_Matrix"/>
   </record>
+  <record date="2018-06-20">
+    <name>naio</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="NetAcquire_Corporation"/>
+    </assignee>
+    <description>NetAcquire server input/output protocol</description>
+    <note>Defined TXT keys: txtvers, fn</note>
+    <xref type="person" data="David_Hauck"/>
+  </record>
   <record date="2012-10-09">
     <name>nasmon</name>
     <protocol>tcp</protocol>
@@ -102101,6 +102111,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="David_Hampson">
       <name>David Hampson</name>
       <uri>mailto:davidha&amp;codemasters.com</uri>
+    </person>
+    <person id="David_Hauck">
+      <name>David Hauck</name>
+      <uri>mailto:davidh&amp;netacquire.com</uri>
+      <updated>2018-06-20</updated>
     </person>
     <person id="David_Holden">
       <name>David Holden</name>
@@ -112792,6 +112807,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>NetApp, Inc.</org>
       <uri>mailto:ravindra.kuramkote&amp;netapp.com</uri>
       <updated>2017-08-24</updated>
+    </person>
+    <person id="NetAcquire_Corporation">
+      <org>NetAcquire Corporation</org>
+      <uri>mailto:davidh&amp;netcquire.com</uri>
+      <updated>2018-06-20</updated>
     </person>
     <person id="NetOp_Technical_Supp">
       <name>NetOp Technical Support</name>
