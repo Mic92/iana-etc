@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-06-20</updated>
+  <updated>2018-06-28</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -8150,18 +8150,18 @@ common service discovery mechanisms.</note>
     <description>RDA</description>
     <number>630</number>
   </record>
-  <record>
+  <record updated="2018-06-29">
     <name>ipp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Carl_Uno_Manros"/>
+    <xref type="person" data="IESG"/>
     <description>IPP (Internet Printing Protocol)</description>
     <number>631</number>
     <note>Defined TXT keys: See BonjourPrinting.pdf.</note>
   </record>
-  <record>
+  <record updated="2018-06-29">
     <name>ipp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Carl_Uno_Manros"/>
+    <xref type="person" data="IESG"/>
     <description>IPP (Internet Printing Protocol)</description>
     <number>631</number>
     <note>Defined TXT keys: See BonjourPrinting.pdf.</note>
