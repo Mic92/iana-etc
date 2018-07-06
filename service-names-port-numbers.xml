@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-07-05</updated>
+  <updated>2018-07-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -1792,19 +1792,25 @@ common service discovery mechanisms.</note>
     <description>SQL Services</description>
     <number>118</number>
   </record>
-  <record updated="2017-02-03">
+  <record updated="2018-07-06">
     <name>nntp</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc3977"/>
-    <xref type="person" data="IESG"/>
     <description>Network News Transfer Protocol</description>
     <number>119</number>
   </record>
-  <record updated="2017-02-03">
+  <record updated="2018-07-06">
     <name>nntp</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc3977"/>
-    <xref type="person" data="IESG"/>
     <description>Network News Transfer Protocol</description>
     <number>119</number>
   </record>
@@ -5366,19 +5372,25 @@ common service discovery mechanisms.</note>
     <description>IASD</description>
     <number>432</number>
   </record>
-  <record updated="2017-02-03">
+  <record updated="2018-07-06">
     <name>nnsp</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc3977"/>
-    <xref type="person" data="IESG"/>
     <description>NNTP for transit servers (NNSP)</description>
     <number>433</number>
   </record>
-  <record updated="2017-02-03">
+  <record updated="2018-07-06">
     <name>nnsp</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc3977"/>
-    <xref type="person" data="IESG"/>
     <description>NNTP for transit servers (NNSP)</description>
     <number>433</number>
   </record>
@@ -5528,17 +5540,23 @@ IANA assigned this well-formed service name as a replacement for "cvc_hostd".</d
 This entry is now historic, not usable for use with many
 common service discovery mechanisms.</note>
   </record>
-  <record updated="2017-07-26">
+  <record updated="2018-07-06">
     <name>https</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="IESG"/>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <description>http protocol over TLS/SSL</description>
     <number>443</number>
   </record>
-  <record updated="2017-07-26">
+  <record updated="2018-07-06">
     <name>https</name>
     <protocol>udp</protocol>
-    <xref type="person" data="IESG"/>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <description>http protocol over TLS/SSL</description>
     <number>443</number>
   </record>
@@ -7211,19 +7229,25 @@ common service discovery mechanisms.</note>
     <description>chcmd</description>
     <number>562</number>
   </record>
-  <record updated="2017-02-03">
+  <record updated="2018-07-06">
     <name>nntps</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc4642"/>
-    <xref type="person" data="IESG"/>
     <description>nntp protocol over TLS/SSL (was snntp)</description>
     <number>563</number>
   </record>
-  <record updated="2017-02-03">
+  <record updated="2018-07-06">
     <name>nntps</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc4642"/>
-    <xref type="person" data="IESG"/>
     <description>nntp protocol over TLS/SSL (was snntp)</description>
     <number>563</number>
   </record>
@@ -8150,21 +8174,41 @@ common service discovery mechanisms.</note>
     <description>RDA</description>
     <number>630</number>
   </record>
-  <record updated="2018-06-29">
+  <record updated="2018-07-06">
     <name>ipp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="IESG"/>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <description>IPP (Internet Printing Protocol)</description>
+    <xref type="rfc" data="rfc8011"/>
     <number>631</number>
     <note>Defined TXT keys: See BonjourPrinting.pdf.</note>
   </record>
-  <record updated="2018-06-29">
+  <record updated="2018-07-06">
     <name>ipp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="IESG"/>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <description>IPP (Internet Printing Protocol)</description>
+    <xref type="rfc" data="rfc8011"/>
     <number>631</number>
     <note>Defined TXT keys: See BonjourPrinting.pdf.</note>
+  </record>
+  <record date="2018-07-06">
+    <name>ipps</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <description>Internet Printing Protocol over HTTPS</description>
+    <xref type="rfc" data="rfc8011"/>
+    <number>631</number>
+    <note/>
   </record>
   <record>
     <name>bmpp</name>
