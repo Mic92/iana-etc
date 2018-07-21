@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-07-11</updated>
+  <updated>2018-07-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -96402,6 +96402,16 @@ cport= the port for the content HTTP server
     <xref type="person" data="Reed_Hedges"/>
     <xref type="person" data="Peter_Amstutz"/>
   </record>
+  <record date="2018-07-20">
+    <name>vrmg-p2p</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Verimag_OOO"/>
+    </assignee>
+    <description>Verimag mobile class protocol over P2P</description>
+    <note>Defined TXT keys: d=&lt;discovery key&gt;, t=&lt;mobile class ID&gt;</note>
+    <xref type="person" data="Denis_Ionov"/>
+  </record>
   <record>
     <name>vue4rendercow</name>
     <description>VueProRenderCow</description>
@@ -102668,6 +102678,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Denis_Ducharme">
       <name>Denis Ducharme</name>
       <uri>mailto:dducharme&amp;softek.com</uri>
+    </person>
+    <person id="Denis_Ionov">
+      <name>Denis Ionov</name>
+      <org>Verimag, OOO</org>
+      <uri>mailto:iddi&amp;verimag.ru</uri>
+      <updated>2018-07-20</updated>
     </person>
     <person id="Denis_Leclerc">
       <name>Denis Leclerc</name>
@@ -120252,6 +120268,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Verek">
       <name>Verek</name>
       <uri>mailto:info&amp;verek.com</uri>
+    </person>
+    <person id="Verimag_OOO">
+      <org>Verimag, OOO</org>
+      <uri>mailto:support&amp;verimag.ru</uri>
+      <updated>2018-07-20</updated>
     </person>
     <person id="Versile_AS">
       <org>Versile AS</org>
