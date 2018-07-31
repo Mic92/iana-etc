@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-07-20</updated>
+  <updated>2018-07-31</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -78129,7 +78129,31 @@ any port number, but the default port for this protocol is 9100.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>9108-9118</number>
+    <number>9108-9110</number>
+  </record>
+  <record date="2018-07-31">
+    <name>hexxorecore</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Hexxore"/>
+    </assignee>
+    <description>Multiple Purpose, Distributed Message Bus</description>
+    <number>9111</number>
+    <xref type="person" data="Patrick_Roozeboom"/>
+  </record>
+  <record date="2018-07-31">
+    <name>hexxorecore</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Hexxore"/>
+    </assignee>
+    <description>Multiple Purpose, Distributed Message Bus</description>
+    <number>9111</number>
+    <xref type="person" data="Patrick_Roozeboom"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>9112-9118</number>
   </record>
   <record date="2006-02">
     <name>mxit</name>
@@ -87974,15 +87998,15 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>33435</number>
   </record>
-  <record date="2017-12-13">
+  <record date="2017-12-13" updated="2018-07-31">
     <name>mtrace</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="Hitoshi_Asaeda"/>
+      <xref type="person" data="IESG"/>
     </assignee>
-    <xref type="person" data="Hitoshi_Asaeda"/>
+    <xref type="person" data="IETF_Chair"/>
     <description>IP Multicast Traceroute</description>
-    <xref type="draft" data="draft-ietf-mboned-mtrace-v2"/>
+    <xref type="draft" data="RFC-ietf-mboned-mtrace-v2-25"/>
     <number>33435</number>
   </record>
   <record>
@@ -105720,6 +105744,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Hewlett Packard Enterprise</org>
       <updated>2016-04-14</updated>
     </person>
+    <person id="Hexxore">
+      <org>Hexxore</org>
+      <uri>mailto:info&amp;hexxore.nl</uri>
+      <updated>2018-07-31</updated>
+    </person>
     <person id="Hideki_Hatta">
       <name>Hideki Hatta</name>
       <uri>mailto:ponum&amp;canon-is.co.jp</uri>
@@ -105790,11 +105819,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Microsoft Corporation</org>
       <uri>mailto:hirsin&amp;microsoft.com</uri>
       <updated>2016-03-03</updated>
-    </person>
-    <person id="Hitoshi_Asaeda">
-      <name>Hitoshi Asaeda</name>
-      <uri>mailto:asaeda&amp;nict.go.jp</uri>
-      <updated>2017-12-13</updated>
     </person>
     <person id="Hitoshi_Ishida">
       <name>Hitoshi Ishida</name>
@@ -113706,6 +113730,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Patrick_Robinson">
       <name>Patrick Robinson</name>
       <uri>mailto:probinson&amp;plosive.com</uri>
+    </person>
+    <person id="Patrick_Roozeboom">
+      <name>Patrick Roozeboom</name>
+      <uri>mailto:info&amp;hexxore.nl</uri>
+      <updated>2018-07-31</updated>
     </person>
     <person id="Patrick_Stein">
       <name>Patrick Stein</name>
