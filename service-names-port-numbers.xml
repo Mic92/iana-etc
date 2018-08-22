@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-08-21</updated>
+  <updated>2018-08-22</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -86865,9 +86865,24 @@ common service discovery mechanisms.</note>
     <number>27000-27009</number>
     <xref type="person" data="Paul_Bland"/>
   </record>
+  <record date="2018-08-22">
+    <name>flex-lmadmin</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Flexera"/>
+    </assignee>
+    <description>A protocol for managing license services</description>
+    <number>27010</number>
+    <xref type="person" data="Paul_Bland"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>27010</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>27010-27344</number>
+    <number>27011-27344</number>
     <unauthorized>Unauthorized Use Known on ports 27017, 27018 and 27019</unauthorized>
     
   </record>
@@ -104193,6 +104208,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:fadda&amp;osway.com</uri>
       <updated>2003-08</updated>
     </person>
+    <person id="Flexera">
+      <name>Flexera</name>
+      <uri>mailto:pbland&amp;flexera.com</uri>
+      <updated>2018-08-22</updated>
+    </person>
     <person id="Flexera_Software">
       <name>Flexera Software</name>
       <uri>mailto:security&amp;flexerasoftware.com</uri>
@@ -113838,8 +113858,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Paul_Bland">
       <name>Paul Bland</name>
-      <uri>mailto:PBland&amp;flexera.com</uri>
-      <updated>2018-02-15</updated>
+      <uri>mailto:pbland&amp;flexera.com</uri>
+      <updated>2018-08-22</updated>
     </person>
     <person id="Paul_Bohm">
       <name>Paul Bohm</name>
