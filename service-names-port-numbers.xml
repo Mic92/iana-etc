@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-08-22</updated>
+  <updated>2018-08-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -96253,6 +96253,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Narendra_Kumar_Reddy_Thummaluru"/>
   </record>
+  <record date="2018-08-24">
+    <name>tyba</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Tyba_Design_Limited"/>
+    </assignee>
+    <description>Tyba control</description>
+    <note>Defined TXT keys: PRID, HWSN, VERS</note>
+    <xref type="person" data="Oz_Andrews"/>
+  </record>
   <record date="2011-10-12">
     <name>tzrpc</name>
     <protocol>tcp</protocol>
@@ -113638,6 +113648,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:paul&amp;octopusdeploy.com</uri>
       <updated>2015-01-28</updated>
     </person>
+    <person id="Oz_Andrews">
+      <name>Oz Andrews</name>
+      <org>Tyba Design Limited</org>
+      <uri>mailto:oz&amp;tyba.co.uk</uri>
+      <updated>2018-08-24</updated>
+    </person>
     <person id="Owen_Sullivan">
       <name>Owen Sullivan</name>
       <uri>mailto:owen.sullivan&amp;aldiscon.ie</uri>
@@ -113646,6 +113662,14 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Ozate Inc.</org>
       <uri>mailto:joe&amp;ozate.com</uri>
       <updated>2011-10-12</updated>
+    </person>
+    <person id="P_T_K_Farrar">
+      <name>P.T.K. Farrar</name>
+      <uri>mailto:farrarp&amp;teccon.co.uk</uri>
+    </person>
+    <person id="P_V_Shivkumar">
+      <name>P.V.Shivkumar</name>
+      <uri>mailto:PSHIVKUM&amp;us.oracle.com</uri>
     </person>
     <person id="P3KI_GmbH">
       <org>P3KI GmbH</org>
@@ -113656,28 +113680,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>PACE Anti-Piracy</org>
       <uri>mailto:allen&amp;paceap.com</uri>
       <updated>2014-04-28</updated>
-    </person>
-    <person id="PJJ_Productions_Inc">
-      <org>PJJ Productions Inc.</org>
-      <uri>mailto:admin&amp;pjjproductions.com</uri>
-      <updated>2015-11-18</updated>
-    </person>
-    <person id="POV_Team_Co_ordinato">
-      <name>POV-Team Co-ordinator</name>
-      <uri>mailto:iana-port.remove-spamguard&amp;povray.org</uri>
-    </person>
-    <person id="PV_Shivkumar">
-      <name>PV Shivkumar</name>
-      <uri>mailto:p.shivkumar&amp;oracle.com</uri>
-      <updated>2003-10</updated>
-    </person>
-    <person id="P_T_K_Farrar">
-      <name>P.T.K. Farrar</name>
-      <uri>mailto:farrarp&amp;teccon.co.uk</uri>
-    </person>
-    <person id="P_V_Shivkumar">
-      <name>P.V.Shivkumar</name>
-      <uri>mailto:PSHIVKUM&amp;us.oracle.com</uri>
     </person>
     <person id="Panasonic_Intranet_Panasonic_North_America_PEWLA">
       <org>Panasonic Intranet, Panasonic North America (PEWLA)</org>
@@ -114808,6 +114810,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:pit&amp;3dgo.com</uri>
       <updated>2002-05</updated>
     </person>
+    <person id="PJJ_Productions_Inc">
+      <org>PJJ Productions Inc.</org>
+      <uri>mailto:admin&amp;pjjproductions.com</uri>
+      <updated>2015-11-18</updated>
+    </person>
     <person id="PLASA">
       <org>PLASA</org>
       <uri>mailto:standards.na&amp;plasa.org</uri>
@@ -114827,6 +114834,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Portnoy Boxman</name>
       <uri>mailto:Portnoy_Boxman&amp;bmc.com</uri>
       <updated>2006-09</updated>
+    </person>
+    <person id="POV_Team_Co_ordinato">
+      <name>POV-Team Co-ordinator</name>
+      <uri>mailto:iana-port.remove-spamguard&amp;povray.org</uri>
     </person>
     <person id="PowerSysLab">
       <org>PowerSysLab</org>
@@ -114940,6 +114951,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Pure Storage</org>
       <uri>mailto:iana&amp;purestorage.com</uri>
       <updated>2016-04-04</updated>
+    </person>
+    <person id="PV_Shivkumar">
+      <name>PV Shivkumar</name>
+      <uri>mailto:p.shivkumar&amp;oracle.com</uri>
+      <updated>2003-10</updated>
     </person>
     <person id="Qdea">
       <org>Qdea</org>
@@ -120094,6 +120110,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ty Ellis</name>
       <uri>mailto:tellis&amp;novell.com</uri>
       <updated>2006-05</updated>
+    </person>
+    <person id="Tyba_Design_Limited">
+      <org>Tyba Design Limited</org>
+      <uri>mailto:info&amp;tyba.co.ik</uri>
+      <updated>2018-08-24</updated>
     </person>
     <person id="Tzvika_Chumash">
       <name>Tzvika Chumash</name>
