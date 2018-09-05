@@ -1,38 +1,39 @@
 #!/usr/bin/env python
 
-import os
-import sys
-import re
-import tarfile
 import hashlib
 import json
-from contextlib import contextmanager                        
-import tempfile
-import xml.etree.ElementTree as ET
+import os
+import re
 import shutil
+import sys
+import tarfile
+import tempfile
 import urllib.request
+import xml.etree.ElementTree as ET
+from contextlib import contextmanager
 from datetime import datetime
 
 SERVICES_URL = "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xml"
 SERVICES_XML = "service-names-port-numbers.xml"
 SERVICES_FILE = "services"
-SERVICES_HEADER = '''# See also services(5) and IANA offical page :
+SERVICES_HEADER = """# See also services(5) and IANA offical page :
 # https://www.iana.org/assignments/service-names-port-numbers
 #
 # (last updated {})
-'''
+"""
 
 PROTOCOLS_URL = "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml"
 PROTOCOLS_XML = "protocol-numbers.xml"
 PROTOCOLS_FILE = "protocols"
-PROTOCOLS_HEADER = '''# See also protocols(5) and IANA official page :
+PROTOCOLS_HEADER = """# See also protocols(5) and IANA official page :
 # https://www.iana.org/assignments/protocol-numbers
 #
 # (last updated {})
-'''
+"""
+
 
 @contextmanager
-def atomic_write(filename, mode="w"):
+def atomic_write(filenamer, mode="w"):
     path = os.path.dirname(filename)
     try:
         file = tempfile.NamedTemporaryFile(delete=False, dir=path, mode=mode)
@@ -49,12 +50,14 @@ def atomic_write(filename, mode="w"):
             else:
                 raise e
 
+
 def remove_xml_namespace(doc, namespace):
     ns = "{%s}" % namespace
     nsl = len(ns)
     for elem in doc.getiterator():
         if elem.tag.startswith(ns):
             elem.tag = elem.tag[nsl:]
+
 
 def compute_sha256(fname):
     hash_sha256 = hashlib.sha256()
@@ -63,16 +66,22 @@ def compute_sha256(fname):
             hash_sha256.update(chunk)
     return hash_sha256.hexdigest()
 
+
 def parse_xml(source):
     tree = ET.parse(source)
     root = tree.getroot()
     remove_xml_namespace(root, "http://www.iana.org/assignments")
     return root
 
-def parse_date(root_xml):
-    return datetime.strptime(root_xml.find('updated').text, "%Y-%m-%d")
 
-IGNORE_PATTERN = re.compile(r'.*(unassigned|deprecated|reserved|historic).*', flags=re.IGNORECASE)
+def parse_date(root_xml):
+    return datetime.strptime(root_xml.find("updated").text, "%Y-%m-%d")
+
+
+IGNORE_PATTERN = re.compile(
+    r".*(unassigned|deprecated|reserved|historic).*", flags=re.IGNORECASE
+)
+
 
 def write_services_file(source, destination):
     root = parse_xml(source)
@@ -80,17 +89,19 @@ def write_services_file(source, destination):
     seen = set()
     with atomic_write(destination) as dst:
         dst.write(SERVICES_HEADER.format(updated.strftime("%Y-%m-%d")))
-        for r in root.iter('record'):
+        for r in root.iter("record"):
             desc = r.find("description").text
             if desc is None:
                 desc = ""
             name = r.find("name")
             protocol = r.find("protocol")
             number = r.find("number")
-            if IGNORE_PATTERN.match(desc) \
-                    or name is None \
-                    or protocol is None \
-                    or number is None:
+            if (
+                IGNORE_PATTERN.match(desc)
+                or name is None
+                or protocol is None
+                or number is None
+            ):
                 continue
             name = name.text.lower().replace("_", "-")
             protocol = protocol.text.lower()
@@ -106,12 +117,13 @@ def write_services_file(source, destination):
             dst.write("\n")
     return updated
 
+
 def write_protocols_file(source, destination):
     root = parse_xml(source)
     updated = parse_date(root)
     with atomic_write(destination) as dst:
         dst.write(PROTOCOLS_HEADER.format(updated.strftime("%Y-%m-%d")))
-        for r in root.iter('record'):
+        for r in root.iter("record"):
             desc = r.find("description")
             if desc is None or desc.text is None:
                 desc = ""
@@ -119,10 +131,12 @@ def write_protocols_file(source, destination):
                 desc = desc.text
             name = r.find("name")
             value = r.find("value")
-            if IGNORE_PATTERN.match(desc) \
-                    or name is None \
-                    or IGNORE_PATTERN.match(name.text) \
-                    or value is None:
+            if (
+                IGNORE_PATTERN.match(desc)
+                or name is None
+                or IGNORE_PATTERN.match(name.text)
+                or value is None
+            ):
                 continue
             alias = name.text.split()[0]
             name = alias.lower()
@@ -134,19 +148,22 @@ def write_protocols_file(source, destination):
             dst.write("\n")
     return updated
 
+
 def add_entry(tar, name, file):
     def reset(tarinfo):
         tarinfo.uid = tarinfo.gid = 0
         tarinfo.uname = tarinfo.gname = "root"
-        tarinfo.mtime = 0 
+        tarinfo.mtime = 0
         tarinfo.mode = 0o644
         return tarinfo
+
     tar.add(file, os.path.join(name, os.path.basename(file)), filter=reset)
 
+
 def download(url, path):
-    with atomic_write(path, "wb") as dst, \
-         urllib.request.urlopen(url) as src:
-            shutil.copyfileobj(src, dst)
+    with atomic_write(path, "wb") as dst, urllib.request.urlopen(url) as src:
+        shutil.copyfileobj(src, dst)
+
 
 def main():
     if len(sys.argv) < 2:
@@ -161,7 +178,10 @@ def main():
         download(SERVICES_URL, services_xml)
         download(PROTOCOLS_URL, protocols_xml)
     except OSError as e:
-        print("Could not download iana service names and port numbers: {}".format(e), file=sys.stderr)
+        print(
+            "Could not download iana service names and port numbers: {}".format(e),
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     services_file = os.path.join(dest, "dist", SERVICES_FILE)
@@ -180,11 +200,14 @@ def main():
         add_entry(tar, name, protocols_xml)
         add_entry(tar, name, protocols_file)
 
-    with atomic_write(os.path.join(dest, "dist/iana-etc-%s.tar.gz.sha256" % version)) as f:
+    with atomic_write(
+        os.path.join(dest, "dist/iana-etc-%s.tar.gz.sha256" % version)
+    ) as f:
         f.write(compute_sha256(tarball))
 
     with atomic_write(os.path.join(dest, ".version")) as f:
         f.write(version)
+
 
 if __name__ == "__main__":
     main()
