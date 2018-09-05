@@ -51,14 +51,6 @@ def atomic_write(filename: str, mode: str = "w") -> Iterator[IO[Any]]:
                 raise e
 
 
-def remove_xml_namespace(doc: ET.Element, namespace: str) -> None:
-    ns = f"{namespace}"
-    nsl = len(ns)
-    for elem in doc.getiterator():
-        if elem.tag.startswith(ns):
-            elem.tag = elem.tag[nsl:]
-
-
 def compute_sha256(fname: str) -> str:
     hash_sha256 = hashlib.sha256()
     with open(fname, "rb") as f:
@@ -68,16 +60,19 @@ def compute_sha256(fname: str) -> str:
 
 
 def parse_xml(source: str) -> ET.Element:
-    tree = ET.parse(source)
-    root = tree.getroot()
-    remove_xml_namespace(root, "http://www.iana.org/assignments")
+    it = ET.iterparse(open(source))
+    # strip namespaces
+    for _, el in it:
+        if "}" in el.tag:
+            el.tag = el.tag.split("}", 1)[1]
+    root = it.root  # mypy: ignore
     return root
 
 
 def parse_date(root_xml: ET.Element) -> datetime:
     updated = root_xml.find("updated")
-    assert updated is not None and isinstance(updated, str)
-    return datetime.strptime(updated, "%Y-%m-%d")
+    assert updated is not None and isinstance(updated.text, str)
+    return datetime.strptime(updated.text, "%Y-%m-%d")
 
 
 IGNORE_PATTERN = re.compile(
@@ -93,10 +88,10 @@ def write_services_file(source: str, destination: str) -> datetime:
         dst.write(SERVICES_HEADER.format(updated.strftime("%Y-%m-%d")))
         for r in root.iter("record"):
             desc_ = r.find("description")
-            if desc_ is None:
+            if desc_ is None or desc_.text is None:
                 desc = ""
             else:
-                desc = ""
+                desc = desc_.text
 
             name_ = r.find("name")
             protocol_ = r.find("protocol")
@@ -106,6 +101,7 @@ def write_services_file(source: str, destination: str) -> datetime:
                 IGNORE_PATTERN.match(desc)
                 or name_ is None
                 or name_.text is None
+                or has_spaces(name_.text)
                 or protocol_ is None
                 or protocol_.text is None
                 or number_ is None
@@ -128,6 +124,10 @@ def write_services_file(source: str, destination: str) -> datetime:
     return updated
 
 
+def has_spaces(s: str) -> bool:
+    return re.match(r".*\s+.*", s) is not None
+
+
 def write_protocols_file(source: str, destination: str) -> datetime:
     root = parse_xml(source)
     updated = parse_date(root)
@@ -146,6 +146,7 @@ def write_protocols_file(source: str, destination: str) -> datetime:
                 or name_ is None
                 or name_.text is None
                 or IGNORE_PATTERN.match(name_.text)
+                or has_spaces(name_.text)
                 or value_ is None
                 or value_.text is None
             ):
