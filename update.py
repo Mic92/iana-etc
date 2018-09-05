@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import hashlib
-import json
 import os
 import re
 import shutil
@@ -12,6 +11,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from contextlib import contextmanager
 from datetime import datetime
+from typing import IO, Any, Iterator, Set
 
 SERVICES_URL = "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xml"
 SERVICES_XML = "service-names-port-numbers.xml"
@@ -33,7 +33,7 @@ PROTOCOLS_HEADER = """# See also protocols(5) and IANA official page :
 
 
 @contextmanager
-def atomic_write(filenamer, mode="w"):
+def atomic_write(filename: str, mode: str = "w") -> Iterator[IO[Any]]:
     path = os.path.dirname(filename)
     try:
         file = tempfile.NamedTemporaryFile(delete=False, dir=path, mode=mode)
@@ -51,15 +51,15 @@ def atomic_write(filenamer, mode="w"):
                 raise e
 
 
-def remove_xml_namespace(doc, namespace):
-    ns = "{%s}" % namespace
+def remove_xml_namespace(doc: ET.Element, namespace: str) -> None:
+    ns = f"{namespace}"
     nsl = len(ns)
     for elem in doc.getiterator():
         if elem.tag.startswith(ns):
             elem.tag = elem.tag[nsl:]
 
 
-def compute_sha256(fname):
+def compute_sha256(fname: str) -> str:
     hash_sha256 = hashlib.sha256()
     with open(fname, "rb") as f:
         for chunk in iter(lambda: f.read(4096), b""):
@@ -67,15 +67,17 @@ def compute_sha256(fname):
     return hash_sha256.hexdigest()
 
 
-def parse_xml(source):
+def parse_xml(source: str) -> ET.Element:
     tree = ET.parse(source)
     root = tree.getroot()
     remove_xml_namespace(root, "http://www.iana.org/assignments")
     return root
 
 
-def parse_date(root_xml):
-    return datetime.strptime(root_xml.find("updated").text, "%Y-%m-%d")
+def parse_date(root_xml: ET.Element) -> datetime:
+    updated = root_xml.find("updated")
+    assert updated is not None and isinstance(updated, str)
+    return datetime.strptime(updated, "%Y-%m-%d")
 
 
 IGNORE_PATTERN = re.compile(
@@ -83,29 +85,37 @@ IGNORE_PATTERN = re.compile(
 )
 
 
-def write_services_file(source, destination):
+def write_services_file(source: str, destination: str) -> datetime:
     root = parse_xml(source)
     updated = parse_date(root)
-    seen = set()
+    seen: Set[str] = set()
     with atomic_write(destination) as dst:
         dst.write(SERVICES_HEADER.format(updated.strftime("%Y-%m-%d")))
         for r in root.iter("record"):
-            desc = r.find("description").text
-            if desc is None:
+            desc_ = r.find("description")
+            if desc_ is None:
                 desc = ""
-            name = r.find("name")
-            protocol = r.find("protocol")
-            number = r.find("number")
+            else:
+                desc = ""
+
+            name_ = r.find("name")
+            protocol_ = r.find("protocol")
+            number_ = r.find("number")
+
             if (
                 IGNORE_PATTERN.match(desc)
-                or name is None
-                or protocol is None
-                or number is None
+                or name_ is None
+                or name_.text is None
+                or protocol_ is None
+                or protocol_.text is None
+                or number_ is None
+                or number_.text is None
             ):
                 continue
-            name = name.text.lower().replace("_", "-")
-            protocol = protocol.text.lower()
-            number = int(number.text.split("-")[0])
+            name = name_.text.lower().replace("_", "-")
+            protocol = protocol_.text.lower()
+            number = int(number_.text.split("-")[0])
+
             assignments = "%s/%s" % (number, protocol)
             entry = "%-16s %-10s" % (name, assignments)
             if entry in seen:
@@ -118,29 +128,31 @@ def write_services_file(source, destination):
     return updated
 
 
-def write_protocols_file(source, destination):
+def write_protocols_file(source: str, destination: str) -> datetime:
     root = parse_xml(source)
     updated = parse_date(root)
     with atomic_write(destination) as dst:
         dst.write(PROTOCOLS_HEADER.format(updated.strftime("%Y-%m-%d")))
         for r in root.iter("record"):
-            desc = r.find("description")
-            if desc is None or desc.text is None:
+            desc_ = r.find("description")
+            if desc_ is None or desc_.text is None:
                 desc = ""
             else:
-                desc = desc.text
-            name = r.find("name")
-            value = r.find("value")
+                desc = desc_.text
+            name_ = r.find("name")
+            value_ = r.find("value")
             if (
                 IGNORE_PATTERN.match(desc)
-                or name is None
-                or IGNORE_PATTERN.match(name.text)
-                or value is None
+                or name_ is None
+                or name_.text is None
+                or IGNORE_PATTERN.match(name_.text)
+                or value_ is None
+                or value_.text is None
             ):
                 continue
-            alias = name.text.split()[0]
+            alias = name_.text.split()[0]
             name = alias.lower()
-            value = int(value.text)
+            value = int(value_.text)
             assignment = "%s %s" % (value, alias)
             dst.write("%-16s %-16s" % (name, assignment))
             if desc != "" and len(desc) < 70:
@@ -149,7 +161,7 @@ def write_protocols_file(source, destination):
     return updated
 
 
-def add_entry(tar, name, file):
+def add_entry(tar: tarfile.TarFile, name: str, file: str) -> None:
     def reset(tarinfo):
         tarinfo.uid = tarinfo.gid = 0
         tarinfo.uname = tarinfo.gname = "root"
@@ -160,12 +172,12 @@ def add_entry(tar, name, file):
     tar.add(file, os.path.join(name, os.path.basename(file)), filter=reset)
 
 
-def download(url, path):
+def download(url: str, path: str) -> None:
     with atomic_write(path, "wb") as dst, urllib.request.urlopen(url) as src:
         shutil.copyfileobj(src, dst)
 
 
-def main():
+def main() -> None:
     if len(sys.argv) < 2:
         print("USAGE: {} download_path".format(sys.argv[0]), file=sys.stderr)
         sys.exit(1)
