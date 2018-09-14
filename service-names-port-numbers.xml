@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-09-07</updated>
+  <updated>2018-09-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -86821,18 +86821,24 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>26265-26485</number>
   </record>
-  <record date="2008-12-24">
+  <record date="2008-12-24" updated="2018-09-13">
     <name>exoline-tcp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Lars_Mattsson"/>
+    <assignee>
+      <xref type="person" data="AB_Regin"/>
+    </assignee>
     <description>EXOline-TCP</description>
+    <xref type="person" data="Simon_Jonsson"/>
     <number>26486</number>
   </record>
-  <record date="2008-12-24">
+  <record date="2008-12-24" updated="2018-09-13">
     <name>exoline-udp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Lars_Mattsson"/>
+    <assignee>
+      <xref type="person" data="AB_Regin"/>
+    </assignee>
     <description>EXOline-UDP</description>
+    <xref type="person" data="Simon_Jonsson"/>
     <number>26486</number>
   </record>
   <record date="2008-12-24">
@@ -97009,6 +97015,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>ABB</org>
       <uri>mailto:adam.noren&amp;se.abb.com</uri>
       <updated>2017-03-28</updated>
+    </person>
+    <person id="AB_Regin">
+      <org>AB Regin</org>
+      <uri>mailto:urban.fosseus&amp;regin.se</uri>
+      <updated>2018-09-13</updated>
     </person>
     <person id="Abdullah_Obeid">
       <name>Abdullah Obeid</name>
@@ -109831,11 +109842,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Lars-Goran Magnusson</name>
       <uri>mailto:lars-goran.magnusson&amp;seisy.mail.abb.com</uri>
     </person>
-    <person id="Lars_Mattsson">
-      <name>Lars Mattsson</name>
-      <uri>mailto:lars.mattsson&amp;regin.se</uri>
-      <updated>2008-12-24</updated>
-    </person>
     <person id="Lars_Struwe_Christen">
       <name>Lars Struwe Christensen</name>
       <uri>mailto:lsc&amp;giritech.com</uri>
@@ -117681,6 +117687,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Simon_J_Gerraty">
       <name>Simon J. Gerraty</name>
       <uri>mailto:sjg&amp;quick.com.au</uri>
+    </person>
+    <person id="Simon_Jonsson">
+      <name>Simon Jönsson</name>
+      <org>AB Regin</org>
+      <uri>mailto:simon.jonsson&amp;regin.se</uri>
+      <updated>2018-09-13</updated>
     </person>
     <person id="Simon_Jolly">
       <name>Simon Jolly</name>
