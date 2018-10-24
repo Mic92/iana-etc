@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-10-04</updated>
+  <updated>2018-10-23</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -107515,8 +107515,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Jesse_Gross">
       <name>Jesse Gross</name>
-      <uri>mailto:jgross&amp;vmware.com</uri>
-      <updated>2014-03-27</updated>
+      <uri>mailto:jesse&amp;kernel.org</uri>
+      <updated>2018-10-23</updated>
     </person>
     <person id="Jesse_McKay">
       <name>Jesse McKay</name>
