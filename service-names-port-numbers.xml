@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-10-23</updated>
+  <updated>2018-10-26</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -95777,6 +95777,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Lee_HoJun"/>
   </record>
+  <record date="2018-10-26">
+    <name>ssd-audio</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Studio_Six_Digital_LLC"/>
+    </assignee>
+    <description>Studio Six Digital Wireless Audio</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Andrew_Smith"/>
+  </record>
   <record>
     <name>ssh</name>
     <protocol>tcp</protocol>
@@ -98163,6 +98173,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Andrew_Sinclair">
       <name>Andrew Sinclair</name>
       <uri>mailto:andrsin&amp;microsoft.com</uri>
+    </person>
+    <person id="Andrew_Smith">
+      <name>Andrew Smith</name>
+      <org>Studio Six Digital LLC</org>
+      <uri>mailto:andrew&amp;studiosixdigital.com</uri>
+      <updated>2018-10-26</updated>
     </person>
     <person id="Andrew_Stone">
       <name>Andrew Stone</name>
@@ -118661,6 +118677,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Stuart_Schaefer">
       <name>Stuart Schaefer</name>
       <uri>mailto:sschaefer&amp;softricity.com</uri>
+    </person>
+    <person id="Studio_Six_Digital_LLC">
+      <org>Studio Six Digital LLC</org>
+      <uri>mailto:andrew&amp;studiosixdigital.com</uri>
+      <updated>2018-10-26</updated>
     </person>
     <person id="Subroto_Datta">
       <name>Subroto Datta</name>
