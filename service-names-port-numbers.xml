@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-10-30</updated>
+  <updated>2018-11-02</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -29689,14 +29689,14 @@ common service discovery mechanisms.</note>
     <number>2370</number>
     
   </record>
-  <record updated="2014-04-09">
-    <name>hp-rda</name>
+  <record updated="2018-11-02">
+    <name>rda</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Hewlett_Packard_3"/>
+      <xref type="person" data="Hewlett_Packard_Enterprise_2"/>
     </assignee>
-    <xref type="person" data="Michael_Spratte"/>
     <xref type="person" data="Steve_Roscio"/>
+    <xref type="person" data="Paul_Vencel"/>
     <description>HP Remote Device Access</description>
     <number>2371</number>
   </record>
@@ -105857,14 +105857,14 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:oliver.breyel&amp;hp.com</uri>
       <updated>2013-02-07</updated>
     </person>
-    <person id="Hewlett_Packard_3">
-      <org>Hewlett Packard</org>
-      <uri>mailto:Steve.Roscio&amp;hp.com</uri>
-      <updated>2014-04-09</updated>
-    </person>
     <person id="Hewlett_Packard_Enterprise">
       <org>Hewlett Packard Enterprise</org>
       <updated>2016-04-14</updated>
+    </person>
+    <person id="Hewlett_Packard_Enterprise_2">
+      <org>Hewlett Packard Enterprise</org>
+      <uri>mailto:rda-port&amp;hpe.com</uri>
+      <updated>2018-11-02</updated>
     </person>
     <person id="Hexxore">
       <org>Hexxore</org>
@@ -114219,6 +114219,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:ptokarch&amp;alias.com</uri>
       <updated>2004-11</updated>
     </person>
+    <person id="Paul_Vencel">
+      <name>Paul Vencel</name>
+      <org>Hewlett Packard Enterprise</org>
+      <uri>mailto:paul.vencel&amp;hpe.com</uri>
+      <updated>2018-11-02</updated>
+    </person>
     <person id="Paul_Vixie">
       <name>Paul Vixie</name>
       <uri>mailto:paul&amp;vix.com</uri>
@@ -118442,9 +118448,9 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Steve_Roscio">
       <name>Steve Roscio</name>
-      <org>Hewlett Packard</org>
-      <uri>mailto:Steve.Roscio&amp;hp.com</uri>
-      <updated>2014-04-09</updated>
+      <org>Hewlett Packard Enterprise</org>
+      <uri>mailto:Steve.Roscio&amp;hpe.com</uri>
+      <updated>2018-11-02</updated>
     </person>
     <person id="Steve_Ryckman">
       <name>Steve Ryckman</name>
