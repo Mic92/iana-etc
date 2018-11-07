@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-11-05</updated>
+  <updated>2018-11-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -88858,7 +88858,32 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>38423-38471</number>
+    <number>38423-38461</number>
+  </record>
+  <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>38462</number>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>38462</number>
+  </record>
+  <record date="2018-11-06">
+    <name>e1-interface</name>
+    <protocol>sctp</protocol>
+    <assignee>
+      <xref type="person" data="Huawei_Technologies_France"/>
+    </assignee>
+    <description>E1 signalling transport</description>
+    <number>38462</number>
+    <xref type="person" data="Yang_Xudong"/>
+    <xref type="person" data="Issam_Toufik"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>38463-38471</number>
   </record>
   <record>
     <protocol>tcp</protocol>
@@ -106048,6 +106073,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Huang Yu</name>
       <uri>mailto:llw&amp;ftsafe.com</uri>
     </person>
+    <person id="Huawei_Technologies_France">
+      <org>Huawei Technologies France</org>
+      <uri>mailto:yangxudong&amp;huawei.com</uri>
+      <updated>2018-11-06</updated>
+    </person>
     <person id="Hubert_Vijay_Arokiasamy">
       <name>Hubert Vijay Arokiasamy</name>
       <org>Oracle Corp.</org>
@@ -106488,6 +106518,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Israel_Shainert">
       <name>Israel Shainert</name>
       <uri>mailto:israels&amp;209.88.177.2</uri>
+    </person>
+    <person id="Issam_Toufik">
+      <name>Issam Toufik</name>
+      <org>Huawei Technologies France</org>
+      <uri>mailto:yangxudong&amp;huawei.com</uri>
+      <updated>2018-11-06</updated>
     </person>
     <person id="Itai_Greenberg">
       <name>Itai Greenberg</name>
@@ -121145,6 +121181,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Yanick_Pouffary">
       <name>Yanick Pouffary</name>
       <uri>mailto:pouffary&amp;taec.enet.dec.com</uri>
+    </person>
+    <person id="Yang_Xudong">
+      <name>Yang Xudong</name>
+      <org>Huawei Technologies France</org>
+      <uri>mailto:yangxudong&amp;huawei.com</uri>
+      <updated>2018-11-06</updated>
     </person>
     <person id="Yann_Kaiser">
       <org>Yann Kaiser</org>
