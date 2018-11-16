@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-11-06</updated>
+  <updated>2018-11-15</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -88870,13 +88870,13 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>38462</number>
   </record>
-  <record date="2018-11-06">
+  <record date="2018-11-06" updated="2018-11-15">
     <name>e1-interface</name>
     <protocol>sctp</protocol>
     <assignee>
       <xref type="person" data="Huawei_Technologies_France"/>
     </assignee>
-    <description>E1 signalling transport</description>
+    <description>E1 signalling transport (3GPP)</description>
     <number>38462</number>
     <xref type="person" data="Yang_Xudong"/>
     <xref type="person" data="Issam_Toufik"/>
