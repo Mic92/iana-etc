@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-11-15</updated>
+  <updated>2018-11-26</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -7002,7 +7002,7 @@ common service discovery mechanisms.</note>
       <xref type="person" data="IESG"/>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-dhc-rfc3315bis-13"/>
+    <xref type="rfc" data="rfc8415"/>
     <number>546</number>
   </record>
   <record updated="2018-05-21">
@@ -7023,7 +7023,7 @@ common service discovery mechanisms.</note>
       <xref type="person" data="IESG"/>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-dhc-rfc3315bis-13"/>
+    <xref type="rfc" data="rfc8415"/>
     <description>DHCPv6 Server</description>
     <number>547</number>
   </record>
