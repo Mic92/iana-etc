@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-11-28</updated>
+  <updated>2018-11-30</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -55944,11 +55944,9 @@ common service discovery mechanisms.</note>
     <description>Gaia Connector Protocol</description>
     <number>4340</number>
   </record>
-  <record date="2007-11-12">
-    <name>lisp-data</name>
+  <record date="2007-11-12" updated="2018-11-30">
     <protocol>tcp</protocol>
-    <xref type="person" data="Dino_Farinacci"/>
-    <description>LISP Data Packets</description>
+    <description>Reserved</description>
     <number>4341</number>
   </record>
   <record date="2007-11-12" updated="2012-04-26">
@@ -55960,10 +55958,9 @@ common service discovery mechanisms.</note>
     <description>LISP Data Packets</description>
     <number>4341</number>
   </record>
-  <record>
-    <name>lisp-cons</name>
+  <record updated="2018-11-30">
     <protocol>tcp</protocol>
-    <description>LISP-CONS Control</description>
+    <description>Reserved</description>
     <number>4342</number>
   </record>
   <record date="2007-05" updated="2012-04-26">
@@ -93417,6 +93414,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Ramiro_Sarmiento"/>
   </record>
+  <record date="2018-11-28">
+    <name>kyma</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Symbolic_Sound_Corporation"/>
+    </assignee>
+    <description>Symbolic Sound Kyma Service Discovery</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Kurt_Hebel"/>
+  </record>
   <record updated="2013-05-24">
     <name>la-maint</name>
     <description>IMP Logical Address Maintenance</description>
@@ -95615,6 +95622,16 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <xref type="rfc" data="rfc3832"/>
     <description>Remote Service Discovery in the Service Location</description>
     
+  </record>
+  <record date="2018-11-30">
+    <name>smag</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Schulthess_Maschinen_AG"/>
+    </assignee>
+    <description>terminal access to laundry appliances</description>
+    <note>Defined TXT keys: mName, tName, lName, Type, Timestamp</note>
+    <xref type="person" data="Michael_Schwetz"/>
   </record>
   <record>
     <name>smartenergy</name>
@@ -109816,6 +109833,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Kurt Haubner</name>
       <uri>mailto:haubner&amp;ibm.net</uri>
     </person>
+    <person id="Kurt_Hebel">
+      <name>Kurt Hebel</name>
+      <org>Symbolic Sound Corporation</org>
+      <uri>mailto:kurt&amp;symbolicsound.com</uri>
+      <updated>2018-11-28</updated>
+    </person>
     <person id="Kurt_Nissen">
       <name>Kurt Nissen</name>
       <uri>mailto:kn&amp;proces-data.com</uri>
@@ -112141,6 +112164,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>T-Mobile International AG</org>
       <uri>mailto:michael.schoenborn&amp;t-mobile.net</uri>
       <updated>2009-09-11</updated>
+    </person>
+    <person id="Michael_Schwetz">
+      <name>Michael Schwetz</name>
+      <org>Schulthess Maschinen AG</org>
+      <uri>mailto:michael.schwetz&amp;schulthess.ch</uri>
+      <updated>2018-11-30</updated>
     </person>
     <person id="Michael_Settles">
       <name>Michael Settles</name>
@@ -117224,6 +117253,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:arno.odermatt&amp;ch.schindler.com</uri>
       <updated>2017-07-10</updated>
     </person>
+    <person id="Schulthess_Maschinen_AG">
+      <org>Schulthess Maschinen AG</org>
+      <uri>mailto:iot-admin&amp;schulthess.ch</uri>
+      <updated>2018-11-30</updated>
+    </person>
     <person id="SCOOP_at_F_Project">
       <org>SCOOP@F Project</org>
       <uri>mailto:houda.labiod&amp;telecom-paristech.fr</uri>
@@ -118920,6 +118954,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Symantec</org>
       <uri>mailto:info&amp;symantec.com</uri>
       <updated>2012-05-07</updated>
+    </person>
+    <person id="Symbolic_Sound_Corporation">
+      <org>Symbolic Sound Corporation</org>
+      <uri>mailto:symsound&amp;symbolicsound.com</uri>
+      <updated>2018-11-28</updated>
     </person>
     <person id="Synclavier_Digital">
       <org>Synclavier Digital</org>
