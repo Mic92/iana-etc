@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-11-30</updated>
+  <updated>2018-12-03</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -96587,6 +96587,16 @@ cport= the port for the content HTTP server
     <xref type="person" data="Reed_Hedges"/>
     <xref type="person" data="Peter_Amstutz"/>
   </record>
+  <record date="2018-12-03">
+    <name>voxidahmp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Accurate_Always_Inc"/>
+    </assignee>
+    <description>RTP Mixer/Summation Resource</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Yousef_Shemisa"/>
+  </record>
   <record date="2018-07-20">
     <name>vrmg-p2p</name>
     <protocol>tcp</protocol>
@@ -97023,6 +97033,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Actifio</org>
       <uri>mailto:madhav.mutalik&amp;actifio.com</uri>
       <updated>2015-10-23</updated>
+    </person>
+    <person id="Accurate_Always_Inc">
+      <org>Accurate Always Inc.</org>
+      <uri>mailto:legal&amp;accuratealways.com</uri>
+      <updated>2018-11-03</updated>
     </person>
     <person id="AMTEC_S_p_A">
       <name>AMTEC S.p.A</name>
@@ -121404,6 +121419,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Samsung</org>
       <uri>mailto:young.ki.kim&amp;samsung.com</uri>
       <updated>2013-05-29</updated>
+    </person>
+    <person id="Yousef_Shemisa">
+      <name>Yousef Shemisa</name>
+      <org>Accurate Always Inc.</org>
+      <uri>mailto:yshemisa&amp;accuratealways.com</uri>
+      <updated>2018-12-03</updated>
     </person>
     <person id="Yuichi_Ohiwa">
       <name>Yuichi Ohiwa</name>
