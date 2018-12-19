@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-12-17</updated>
+  <updated>2018-12-18</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -34743,7 +34743,7 @@ common service discovery mechanisms.</note>
     <name>fyre-messanger</name>
     <protocol>udp</protocol>
     <xref type="person" data="Robert_Waters"/>
-    <description>Fyre Messagner</description>
+    <description>Fyre Messanger</description>
     <number>2731</number>
   </record>
   <record>
@@ -48261,7 +48261,7 @@ common service discovery mechanisms.</note>
     <name>nw-license</name>
     <protocol>udp</protocol>
     <xref type="person" data="Tim_Wiegand"/>
-    <description>NavisWorks Licnese System</description>
+    <description>NavisWorks License System</description>
     <number>3697</number>
   </record>
   <record date="2003-02">
@@ -48659,7 +48659,7 @@ common service discovery mechanisms.</note>
     <name>array-manager</name>
     <protocol>udp</protocol>
     <xref type="person" data="David_A_Lethe"/>
-    <description>Xyartex Array Manager</description>
+    <description>Xyratex Array Manager</description>
     <number>3726</number>
   </record>
   <record>
@@ -48987,7 +48987,7 @@ common service discovery mechanisms.</note>
     <name>cbos-ip-port</name>
     <protocol>udp</protocol>
     <xref type="person" data="Thomas_Dannemiller"/>
-    <description>CBOS/IP ncapsalatoin port</description>
+    <description>CBOS/IP ncapsalation port</description>
     <number>3750</number>
   </record>
   <record date="2003-04">
@@ -50373,7 +50373,7 @@ common service discovery mechanisms.</note>
     <name>spw-dnspreload</name>
     <protocol>udp</protocol>
     <xref type="person" data="Daniel_Friedman"/>
-    <description>SPACEWAY DNS Prelaod</description>
+    <description>SPACEWAY DNS Preload</description>
     <number>3849</number>
   </record>
   <record date="2003-08">
@@ -51395,7 +51395,7 @@ common service discovery mechanisms.</note>
     <name>aftmux</name>
     <protocol>udp</protocol>
     <xref type="person" data="Alfred_Schmidt"/>
-    <description>AFT multiples port</description>
+    <description>AFT multiplex port</description>
     <number>3917</number>
   </record>
   <record date="2003-11">
@@ -51708,7 +51708,7 @@ common service discovery mechanisms.</note>
     <name>dbcontrol-agent</name>
     <protocol>udp</protocol>
     <xref type="person" data="Todd_Guay"/>
-    <description>Oracel dbControl Agent po<br/><br/>
+    <description>Oracle dbControl Agent po<br/><br/>
 IANA assigned this well-formed service name as a replacement for "dbcontrol_agent".</description>
     <number>3938</number>
   </record>
@@ -51716,7 +51716,7 @@ IANA assigned this well-formed service name as a replacement for "dbcontrol_agen
     <name>dbcontrol_agent</name>
     <protocol>udp</protocol>
     <xref type="person" data="Todd_Guay"/>
-    <description>Oracel dbControl Agent po</description>
+    <description>Oracle dbControl Agent po</description>
     <number>3938</number>
     <note>This entry is an alias to "dbcontrol-agent".
 This entry is now historic, not usable for use with many
@@ -71790,7 +71790,7 @@ common service discovery mechanisms.</note>
     <name>ramp</name>
     <protocol>udp</protocol>
     <xref type="person" data="John_Havard"/>
-    <description>Registry A $ M Protocol</description>
+    <description>Registry A &amp; M Protocol</description>
     <number>7227</number>
   </record>
   <record date="2011-02-24">
@@ -82154,7 +82154,7 @@ common service discovery mechanisms.</note>
     <name>sysinfo-sp</name>
     <protocol>udp</protocol>
     <xref type="person" data="Mike_Cooper"/>
-    <description>SysInfo Sercice Protocol</description>
+    <description>SysInfo Service Protocol</description>
     <number>11967</number>
   </record>
   <record>
@@ -88244,7 +88244,7 @@ common service discovery mechanisms.</note>
     <name>ethercat</name>
     <protocol>udp</protocol>
     <xref type="person" data="Martin_Rostan"/>
-    <description>EhterCAT Port</description>
+    <description>EtherCAT Port</description>
     <number>34980</number>
   </record>
   <record>
