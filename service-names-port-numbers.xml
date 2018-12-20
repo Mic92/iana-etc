@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-12-18</updated>
+  <updated>2018-12-19</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -10144,29 +10144,45 @@ common service discovery mechanisms.</note>
   <record>
     <name>owamp-control</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc4656"/>
     <description>OWAMP-Control</description>
     <number>861</number>
   </record>
-  <record>
-    <name>owamp-control</name>
+  <record updated="2018-12-21">
+    <name>owamp-test</name>
     <protocol>udp</protocol>
-    <xref type="rfc" data="rfc4656"/>
-    <description>OWAMP-Control</description>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-ippm-port-twamp-test-04"/>
+    <description>OWAMP-Test</description>
     <number>861</number>
   </record>
   <record>
     <name>twamp-control</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc5357"/>
-    <description>Two-way Active Measurement Protocol (TWAMP) Control</description>
+    <description>TWAMP-Control</description>
     <number>862</number>
   </record>
-  <record>
-    <name>twamp-control</name>
+  <record updated="2018-12-21">
+    <name>twamp-test</name>
     <protocol>udp</protocol>
-    <xref type="rfc" data="rfc5357"/>
-    <description>Two-way Active Measurement Protocol (TWAMP) Control</description>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-ippm-port-twamp-test-04"/>
+    <description>TWAMP-Test Receiver Port</description>
     <number>862</number>
   </record>
   <record>
@@ -95250,6 +95266,16 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Baskaran_Subramaniam"/>
   </record>
+  <record date="2018-12-19">
+    <name>schdca</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Schindler_Aufzuege_ag"/>
+    </assignee>
+    <description>schindler internal messaging service</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Arno_Odermatt"/>
+  </record>
   <record>
     <name>schick</name>
     <description>Schick</description>
@@ -95313,6 +95339,16 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
       <xref type="person" data="Schindler_Aufzuege_ag"/>
     </assignee>
     <description>Schindler internal messaging service</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Arno_Odermatt"/>
+  </record>
+  <record date="2018-12-19">
+    <name>schvpp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Schindler_Aufzuege_ag"/>
+    </assignee>
+    <description>schindler internal messaging service</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Arno_Odermatt"/>
   </record>
@@ -117268,8 +117304,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Schindler_Aufzuege_ag">
       <org>Schindler Aufzuege ag</org>
-      <uri>mailto:arno.odermatt&amp;ch.schindler.com</uri>
-      <updated>2017-07-10</updated>
+      <uri>mailto:arno.odermatt&amp;schindler.com</uri>
+      <updated>2018-12-19</updated>
     </person>
     <person id="Schulthess_Maschinen_AG">
       <org>Schulthess Maschinen AG</org>
