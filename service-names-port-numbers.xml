@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2018-12-19</updated>
+  <updated>2019-01-08</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -74428,9 +74428,24 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>8009</number>
   </record>
+  <record date="2019-01-08">
+    <name>cfg-cloud</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="admin_at_cfg_cloud"/>
+    </assignee>
+    <description>Configuration Cloud Service</description>
+    <number>8010</number>
+    <xref type="person" data="Goksel_Darcan"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8010</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>8010-8018</number>
+    <number>8011-8018</number>
   </record>
   <record date="2008-02-15">
     <name>qbdb</name>
@@ -97266,6 +97281,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:adi.ruppin&amp;data-pod.com</uri>
       <updated>2005-08</updated>
     </person>
+    <person id="admin_at_cfg_cloud">
+      <org>admin_at_cfg_cloud</org>
+      <uri>mailto:gdarcan&amp;gmail.com</uri>
+      <updated>2019-01-08</updated>
+    </person>
     <person id="Administrator">
       <name>Administrator</name>
       <uri>mailto:admin&amp;ipcore.co.za</uri>
@@ -105301,6 +105321,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>GOG.com</org>
       <uri>mailto:admin&amp;gog.com</uri>
       <updated>2014-07-31</updated>
+    </person>
+    <person id="Goksel_Darcan">
+      <name>Goksel Darcan</name>
+      <uri>mailto:gdarcan&amp;gmail.com</uri>
+      <updated>2019-01-08</updated>
     </person>
     <person id="Google_Inc">
       <org>Google Inc.</org>
