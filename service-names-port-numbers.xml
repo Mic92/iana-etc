@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-01-09</updated>
+  <updated>2019-01-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -92388,6 +92388,16 @@ the target host and port where DNS Dynamic Update Service is provided for the na
     <note>Defined TXT keys: name=&lt;friendly device name&gt;</note>
     <xref type="person" data="Dan_Amstutz"/>
   </record>
+  <record date="2019-01-17">
+    <name>ewelink</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Shenzhen_CoolKit_Technology_Co._Ltd."/>
+    </assignee>
+    <description>eWeLink devices supporting LAN Control</description>
+    <note>Defined TXT keys: txtvers, id, type, apivers, encrypt, data1, data2, data3, data4, iv</note>
+    <xref type="person" data="Michael_Hu"/>
+  </record>
   <record>
     <name>example</name>
     <description>Example Service Type</description>
@@ -112086,6 +112096,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Michael Haeuptle</name>
       <uri>mailto:Michael_Haeuptle&amp;hp.com</uri>
     </person>
+    <person id="Michael_Hu">
+      <name>Michael Hu</name>
+      <org>Shenzhen CoolKit Technology Co., Ltd.</org>
+      <uri>mailto:michael.hu&amp;coolkit.cn</uri>
+      <updated>2019-01-17</updated>
+    </person>
     <person id="Michael_Hunter">
       <name>Michael Hunter</name>
       <uri>mailto:mphunter&amp;qnx.com</uri>
@@ -117751,6 +117767,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Shekar_Pasumarthi">
       <name>Shekar Pasumarthi</name>
       <uri>mailto:shekarp&amp;firstfloor.com</uri>
+    </person>
+    <person id="Shenzhen_CoolKit_Technology_Co._Ltd.">
+      <org>Shenzhen CoolKit Technology Co., Ltd.</org>
+      <uri>mailto:admin&amp;coolkit.cn</uri>
+      <updated>2019-01-17</updated>
     </person>
     <person id="Shifted_Current">
       <org>Shifted Current LLC</org>
