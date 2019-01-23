@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-01-17</updated>
+  <updated>2019-01-22</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -96100,6 +96100,19 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Benjamin_Rister"/>
   </record>
+  <record date="2019-01-17">
+    <name>sztp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <description>This service name is used to construct the
+      SRV service label "_sztp" for discovering
+      SZTP bootstrap servers.</description>
+    <xref type="draft" data="RFC-ietf-netconf-zerotouch-29"/>
+    <note>This protocol uses HTTPS as a substrate.</note>
+    <xref type="person" data="IETF_Chair"/>
+  </record>
   <record>
     <name>taccounting</name>
     <description>Data Transmission and Synchronization</description>
@@ -96649,6 +96662,26 @@ cport= the port for the content HTTP server
   SString=&lt;serviceString&gt;
   SString1=&lt;serviceString&gt;</note>
     <xref type="person" data="Lehpaner_Sasa"/>
+  </record>
+  <record date="2019-01-22">
+    <name>voalte2</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Voalte_Inc"/>
+    </assignee>
+    <description>Server location via DNS-SD</description>
+    <note>Defined TXT keys: txtvers, name, (others not publicly documented)</note>
+    <xref type="person" data="John_Simpson"/>
+  </record>
+  <record date="2019-01-22">
+    <name>voalte3</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Voalte_Inc"/>
+    </assignee>
+    <description>Server location via DNS-SD</description>
+    <note>Defined TXT keys: txtvers, name, (others not publicly documented)</note>
+    <xref type="person" data="John_Simpson"/>
   </record>
   <record>
     <name>vos</name>
@@ -108515,6 +108548,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="John_Schilling">
       <name>John Schilling</name>
       <uri>mailto:john&amp;jschilling.net</uri>
+    </person>
+    <person id="John_Simpson">
+      <name>John Simpson</name>
+      <org>Voalte, Inc.</org>
+      <uri>mailto:jms1&amp;voalte.com</uri>
+      <updated>2019-01-22</updated>
     </person>
     <person id="John_Skidmore">
       <name>John Skidmore</name>
@@ -120855,6 +120894,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Vladimir Legalov</name>
       <uri>mailto:vlegalov&amp;riverbed.com</uri>
       <updated>2007-09-04</updated>
+    </person>
+    <person id="Voalte_Inc">
+      <org>Voalte, Inc.</org>
+      <uri>mailto:engops&amp;voalte.com</uri>
+      <updated>2019-01-22</updated>
     </person>
     <person id="Voiko_Loukanov">
       <name>Voiko Loukanov</name>
