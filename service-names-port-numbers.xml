@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-01-22</updated>
+  <updated>2019-01-25</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -62805,12 +62805,15 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>5280</number>
   </record>
-  <record date="2010-04-19">
+  <record date="2010-04-19" updated="2019-01-25">
     <name>undo-lm</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Julian_Smith"/>
+    <assignee>
+      <xref type="person" data="Undo_Ltd"/>
+    </assignee>
     <description>Undo License Manager</description>
     <number>5281</number>
+    <xref type="person" data="Edward_Moffett"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -103818,6 +103821,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:tmacomber&amp;opnet.com</uri>
       <updated>2011-09-21</updated>
     </person>
+    <person id="Edward_Moffett">
+      <name>Edward Moffett</name>
+      <org>Undo Ltd</org>
+        <uri>mailto:office.manager&amp;undo.io</uri>
+      <updated>2019-01-25</updated>
+    </person>
     <person id="Edward_R_Boedecker">
       <name>Edward R. Boedecker</name>
       <uri>mailto:boedeck1&amp;flash.net</uri>
@@ -105571,7 +105580,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Greg_Pringle">
       <name>Greg Pringle</name>
-      <uri>mailto:admin&amp;corvedia.com</uri>
+      <uri>mailto:gpringle&amp;corvedia.com</uri>
+      <updated>2019-01-25</updated>
     </person>
     <person id="Greg_Robson_Garth">
       <name>Greg Robson-Garth</name>
@@ -120509,6 +120519,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Umair Cheema</name>
       <uri>mailto:cheema&amp;edumid.com</uri>
       <updated>2013-07-08</updated>
+    </person>
+    <person id="Undo_Ltd">
+      <org>Undo Ltd</org>
+      <uri>mailto:office.manager&amp;undo.io</uri>
+      <updated>2019-01-25</updated>
     </person>
     <person id="University_Corporation_for_Atmospheric_Research">
       <org>The University Corporation for Atmospheric Research</org>
