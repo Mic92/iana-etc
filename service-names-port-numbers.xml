@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-01-25</updated>
+  <updated>2019-02-11</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -93504,6 +93504,26 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Phil_Piwonka"/>
   </record>
+  <record date="2019-02-11">
+    <name>larvaio-control</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="larva.io_ltd"/>
+    </assignee>
+    <description>Larva IP Controller</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Reijo_Sirila"/>
+  </record>
+  <record date="2019-02-11">
+    <name>larvaio-control</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="larva.io_ltd"/>
+    </assignee>
+    <description>Larva IP Controller</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Reijo_Sirila"/>
+  </record>
   <record>
     <name>leaf</name>
     <description>Lua Embedded Application Framework</description>
@@ -110128,6 +110148,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:lsc&amp;giritech.com</uri>
       <updated>2004-01</updated>
     </person>
+    <person id="larva.io_ltd">
+      <org>larva.io ltd.</org>
+      <uri>mailto:hi&amp;larva.io</uri>
+      <updated>2019-02-11</updated>
+    </person>
     <person id="Laurence_Flath">
       <name>Laurence Flath</name>
       <uri>mailto:lflath&amp;luxsolis.com</uri>
@@ -115743,6 +115768,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Reid_Ligon">
       <name>Reid Ligon</name>
       <uri>mailto:reid&amp;connectrf.com</uri>
+    </person>
+    <person id="Reijo_Sirila">
+      <name>Reijo Sirila</name>
+      <uri>mailto:reijo&amp;larva.ioe</uri>
+      <updated>2019-02-11</updated>
     </person>
     <person id="Reinder_Feenstra">
       <name>Reinder Feenstra</name>
