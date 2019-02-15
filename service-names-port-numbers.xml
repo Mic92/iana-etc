@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-02-11</updated>
+  <updated>2019-02-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -96784,6 +96784,16 @@ cport= the port for the content HTTP server
     T (tags)</note>
     <xref type="person" data="Hirsch_Singhal"/>
   </record>
+  <record date="2019-02-13">
+    <name>web-xi</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Spectris_plc"/>
+    </assignee>
+    <description>HTTP-based protocol for DAQ devices</description>
+    <note>Defined TXT keys: name, version</note>
+    <xref type="person" data="Carsten_Hansen"/>
+  </record>
   <record date="2018-02-09">
     <name>webex</name>
     <protocol>tcp</protocol>
@@ -100469,6 +100479,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Carsten Falticska</name>
       <uri>mailto:falticska&amp;freenet.de</uri>
       <updated>2003-11</updated>
+    </person>
+    <person id="Carsten_Hansen">
+      <name>Carsten Hansen</name>
+      <org>Spectris plc</org>
+      <uri>mailto:Carsten.Hansen&amp;bksv.com</uri>
+      <updated>2019-02-13</updated>
     </person>
     <person id="Carsten_Strotmann">
       <name>Carsten Strotmann</name>
@@ -118256,6 +118272,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Oracle Corp</org>
       <uri>mailto:sowmini.varadhan&amp;oracle.com</uri>
       <updated>2015-04-30</updated>
+    </person>
+    <person id="Spectris_plc">
+      <org>Spectris plc</org>
+      <uri>mailto:Carsten.Hansen&amp;bksv.com</uri>
+      <updated>2019-02-13</updated>
     </person>
     <person id="Spencer_Teran">
       <name>Spencer Teran</name>
