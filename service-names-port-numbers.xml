@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-02-19</updated>
+  <updated>2019-02-21</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -86984,8 +86984,27 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>27011-27344</number>
-    <unauthorized>Unauthorized Use Known on ports 27017, 27018 and 27019</unauthorized>
+    <number>27011-27016</number>
+  </record>
+  <record date="2019-02-21">
+    <name>mongodb</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="MongoDB_Inc."/>
+    </assignee>
+    <description>Mongo database system</description>
+    <number>27017</number>
+    <xref type="person" data="Akshay_Kumar"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>27017</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>27018-27344</number>
+    <unauthorized>Unauthorized Use Known on ports 27018 and 27019</unauthorized>
     
   </record>
   <record>
@@ -97490,6 +97509,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Akiyoshi_Ochi">
       <name>Akiyoshi Ochi</name>
       <uri>mailto:akiyoshi&amp;net.paso.fujitsu.co.jp</uri>
+    </person>
+    <person id="Akshay_Kumar">
+      <name>Akshay Kumar</name>
+      <org>MongoDB, Inc.</org>
+      <uri>mailto:akshay&amp;mongodb.com</uri>
+      <updated>2019-02-21</updated>
     </person>
     <person id="Al_Amet">
       <name>Al Amet</name>
@@ -113021,6 +113046,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Monette Maano</name>
       <uri>mailto:mmaano&amp;openit.com</uri>
       <updated>2016-11-17</updated>
+    </person>
+    <person id="MongoDB_Inc.">
+      <org>MongoDB, Inc.</org>
+      <uri>mailto:akshay&amp;mongodb.com</uri>
+      <updated>2019-02-21</updated>
     </person>
     <person id="Montgomery_Zukowski">
       <name>Montgomery Zukowski</name>
