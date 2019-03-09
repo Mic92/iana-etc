@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-02-28</updated>
+  <updated>2019-03-08</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -90180,8 +90180,8 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>48006-48047</number>
   </record>
-  <record date="2018-02-16">
-    <name>juliar</name>
+  <record date="2018-02-16" updated="2019-03-08">
+    <name>juka</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="Juliar"/>
