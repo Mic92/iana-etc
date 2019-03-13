@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-03-08</updated>
+  <updated>2019-03-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -10159,7 +10159,7 @@ common service discovery mechanisms.</note>
       <xref type="person" data="IESG"/>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-ippm-port-twamp-test-04"/>
+    <xref type="rfc" data="rfc8545"/>
     <description>OWAMP-Test</description>
     <number>861</number>
   </record>
@@ -10181,7 +10181,7 @@ common service discovery mechanisms.</note>
       <xref type="person" data="IESG"/>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-ippm-port-twamp-test-04"/>
+    <xref type="rfc" data="rfc8545"/>
     <description>TWAMP-Test Receiver Port</description>
     <number>862</number>
   </record>
@@ -93202,6 +93202,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: Proprietary</note>
     <xref type="person" data="Eric_Sean_Conner"/>
   </record>
+  <record date="2019-03-11">
+    <name>informacast</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Singlewire_Software_LLC"/>
+    </assignee>
+    <description>Listing Singlewire InformaCast servers</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Jerry_Steinhauer"/>
+  </record>
   <record date="2015-05-28">
     <name>innergroup</name>
     <protocol>tcp</protocol>
@@ -107827,6 +107837,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Jerrilynn_Okamura">
       <name>Jerrilynn Okamura</name>
     </person>
+    <person id="Jerry_Steinhauer">
+      <name>Jerry Steinhauer</name>
+      <org>Singlewire Software, LLC</org>
+      <uri>mailto:jerry.steinhauer&amp;singlewire.com</uri>
+      <updated>2019-03-11</updated>
+    </person>
     <person id="Jerry_Whitaker">
       <name>Jerry Whitaker</name>
       <uri>mailto:jwhitaker&amp;atsc.org</uri>
@@ -118178,6 +118194,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Simson_L_Garfinkel">
       <name>Simson L. Garfinkel</name>
       <uri>mailto:simsong&amp;next.cambridge.ma.us</uri>
+    </person>
+    <person id="Singlewire_Software_LLC">
+      <org>Singlewire Software, LLC</org>
+      <uri>mailto:jerry.steinhauer&amp;singlewire.com</uri>
+      <updated>2019-03-11</updated>
     </person>
     <person id="Sinnadurai_Dharshan">
       <name>Sinnadurai Dharshan</name>
