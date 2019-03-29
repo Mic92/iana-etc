@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-03-12</updated>
+  <updated>2019-03-28</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -45203,17 +45203,21 @@ common service discovery mechanisms.</note>
     <description>eComm link port</description>
     <number>3477</number>
   </record>
-  <record>
+  <record updated="2019-03-28">
     <name>stun</name>
     <protocol>tcp</protocol>
-    <xref type="rfc" data="rfc5389"/>
+    <assignee><xref type="person" data="IESG"/></assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-tram-stunbis-21"/>
     <description>Session Traversal Utilities for NAT (STUN) port</description>
     <number>3478</number>
   </record>
-  <record>
+  <record updated="2019-03-28">
     <name>stun</name>
     <protocol>udp</protocol>
-    <xref type="rfc" data="rfc5389"/>
+    <assignee><xref type="person" data="IESG"/></assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-tram-stunbis-21"/>
     <description>Session Traversal Utilities for NAT (STUN) port</description>
     <number>3478</number>
   </record>
@@ -63196,11 +63200,13 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>5345-5348</number>
   </record>
-  <record>
+  <record updated="2019-03-28">
     <name>stuns</name>
     <protocol>tcp</protocol>
-    <xref type="rfc" data="rfc5389"/>
-    <description>STUN over TLS</description>
+    <assignee><xref type="person" data="IESG"/></assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-tram-stunbis-21"/>
+    <description>Session Traversal Utilities for NAT (STUN) port</description>
     <number>5349</number>
   </record>
   <record updated="2014-07-03">
@@ -93434,15 +93440,18 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Daniel_Steinberg"/>
   </record>
-  <record date="2016-01-22">
+  <record date="2016-01-22" updated="2019-03-28">
     <name>jmap</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="JMAP_editor"/>
+      <xref type="person" data="IESG"/>
     </assignee>
-    <description>JSON Mail Access Protocol</description>
-    <note>Defined TXT keys: None</note>
-    <xref type="person" data="Robert_Norris"/>
+    <description>JSON Meta Application Protocol</description>
+    <note>This service name was previously assigned under the
+    name _JSON Mail Access Protocol_. This will be de-assigned
+    and re-assigned with the approval of the previous assignee.</note>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-jmap-core-17"/>
   </record>
   <record date="2011-10-24">
     <name>jnx-kcsync</name>
