@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-04-18</updated>
+  <updated>2019-04-22</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -2498,14 +2498,14 @@ Port 126 Previously assigned to application above</note>
     <description>RSVD</description>
     <number>168</number>
   </record>
-  <record updated="2013-06-17">
+  <record updated="2019-04-22">
     <name>send</name>
     <protocol>tcp</protocol>
     <xref type="person" data="William_Oldwin"/>
     <description>SEND</description>
     <number>169</number>
   </record>
-  <record updated="2013-06-17">
+  <record updated="2019-04-22">
     <name>send</name>
     <protocol>udp</protocol>
     <xref type="person" data="William_Oldwin"/>
@@ -91862,6 +91862,16 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="OC"/>
   </record>
+  <record date="2019-04-22">
+    <name>conecube</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="cone_smart_solution"/>
+    </assignee>
+    <description>DNS SRV service for smarthome server</description>
+    <note>Defined TXT keys: none</note>
+    <xref type="person" data="Christoph_Bimminger"/>
+  </record>
   <record>
     <name>contactserver</name>
     <description>Now Contact</description>
@@ -101167,6 +101177,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:calestyo&amp;scientia.net</uri>
       <updated>2009-03-10</updated>
     </person>
+    <person id="Christoph_Bimminger">
+      <name>Christoph Bimminger</name>
+      <org>cone smart solution</org>
+      <uri>mailto:christoph.bimminger&amp;cone.at</uri>
+      <updated>2019-04-22</updated>
+    </person>
     <person id="Christoph_Hipp">
       <name>Christoph Hipp</name>
       <org>SOFTPRO GmbH</org>
@@ -101617,6 +101633,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Conceptworld Corporation</org>
       <uri>mailto:admin&amp;conceptworld.com</uri>
       <updated>2013-08-20</updated>
+    </person>
+    <person id="cone_smart_solution">
+      <org>cone smart solution</org>
+      <uri>mailto:office&amp;cone.at</uri>
+      <updated>2019-04-22</updated>
     </person>
     <person id="Connie_Qiu">
       <name>Connie Qiu</name>
@@ -121378,8 +121399,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="William_Oldwin">
       <name>William Oldwin</name>
-      <uri>mailto:william&amp;ultrahypertech.xyz</uri>
-      <updated>2016-05-03</updated>
+      <uri>mailto:william&amp;patalogic.ie</uri>
+      <updated>2019-04-22</updated>
     </person>
     <person id="William_Orme">
       <name>William Orme</name>
