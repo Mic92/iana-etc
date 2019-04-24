@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-04-22</updated>
+  <updated>2019-04-23</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -46503,17 +46503,23 @@ common service discovery mechanisms.</note>
     <description>DOF Secure Tunnel</description>
     <number>3568</number>
   </record>
-  <record date="2002-08">
+  <record date="2002-08" updated="2019-04-23">
     <name>mbg-ctrl</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Martin_Burnicki"/>
+    <assignee>
+      <xref type="person" data="Meinberg_Funkuhren_GmbH_Co_KG"/>
+    </assignee>
+    <xref type="person" data="Meinberg_IANA_Registrations"/>
     <description>Meinberg Control Service</description>
     <number>3569</number>
   </record>
-  <record date="2002-08">
+  <record date="2002-08" updated="2019-04-23">
     <name>mbg-ctrl</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Martin_Burnicki"/>
+    <assignee>
+      <xref type="person" data="Meinberg_Funkuhren_GmbH_Co_KG"/>
+    </assignee>
+    <xref type="person" data="Meinberg_IANA_Registrations"/>
     <description>Meinberg Control Service</description>
     <number>3569</number>
   </record>
@@ -111553,11 +111559,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:martin&amp;poleposition-sw.com</uri>
       <updated>2005-08</updated>
     </person>
-    <person id="Martin_Burnicki">
-      <name>Martin Burnicki</name>
-      <uri>mailto:martin.burnicki&amp;meinberg.de</uri>
-      <updated>2002-08</updated>
-    </person>
     <person id="Martin_Daly">
       <name>Martin Daly</name>
       <uri>mailto:martin.daly&amp;cadcorp.com</uri>
@@ -112092,6 +112093,16 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Mehrdad Ashtiani</name>
       <uri>mailto:mashtiani&amp;ieeinc.com</uri>
       <updated>2009-10-19</updated>
+    </person>
+    <person id="Meinberg_Funkuhren_GmbH_Co_KG">
+      <name>Meinberg Funkuhren GmbH &amp; Co. KG</name>
+      <uri>mailto:martin.burnicki&amp;meinberg.de</uri>
+      <updated>2019-04-23</updated>
+    </person>
+    <person id="Meinberg_IANA_Registrations">
+      <name>Meinberg IANA Registrations</name>
+      <uri>mailto:iana-admin&amp;meinberg.de</uri>
+      <updated>2019-04-23</updated>
     </person>
     <person id="Meindert_Sprang">
       <name>Meindert Sprang</name>
