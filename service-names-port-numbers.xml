@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-05-04</updated>
+  <updated>2019-05-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -96291,7 +96291,7 @@ cport= the port for the content HTTP server
     <description>This service name is used to construct the
       SRV service label "_sztp" for discovering
       SZTP bootstrap servers.</description>
-    <xref type="draft" data="RFC-ietf-netconf-zerotouch-29"/>
+    <xref type="rfc" data="rfc8572"/>
     <note>This protocol uses HTTPS as a substrate.</note>
     <xref type="person" data="IETF_Chair"/>
   </record>
