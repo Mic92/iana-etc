@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-05-06</updated>
+  <updated>2019-05-09</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -79061,7 +79061,26 @@ any port number, but the default port for this protocol is 9100.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>9322-9342</number>
+    <number>9322-9338</number>
+  </record>
+  <record date="2019-05-09">
+    <name>gnmi-gnoi</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Google_Netops"/>
+    </assignee>
+    <description>gRPC Network Mgmt/Operations Interface</description>
+    <number>9339</number>
+    <xref type="person" data="gNxi_Maintainers"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>9339</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>9340-9342</number>
   </record>
   <record>
     <name>mpidcmgr</name>
@@ -105597,6 +105616,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:Michael.Sample&amp;GlobalRelay.net</uri>
       <updated>2012-11-28</updated>
     </person>
+    <person id="gNxi_Maintainers">
+      <name>gNxi Maintainers</name>
+      <uri>mailto:gnxi-maintainers&amp;google.com</uri>
+      <updated>2019-05-09</updated>
+    </person>
     <person id="Gobby_0x539">
       <org>0x539 dev group</org>
       <uri>http://darcs.0x539.de/trac/obby/cgi-bin/trac.cgi</uri>
@@ -105615,6 +105639,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Google Inc.</org>
       <uri>mailto:numbers&amp;google.com</uri>
       <updated>2015-07-31</updated>
+    </person>
+    <person id="Google_Netops">
+      <org>Google Netops</org>
+      <uri>mailto:gnxi-maintainers&amp;google.com</uri>
+      <updated>2019-05-09</updated>
     </person>
     <person id="Gopikrishna_Sandra">
       <name>Gopikrishna Sandra</name>
