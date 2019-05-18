@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-05-09</updated>
+  <updated>2019-05-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -82277,7 +82277,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>11968-11996</number>
+    <number>11968-11970</number>
+  </record>
+  <record date="2019-05-17">
+    <name>tibsd</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Teradactyl_LLC"/>
+    </assignee>
+    <description>TiBS Service</description>
+    <number>11971</number>
+    <xref type="person" data="Kristen_Webb"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>11971</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>11972-11996</number>
   </record>
   <record date="2006-03">
     <name>wmereceiving</name>
@@ -110190,6 +110209,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:kraig&amp;enguity.com</uri>
       <updated>2017-06-28</updated>
     </person>
+    <person id="Kristen_Webb">
+      <name>Kristen Webb</name>
+      <uri>mailto:kwebb&amp;teradactyl.com</uri>
+      <updated>2019-05-17</updated>
+    </person>
     <person id="Kristean_Heisler">
       <name>Kristean Heisler</name>
       <uri>mailto:kh&amp;rib.de</uri>
@@ -119621,6 +119645,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Tenir Software</org>
       <uri>mailto:sgums&amp;tenirsoftware.com</uri>
       <updated>2011-10-27</updated>
+    </person>
+    <person id="Teradactyl_LLC">
+      <org>Teradactyl LLC</org>
+      <uri>mailto:vendors&amp;teradactyl.com</uri>
+      <updated>2019-05-17</updated>
     </person>
     <person id="Teradici">
       <org>Teradici</org>
