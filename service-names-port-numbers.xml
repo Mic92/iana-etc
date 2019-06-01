@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-05-28</updated>
+  <updated>2019-05-31</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -96474,6 +96474,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Stephen_Reid"/>
   </record>
+  <record date="2019-05-31">
+    <name>tic-tac-toe</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Stuart_Cheshire"/>
+    </assignee>
+    <description>Tic Tac Toe game</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Stuart_Cheshire"/>
+  </record>
   <record date="2015-08-03">
     <name>timezone</name>
     <protocol>tcp</protocol>
@@ -119254,7 +119264,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Stuart_Cheshire">
       <name>Stuart Cheshire</name>
       <uri>mailto:cheshire&amp;apple.com</uri>
-      <updated>2019-05-04</updated>
+      <updated>2019-05-31</updated>
     </person>
     <person id="Stuart_Cheshire_3">
       <name>Stuart Cheshire</name>
