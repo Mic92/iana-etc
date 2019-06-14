@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-05-31</updated>
+  <updated>2019-06-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -92795,6 +92795,16 @@ reserved for use in illustrative examples in books and other documentation.</not
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Jim_Lyle_2"/>
   </record>
+  <record date="2019-06-13">
+    <name>g2metric-lynx</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="G2_Metric"/>
+    </assignee>
+    <description>Used for the Lynx System</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Paul_Forsans"/>
+  </record>
   <record>
     <name>garagepad</name>
     <description>Entrackment Client Service</description>
@@ -96226,6 +96236,16 @@ cport= the port for the content HTTP server
     <description>One Time Pad Synchronisation</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="James_Crosby"/>
+  </record>
+  <record date="2019-06-13">
+    <name>strobe-sync</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Jasper_Morgal"/>
+    </assignee>
+    <description>Strobe Synchronization</description>
+    <note>Defined TXT keys: Application will rely upon Bonjour version 3.1.0.1</note>
+    <xref type="person" data="Richard_Morgal"/>
   </record>
   <record date="2016-01-22">
     <name>sugarlock-rcp</name>
@@ -105088,6 +105108,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:domains&amp;fullpower.com</uri>
       <updated>2016-08-22</updated>
     </person>
+    <person id="G2_Metric">
+      <org>G2 Metric</org>
+      <uri>mailto:contact&amp;g2metric.com</uri>
+      <updated>2019-06-13</updated>
+    </person>
     <person id="GPP_Specifications">
       <name>John M Meredith</name>
       <org>3GPP Specifications Manager</org>
@@ -107578,6 +107603,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jason van Zyl</name>
       <uri>mailto:jvanzyl&amp;zenplex.com</uri>
       <updated>2002-03</updated>
+    </person>
+    <person id="Jasper_Morgal">
+      <name>Jasper Morgal</name>
+      <uri>mailto:jpmorgal8&amp;gmail.com</uri>
+      <updated>2019-06-13</updated>
     </person>
     <person id="Jauvane_C_de_Olivei">
       <name>Jauvane C. de Oliveira</name>
@@ -114590,6 +114620,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:paulfordh&amp;uk.ibm.com</uri>
       <updated>2003-01</updated>
     </person>
+    <person id="Paul_Forsans">
+      <name>Paul Forsans</name>
+      <uri>mailto:pro.forsans.paul&amp;gmail.com</uri>
+      <updated>2019-06-13</updated>
+    </person>
     <person id="Paul_Funk">
       <name>Paul Funk</name>
       <uri>mailto:paul&amp;funk.com</uri>
@@ -116290,6 +116325,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Richard_Minner">
       <name>Richard Minner</name>
       <uri>http://xippix.com</uri>
+    </person>
+    <person id="Richard_Morgal">
+      <name>Richard Morgal</name>
+      <uri>mailto:rmorgal&amp;wildblue.net</uri>
+      <updated>2019-06-13</updated>
     </person>
     <person id="Richard_Nabavi">
       <name>Richard Nabavi</name>
