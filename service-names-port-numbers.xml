@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-07-05</updated>
+  <updated>2019-07-16</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -93622,7 +93622,7 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Daniel_Steinberg"/>
   </record>
-  <record date="2016-01-22" updated="2019-03-28">
+  <record date="2016-01-22" updated="2019-07-16">
     <name>jmap</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -93630,8 +93630,8 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     </assignee>
     <description>JSON Meta Application Protocol</description>
     <note>This service name was previously assigned under the
-    name _JSON Mail Access Protocol_. This will be de-assigned
-    and re-assigned with the approval of the previous assignee.</note>
+      name "JSON Mail Access Protocol". This has been de-assigned and
+      re-assigned with the approval of the previous assignee.</note>
     <xref type="person" data="IETF_Chair"/>
     <xref type="draft" data="RFC-ietf-jmap-core-17"/>
   </record>
