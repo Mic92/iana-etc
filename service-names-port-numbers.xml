@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-07-22</updated>
+  <updated>2019-07-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -77027,9 +77027,24 @@ common service discovery mechanisms.</note>
     <number>8766</number>
     <xref type="person" data="Tom_Fay"/>
   </record>
+  <record date="2019-07-24">
+    <name>core-of-source</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Alt_Solve_Sdn_Bhd"/>
+    </assignee>
+    <description>Online mobile multiplayer game</description>
+    <number>8767</number>
+    <xref type="person" data="Almaz_Hong"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8767</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>8767-8769</number>
+    <number>8768-8769</number>
   </record>
   <record date="2004-11">
     <name>dpap</name>
@@ -98198,6 +98213,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Allison Carleton</name>
       <uri>mailto:acarleto&amp;naper1.napervilleil.ncr.com</uri>
     </person>
+    <person id="Almaz_Hong">
+      <name>Almaz Hong</name>
+      <uri>mailto:almaz.hong&amp;altsolve.com</uri>
+      <updated>2019-07-24</updated>
+    </person>
     <person id="Almira">
       <name>Almira</name>
       <uri>mailto:almira_niciu&amp;intuit.com</uri>
@@ -98228,6 +98248,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Alstom Transport, Preston</org>
       <uri>mailto:paul.steane&amp;transport.alstom.com</uri>
       <updated>2012-12-14</updated>
+    </person>
+    <person id="Alt_Solve_Sdn_Bhd">
+      <org>Alt Solve Sdn Bhd</org>
+      <uri>mailto:support&amp;altsolve.com</uri>
+      <updated>2019-07-24</updated>
     </person>
     <person id="Altova">
       <org>Altova</org>
