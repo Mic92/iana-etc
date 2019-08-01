@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-07-24</updated>
+  <updated>2019-07-31</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -93197,6 +93197,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: bridgeid, modelid</note>
     <xref type="person" data="Walter_Slegers"/>
   </record>
+  <record date="2019-07-31">
+    <name>huesync</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Signify"/>
+    </assignee>
+    <description>Philips Hue Sync control protocol</description>
+    <note>Defined TXT keys: name, devicetype, uniqueid, path</note>
+    <xref type="person" data="Twan_Kamp"/>
+  </record>
   <record>
     <name>hyperstream</name>
     <description>Atempo HyperStream deduplication server</description>
@@ -118338,6 +118348,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:anders_brandt&amp;sigmadesigns.com</uri>
       <updated>2015-06-26</updated>
     </person>
+    <person id="Signify">
+      <org>Signify</org>
+      <uri>mailto:twan.kamp&amp;signify.com</uri>
+      <updated>2019-07-31</updated>
+    </person>
     <person id="Signwave_Networking">
       <name>Signwave Networking Development Team</name>
       <uri>mailto:mail&amp;signwave.co.uk</uri>
@@ -120897,6 +120912,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Tuomo Makinen</name>
       <uri>mailto:tmakinen&amp;pp.htv.fi</uri>
       <updated>2002-02</updated>
+    </person>
+    <person id="Twan_Kamp">
+      <name>Twan Kamp</name>
+      <uri>mailto:twan.kamp&amp;signify.com</uri>
+      <updated>2019-07-31</updated>
     </person>
     <person id="Ty_Ellis">
       <name>Ty Ellis</name>
