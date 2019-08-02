@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-07-31</updated>
+  <updated>2019-08-01</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -85398,9 +85398,24 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>21212</number>
   </record>
+  <record date="2019-08-01">
+    <name>cohesity-agent</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Cohesity_Inc"/>
+    </assignee>
+    <description>Cohesity backup agents</description>
+    <number>21213</number>
+    <xref type="person" data="Sashi_Madduri"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>21213</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>21213-21220</number>
+    <number>21214-21220</number>
   </record>
   <record date="2017-03-16">
     <name>aigairserver</name>
@@ -101739,6 +101754,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:contactus&amp;cognex.com</uri>
       <updated>2012-08-28</updated>
     </person>
+    <person id="Cohesity_Inc">
+      <org>Cohesity Inc</org>
+      <uri>mailto:support&amp;cohesity.com</uri>
+      <updated>2019-08-01</updated>
+    </person>
     <person id="Coleman_Brumley">
       <name>Coleman Brumley</name>
       <uri>mailto:cbrumley&amp;polarsoft.biz</uri>
@@ -117808,6 +117828,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Sasha Hilton</name>
       <uri>mailto:sashahilton00&amp;gmail.com</uri>
       <updated>2016-06-02</updated>
+    </person>
+    <person id="Sashi_Madduri">
+      <name>Sashi Madduri</name>
+      <uri>mailto:sashi&amp;cohesity.com</uri>
+      <updated>2019-08-01</updated>
     </person>
     <person id="Satoshi_Matsumoto">
       <name>Satoshi Matsumoto</name>
