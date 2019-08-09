@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-08-02</updated>
+  <updated>2019-08-08</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -75024,9 +75024,24 @@ common service discovery mechanisms.</note>
     <description>Utilistor (Server)</description>
     <number>8083</number>
   </record>
+  <record date="2019-08-08">
+    <name>websnp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="full_phat_products"/>
+    </assignee>
+    <description>Snarl Network Protocol over HTTP</description>
+    <number>8084</number>
+    <xref type="person" data="Chris_Peel_2"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8084</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>8084-8085</number>
+    <number>8085</number>
   </record>
   <record date="2008-02-27">
     <name>d-s-n</name>
@@ -105161,6 +105176,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Frontrow Calypso, LLC</name>
       <uri>mailto:eng&amp;gofrontrow.com</uri>
       <updated>2016-04-13</updated>
+    </person>
+    <person id="full_phat_products">
+      <name>full phat products</name>
+      <uri>mailto:chris.gsi&amp;fullphat.net</uri>
+      <updated>2019-08-08</updated>
     </person>
     <person id="Fullpower_Technologies_Inc">
       <name>Fullpower Technologies, Inc.</name>
