@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-08-09</updated>
+  <updated>2019-08-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -97298,6 +97298,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Marc_Krochmal"/>
   </record>
+  <record date="2019-08-13">
+    <name>x510</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="ITU-T_Study_Group_17"/>
+    </assignee>
+    <description>Security service to protocols</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Erik_Andersen"/>
+  </record>
   <record>
     <name>x-on</name>
     <description>x-on services synchronisation protocol</description>
@@ -104622,6 +104632,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:erik.hugne&amp;ericsson.com</uri>
       <updated>2012-09-05</updated>
     </person>
+    <person id="Erik_Andersen">
+      <name>Erik Andersen</name>
+      <uri>mailto:era&amp;x500.eu</uri>
+      <updated>2019-08-13</updated>
+    </person>
     <person id="Erik_Blume">
       <name>Erik Blume</name>
       <uri>mailto:erikb&amp;caciasl.com</uri>
@@ -107138,6 +107153,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Itaru_Kimura">
       <name>Itaru Kimura</name>
       <uri>mailto:kimura&amp;kel.fujitsu.co.jp</uri>
+    </person>
+    <person id="ITU-T_Study_Group_17">
+      <org>ITU-T Study Group 17</org>
+      <uri>mailto:era&amp;x500.eu</uri>
+      <updated>2019-08-13</updated>
     </person>
     <person id="Ivan_Berardinelli">
       <name>Ivan Berardinelli</name>
