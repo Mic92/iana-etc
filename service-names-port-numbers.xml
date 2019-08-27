@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-08-23</updated>
+  <updated>2019-08-26</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -63293,20 +63293,22 @@ common service discovery mechanisms.</note>
     <xref type="rfc" data="rfc6887"/>
     <number>5351</number>
   </record>
-  <record date="2005-08" updated="2019-05-04">
+  <record date="2005-08" updated="2019-08-26">
     <name>dns-llq</name>
     <protocol>tcp</protocol>
     <assignee><xref type="person" data="Stuart_Cheshire"/></assignee>
     <xref type="person" data="Stuart_Cheshire"/>
     <description>DNS Long-Lived Queries</description>
+	<xref type="draft" data="RFC-sekar-dns-llq-06"/>
     <number>5352</number>
   </record>
-  <record date="2005-08" updated="2019-05-04">
+  <record date="2005-08" updated="2019-08-26">
     <name>dns-llq</name>
     <protocol>udp</protocol>
     <assignee><xref type="person" data="Stuart_Cheshire"/></assignee>
     <xref type="person" data="Stuart_Cheshire"/>
     <description>DNS Long-Lived Queries</description>
+	<xref type="draft" data="RFC-sekar-dns-llq-06"/>
     <number>5352</number>
   </record>
   <record>
