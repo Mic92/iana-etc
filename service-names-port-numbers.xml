@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-08-26</updated>
+  <updated>2019-09-30</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -47092,24 +47092,24 @@ common service discovery mechanisms.</note>
     <description>Six Degrees Port</description>
     <number>3611</number>
   </record>
-  <record date="2002-09" updated="2013-02-07">
-    <name>hp-dataprotect</name>
+  <record date="2002-09" updated="2019-09-30">
+    <name>dataprotector</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Hewlett_Packard_2"/>
+      <xref type="person" data="Micro_Focus"/>
     </assignee>
-    <xref type="person" data="Oliver_Breyel"/>
-    <description>HP Data Protector</description>
+    <xref type="person" data="Shishir_Misra"/>
+    <description>Micro Focus Data Protector</description>
     <number>3612</number>
   </record>
-  <record date="2002-09" updated="2013-02-07">
-    <name>hp-dataprotect</name>
+  <record date="2002-09" updated="2019-09-30">
+    <name>dataprotector</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="Hewlett_Packard_2"/>
+      <xref type="person" data="Micro_Focus"/>
     </assignee>
-    <xref type="person" data="Oliver_Breyel"/>
-    <description>HP Data Protector</description>
+    <xref type="person" data="Shishir_Misra"/>
+    <description>Micro Focus Data Protector</description>
     <number>3612</number>
   </record>
   <record date="2004-06">
@@ -80087,8 +80087,20 @@ common service discovery mechanisms.</note>
     <description>Session Director</description>
     <number>9876</number>
   </record>
+  <record date="2019-09-30">
+    <name>x510</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="ITU/TSB_(ITU-T_Study_Group_17)"/>
+    </assignee>
+    <description>The X.510 wrapper protocol</description>
+    <number>9877</number>
+    <xref type="person" data="Erik_Andersen"/>
+	<xref type="text">ITU-T X.510 / ISO/IEC 9584-11</xref>
+  </record>
   <record>
-    <description>Unassigned</description>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
     <number>9877</number>
   </record>
   <record date="2012-07-12">
@@ -97489,6 +97501,7 @@ cport= the port for the content HTTP server
   <footnote anchor="1">It is only appropriate to use these values in explicitly-
 configured experiments; they MUST NOT be shipped as defaults in
 implementations.  See RFC 3692 for details.</footnote>
+
   <people>
     <person id="_88solutions_Corporation">
       <org>88solutions Corporation</org>
@@ -106510,11 +106523,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Hewlett_Packard">
       <org>Hewlett Packard</org>
     </person>
-    <person id="Hewlett_Packard_2">
-      <org>Hewlett Packard</org>
-      <uri>mailto:oliver.breyel&amp;hp.com</uri>
-      <updated>2013-02-07</updated>
-    </person>
     <person id="Hewlett_Packard_Enterprise">
       <org>Hewlett Packard Enterprise</org>
       <updated>2016-04-14</updated>
@@ -107171,6 +107179,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>ITU-T Study Group 17</org>
       <uri>mailto:era&amp;x500.eu</uri>
       <updated>2019-08-13</updated>
+    </person>
+    <person id="ITU/TSB_(ITU-T_Study_Group_17)">
+      <org>ITU/TSB (ITU-T Study Group 17)</org>
+      <uri>mailto:tsbsg17&amp;itu.int</uri>
+      <updated>2019-09-30</updated>
     </person>
     <person id="Ivan_Berardinelli">
       <name>Ivan Berardinelli</name>
@@ -112961,6 +112974,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:mconley&amp;wi-fi.org</uri>
       <updated>2013-12-31</updated>
     </person>
+    <person id="Micro_Focus">
+      <org>Micro Focus</org>
+      <uri>mailto:swpdl.dp.rd&amp;microfocus.com</uri>
+      <updated>2019-09-30</updated>
+    </person>
     <person id="Micromat">
       <name>Micromat</name>
       <uri>mailto:support&amp;micromat.com</uri>
@@ -114231,11 +114249,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Oliver Bailey</name>
       <uri>mailto:zzf66jjlm&amp;time-lines.com</uri>
       <updated>2003-01</updated>
-    </person>
-    <person id="Oliver_Breyel">
-      <name>Oliver Breyel</name>
-      <uri>mailto:oliver.breyel&amp;hp.com</uri>
-      <updated>2013-02-07</updated>
     </person>
     <person id="Oliver_Heinz">
       <name>Oliver Heinz</name>
@@ -118348,6 +118361,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:tamoto.shiro&amp;jp.panasonic.com</uri>
       <updated>2003-10</updated>
     </person>
+    <person id="Shishir_Misra">
+      <name>Shishir Misra</name>
+      <uri>mailto:shishir.misra&amp;microfocus.com</uri>
+      <updated>2019-09-30</updated>
+	</person>
     <person id="Shivakumar_S_Govind">
       <name>Shivakumar S. Govindarajapuram</name>
       <uri>mailto:shivak&amp;eng.sun.com</uri>
