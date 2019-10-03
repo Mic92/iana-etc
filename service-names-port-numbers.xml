@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-09-30</updated>
+  <updated>2019-10-02</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -96570,6 +96570,26 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Matt_Eagar"/>
   </record>
+  <record date="2019-10-02">
+    <name>thing</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Aaltronav"/>
+    </assignee>
+    <description>Internet of things service discovery</description>
+    <note>Defined TXT keys: version, url, location, privacy, support, vendor, about</note>
+    <xref type="person" data="ICT_Manager"/>
+  </record>
+  <record date="2019-10-02">
+    <name>thing</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Aaltronav"/>
+    </assignee>
+    <description>Internet of things service discovery</description>
+    <note>Defined TXT keys: version, url, location, privacy, support, vendor, about</note>
+    <xref type="person" data="ICT_Manager"/>
+  </record>
   <record>
     <name>thumbwrestling</name>
     <description>tinkerbuilt Thumb Wrestling game</description>
@@ -97554,6 +97574,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="A_P_Hobson">
       <name>A.P. Hobson</name>
       <uri>mailto:A.P.Hobson&amp;bra0112.wins.icl.co.uk</uri>
+    </person>
+    <person id="Aaltronav">
+      <org>Aaltronav</org>
+      <uri>mailto:hostmaster&amp;aaltronav.eu</uri>
+      <updated>2019-10-02</updated>
     </person>
     <person id="Aaron_Ballman">
       <name>Aaron Ballman</name>
@@ -106944,6 +106969,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>iConstruct (Aus) Pty Ltd</org>
       <uri>mailto:jafari&amp;pdcwa.com.au</uri>
       <updated>2012-12-21</updated>
+    </person>
+    <person id="ICT_Manager">
+      <name>ICT Manager</name>
+      <org>Aaltronav</org>
+      <uri>mailto:hostmaster&amp;aaltronav.eu</uri>
+      <updated>2019-10-02</updated>
     </person>
     <person id="IDEAQUEST_Inc.">
       <org>IDEAQUEST Inc.</org>
