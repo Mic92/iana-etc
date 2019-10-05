@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-10-02</updated>
+  <updated>2019-10-04</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -64581,15 +64581,15 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>5558-5564</number>
   </record>
-  <record date="2016-01-13">
-    <name>hpe-dp-bura</name>
+  <record date="2016-01-13" updated="2019-10-04">
+    <name>dp-bura</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Hewlett_Packard_Enterprise"/>
+      <xref type="person" data="Micro_Focus"/>
     </assignee>
-    <description>HPE Advanced BURA</description>
+    <description>Data Protector BURA</description>
     <number>5565</number>
-    <xref type="person" data="Silvia_Veronese"/>
+    <xref type="person" data="Shishir_Misra"/>
   </record> 
   <record>
     <protocol>udp</protocol>
