@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-10-04</updated>
+  <updated>2019-10-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -89407,35 +89407,47 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>41231-41793</number>
   </record>
-  <record date="2003-01">
+  <record date="2003-01" updated="2019-10-17">
     <name>crestron-cip</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Ed_Ranney"/>
+    <assignee>
+      <xref type="person" data="Crestron_Electronics"/>
+    </assignee>
     <description>Crestron Control Port</description>
     <number>41794</number>
+	<xref type="person" data="John_Pavlik"/>
   </record>
-  <record date="2003-01">
+  <record date="2003-01" updated="2019-10-17">
     <name>crestron-cip</name>
-    <protocol>udp</protocol>
-    <xref type="person" data="Ed_Ranney"/>
+	<protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Crestron_Electronics"/>
+    </assignee>
     <description>Crestron Control Port</description>
     <number>41794</number>
+	<xref type="person" data="John_Pavlik"/>
   </record>
-  <record date="2003-01">
+  <record date="2003-01" updated="2019-10-17">
     <name>crestron-ctp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Ed_Ranney"/>
+    <assignee>
+      <xref type="person" data="Crestron_Electronics"/>
+    </assignee>
     <description>Crestron Terminal Port</description>
     <number>41795</number>
+	<xref type="person" data="John_Pavlik"/>
   </record>
-  <record date="2003-01">
+  <record date="2003-01" updated="2019-10-17">
     <name>crestron-ctp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Ed_Ranney"/>
+    <assignee>
+      <xref type="person" data="Crestron_Electronics"/>
+    </assignee>
     <description>Crestron Terminal Port</description>
     <number>41795</number>
+	<xref type="person" data="John_Pavlik"/>
   </record>
-  <record date="2012-06-27">
+  <record date="2012-06-27" updated="2019-10-17">
     <name>crestron-cips</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -89443,14 +89455,14 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Crestron Secure Control Port</description>
     <number>41796</number>
-    <xref type="person" data="Manish_Talreja"/>
+    <xref type="person" data="John_Pavlik"/>
   </record>
   <record>
     <protocol>udp</protocol>
     <description>Reserved</description>
     <number>41796</number>
   </record>
-  <record date="2012-06-27">
+  <record date="2012-06-27" updated="2019-10-17">
     <name>crestron-ctps</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -89458,7 +89470,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Crestron Secure Terminal Port</description>
     <number>41797</number>
-    <xref type="person" data="Manish_Talreja"/>
+    <xref type="person" data="John_Pavlik"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -102059,8 +102071,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Crestron_Electronics">
       <org>Crestron Electronics, Inc.</org>
-      <uri>mailto:mtalreja&amp;crestron.com</uri>
-      <updated>2012-06-27</updated>
+      <uri>mailto:jpavlik&amp;crestron.com</uri>
+      <updated>2019-10-17</updated>
     </person>
     <person id="Cristi_Fati">
       <name>Cristi Fati</name>
@@ -104201,11 +104213,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Ed_Odjaghian">
       <name>Ed Odjaghian</name>
       <uri>mailto:edo&amp;datacap.com</uri>
-    </person>
-    <person id="Ed_Ranney">
-      <name>Ed Ranney</name>
-      <uri>mailto:eranney&amp;crestron.com</uri>
-      <updated>2003-01</updated>
     </person>
     <person id="Ed_Vincent">
       <name>Ed Vincent</name>
@@ -109004,6 +109011,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:jparello&amp;cisco.com</uri>
       <updated>2009-05-19</updated>
     </person>
+    <person id="John_Pavlik">
+      <name>John Pavlik</name>
+      <uri>mailto:jpavlik&amp;crestron.com</uri>
+      <updated>2019-10-17</updated>
+    </person>
     <person id="John_Payne">
       <name>John Payne</name>
       <uri>mailto:jpayne&amp;lotus.com</uri>
@@ -111237,12 +111249,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Manish Surolia</name>
       <uri>mailto:masurolia@cisco.com&gt;</uri>
       <updated>2017-10-27</updated>
-    </person>
-    <person id="Manish_Talreja">
-      <name>Manish Talreja</name>
-      <org>Crestron Electronics, Inc.</org>
-      <uri>mailto:mtalreja@crestron.com&gt;</uri>
-      <updated>2012-06-27</updated>
     </person>
     <person id="Manuel_Moos">
       <org>Manuel Moos</org>
