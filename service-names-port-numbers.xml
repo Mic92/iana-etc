@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-11-22</updated>
+  <updated>2019-11-25</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -89806,9 +89806,24 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>44444</number>
   </record>
+  <record date="2019-11-25">
+    <name>acronis-backup</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Acronis"/>
+    </assignee>
+    <description>Acronis Backup Gateway service port</description>
+    <number>44445</number>
+    <xref type="person" data="Kevin_Reed"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>44445</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>44445-44543</number>
+    <number>44446-44543</number>
     <unauthorized>Known UNAUTHORIZED USE: Ports 44515 &amp; 44516</unauthorized>
     
   </record>
@@ -92395,6 +92410,17 @@ fwver=&lt;firmware version&gt;</note>
     <note>Defined TXT Keys: None</note>
     <xref type="rfc" data="rfc6281"/>
     <xref type="person" data="Stuart_Cheshire"/>
+  </record>
+  <record date="2019-11-25">
+    <name>dns-push-tls</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <description>DNS Push Notification Service Type</description>
+    <note>Defined TXT Keys: None</note>
+    <xref type="draft" data="RFC-ietf-dnssd-push-25">RFC-ietf-dnssd-push-25, Section 6.1</xref>
+    <xref type="person" data="IETF_Chair"/>
   </record>
   <record date="2019-05-04">
     <name>dns-query-tls</name>
@@ -97701,6 +97727,11 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Acertant">
       <org>Acertant Technologies, Inc.</org>
+    </person>
+    <person id="Acronis">
+      <org>Acronis</org>
+      <uri>mailto:kr&amp;acronis.com</uri>
+      <updated>2019-11-25</updated>
     </person>
     <person id="AD_Holdings">
       <org>AD Holdings</org>
@@ -110246,6 +110277,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Kevin_Osborn">
       <name>Kevin Osborn</name>
       <uri>mailto:kosborn&amp;snapappliance.com</uri>
+    </person>
+    <person id="Kevin_Reed">
+      <name>Kevin Reed</name>
+      <uri>mailto:kr&amp;acronis.com</uri>
+      <updated>2019-11-25</updated>
     </person>
     <person id="Kevin_Rushforth">
       <name>Kevin Rushforth</name>
