@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-12-04</updated>
+  <updated>2019-12-09</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -94899,6 +94899,36 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: omni-livetxt.html</note>
     <xref type="person" data="Glenn_Olander_2"/>
   </record>
+  <record date="2019-12-09">
+    <name>onenet-info</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="National_Marine_Electronics_Association"/>
+    </assignee>
+    <description>OneNet Application Information Service</description>
+    <note>Defined TXT keys: txtvers, protovers, path</note>
+    <xref type="person" data="Steven_Spitzer"/>
+  </record>
+  <record date="2019-12-09">
+    <name>onenet-pairing</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="National_Marine_Electronics_Association"/>
+    </assignee>
+    <description>OneNet Pairing</description>
+    <note>Defined TXT keys: txtvers, protovers, id, path</note>
+    <xref type="person" data="Steven_Spitzer"/>
+  </record>
+  <record date="2019-12-09">
+    <name>onenet-pgn</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="National_Marine_Electronics_Association"/>
+    </assignee>
+    <description>OneNet PGN Transport Service</description>
+      <note>Defined TXT keys: txtvers, protovers, nmea-name</note>
+    <xref type="person" data="Steven_Spitzer"/>
+  </record>
   <record>
     <name>openbase</name>
     <description>OpenBase SQL</description>
@@ -113809,7 +113839,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="National_Marine_Electronics_Association">
       <org>National Marine Electronics Association</org>
       <uri>mailto:sspitzer&amp;nmea.org</uri>
-      <updated>2011-09-15</updated>
+      <updated>2019-12-09</updated>
     </person>
     <person id="Navneet_Gupta">
       <name>Navneet Gupta</name>
@@ -119476,6 +119506,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Steven_Sawkins">
       <name>Steven Sawkins</name>
       <uri>mailto:ssawkins&amp;symantec.com</uri>
+    </person>
+    <person id="Steven_Spitzer">
+      <name>Steven Spitzer</name>
+      <uri>mailto:sspitzer&amp;nmea.org</uri>
+      <updated>2019-12-09</updated>
     </person>
     <person id="Steven_Sweeting">
       <name>Steven Sweeting</name>
