@@ -4,14 +4,14 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-12-12</updated>
+  <updated>2019-12-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
 SCTP: Allison Mankin and Michael Tuexen
 DCCP: Eddie Kohler and Yoshifumi Nishida</expert>
   <note>
-Service names and port numbers are used to distinguish between different
+Service names and portl numbers are used to distinguish between different
 services that run over transport protocols such as TCP, UDP, DCCP, and
 SCTP.
 
@@ -71789,16 +71789,16 @@ common service discovery mechanisms.</note>
     <description>DLIP</description>
     <number>7201</number>
   </record>
-  <record date="2017-02-22">
+  <record date="2017-02-22" updated="2019-12-13">
     <name>pon-ictp</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Broadband_Forum_2"/>
+      <xref type="person" data="Broadband_Forum"/>
     </assignee>
     <description>Inter-Channel Termination Protocol (ICTP) for multi-wavelength PON
     (Passive Optical Network) systems</description>
     <number>7202</number>
-    <xref type="person" data="William_Lupton"/>
+    <xref type="person" data="Broadband_Forum"/>
     <xref type="text">TR-352</xref>
     <xref type="text">Inter-Channel-Termination protocol (ICTP) is a peer-to-peer protocol with
       a binary message format that is used by a set of optical line terminal (OLT) channel terminations (CT) 
@@ -72776,18 +72776,24 @@ common service discovery mechanisms.</note>
     <description>Cisco Fabric service</description>
     <number>7546</number>
   </record>
-  <record date="2006-01">
+  <record date="2006-01" updated="2019-12-13">
     <name>cwmp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Anton_Okmianski"/>
-    <description>DSL Forum CWMP</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
+    <xref type="person" data="Broadband_Forum"/>
+    <description>Broadband Forum CWMP</description>
     <number>7547</number>
   </record>
-  <record date="2006-01">
+  <record date="2006-01" updated="2019-12-13">
     <name>cwmp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Anton_Okmianski"/>
-    <description>DSL Forum CWMP</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
+    <xref type="person" data="Broadband_Forum"/>
+    <description>Broadband Forum CWMP</description>
     <number>7547</number>
   </record>
   <record date="2006-02">
@@ -97003,6 +97009,9 @@ cport= the port for the content HTTP server
     <name>usp-agt-coap</name>
     <protocol>udp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -97011,6 +97020,9 @@ cport= the port for the content HTTP server
     <name>usp-agt-http</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -97019,6 +97031,9 @@ cport= the port for the content HTTP server
     <name>usp-agt-stomp</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -97027,6 +97042,9 @@ cport= the port for the content HTTP server
     <name>usp-agt-ws</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -97035,6 +97053,9 @@ cport= the port for the content HTTP server
     <name>usp-ctr-coap</name>
     <protocol>udp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -97043,6 +97064,9 @@ cport= the port for the content HTTP server
     <name>usp-ctr-http</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -97051,6 +97075,9 @@ cport= the port for the content HTTP server
     <name>usp-ctr-stomp</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -97059,6 +97086,9 @@ cport= the port for the content HTTP server
     <name>usp-ctr-ws</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
     <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
@@ -99148,11 +99178,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Anton Kucer</name>
       <uri>mailto:akucer&amp;microsoft.com</uri>
     </person>
-    <person id="Anton_Okmianski">
-      <name>Anton Okmianski</name>
-      <uri>mailto:aokmians&amp;cisco.com</uri>
-      <updated>2006-01</updated>
-    </person>
     <person id="Antoni_Wolski">
       <name>Antoni Wolski</name>
       <uri>mailto:antoni.wolski&amp;vtt.fi</uri>
@@ -100596,14 +100621,9 @@ implementations.  See RFC 3692 for details.</footnote>
       <updated>2006-08</updated>
     </person>
     <person id="Broadband_Forum">
-      <name>Broadband Forum</name>
-      <uri>mailto:info&amp;broadband-forum.org</uri>
-      <updated>2017-09-28</updated>
-    </person>
-    <person id="Broadband_Forum_2">
       <org>Broadband Forum</org>
       <uri>mailto:help&amp;broadband-forum.org</uri>
-      <updated>2017-02-22</updated>
+      <updated>2019-12-13</updated>
     </person>
     <person id="Brocade_Communications_Systems">
       <name>Brocade Communications Systems</name>
@@ -121876,11 +121896,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>William LePera</name>
       <uri>mailto:lepera&amp;us.ibm.com</uri>
       <updated>2008-06-18</updated>
-    </person>
-    <person id="William_Lupton">
-      <name>William Lupton</name>
-      <uri>mailto:wlupton&amp;broadband-forum.org</uri>
-      <updated>2017-02-22</updated>
     </person>
     <person id="William_McDonald">
       <name>William McDonald</name>
