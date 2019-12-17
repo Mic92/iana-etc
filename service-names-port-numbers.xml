@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-12-13</updated>
+  <updated>2019-12-16</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -71789,7 +71789,7 @@ common service discovery mechanisms.</note>
     <description>DLIP</description>
     <number>7201</number>
   </record>
-  <record date="2017-02-22" updated="2019-12-13">
+  <record date="2017-02-22" updated="2019-12-16">
     <name>pon-ictp</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -71799,7 +71799,7 @@ common service discovery mechanisms.</note>
     (Passive Optical Network) systems</description>
     <number>7202</number>
     <xref type="person" data="Broadband_Forum"/>
-    <xref type="text">TR-352</xref>
+    <xref type="uri" data="https://www.broadband-forum.org/technical/download/TR-352.pdf">TR-352</xref>
     <xref type="text">Inter-Channel-Termination protocol (ICTP) is a peer-to-peer protocol with
       a binary message format that is used by a set of optical line terminal (OLT) channel terminations (CT) 
       comprising a 40-Gigabit-capable next-generation passive optical network (NG-PON2) system to
