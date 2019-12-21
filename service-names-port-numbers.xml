@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2019-12-19</updated>
+  <updated>2019-12-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -93624,6 +93624,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: txtvers,mk,md,us,un,ss,auth</note>
     <xref type="person" data="Christopher_Jacobsen"/>
   </record>
+  <record date="2019-12-20">
+    <name>irc-iot</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Alexey_Y_Woronov"/>
+    </assignee>
+    <description>The universal protocol for building IoT</description>
+    <note>Defined TXT keys: _irc-iot</note>
+    <xref type="person" data="Alexey_Y_Woronov"/>
+  </record>
   <record date="2011-09-28">
     <name>ir-hvac-000</name>
     <protocol>tcp</protocol>
@@ -98390,6 +98400,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Alexey Vlaskin</name>
       <uri>mailto:avlaskin&amp;visicron.com</uri>
       <updated>2007-10-22</updated>
+    </person>
+    <person id="Alexey_Y_Woronov">
+      <name>Alexey Y. Woronov</name>
+      <uri>mailto:wra&amp;ngs.ru</uri>
+      <updated>2019-12-20</updated>
     </person>
     <person id="Alexios_Vasileiadis">
       <name>Alexios Vasileiadis</name>
