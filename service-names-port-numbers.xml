@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-01-08</updated>
+  <updated>2020-01-10</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -76963,7 +76963,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>8712-8731</number>
+    <number>8712-8729</number>
+  </record>
+  <record date="2020-01-10">
+    <name>semi-grpc</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="SEMI"/>
+    </assignee>
+    <description>gRPC for SEMI Standards implementations</description>
+    <number>8730</number>
+    <xref type="person" data="Albert_Fuchigami"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8730</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>8731</number>
   </record>
   <record>
     <protocol>tcp</protocol>
@@ -98162,6 +98181,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:albert.cester&amp;assyst-intl.com</uri>
       <updated>2008-08-26</updated>
     </person>
+    <person id="Albert_Fuchigami">
+      <name>Albert Fuchigami</name>
+      <uri>mailto:albert.fuchigami&amp;peergroup.com</uri>
+      <updated>2020-01-10</updated>
+    </person>
     <person id="Albert_G_Broscius">
       <name>Albert G. Broscius</name>
       <uri>mailto:broscius&amp;dsl.cis.upenn.edu</uri>
@@ -118380,6 +118404,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Semantix">
       <name>Semantix</name>
       <uri>mailto:xsSupport&amp;semantix.com</uri>
+    </person>
+    <person id="SEMI">
+      <org>SEMI</org>
+      <uri>mailto:jamano&amp;semi.org</uri>
+      <updated>2020-01-10</updated>
     </person>
     <person id="Sensics">
       <org>Sensics</org>
