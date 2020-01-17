@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-01-10</updated>
+  <updated>2020-01-16</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -58166,7 +58166,29 @@ Further keys may be added in the future.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>4622-4657</number>
+    <number>4622-4645</number>
+  </record>
+  <record date="2020-01-16">
+    <name>dots</name>
+    <protocol>tcp</protocol>
+    <assignee><xref type="person" data="IESG"/></assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-dots-signal-channel-41"/>
+    <description>Distributed Denial-of-Service Open Threat Signaling (DOTS)</description>
+    <number>4646</number>
+  </record>
+  <record date="2020-01-16">
+    <name>dots</name>
+    <protocol>udp</protocol>
+    <assignee><xref type="person" data="IESG"/></assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-dots-signal-channel-41"/>
+    <description>Distributed Denial-of-Service Open Threat Signaling (DOTS)</description>
+    <number>4646</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>4647-4657</number>
   </record>
   <record>
     <name>playsta2-app</name>
@@ -76944,7 +76966,22 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>8700-8710</number>
+    <number>8700-8709</number>
+  </record>
+  <record date="2020-01-10">
+    <name>semi-grpc</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="SEMI"/>
+    </assignee>
+    <description>gRPC for SEMI Standards implementations</description>
+    <number>8710</number>
+    <xref type="person" data="Albert_Fuchigami"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8710</number>
   </record>
   <record date="2012-10-05">
     <name>nvc</name>
@@ -76963,26 +77000,7 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>8712-8729</number>
-  </record>
-  <record date="2020-01-10">
-    <name>semi-grpc</name>
-    <protocol>tcp</protocol>
-    <assignee>
-      <xref type="person" data="SEMI"/>
-    </assignee>
-    <description>gRPC for SEMI Standards implementations</description>
-    <number>8730</number>
-    <xref type="person" data="Albert_Fuchigami"/>
-  </record>
-  <record>
-    <protocol>udp</protocol>
-    <description>Reserved</description>
-    <number>8730</number>
-  </record>
-  <record>
-    <description>Unassigned</description>
-    <number>8731</number>
+    <number>8712-8731</number>
   </record>
   <record>
     <protocol>tcp</protocol>
@@ -88314,7 +88332,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>32897-33059</number>
+    <number>32897-32999</number>
+  </record>
+  <record date="2020-01-16">
+    <name>wg-endpt-comms</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="WatchGuard_Technologies_Inc"/>
+    </assignee>
+    <description>WatchGuard Endpoint Communications</description>
+    <number>33000</number>
+    <xref type="person" data="Anunoy_Ghosh"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>33000</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>33001-33059</number>
   </record>
   <record date="2015-08-06">
     <name>mysqlx</name>
@@ -99261,6 +99298,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Antonio Querubin</name>
       <uri>mailto:tony&amp;lava.net</uri>
       <updated>2008-03-10</updated>
+    </person>
+    <person id="Anunoy_Ghosh">
+      <name>Anunoy Ghosh</name>
+      <uri>mailto:anunoy.ghosh&amp;watchguard.com</uri>
+      <updated>2020-01-16</updated>
     </person>
     <person id="Anupam_Bharali">
       <name>Anupam Bharali</name>
@@ -121823,6 +121865,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Wason Technology, LLC</org>
       <uri>mailto:wason&amp;wasontech.com</uri>
       <updated>2014-01-27</updated>
+    </person>
+    <person id="WatchGuard_Technologies_Inc">
+      <org>WatchGuard Technologies, Inc.</org>
+      <uri>mailto:vendoraccount&amp;watchguard.com</uri>
+      <updated>2020-01-16</updated>
     </person>
     <person id="Wayne_Barlow">
       <name>Wayne Barlow</name>
