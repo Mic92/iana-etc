@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-02-03</updated>
+  <updated>2020-02-04</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -65518,11 +65518,11 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>5690-5692</number>
   </record>
-  <record date="2011-08-01" updated="2012-07-17">
+  <record date="2011-08-01" updated="2020-02-04">
     <name>rbsystem</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Robert_Bosch_GmbH"/>
+      <xref type="person" data="Syntegon_Technology_GmbH"/>
     </assignee>
     <xref type="person" data="Klaus_Warth"/>
     <description>Robert Bosch Data Transfer</description>
@@ -110618,9 +110618,9 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Klaus_Warth">
       <name>Klaus Warth</name>
-      <org>Robert Bosch GmbH</org>
-      <uri>mailto:klaus.warth&amp;patec.group</uri>
-      <updated>2019-12-04</updated>
+      <org>Syntegon Technology GmbH</org>
+      <uri>mailto:Klaus.Warth&amp;Syntegon.com</uri>
+      <updated>2020-02-04</updated>
     </person>
     <person id="Klaus_Wolf">
       <name>Klaus Wolf</name>
@@ -117060,11 +117060,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:robert&amp;banfill.net</uri>
       <updated>2003-04</updated>
     </person>
-    <person id="Robert_Bosch_GmbH">
-      <org>Robert Bosch GmbH</org>
-      <uri>mailto:klaus.warth&amp;patec.group</uri>
-      <updated>2019-12-04</updated>
-    </person>
     <person id="Robert_Boudrie">
       <name>Robert Boudrie</name>
       <uri>mailto:boudrie_rob&amp;emc.com</uri>
@@ -119963,6 +119958,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Synclavier Digital</org>
       <uri>mailto:admin&amp;synclavier.com</uri>
       <updated>2016-01-27</updated>
+    </person>
+    <person id="Syntegon_Technology_GmbH">
+      <org>Syntegon Technology GmbH</org>
+      <uri>mailto:Klaus.Warth&amp;syntegon.com</uri>
+      <updated>2020-02-04</updated>
     </person>
     <person id="System_Administrator">
       <name>System Administrator</name>
