@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-02-07</updated>
+  <updated>2020-02-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -70643,7 +70643,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>6902-6934</number>
+    <number>6902-6923</number>
+  </record>
+  <record date="2020-02-12">
+    <name>split-ping</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Ben_Cartwright_Cox"/>
+    </assignee>
+    <description>Ping with RX/TX latency/loss split</description>
+    <number>6924</number>
+    <xref type="person" data="Ben_Cartwright_Cox"/>
+  </record>
+  <record date="2020-02-12">
+    <name>split-ping</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Ben_Cartwright_Cox"/>
+    </assignee>
+    <description>Ping with RX/TX latency/loss split</description>
+    <number>6924</number>
+    <xref type="person" data="Ben_Cartwright_Cox"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>6925-6934</number>
   </record>
   <record date="2011-06-10">
     <name>ethoscan</name>
@@ -81470,7 +81494,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>10440-10499</number>
+    <number>10440-10442</number>
+  </record>
+  <record date="2020-02-12">
+    <name>cirrossp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Cirros_Document_Solutions_Ltd"/>
+    </assignee>
+    <description>CirrosSP Workstation Communication</description>
+    <number>10443</number>
+    <xref type="person" data="Andy_Garratt"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>10443</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>10444-10499</number>
   </record>
   <record>
     <protocol>tcp</protocol>
@@ -99108,6 +99151,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:acrick&amp;haascnc.com</uri>
       <updated>2007-11-13</updated>
     </person>
+    <person id="Andy_Garratt">
+      <name>Andy Garratt</name>
+	  <org>Cirros Document Solutions Ltd</org>
+      <uri>mailto:admin&amp;cirros.net</uri>
+      <updated>2020-02-12</updated>
+    </person>
     <person id="Andy_Georgiou">
       <name>Andy Georgiou</name>
       <uri>mailto:ageorgiou&amp;crypto-solutions.co.uk</uri>
@@ -99853,6 +99902,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ben</name>
       <uri>mailto:ben&amp;acaciatreesoftware.com</uri>
     </person>
+    <person id="Ben_Cartwright_Cox">
+      <name>Ben Cartwright-Cox</name>
+      <uri>mailto:ben&amp;benjojo.co.uk</uri>
+      <updated>2020-02-12</updated>
+    </person> 
     <person id="Ben_Darnell">
       <uri>mailto:ben&amp;cockroachlabs.com</uri>
       <updated>2015-09-29</updated>
@@ -101910,7 +101964,12 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Circus_Ponies_Suppor">
       <name>Circus Ponies Support</name>
-      <uri>mailto:support&amp;circusponies.com</uri>
+      <uri>mailto:admin&amp;cirros.net</uri>
+    </person>
+    <person id="Cirros_Document_Solutions_Ltd">
+      <org>Cirros Document Solutions Ltd</org>
+      <uri>mailto:admin&amp;cirros.net</uri>
+      <updated>2020-02-12</updated>
     </person>
     <person id="Cisco">
       <org>Cisco</org>
