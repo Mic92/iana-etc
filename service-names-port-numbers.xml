@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-02-12</updated>
+  <updated>2020-02-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -91411,6 +91411,16 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: Version, DeviceName, DeviceModel, DeviceSystem, DeviceSystemVersion, AppName, AppVersion</note>
     <xref type="person" data="Brooks_Bell"/>
   </record>
+  <record date="2020-02-24">
+    <name>alpacadiscovery</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="ASCOM_Initiative"/>
+    </assignee>
+    <description>ASCOM Alpaca Device Discovery</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Robert_B._Denny"/>
+  </record>
   <record>
     <name>amba-cam</name>
     <protocol>udp</protocol>
@@ -99621,6 +99631,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Ascom Austria GmbH</org>
       <uri>mailto:info&amp;ascom.at</uri>
       <updated>2008-05-01</updated>
+    </person>
+    <person id="ASCOM_Initiative">
+      <org>ASCOM Initiative</org>
+      <uri>mailto:rdenny&amp;dc3.com</uri>
+      <updated>2020-02-24</updated>
     </person>
     <person id="Asher_Altman">
       <name>Asher Altman</name>
@@ -117104,6 +117119,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Robert_Armington">
       <name>Robert Armington</name>
       <uri>mailto:rarmington&amp;lipsinc.com</uri>
+    </person>
+    <person id="Robert_B._Denny">
+      <name>Robert B. Denny</name>
+      <org>ASCOM Initiative</org>
+      <uri>mailto:rdenny&amp;dc3.com</uri>
+      <updated>2020-02-24</updated>
     </person>
     <person id="Robert_Baldwin">
       <name>Robert Baldwin</name>
