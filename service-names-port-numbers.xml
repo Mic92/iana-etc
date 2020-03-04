@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-02-28</updated>
+  <updated>2020-03-03</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -36533,19 +36533,25 @@ common service discovery mechanisms.</note>
     <description>Sonar Data</description>
     <number>2863</number>
   </record>
-  <record>
-    <name>astromed-main</name>
+  <record updated="2020-03-03">
+    <name>astronova-main</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Chris_Tate"/>
+    <assignee>
+      <xref type="person" data="AstroNova_Inc"/>
+    </assignee>
     <description>main 5001 cmd</description>
     <number>2864</number>
+	<xref type="person" data="Chris_Tate"/>
   </record>
-  <record>
-    <name>astromed-main</name>
+  <record updated="2020-03-03">
+    <name>astronova-main</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Chris_Tate"/>
+    <assignee>
+      <xref type="person" data="AstroNova_Inc"/>
+    </assignee>
     <description>main 5001 cmd</description>
     <number>2864</number>
+	<xref type="person" data="Chris_Tate"/>
   </record>
   <record>
     <name>pit-vpn</name>
@@ -99706,6 +99712,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:info&amp;aster.is</uri>
       <updated>2016-09-16</updated>
     </person>
+    <person id="AstroNova_Inc">
+      <org>AstroNova, Inc.</org>
+      <uri>mailto:ctate&amp;astronovainc.com</uri>
+      <updated>2020-03-03</updated>
+    </person>
     <person id="Atomix_Productions">
       <org>Atomix Productions</org>
       <uri>mailto:corporate&amp;atomixproductions.com</uri>
@@ -101638,7 +101649,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Chris_Tate">
       <name>Chris Tate</name>
-      <uri>mailto:ctate&amp;astromed.com</uri>
+      <uri>mailto:ctate&amp;astronovainc.com</uri>
+	  <updated>2020-03-03</updated>
     </person>
     <person id="Chris_Thornhill">
       <name>Chris Thornhill</name>
