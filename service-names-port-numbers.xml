@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-03-11</updated>
+  <updated>2020-03-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -33478,7 +33478,7 @@ common service discovery mechanisms.</note>
     <description>AMInet</description>
     <number>2639</number>
   </record>
-  <record>
+  <record updated="2020-03-12">
     <name>ami-control</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -33486,9 +33486,9 @@ common service discovery mechanisms.</note>
     </assignee> 
     <description>Alcorn McBride Inc protocol used for device control</description>
     <number>2640</number>
-    <xref type="person" data="Joy_Burke"/>
+    <xref type="person" data="Alcorn_McBride_Inc"/>
   </record>
-  <record>
+  <record updated="2020-03-12">
     <name>ami-control</name>
     <protocol>udp</protocol>
     <assignee>
@@ -33496,7 +33496,7 @@ common service discovery mechanisms.</note>
     </assignee> 
     <description>Alcorn McBride Inc protocol used for device control</description>
     <number>2640</number>
-    <xref type="person" data="Joy_Burke"/>
+    <xref type="person" data="Alcorn_McBride_Inc"/>
   </record>
   <record>
     <name>hdl-srv</name>
@@ -79208,7 +79208,26 @@ any port number, but the default port for this protocol is 9100.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>9307-9311</number>
+    <number>9307-9309</number>
+  </record>
+  <record date="2020-03-12">
+    <name>sapms</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="SAP_SE"/>
+    </assignee>
+    <description>SAP Message Server</description>
+    <number>9310</number>
+    <xref type="person" data="Stefan_Hagen"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>9310</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>9311</number>
   </record>
   <record date="2009-10-20">
     <name>sphinxapi</name>
@@ -109852,11 +109871,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jost Faganel</name>
       <uri>mailto:jost.faganel&amp;hermes.si</uri>
     </person>
-    <person id="Joy_Burke">
-      <name>Joy Burke</name>
-      <uri>mailto:joy&amp;alcorn.com</uri>
-      <updated>2016-05-19</updated>
-    </person>
     <person id="Josyula_R_Rao">
       <name>Josyula R. Rao</name>
       <uri>mailto:jrrao&amp;watson.ibm.com</uri>
@@ -118282,6 +118296,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:cameron&amp;santorinillc.com</uri>
       <updated>2011-10-25</updated>
     </person>
+    <person id="SAP_SE">
+      <org>SAP SE</org>
+      <uri>mailto:stefan.hagen&amp;sap.com</uri>
+      <updated>2020-03-12</updated>
+    </person>
     <person id="Sarah_Allen">
       <name>Sarah Allen</name>
       <uri>mailto:sallen&amp;macromedia.com</uri>
@@ -119302,6 +119321,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Stefan_Eriksson">
       <name>Stefan Eriksson</name>
       <uri>mailto:contact-iana&amp;axis.com</uri>
+    </person>
+    <person id="Stefan_Hagen">
+      <name>Stefan Hagen</name>
+      <uri>mailto:stefan.hagen&amp;sap.com</uri>
+      <updated>2020-03-12</updated>
     </person>
     <person id="Stefan_Hochuli">
       <name>Stefan Hochuli</name>
