@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-03-12</updated>
+  <updated>2020-03-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -97226,6 +97226,17 @@ cport= the port for the content HTTP server
     <xref type="person" data="Broadband_Forum"/>
     <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
   </record>
+  <record date="2020-03-17">
+    <name>usp-agt-mqtt</name>
+    <protocol>tcp</protocol>
+    <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
+    <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
+    <xref type="person" data="Broadband_Forum"/>
+    <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
+  </record>
   <record date="2017-01-12">
     <name>usp-agt-stomp</name>
     <protocol>tcp</protocol>
@@ -97261,6 +97272,17 @@ cport= the port for the content HTTP server
   </record>
   <record date="2017-01-12">
     <name>usp-ctr-http</name>
+    <protocol>tcp</protocol>
+    <description>USP discovery</description>
+    <assignee>
+      <xref type="person" data="Broadband_Forum"/>
+    </assignee>
+    <note>Defined TXT keys: see www.broadband-forum.org/assignments</note>
+    <xref type="person" data="Broadband_Forum"/>
+    <xref type="uri" data="http://www.broadband-forum.org/assignments"/>
+  </record>
+  <record date="2020-03-17">
+    <name>usp-ctr-mqtt</name>
     <protocol>tcp</protocol>
     <description>USP discovery</description>
     <assignee>
@@ -100858,7 +100880,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Broadband_Forum">
       <org>Broadband Forum</org>
       <uri>mailto:help&amp;broadband-forum.org</uri>
-      <updated>2019-12-13</updated>
+      <updated>2020-03-17</updated>
     </person>
     <person id="Brocade_Communications_Systems">
       <name>Brocade Communications Systems</name>
