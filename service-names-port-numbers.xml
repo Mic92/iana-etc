@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-04-07</updated>
+  <updated>2020-04-28</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -58213,9 +58213,24 @@ Further keys may be added in the future.</note>
     <description>Reserved</description>
     <number>4605</number>
   </record>
+  <record date="2020-04-28">
+    <name>sixid</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Sixscape_Communications_Pte_Ltd"/>
+    </assignee>
+    <description>Secure ID to IP registration and lookup</description>
+    <number>4606</number>
+    <xref type="person" data="Lawrence_E._Hughes"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>4606</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>4606-4620</number>
+    <number>4607-4620</number>
   </record>
   <record>
     <protocol>tcp</protocol>
