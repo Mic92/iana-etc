@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-06-01</updated>
+  <updated>2020-06-02</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -58257,7 +58257,7 @@ Further keys may be added in the future.</note>
     <protocol>tcp</protocol>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-dots-signal-channel-41"/>
+    <xref type="rfc" data="rfc8782"/>
     <description>Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel</description>
     <number>4646</number>
   </record>
@@ -58266,7 +58266,7 @@ Further keys may be added in the future.</note>
     <protocol>udp</protocol>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-dots-signal-channel-41"/>
+    <xref type="rfc" data="rfc8782"/>
     <description>Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel</description>
     <number>4646</number>
   </record>
@@ -86751,17 +86751,17 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>24466-24553</number>
   </record>
-  <record>
+  <record updated="2020-06-02">
     <name>binkp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Max_Masyutin"/>
+    <xref type="person" data="Maxim_Masiutin"/>
     <description>BINKP</description>
     <number>24554</number>
   </record>
-  <record>
+  <record updated="2020-06-02">
     <name>binkp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Max_Masyutin"/>
+    <xref type="person" data="Maxim_Masiutin"/>
     <description>BINKP</description>
     <number>24554</number>
   </record>
@@ -112930,10 +112930,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:mmagliaro&amp;bnisolutions.com</uri>
       <updated>2004-11</updated>
     </person>
-    <person id="Max_Masyutin">
-      <name>Max Masyutin</name>
-      <uri>mailto:max&amp;ritlabs.com</uri>
-    </person>
     <person id="Max_Morris">
       <name>Max Morris</name>
       <uri>mailto:maxm&amp;microsoft.com</uri>
@@ -112942,6 +112938,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Maxim Baklanovsky</name>
       <uri>mailto:m.baklanovsky&amp;spbu.ru</uri>
       <updated>2015-05-20</updated>
+    </person>
+    <person id="Maxim_Masiutin">
+      <name>Maxim Masiutin</name>
+      <uri>mailto:maxim.masiutin&amp;gmail.com</uri>
+	  <updated>2020-06-02</updated>
     </person>
     <person id="Maxim_Mirgorodsky">
       <name>Maxim Mirgorodsky</name>
