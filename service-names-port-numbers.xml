@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-06-02</updated>
+  <updated>2020-06-03</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -93531,6 +93531,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: txtvers + Proprietary</note>
     <xref type="person" data="Jens_Clauss"/>
   </record>
+  <record date="2020-06-03">
+    <name>homekit</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Apple_Inc_4"/>
+    </assignee>
+    <description>Protocol for home hub communication</description>
+    <note>Defined TXT keys: Name, sw</note>
+    <xref type="person" data="Matthew_Lucas"/>
+  </record>
   <record>
     <name>honeywell-vid</name>
     <protocol>udp</protocol>
@@ -99623,6 +99633,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Apple Inc.</org>
       <uri>mailto:kazu&amp;apple.com</uri>
       <updated>2015-09-29</updated>
+    </person>
+    <person id="Apple_Inc_4">
+      <org>Apple Inc.</org>
+      <uri>mailto:mcl&amp;apple.com</uri>
+      <updated>2020-06-03</updated>
     </person>
     <person id="Applied_Expert_Systems_Inc">
       <org>Applied Expert Systems, Inc.</org>
@@ -112685,6 +112700,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Math_Game_House_Soft">
       <name>Math Game House Software</name>
       <uri>mailto:mathgamehouse&amp;mac.com</uri>
+    </person>
+    <person id="Matthew_Lucas">
+      <name>Matthew Lucas</name>
+      <uri>mailto:mcl&amp;apple.com</uri>
+      <updated>2020-06-03</updated>
     </person>
     <person id="Matthew_Margolis">
       <name>Matthew Margolis</name>
