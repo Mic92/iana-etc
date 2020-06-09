@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-06-04</updated>
+  <updated>2020-06-08</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -87703,7 +87703,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>28590-29117</number>
+    <number>28590-28999</number>
+  </record>
+  <record date="2020-06-08">
+    <name>saltd-licensing</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Siemens_Digital_Industries_Software"/>
+    </assignee>
+    <description>Siemens Licensing Server</description>
+    <number>29000</number>
+    <xref type="person" data="Tony_Greatorex"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>29000</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>29001-29117</number>
   </record>
   <record>
     <protocol>tcp</protocol>
@@ -119069,6 +119088,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Si Becker</name>
       <uri>mailto:71362.22&amp;compuserve.com</uri>
     </person>
+    <person id="Siemens_Digital_Industries_Software">
+      <org>Siemens Digital Industries Software</org>
+      <uri>mailto:tony.greatorex&amp;siemens.com</uri>
+      <updated>2020-06-08</updated>
+    </person>
     <person id="Sierra_Photonics_Inc">
       <org>Sierra Photonics, Inc.</org>
       <uri>mailto:support&amp;sierraphotonics.com</uri>
@@ -121513,6 +121537,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Tony_Gibbs">
       <name>Tony Gibbs</name>
       <uri>mailto:tony.gibbs&amp;europe.simoco.com</uri>
+    </person>
+    <person id="Tony_Greatorex">
+      <name>Tony Greatorex</name>
+      <uri>mailto:tony.greatorex&amp;siemens.com</uri>
+      <updated>2020-06-08</updated>
     </person>
     <person id="Tony_Gulino">
       <name>Tony Gulino</name>
