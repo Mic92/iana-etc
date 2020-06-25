@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-06-08</updated>
+  <updated>2020-06-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -63425,7 +63425,7 @@ common service discovery mechanisms.</note>
     <assignee><xref type="person" data="Stuart_Cheshire"/></assignee>
     <xref type="person" data="Stuart_Cheshire"/>
     <description>DNS Long-Lived Queries</description>
-	<xref type="draft" data="RFC-sekar-dns-llq-06"/>
+	<xref type="rfc" data="rfc8764"/>
     <number>5352</number>
   </record>
   <record date="2005-08" updated="2019-08-26">
@@ -63434,7 +63434,7 @@ common service discovery mechanisms.</note>
     <assignee><xref type="person" data="Stuart_Cheshire"/></assignee>
     <xref type="person" data="Stuart_Cheshire"/>
     <description>DNS Long-Lived Queries</description>
-	<xref type="draft" data="RFC-sekar-dns-llq-06"/>
+	<xref type="rfc" data="rfc8764"/>
     <number>5352</number>
   </record>
   <record>
@@ -92785,7 +92785,7 @@ fwver=&lt;firmware version&gt;</note>
     </assignee>
     <description>DNS Push Notification Service Type</description>
     <note>Defined TXT Keys: None</note>
-    <xref type="draft" data="RFC-ietf-dnssd-push-25">RFC-ietf-dnssd-push-25, Section 6.1</xref>
+    <xref type="rfc" data="rfc8765">RFC8765, Section 6.1</xref>
     <xref type="person" data="IETF_Chair"/>
   </record>
   <record date="2019-05-04">
