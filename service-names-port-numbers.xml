@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-06-24</updated>
+  <updated>2020-06-25</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -88701,7 +88701,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>33657-34248</number>
+    <number>33657-33889</number>
+  </record>
+  <record date="2020-06-25">
+    <name>digilent-adept</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Digilent_Inc"/>
+    </assignee>
+    <description>Adept IP protocol</description>
+    <number>33890</number>
+    <xref type="person" data="Michael_T_Alexander"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>33890</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>33891-34248</number>
   </record>
   <record>
     <name>turbonote-2</name>
@@ -104274,6 +104293,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:mike&amp;difusi.com</uri>
       <updated>2011-11-07</updated>
     </person>
+    <person id="Digilent_Inc">
+      <org>Digilent Inc.</org>
+      <uri>mailto:software&amp;digilent.com</uri>
+      <updated>2020-06-25</updated>
+    </person>
     <person id="Dima_Seliverstov">
       <name>Dima Seliverstov</name>
       <uri>mailto:Dima_Seliverstov&amp;bmc.com</uri>
@@ -113509,6 +113533,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Michael_Sweet">
       <name>Michael Sweet</name>
       <uri>mailto:msweet&amp;ctr.nawcad.navy.mil</uri>
+    </person>
+    <person id="Michael_T_Alexander">
+      <name>Michael T. Alexander</name>
+      <uri>mailto:malexander&amp;digilentinc.com</uri>
+      <updated>2020-06-25</updated>
     </person>
     <person id="Michael_Tennefoss">
       <name>Michael Tennefoss</name>
