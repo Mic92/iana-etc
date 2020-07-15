@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-07-10</updated>
+  <updated>2020-07-14</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -69438,7 +69438,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>6552-6557</number>
+    <number>6552-6555</number>
+  </record>
+  <record date="2020-07-14">
+    <name>checkmk-agent</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Tribe29_GmbH"/>
+    </assignee>
+    <description>Checkmk Monitoring Agent</description>
+    <number>6556</number>
+    <xref type="person" data="Alexander_Wilms"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>6556</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>6557</number>
   </record>
   <record>
     <name>xdsxdm</name>
@@ -98799,6 +98818,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:support&amp;aidaim.com</uri>
       <updated>2004-12</updated>
     </person>
+    <person id="Alexander_Wilms">
+      <name>Alexander Wilms</name>
+      <org>Tribe29 GmbH</org>
+      <uri>mailto:alex.wilms&amp;tribe29.com</uri>
+      <updated>2020-07-14</updated>
+    </person>
     <person id="Alexandre_Carlhian">
       <name>Alexandre Carlhian</name>
       <uri>mailto:alex&amp;appeule.com</uri>
@@ -121708,6 +121733,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Tri Tech Computers Ltd.</org>
       <uri>mailto:admins&amp;tri-tech.com</uri>
       <updated>2012-11-19</updated>
+    </person>
+    <person id="Tribe29_GmbH">
+      <org>Tribe29 GmbH</org>
+      <uri>mailto:admins&amp;tribe29.com</uri>
+      <updated>2020-07-14</updated>
     </person>
     <person id="Tricerat">
       <org>Tricerat</org>
