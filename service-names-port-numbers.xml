@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-07-14</updated>
+  <updated>2020-07-16</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -89295,7 +89295,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>36866-37474</number>
+    <number>36866-37471</number>
+  </record>
+  <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>37472</number>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>37472</number>
+  </record>
+  <record date="2020-07-16">
+    <name>3gpp-w1ap</name>
+    <protocol>sctp</protocol>
+    <assignee>
+      <xref type="person" data="ThreeGPP_5"/>
+    </assignee>
+    <description>W1 signalling transport</description>
+    <number>37472</number>
+    <xref type="person" data="Lionel_Morand"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>37473-37474</number>
   </record>
   <record date="2002-02">
     <name>neckar</name>
@@ -111618,6 +111642,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:torvalds&amp;osdl.org</uri>
       <updated>2005-09</updated>
     </person>
+    <person id="Lionel_Morand">
+      <name>Lionel Morand</name>
+      <uri>mailto:lionel.morand&amp;orange.com</uri>
+      <updated>2020-07-16</updated>
+    </person>
     <person id="Lisa_Tomita">
       <name>Lisa Tomita</name>
     </person>
@@ -121049,6 +121078,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>3GPP</org>
       <uri>mailto:kimmo.kymalainen&amp;etsi.org</uri>
       <updated>2015-06-18</updated>
+    </person>
+    <person id="ThreeGPP_5">
+      <org>3GPP</org>
+      <uri>mailto:lionel.morand&amp;orange.com</uri>
+      <updated>2020-07-16</updated>
     </person>
     <person id="Tiago_Bittencourt_Si">
       <name>Tiago Bittencourt Silva</name>
