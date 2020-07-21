@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-07-16</updated>
+  <updated>2020-07-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -34637,19 +34637,25 @@ common service discovery mechanisms.</note>
     <description>Proactive Server</description>
     <number>2722</number>
   </record>
-  <record>
+  <record updated="2020-07-20">
     <name>watchdog-nt</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Glen_Sansoucie"/>
+    <assignee>
+      <xref type="person" data="Loftware"/>
+    </assignee>
     <description>WatchDog NT Protocol</description>
     <number>2723</number>
+	<xref type="person" data="Glen_Sansoucie"/>
   </record>
-  <record>
+  <record updated="2020-07-20">
     <name>watchdog-nt</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Glen_Sansoucie"/>
+    <assignee>
+      <xref type="person" data="Loftware"/>
+    </assignee>
     <description>WatchDog NT Protocol</description>
     <number>2723</number>
+    <xref type="person" data="Glen_Sansoucie"/>
   </record>
   <record>
     <name>qotps</name>
@@ -35860,31 +35866,45 @@ common service discovery mechanisms.</note>
     <description>atmtcp</description>
     <number>2812</number>
   </record>
-  <record>
+  <record updated="2020-07-20">
     <name>llm-pass</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Loftware"/>
+    </assignee>
     <description>llm-pass</description>
     <number>2813</number>
+    <xref type="person" data="Glen_Sansoucie"/>
   </record>
-  <record>
+  <record updated="2020-07-20">
     <name>llm-pass</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Loftware"/>
+    </assignee>
     <description>llm-pass</description>
     <number>2813</number>
+	<xref type="person" data="Glen_Sansoucie"/>
   </record>
-  <record>
+  <record updated="2020-07-20">
     <name>llm-csv</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Glen_Sansoucie_2"/>
+    <assignee>
+      <xref type="person" data="Loftware"/>
+    </assignee>
     <description>llm-csv</description>
     <number>2814</number>
+    <xref type="person" data="Glen_Sansoucie"/>
   </record>
-  <record>
+  <record updated="2020-07-20">
     <name>llm-csv</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Glen_Sansoucie_2"/>
+    <assignee>
+      <xref type="person" data="Loftware"/>
+    </assignee>
     <description>llm-csv</description>
     <number>2814</number>
+    <xref type="person" data="Glen_Sansoucie"/>
   </record>
   <record>
     <name>lbc-measure</name>
@@ -106483,11 +106503,9 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Glen_Sansoucie">
       <name>Glen Sansoucie</name>
+	  <org>Loftware</org>
       <uri>mailto:gsansoucie&amp;loftware.com</uri>
-    </person>
-    <person id="Glen_Sansoucie_2">
-      <name>Glen Sansoucie</name>
-      <uri>mailto:glen&amp;llmwin.com</uri>
+	  <updated>2020-07-20</updated>
     </person>
     <person id="Glenn_Allen">
       <name>Glenn Allen</name>
@@ -111667,6 +111685,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Lloyd Wood</name>
       <uri>mailto:lwood&amp;cisco.com</uri>
       <updated>2007-05</updated>
+    </person>
+    <person id="Loftware">
+      <org>Loftware</org>
+      <uri>mailto:gsansoucie&amp;loftware.com</uri>
+      <updated>2020-07-20</updated>
     </person>
     <person id="Logan_Bruns">
       <name>Logan Bruns</name>
