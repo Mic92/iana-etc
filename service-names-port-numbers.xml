@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-07-20</updated>
+  <updated>2020-07-29</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -92489,6 +92489,26 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="David_Brower"/>
   </record>
+  <record date="2020-07-29">
+    <name>collabio</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="XCDS_International_Ltd."/>
+    </assignee>
+    <description>Collabio</description>
+    <note>Defined TXT keys: firstName, lastName, documentName</note>
+    <xref type="person" data="Dmitriy_Rusakov"/>
+  </record>
+  <record date="2020-07-29">
+    <name>collabio</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="XCDS_International_Ltd."/>
+    </assignee>
+    <description>Collabio</description>
+    <note>Defined TXT keys: firstName, lastName, documentName</note>
+    <xref type="person" data="Dmitriy_Rusakov"/>
+  </record>
   <record>
     <name>collection</name>
     <description>Published Collection Object</description>
@@ -104466,6 +104486,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Dmitrii Ogarkov</name>
       <uri>mailto:df&amp;skynetflow.com</uri>
       <updated>2019-05-28</updated>
+    </person>
+    <person id="Dmitriy_Rusakov">
+      <name>Dmitriy Rusakov</name>
+      <uri>mailto:Dmitriy.Rusakov&amp;collabio.team</uri>
+      <updated>2020-07-29</updated>
     </person>
     <person id="Dmitry_Brant">
       <name>Dmitry Brant</name>
@@ -122781,6 +122806,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Xavier_Roques">
       <name>Xavier Roques</name>
       <uri>mailto:xroques&amp;infovista.fr</uri>
+    </person>
+    <person id="XCDS_International_Ltd.">
+      <org>XCDS International Ltd.</org>
+      <uri>mailto:contact&amp;xcds.com</uri>
+      <updated>2020-07-29</updated>
     </person>
     <person id="Xential">
       <org>Xential</org>
