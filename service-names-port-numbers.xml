@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-09-01</updated>
+  <updated>2020-09-04</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -70228,7 +70228,23 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>6698-6699</number>
+    <number>6698</number>
+  </record>
+  <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>6699</number>
+  </record>
+  <record date="2020-09-04">
+    <name>babel-dtls</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="draft" data="RFC-ietf-babel-dtls-10"/>
+    <description>Babel Routing Protocol over DTLS</description>
+    <number>6699</number>
+    <xref type="person" data="IETF_Chair"/>
   </record>
   <record date="2010-01-26">
     <description>Unassigned</description>
@@ -94251,6 +94267,17 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="IGG_Software"/>
   </record>
+  <record date="2020-09-04">
+    <name>izira</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Blue_Ridge_Concepts_Inc."/>
+    </assignee>
+    <description>Integrated Business Data Exchange</description>
+    <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; 
+      m=&lt;manifest_name&gt; o=&lt;owner_name&gt; s=&lt;site_name&gt;</note>
+    <xref type="person" data="Robert_M_Gregory_Jr"/>
+  </record>
   <record>
     <name>jcan</name>
     <description>Northrup Grumman/TASC/JCAN Protocol</description>
@@ -100660,6 +100687,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Blockade">
       <name>VP - Research &amp; Development</name>
       <uri>mailto:development&amp;blockade.com</uri>
+    </person>
+    <person id="Blue_Ridge_Concepts_Inc.">
+      <org>Blue Ridge Concepts, Inc.</org>
+      <uri>mailto:gregory&amp;BlueRidgeConcepts.com</uri>
+      <updated>2020-09-04</updated>
     </person>
     <person id="Bob_Beard">
       <name>Bob Beard</name>
@@ -117727,6 +117759,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Robert Kinyon</name>
       <uri>mailto:rkinyon&amp;connectship.com</uri>
       <updated>2019-12-12</updated>
+    </person>
+    <person id="Robert_M_Gregory_Jr">
+      <name>Robert M Gregory Jr</name>
+      <uri>mailto:gregory.robert.m&amp;gmail.com</uri>
+      <updated>2020-09-04</updated>
     </person>
     <person id="Robert_M_Mackowiak">
       <name>Robert M. Mackowiak</name>
