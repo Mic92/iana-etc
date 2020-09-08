@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-09-04</updated>
+  <updated>2020-09-08</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -93572,7 +93572,7 @@ reserved for use in illustrative examples in books and other documentation.</not
     <description>Growl</description>
     <note>Defined TXT keys: None</note>
   </record>
-  <record date="2014-02-25" updated="2020-08-21">
+  <record date="2014-02-25" updated="2020-09-08">
     <name>gsremotecontrol</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -93580,7 +93580,7 @@ reserved for use in illustrative examples in books and other documentation.</not
     </assignee>
     <description>GS Labs set-top box remote control</description>
     <note>Defined TXT keys:  None</note>
-    <xref type="person" data="Sergey_Zubov"/>
+    <xref type="person" data="Ekaterina_Polyakova"/>
   </record>
   <record date="2013-03-04">
     <name>gucam-http</name>
@@ -106262,8 +106262,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="GS_Labs">
       <org>GS Labs</org>
-      <uri>mailto:office&amp;gs.ru</uri>
-      <updated>2020-08-21</updated>
+      <uri>mailto:iana&amp;gs-labs.ru</uri>
+      <updated>2020-09-08</updated>
     </person>
     <person id="Geode_Software_Ltd">
       <org>Geode Software Ltd</org>
@@ -119072,11 +119072,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:sergey.burnevsky&amp;nokia.com</uri>
       <updated>2006-08</updated>
     </person>
-    <person id="Sergey_Zubov">
-      <name>Sergey Zubov</name>
+    <person id="Ekaterina_Polyakova">
+      <name>Ekaterina Polyakova</name>
       <org>GS Labs</org>
-      <uri>mailto:zubov&amp;spb.gs.ru</uri>
-      <updated>2020-08-21</updated>
+      <uri>mailto:ekaterina.polyakova&amp;gs-labs.ru</uri>
+      <updated>2020-09-08</updated>
     </person>
     <person id="Sergey_Zubov_2">
       <name>Sergey Zubov</name>
