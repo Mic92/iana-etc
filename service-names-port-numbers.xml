@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-09-18</updated>
+  <updated>2020-09-21</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -91623,6 +91623,26 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: flags, phash, ehash, cname</note>
     <xref type="person" data="Marc_Krochmal_2"/>
   </record>
+  <record date="2020-09-21">
+    <name>airmate</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Myriel_Aviation_-_Airmate"/>
+    </assignee>
+    <description>Airmate interworking protocol</description>
+    <note>Defined TXT keys: proprietary</note>
+    <xref type="person" data="Daniel_Mavrakis_3"/>
+  </record>
+  <record date="2020-09-21">
+    <name>airmate</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Myriel_Aviation_-_Airmate"/>
+    </assignee>
+    <description>Airmate interworking protocol</description>
+    <note>Defined TXT keys: proprietary</note>
+    <xref type="person" data="Daniel_Mavrakis_3"/>
+  </record>
   <record date="2012-09-19">
     <name>airplay</name>
     <protocol>tcp</protocol>
@@ -103181,6 +103201,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Daniel Mavrakis</name>
       <uri>mailto:mavrakis&amp;mctel.fr</uri>
     </person>
+    <person id="Daniel_Mavrakis_3">
+      <name>Daniel Mavrakis</name>
+      <uri>mailto:mavrakis.daniel&amp;myriel.lu</uri>
+      <updated>2020-09-21</updated>
+    </person>
     <person id="Daniel_R_Somerfield">
       <name>Daniel R Somerfield</name>
       <uri>mailto:dsomerfi&amp;harris.com</uri>
@@ -114450,6 +114475,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Myk_Willis">
       <name>Myk Willis</name>
       <uri>mailto:myk.willis&amp;citrix.com</uri>
+    </person>
+    <person id="Myriel_Aviation_-_Airmate">
+      <org>Myriel Aviation / Airmate</org>
+      <uri>mailto:mavrakis.daniel&amp;myriel.lu</uri>
+      <updated>2020-09-21</updated>
     </person>
     <person id="Myron_Hattig">
       <name>Myron Hattig</name>
