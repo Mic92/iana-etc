@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-10-12</updated>
+  <updated>2020-10-16</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -82426,7 +82426,36 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>11212-11318</number>
+    <number>11212-11234</number>
+  </record>
+  <record date="2020-10-16">
+	<name>xcompute</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Xplicit_Computing_Inc"/>
+    </assignee>
+    <description>numerical systems messaging</description>
+    <number>11235</number>
+	<xref type="person" data="Graham_J_Orr"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>11235</number>
+  </record>
+  <record date="2020-10-16">
+    <name>xcompute</name>
+    <protocol>sctp</protocol>
+    <assignee>
+      <xref type="person" data="Xplicit_Computing_Inc"/>
+    </assignee>
+    <description>numerical systems messaging</description>
+    <number>11235</number>
+    <xref type="person" data="Graham_J_Orr"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>11236-11318</number>
   </record>
   <record>
     <name>imip</name>
@@ -106772,6 +106801,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:graham.bloice&amp;trihedral.com</uri>
       <updated>2009-09-17</updated>
     </person>
+    <person id="Graham_J_Orr">
+      <name>Graham J. Orr</name>
+      <uri>mailto:graham&amp;xplicitcomputing.com</uri>
+      <updated>2020-10-16</updated>
+    </person>
     <person id="Graham_Jones">
       <name>Graham Jones</name>
       <uri>mailto:gjones&amp;nab.org</uri>
@@ -122946,6 +122980,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Xnet_Communications">
       <name>Xnet Communications</name>
       <uri>mailto:croco&amp;xdsnet.de</uri>
+    </person>
+    <person id="Xplicit_Computing_Inc">
+      <org>Xplicit Computing Inc</org>
+      <uri>mailto:info&amp;xplicitcomputing.com</uri>
+      <updated>2020-10-16</updated>
     </person>
     <person id="Xpra">
       <org>Xpra</org>
