@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-10-16</updated>
+  <updated>2020-10-19</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -77803,7 +77803,24 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>8902-8909</number>
+    <number>8902-8907</number>
+  </record>
+  <record date="2020-10-19">
+    <name>dpp</name>
+    <protocol>tcp</protocol>
+    <assignee><xref type="person" data="Wi-Fi_Alliance_4"/></assignee>
+    <description>WFA Device Provisioning Protocol</description>
+    <number>8908</number>
+	<xref type="person" data="Dr_Jun_Tian"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8908</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>8909</number>
   </record>
   <record date="2002-04">
     <name>manyone-http</name>
@@ -104916,6 +104933,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:horst&amp;dorrigomedical.com</uri>
       <updated>2005-12</updated>
     </person>
+    <person id="Dr_Jun_Tian">
+      <name>Dr. Jun Tian</name>
+      <uri>mailto:jtian&amp;wi-fi.org</uri>
+      <updated>2020-10-19</updated>
+    </person>
     <person id="Dr_Kingsley_C_Nwos">
       <name>Dr. Kingsley C. Nwosu</name>
       <uri>mailto:knwosu&amp;aglowmail.com</uri>
@@ -122711,6 +122733,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Wi-Fi Alliance</org>
       <uri>mailto:gjain&amp;wi-fi.org</uri>
       <updated>2017-03-14</updated>
+    </person>
+    <person id="Wi-Fi_Alliance_4">
+      <org>Wi-Fi Alliance</org>
+      <uri>mailto:technical&amp;wi-fi.org</uri>
+      <updated>2020-10-19</updated>
     </person>
     <person id="Wi-SUN_Alliance">
       <org>Wi-SUN Alliance</org>
