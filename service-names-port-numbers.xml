@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-10-19</updated>
+  <updated>2020-11-10</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -67064,7 +67064,7 @@ common service discovery mechanisms.</note>
     <assignee>
       <xref type="person" data="IESG"/>
     </assignee>
-    <xref type="draft" data="RFC-ietf-nvo3-geneve-16"/>
+    <xref type="rfc" data="rfc8926"/>
     <description>Generic Network Virtualization Encapsulation (Geneve)</description>
     <number>6081</number>
     <xref type="person" data="IETF_Chair"/>
