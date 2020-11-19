@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-11-10</updated>
+  <updated>2020-11-18</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -86222,7 +86222,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>22306-22334</number>
+    <number>22306-22332</number>
+  </record>
+  <record date="2020-11-18">
+    <name>showcockpit-net</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Ricardo_Dias"/>
+    </assignee>
+    <description>ShowCockpit Networking</description>
+    <number>22333</number>
+	<xref type="person" data="Ricardo_Dias"/>
+  </record>
+  <record date="2020-11-18">
+    <name>showcockpit-net</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Ricardo_Dias"/>
+    </assignee>
+    <description>ShowCockpit Networking</description>
+    <number>22333</number>
+    <xref type="person" data="Ricardo_Dias"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>22334</number>
   </record>
   <record date="2015-03-06">
     <name>shrewd-control</name>
@@ -109219,8 +109243,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Jilles_Oldenbeuving">
       <name>Jilles Oldenbeuving</name>
-      <uri>mailto:ojilles&amp;hotmail.com</uri>
-      <updated>2002-06</updated>
+      <uri>mailto:ojilles&amp;gmail.com</uri>
+      <updated>2020-11-18</updated>
     </person>
     <person id="Jim_Baldridge">
       <name>Jim Baldridge</name>
@@ -117315,6 +117339,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Riaz_Zolfonoon">
       <name>Riaz Zolfonoon</name>
       <uri>mailto:rzolfonoon&amp;securitydynamics.com</uri>
+    </person>
+    <person id="Ricardo_Dias">
+      <name>Ricardo Dias</name>
+      <uri>mailto:general&amp;showcockpit.com</uri>
+      <updated>2020-11-18</updated>
     </person>
     <person id="Riccardo_Facchetti">
       <name>Riccardo Facchetti</name>
