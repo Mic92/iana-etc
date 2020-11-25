@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-11-20</updated>
+  <updated>2020-11-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -29803,8 +29803,19 @@ common service discovery mechanisms.</note>
     <number>2377</number>
   </record>
   <record>
-    <description>Unassigned</description>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
     <number>2378</number>
+  </record>
+  <record date="2020-11-24">
+    <name>dali</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="DALI_Alliance_DiiA"/>
+    </assignee>
+    <description>DALI lighting control</description>
+    <number>2378</number>
+	<xref type="person" data="Scott_Wade"/>
   </record>
   <record date="2014-07-09">
     <name>etcd-client</name>
@@ -103138,6 +103149,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:david.chassin&amp;pnl.gov</uri>
       <updated>2002-06</updated>
     </person>
+    <person id="DALI_Alliance_DiiA">
+      <org>DALI Alliance (DiiA)</org>
+      <uri>mailto:tm&amp;digitalilluminationinterface.org</uri>
+      <updated>2020-11-24</updated>
+    </person>
     <person id="DALTCORE">
       <org>DALTCORE</org>
       <uri>mailto:Info&amp;daltcore.com</uri>
@@ -119190,6 +119206,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Scott_Tooker">
       <name>Scott Tooker</name>
       <uri>mailto:tooker&amp;apple.com</uri>
+    </person>
+    <person id="Scott_Wade">
+      <name>Scott Wade</name>
+      <org>DALI Alliance (DiiA)</org>
+      <uri>mailto:tm&amp;digitalilluminationinterface.org</uri>
+      <updated>2020-11-24</updated>
     </person>
     <person id="SCOTTY_Group_SE">
       <org>SCOTTY Group SE</org>
