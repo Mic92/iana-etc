@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-11-24</updated>
+  <updated>2020-12-04</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -85470,7 +85470,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>19789-19997</number>
+    <number>19789</number>
+  </record>
+  <record date="2020-12-04">
+    <name>faircom-db</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="FairCom_Corporation"/>
+    </assignee>
+    <description>FairCom Database</description>
+    <number>19790</number>
+    <xref type="person" data="Michael_Bowers"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>19790</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>19791-19997</number>
   </record>
   <record date="2010-10-18">
     <name>iec-104-sec</name>
@@ -105859,6 +105878,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Fahad Gilani</name>
       <uri>mailto:fahad&amp;guidedways.com</uri>
     </person>
+    <person id="FairCom_Corporation">
+      <org>FairCom Corporation</org>
+      <uri>mailto:alysha.brown&amp;faircom.com</uri>
+      <updated>2020-12-04</updated>
+    </person>
     <person id="Faith_Zack">
       <name>Faith Zack</name>
       <uri>mailto:faithz&amp;sco.com</uri>
@@ -113578,6 +113602,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Michael_Bishop">
       <name>Michael Bishop</name>
       <uri>mailto:mbishop&amp;fishnetsecurity.com</uri>
+    </person>
+    <person id="Michael_Bowers">
+      <name>Michael Bowers</name>
+      <org>FairCom Corporation</org>
+      <uri>mailto:mike.bowers&amp;faircom.com</uri>
+      <updated>2020-12-04</updated>
     </person>
     <person id="Michael_Boyle">
       <name>Michael Boyle</name>
