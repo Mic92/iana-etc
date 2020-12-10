@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-12-04</updated>
+  <updated>2020-12-09</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -55817,9 +55817,24 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>4316</number>
   </record>
+  <record date="2020-12-09">
+    <name>opentelemetry</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="OpenTelemetry"/>
+    </assignee>
+    <description>OpenTelemetry Protocol</description>
+    <number>4317</number>
+    <xref type="person" data="Morgan_McLean"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>4317</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>4317-4319</number>
+    <number>4318-4319</number>
   </record>
   <record date="2006-03">
     <name>fdt-rcatp</name>
@@ -114602,6 +114617,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Morgan Jones</name>
       <uri>mailto:mwj&amp;cyasolutions.com</uri>
     </person>
+    <person id="Morgan_McLean">
+      <name>Morgan McLean</name>
+	  <org>OpenTelemetry</org>
+      <uri>mailto:morgan_mclean&amp;hotmail.com</uri>
+	  <updated>2020-12-09</updated>
+    </person>
     <person id="Moritz30">
       <name>Moritz30</name>
       <uri>mailto:moritz30&amp;moritz30.de</uri>
@@ -115469,6 +115490,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>OpenRemote, Inc.</org>
       <uri>mailto:juha&amp;openremote.org</uri>
       <updated>2012-12-18</updated>
+    </person>
+    <person id="OpenTelemetry">
+      <org>OpenTelemetry</org>
+      <uri>mailto:cncf-opentelemetry-governance&amp;lists.cncf.io</uri>
+      <updated>2020-12-09</updated>
     </person>
     <person id="OPNET_Technologies_Inc">
       <org>OPNET Technologies Inc</org>
