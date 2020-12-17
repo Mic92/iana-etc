@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-12-09</updated>
+  <updated>2020-12-16</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -45494,17 +45494,23 @@ common service discovery mechanisms.</note>
     <description>TVDUM Tray Port</description>
     <number>3492</number>
   </record>
-  <record date="2002-05">
+  <record date="2002-05" updated="2020-12-16">
     <name>nut</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Russell_Kroll"/>
+    <assignee>
+      <xref type="person" data="Network_UPS_Tools_Project"/>
+    </assignee>
+    <xref type="person" data="Evgeny_Klimov"/>
     <description>Network UPS Tools</description>
     <number>3493</number>
   </record>
-  <record date="2002-05">
+  <record date="2002-05" updated="2020-12-16">
     <name>nut</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Russell_Kroll"/>
+    <assignee>
+      <xref type="person" data="Network_UPS_Tools_Project"/>
+    </assignee>
+    <xref type="person" data="Evgeny_Klimov"/>
     <description>Network UPS Tools</description>
     <number>3493</number>
   </record>
@@ -105846,6 +105852,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:evgeniyfilatov&amp;yandex.ru</uri>
       <updated>2009-11-25</updated>
     </person>
+    <person id="Evgeny_Klimov">
+      <name>Evgeny Klimov</name>
+      <uri>mailto:jimklimov+nut&amp;gmail.com</uri>
+      <updated>2020-12-16</updated>
+    </person>
     <person id="Ewan_McNab">
       <name>Ewan McNab</name>
       <uri>mailto:ewan&amp;qsc.co.uk</uri>
@@ -114944,6 +114955,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:support&amp;netex.com</uri>
       <updated>2017-01-25</updated>
     </person>
+    <person id="Network_UPS_Tools_Project">
+      <org>Network UPS Tools Project</org>
+      <uri>mailto:iana&amp;networkupstools.org</uri>
+      <updated>2020-12-16</updated>
+    </person>
     <person id="Nevil_Brownlee">
       <name>Nevil Brownlee</name>
       <uri>mailto:n.brownlee&amp;auckland.ac.nz</uri>
@@ -118689,11 +118705,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Russell_Crook">
       <name>Russell Crook</name>
       <uri>mailto:rmc&amp;sni.ca</uri>
-    </person>
-    <person id="Russell_Kroll">
-      <name>Russell Kroll</name>
-      <uri>mailto:nut-iana&amp;exploits.org</uri>
-      <updated>2002-05</updated>
     </person>
     <person id="Russell_M_Taylor_II">
       <name>Russell M. Taylor II</name>
