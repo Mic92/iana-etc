@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="protocol-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="protocol-numbers">
   <title>Protocol Numbers</title>
-  <updated>2020-01-31</updated>
+  <updated>2020-12-28</updated>
   <registry id="protocol-numbers-1">
     <title>Assigned Internet Protocol Numbers</title>
     <xref type="rfc" data="rfc5237"/><xref type="rfc" data="rfc7045"/>
@@ -929,10 +929,10 @@ University of California at Berkeley, June 1986.</xref>
       <description>Robust Header Compression</description>
       <xref type="rfc" data="rfc5858"/>
     </record>
-    <record date="2020-01-31">
+    <record date="2020-01-31" updated="2020-12-28">
       <value>143</value>
       <name>Ethernet</name>
-      <description>Ethernet (TEMPORARY - registered 2020-01-31, expires 2021-01-31)</description>
+      <description>Ethernet (TEMPORARY - registered 2020-01-31, extension registered 2020-12-28, expires 2022-01-31)</description>
       <xref type="draft" data="draft-ietf-spring-srv6-network-programming"/>
     </record>
     <record date="1995-06">
