@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-12-16</updated>
+  <updated>2020-12-29</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -52406,18 +52406,15 @@ common service discovery mechanisms.</note>
     <description>Smith Micro Wide Area Network Service</description>
     <number>3979</number>
   </record>
-  <record date="2006-06">
-    <name>acms</name>
+  <record date="2006-06" updated="2020-12-29">
     <protocol>tcp</protocol>
-    <xref type="person" data="Dustin_Zack"/>
-    <description>Aircraft Cabin Management System</description>
+    <description>Reserved</description>
     <number>3980</number>
+	<note>Historic usage was acms. De-Assigned on 2020-12-29</note>
   </record>
-  <record date="2006-06">
-    <name>acms</name>
+  <record>
     <protocol>udp</protocol>
-    <xref type="person" data="Dustin_Zack"/>
-    <description>Aircraft Cabin Management System</description>
+    <description>Reserved</description>
     <number>3980</number>
   </record>
   <record date="2006-06">
@@ -105166,11 +105163,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Dustin_Brand">
       <name>Dustin Brand</name>
       <uri>mailto:amo&amp;amo.net</uri>
-    </person>
-    <person id="Dustin_Zack">
-      <name>Dustin Zack</name>
-      <uri>mailto:dustin.e.zack&amp;gmail.com</uri>
-      <updated>2006-06</updated>
     </person>
     <person id="e-Watch_Corporation">
       <org>e-Watch Corporation</org>
