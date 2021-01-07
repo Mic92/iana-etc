@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2020-12-29</updated>
+  <updated>2021-01-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -86866,16 +86866,22 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>24243-24248</number>
   </record>
-  <record>
+  <record updated="2020-01-06">
     <name>vista-4gl</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Ingenta_plc"/>
+    </assignee>
     <xref type="person" data="Mark_Itzcovitz"/>
     <description>Vista 4GL</description>
     <number>24249</number>
   </record>
-  <record>
+  <record updated="2020-01-06">
     <name>vista-4gl</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Ingenta_plc"/>
+    </assignee>
     <xref type="person" data="Mark_Itzcovitz"/>
     <description>Vista 4GL</description>
     <number>24249</number>
@@ -108136,6 +108142,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ing. Tomas Halabala</name>
       <uri>mailto:tomas.halabala&amp;regulace.org</uri>
       <updated>2010-10-06</updated>
+      </person>
+    <person id="Ingenta_plc">
+      <name>Ingenta plc</name>
+      <uri>mailto:mark.itzcovitz&amp;ingenta.com</uri>
+      <updated>2020-01-06</updated>
     </person>
     <person id="Ingersoll_Rand_Inc">
       <org>Ingersoll Rand, Inc.</org>
@@ -112673,8 +112684,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Mark_Itzcovitz">
       <name>Mark Itzcovitz</name>
-      <uri>mailto:mark.itzcovitz&amp;publishingtechnology.com</uri>
-      <updated>2015-09-03</updated>
+      <uri>mailto:mark.itzcovitz&amp;ingenta.com</uri>
+      <updated>2020-01-06</updated>
     </person>
     <person id="Mark_J._App">
       <name>Mark J. App</name>
