@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-01-06</updated>
+  <updated>2021-01-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -70278,7 +70278,7 @@ common service discovery mechanisms.</note>
     <assignee>
       <xref type="person" data="IESG"/>
     </assignee>
-    <xref type="draft" data="RFC-ietf-babel-dtls-10"/>
+    <xref type="rfc" data="rfc8968"/>
     <description>Babel Routing Protocol over DTLS</description>
     <number>6699</number>
     <xref type="person" data="IETF_Chair"/>
