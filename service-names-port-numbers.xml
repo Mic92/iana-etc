@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-01-15</updated>
+  <updated>2021-02-02</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -89878,11 +89878,11 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>40023</number>
   </record>
-  <record date="2015-12-02" updated="2017-05-12">
+  <record date="2015-12-02" updated="2021-02-02">
     <name>k-patentssensor</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="K-Patents_Oy"/>
+      <xref type="person" data="Vaisala"/>
     </assignee>
     <description>K-PatentsSensorInformation</description>
     <number>40023</number>
@@ -110718,11 +110718,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:jyri.virkki&amp;sun.com</uri>
       <updated>2005-12</updated>
     </person>
-    <person id="K-Patents_Oy">
-      <name>K-Patents Oy</name>
-      <uri>mailto:info&amp;kpatents.com</uri>
-      <updated>2015-12-02</updated>
-    </person>
     <person id="K_Arvind">
       <name>K. Arvind</name>
       <uri>mailto:arvind&amp;tenornetworks.com</uri>
@@ -118934,8 +118929,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Saku_Lahteenmaki">
       <name>Saku Lähteenmäki</name>
-      <uri>mailto:saku.lahteenmaki&amp;kpatents.com</uri>
-      <updated>2017-05-12</updated>
+      <uri>mailto:saku.lahteenmaki&amp;vaisala.com</uri>
+      <updated>2021-02-02</updated>
     </person>
     <person id="Salvo_Nassisi">
       <name>Salvo Nassisi</name>
@@ -122445,6 +122440,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Vaibhav Kumar</name>
       <uri>mailto:vakumar&amp;hns.com</uri>
       <updated>2003-07</updated>
+    </person>
+    <person id="Vaisala">
+      <name>Vaisala</name>
+      <uri>mailto:saku.lahteenmaki&amp;vaisala.com</uri>
+      <updated>2021-02-02</updated>
     </person>
     <person id="Valassis">
       <org>Valassis</org>
