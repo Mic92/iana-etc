@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-02-17</updated>
+  <updated>2021-02-18</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -66258,20 +66258,18 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>5772-5776</number>
   </record>
-  <record date="2003-10">
-    <name>dali-port</name>
+  <record date="2003-10" updated="2021-02-18">
+    <name>starfield-io</name>
     <protocol>tcp</protocol>
     <xref type="person" data="Wayne_Morrow"/>
-    <xref type="person" data="Michael_Melio"/>
-    <description>DALI Port</description>
+    <description>Control commands and responses</description>
     <number>5777</number>
   </record>
-  <record date="2003-10">
-    <name>dali-port</name>
+  <record date="2003-10" updated="2021-02-18">
+    <name>starfield-io</name>
     <protocol>udp</protocol>
     <xref type="person" data="Wayne_Morrow"/>
-    <xref type="person" data="Michael_Melio"/>
-    <description>DALI Port</description>
+    <description>Control commands and responses</description>
     <number>5777</number>
   </record>
   <record>
@@ -113838,11 +113836,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:michael&amp;refactored-networks.com</uri>
       <updated>2005-08</updated>
     </person>
-    <person id="Michael_Melio">
-      <name>Michael Melio</name>
-      <uri>mailto:meliomd&amp;comcast.net</uri>
-      <updated>2003-10</updated>
-    </person>
     <person id="Michael_Mester">
       <name>Michael Mester</name>
       <uri>mailto:mmester&amp;cymtec.com</uri>
@@ -122827,8 +122820,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Wayne_Morrow">
       <name>Wayne Morrow</name>
-      <uri>mailto:wmorrow&amp;starfieldcorp.com</uri>
-      <updated>2003-10</updated>
+      <uri>mailto:wmorrow&amp;slaauto.com</uri>
+      <updated>2021-02-18</updated>
     </person>
     <person id="Wayne_Schroeder">
       <name>Wayne Schroeder</name>
