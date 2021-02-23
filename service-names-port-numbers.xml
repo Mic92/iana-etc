@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-02-18</updated>
+  <updated>2021-02-22</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -2136,7 +2136,7 @@ Port 126 Previously assigned to application above</note>
     <description>Britton-Lee IDM</description>
     <number>142</number>
   </record>
-  <record updated="2017-06-05">
+  <record updated="2021-02-22">
     <name>imap</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -2144,18 +2144,14 @@ Port 126 Previously assigned to application above</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc3501"/>
+	<xref type="draft" data="RFC-ietf-extra-imap4rev2-30"/>
     <description>Internet Message Access Protocol</description>
     <number>143</number>
   </record>
-  <record updated="2017-06-05">
-    <name>imap</name>
+  <record updated="2021-02-22">
     <protocol>udp</protocol>
-    <assignee>
-      <xref type="person" data="IESG"/>
-    </assignee>
-    <xref type="person" data="IETF_Chair"/>
-    <xref type="rfc" data="rfc3501"/>
-    <description>Internet Message Access Protocol</description>
+	<xref type="draft" data="RFC-ietf-extra-imap4rev2-30"/>
+    <description>Reserved</description>
     <number>143</number>
   </record>
   <record>
@@ -10475,7 +10471,7 @@ common service discovery mechanisms.</note>
     <description>telnet protocol over TLS/SSL</description>
     <number>992</number>
   </record>
-  <record updated="2017-12-12">
+  <record updated="2021-02-22">
     <name>imaps</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -10483,13 +10479,15 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>IMAP over TLS protocol</description>
-    <xref type="rfc" data="rfc8314"/>
+    <xref type="rfc" data="rfc3501"/>
+	<xref type="rfc" data="rfc8314"/>
+	<xref type="draft" data="RFC-ietf-extra-imap4rev2-30"/>
     <number>993</number>
   </record>
-  <record>
-    <name>imaps</name>
+  <record updated="2021-02-22">
     <protocol>udp</protocol>
-    <description>imap4 protocol over TLS/SSL</description>
+    <description>Reserved</description>
+	<xref type="draft" data="RFC-ietf-extra-imap4rev2-30"/>
     <number>993</number>
   </record>
   <record updated="2011-08-31">
@@ -57841,12 +57839,13 @@ common service discovery mechanisms.</note>
     <description>RSIP Port</description>
     <number>4555</number>
   </record>
-  <record updated="2014-03-12">
+  <record updated="2021-02-22">
     <name>dtn-bundle</name>
     <protocol>tcp</protocol>
+    <assignee><xref type="person" data="IESG"/></assignee>
+    <xref type="person" data="IETF_Chair"/>
     <description>DTN Bundle TCP CL Protocol</description>
-    <xref type="rfc" data="rfc7242"/>
-    <xref type="person" data="Simon_Perreault"/>
+    <xref type="draft" data="RFC-ietf-dtn-tcpclv4-26"/>
     <number>4556</number>
   </record>
   <record date="2006-11" updated="2014-02-21">
@@ -119752,11 +119751,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Simon_Parker">
       <name>Simon Parker</name>
       <uri>mailto:simon.j.parker&amp;philips.com</uri>
-    </person>
-    <person id="Simon_Perreault">
-      <name>Simon Perreault</name>
-      <uri>mailto:simon.perreault@viagenie.ca&gt;</uri>
-      <updated>2014-03-12</updated>
     </person>
     <person id="Simon_Phipps">
       <name>Simon Phipps</name>
