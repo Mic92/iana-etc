@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-02-22</updated>
+  <updated>2021-02-25</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -56118,12 +56118,12 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>4342</number>
   </record>
-  <record date="2007-05" updated="2012-04-26">
+  <record date="2007-05" updated="2021-02-25">
     <name>lisp-control</name>
     <protocol>udp</protocol>
-    <assignee><xref type="person" data="IESG"/></assignee>
-    <xref type="person" data="IETF_Chair"/>
-    <xref type="rfc" data="rfc6830"/>
+    <assignee><xref type="person" data="IETF"/></assignee>
+    <xref type="person" data="IESG"/>
+    <xref type="draft" data="RFC-ietf-lisp-rfc6833bis-30"/>
     <description>LISP Control Packets</description>
     <number>4342</number>
   </record>
@@ -107861,6 +107861,10 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="IESG">
       <org>IESG</org>
+      <uri>mailto:iesg&amp;ietf.org</uri>
+    </person>
+    <person id="IETF">
+      <org>IETF</org>
       <uri>mailto:iesg&amp;ietf.org</uri>
     </person>
     <person id="IETF_Chair">
