@@ -3,7 +3,7 @@
 <?oxygen RNGSchema="protocol-numbers.rng" type="xml"?>
 <registry xmlns="http://www.iana.org/assignments" id="protocol-numbers">
   <title>Protocol Numbers</title>
-  <updated>2021-01-08</updated>
+  <updated>2021-02-26</updated>
   <registry id="protocol-numbers-1">
     <title>Assigned Internet Protocol Numbers</title>
     <xref type="rfc" data="rfc5237"/><xref type="rfc" data="rfc7045"/>
@@ -933,7 +933,7 @@ University of California at Berkeley, June 1986.</xref>
       <value>143</value>
       <name>Ethernet</name>
       <description>Ethernet</description>
-      <xref type="draft" data="RFC-ietf-spring-srv6-network-programming-28"/>
+      <xref type="rfc" data="rfc8986"/>
     </record>
     <record date="1995-06">
       <value>144-252</value>
