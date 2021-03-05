@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-02-25</updated>
+  <updated>2021-03-04</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -12250,19 +12250,25 @@ common service discovery mechanisms.</note>
     <description>KVM-via-IP Management Service</description>
     <number>1132</number>
   </record>
-  <record date="2006-02">
+  <record date="2006-02" updated="2021-03-04">
     <name>dfn</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Dmitry_Obuvalin"/>
+    <assignee>
+      <xref type="person" data="Mikhailov_Center"/>
+    </assignee>
     <description>Data Flow Network</description>
     <number>1133</number>
+	<xref type="person" data="Anton_Mikhailov"/>
   </record>
-  <record date="2006-02">
+  <record date="2006-02" updated="2021-03-04">
     <name>dfn</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Dmitry_Obuvalin"/>
+    <assignee>
+      <xref type="person" data="Mikhailov_Center"/>
+    </assignee>
     <description>Data Flow Network</description>
     <number>1133</number>
+	<xref type="person" data="Anton_Mikhailov"/>
   </record>
   <record date="2006-02">
     <name>aplx</name>
@@ -100008,6 +100014,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Anton Kucer</name>
       <uri>mailto:akucer&amp;microsoft.com</uri>
     </person>
+    <person id="Anton_Mikhailov">
+      <name>Anton Mikhailov</name>
+	  <org>Mikhailov Center</org>
+      <uri>mailto:anton&amp;mikhailov.center</uri>
+      <updated>2021-03-04</updated>
+    </person>
     <person id="Antoni_Wolski">
       <name>Antoni Wolski</name>
       <uri>mailto:antoni.wolski&amp;vtt.fi</uri>
@@ -104791,11 +104803,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Dmitry_Krasnonosenki">
       <name>Dmitry Krasnonosenkikh</name>
       <uri>mailto:Dmitry_Krasnonosenkih&amp;nmss.com</uri>
-    </person>
-    <person id="Dmitry_Obuvalin">
-      <name>Dmitry Obuvalin</name>
-      <uri>mailto:pulse.cc&amp;mail.ru</uri>
-      <updated>2006-02</updated>
     </person>
     <person id="Dmitry_Odintsov">
       <name>Dmitry Odintsov</name>
@@ -114439,6 +114446,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Mikhail_Kruk">
       <name>Mikhail Kruk</name>
       <uri>mailto:mkruk&amp;biscom.com</uri>
+    </person>
+    <person id="Mikhailov_Center">
+      <org>Mikhailov Center</org>
+      <uri>mailto:pulse.cc&amp;mail.ru</uri>
+      <updated>2021-03-04</updated>
     </person>
     <person id="Mikael_Voss">
       <name>Mikael Voss</name>
