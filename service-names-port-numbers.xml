@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-03-16</updated>
+  <updated>2021-03-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -92314,6 +92314,26 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Thomas_Kraemer"/>
   </record>
+  <record date="2021-03-17">
+    <name>behnke-station</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Telefonbau_Behnke_GmbH"/>
+    </assignee>
+    <description>Behnke audio / video intercom systems</description>
+    <note>Defined TXT keys: mjpg, jpg, auth, camera, macaddress</note>
+    <xref type="person" data="Thomas_Kraemer"/>
+  </record>
+  <record date="2021-03-17">
+    <name>behnke-video</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Telefonbau_Behnke_GmbH"/>
+    </assignee>
+    <description>Behnke doorphones / video intercoms</description>
+    <note>Defined TXT keys: mjpg, jpg, auth, camera, macaddress</note>
+    <xref type="person" data="Thomas_Kraemer"/>
+  </record>
   <record date="2013-10-15">
     <name>bender</name>
     <assignee>
@@ -121126,7 +121146,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Telefonbau_Behnke_GmbH">
       <org>Telefonbau Behnke GmbH</org>
       <uri>mailto:info&amp;behnke-online.de</uri>
-      <updated>2020-05-13</updated>
+      <updated>2021-03-17</updated>
     </person>
     <person id="Telepathy_project">
       <name>Telepathy project</name>
@@ -121392,7 +121412,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Thomas Kraemer</name>
       <org>Telefonbau Behnke GmbH</org>
       <uri>mailto:thomas_kraemer&amp;behnke-online.de</uri>
-      <updated>2020-05-13</updated>
+      <updated>2021-03-17</updated>
     </person>
     <person id="Thomas_Kuiper">
       <name>Thomas Kuiper</name>
