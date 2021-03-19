@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-03-17</updated>
+  <updated>2021-03-18</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -74797,8 +74797,23 @@ common service discovery mechanisms.</note>
     <number>8016</number>
   </record>
   <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>8017</number>
+  </record>
+  <record date="2021-03-18">
+	<name>cisco-cloudsec</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Cisco_Systems_Inc"/>
+    </assignee>
+    <description>Cisco Cloudsec Dataplane Port Number</description>
+    <number>8017</number>
+	<xref type="person" data="Govind_Sharma"/>
+  </record>
+  <record>
     <description>Unassigned</description>
-    <number>8017-8018</number>
+    <number>8018</number>
   </record>
   <record date="2008-02-15">
     <name>qbdb</name>
@@ -102773,6 +102788,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:eckert&amp;cisco.com</uri>
       <updated>2014-06-06</updated>
     </person>
+    <person id="Cisco_Systems_Inc">
+      <org>Cisco Systems, Inc.</org>
+      <uri>mailto:gosharma&amp;cisco.com</uri>
+      <updated>2021-03-18</updated>
+    </person>
     <person id="Citrix_Systems">
       <org>Citrix Systems</org>
       <uri>mailto:CloudBridge-PM&amp;citrix.com</uri>
@@ -107033,6 +107053,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Gordon Waddell</name>
       <uri>mailto:gordon.waddell&amp;nuance.com</uri>
       <updated>2011-03-21</updated>
+    </person>
+    <person id="Govind_Sharma">
+      <name>Govind Sharma</name>
+	  <org>Cisco Systems, Inc.</org>
+      <uri>mailto:gosharma&amp;cisco.com</uri>
+      <updated>2021-03-18</updated>
     </person>
     <person id="Graeme_Perrow">
       <name>Graeme Perrow</name>
