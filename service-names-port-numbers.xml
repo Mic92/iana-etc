@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-03-24</updated>
+  <updated>2021-04-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -17928,18 +17928,33 @@ common service discovery mechanisms.</note>
     <description>oracle</description>
     <number>1527</number>
   </record>
-  <record>
+  <record date="2021-04-07">
+    <name>norp</name>
     <protocol>tcp</protocol>
-    <description>Reserved</description>
+    <assignee>
+      <xref type="person" data="nyantec"/>
+    </assignee>
+    <description>Not Only a Routeing Protocol</description>
     <number>1528</number>
+    <xref type="person" data="Mikael_Voss"/>
   </record>
-  <record date="2016-09-13">
-    <name>ngr-t</name>
+  <record date="2016-09-13" updated="2021-04-07">
+    <name>norp</name>
     <protocol>udp</protocol>
     <assignee>
       <xref type="person" data="nyantec"/>
     </assignee>
-    <description>NGR transport protocol for mobile ad-hoc networks</description>
+    <description>Not Only a Routeing Protocol</description>
+    <number>1528</number>
+    <xref type="person" data="Mikael_Voss"/>
+  </record>
+  <record date="2021-04-07">
+    <name>norp</name>
+    <protocol>sctp</protocol>
+    <assignee>
+      <xref type="person" data="nyantec"/>
+    </assignee>
+    <description>Not Only a Routeing Protocol</description>
     <number>1528</number>
     <xref type="person" data="Mikael_Voss"/>
   </record>
