@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-04-29</updated>
+  <updated>2021-05-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -59932,10 +59932,13 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>4879</number>
   </record>
-  <record date="2010-01-11">
+  <record updated="2021-05-06">
     <name>hislip</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Joe_Mueller"/>
+    <assignee>
+      <xref type="person" data="IVI_Foundation"/>
+    </assignee>
+    <xref type="person" data="Larry_Ostheimer"/>
     <description>IVI High-Speed LAN Instrument Protocol</description>
     <number>4880</number>
   </record>
@@ -60827,31 +60830,43 @@ common service discovery mechanisms.</note>
     <description>Htuil Server for PLD2</description>
     <number>5023</number>
   </record>
-  <record date="2002-10">
+  <record updated="2021-05-06">
     <name>scpi-telnet</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Ryan_Columbus"/>
+    <assignee>
+      <xref type="person" data="IVI_Foundation"/>
+    </assignee>
+    <xref type="person" data="Larry_Ostheimer"/>
     <description>SCPI-TELNET</description>
     <number>5024</number>
   </record>
-  <record date="2002-10">
+  <record updated="2021-05-06">
     <name>scpi-telnet</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Ryan_Columbus"/>
+    <assignee>
+      <xref type="person" data="IVI_Foundation"/>
+    </assignee>
+    <xref type="person" data="Larry_Ostheimer"/>
     <description>SCPI-TELNET</description>
     <number>5024</number>
   </record>
-  <record date="2002-10">
+  <record updated="2021-05-06">
     <name>scpi-raw</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Ryan_Columbus"/>
+    <assignee>
+      <xref type="person" data="IVI_Foundation"/>
+    </assignee>
+    <xref type="person" data="Larry_Ostheimer"/>
     <description>SCPI-RAW</description>
     <number>5025</number>
   </record>
-  <record date="2002-10">
+  <record updated="2021-05-06">
     <name>scpi-raw</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Ryan_Columbus"/>
+    <assignee>
+      <xref type="person" data="IVI_Foundation"/>
+    </assignee>
+    <xref type="person" data="Larry_Ostheimer"/>
     <description>SCPI-RAW</description>
     <number>5025</number>
   </record>
@@ -108418,6 +108433,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ivana Cuozzo</name>
       <uri>mailto:Ivana.Cuozzo&amp;tivoli.com</uri>
     </person>
+    <person id="IVI_Foundation">
+      <name>Interchangeable Virtual Instruments Foundation, Inc.</name>
+      <uri>mailto:ivi.contact&amp;ivifoundation.org</uri>
+      <updated>2021-05-06</updated>
+    </person>   
     <person id="Ivo_Timmermans">
       <name>Ivo Timmermans</name>
       <uri>mailto:itimmermans&amp;bigfoot.com</uri>
@@ -109803,11 +109823,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Joe_McCollough">
       <name>Joe McCollough</name>
       <uri>mailto:joe&amp;cadkey.com</uri>
-    </person>
-    <person id="Joe_Mueller">
-      <name>Joe Mueller</name>
-      <uri>mailto:joe_mueller&amp;keysight.com</uri>
-      <updated>2016-03-11</updated>
     </person>
     <person id="Joe_Pato">
       <name>Joe Pato</name>
@@ -111774,6 +111789,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Larry_Lipstone">
       <name>Larry Lipstone</name>
       <uri>mailto:lrl&amp;interdyn.com</uri>
+    </person>
+    <person id="Larry_Ostheimer">
+      <name>Larry Ostheimer</name>
+      <uri>mailto:larry_ostheimer&amp;keysight.com</uri>
+      <updated>2021-05-06</updated>
     </person>
     <person id="Larry_Peterson">
       <name>Larry Peterson</name>
@@ -118880,11 +118900,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Ryan_Bolz">
       <name>Ryan Bolz</name>
       <uri>mailto:ryanbo&amp;microsoft.com</uri>
-    </person>
-    <person id="Ryan_Columbus">
-      <name>Ryan Columbus</name>
-      <uri>mailto:IANA_Contact&amp;agilent.com</uri>
-      <updated>2002-10</updated>
     </person>
     <person id="Ryan_Finnie">
       <name>Ryan Finnie</name>
