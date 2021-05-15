@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-05-06</updated>
+  <updated>2021-05-14</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -88339,7 +88339,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>31030-31399</number>
+    <number>31030-31336</number>
+  </record>
+  <record date="2021-05-14">
+    <name>eldim</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Antonios_A_Chariton"/>
+    </assignee> 
+    <description>eldim is a secure file upload proxy</description>
+    <number>31337</number>
+    <xref type="person" data="Antonios_A_Chariton"/>
+  </record>
+  <record date="2021-05-14">
+    <name>eldim</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Antonios_A_Chariton"/>
+    </assignee> 
+    <description>eldim is a secure file upload proxy</description>
+    <number>31337</number>
+    <xref type="person" data="Antonios_A_Chariton"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>31338-31399</number>
   </record>
   <record date="2014-04-28">
     <name>pace-licensed</name>
@@ -100157,6 +100181,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Antonio Querubin</name>
       <uri>mailto:tony&amp;lava.net</uri>
       <updated>2008-03-10</updated>
+    </person>
+    <person id="Antonios_A_Chariton">
+      <name>Antonios A. Chariton</name>
+      <uri>mailto:iana&amp;daknob.net</uri>
+      <updated>2021-05-14</updated>
     </person>
     <person id="Anunoy_Ghosh">
       <name>Anunoy Ghosh</name>
