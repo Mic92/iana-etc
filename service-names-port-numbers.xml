@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-05-24</updated>
+  <updated>2021-05-26</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -92599,7 +92599,7 @@ common service discovery mechanisms.</note>
       <xref type="person" data="IESG"/>
     </assignee>
     <description>The Bootstrapping Remote Secure Key Infrastructure Proxy</description>
-	<xref type="draft" data="RFC-ietf-anima-bootstrapping-keyinfra-44"/>
+	<xref type="rfc" data="rfc8995"/>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="IETF_Chair"/>
   </record>
@@ -92610,7 +92610,7 @@ common service discovery mechanisms.</note>
       <xref type="person" data="IESG"/>
     </assignee>
     <description>The Bootstrapping Remote Secure Key Infrastructure Registrar</description>
-	<xref type="draft" data="RFC-ietf-anima-bootstrapping-keyinfra-44"/>
+	<xref type="rfc" data="rfc8995"/>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="IETF_Chair"/>
   </record>
