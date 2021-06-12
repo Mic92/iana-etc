@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-06-04</updated>
+  <updated>2021-06-11</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -58321,30 +58321,26 @@ Further keys may be added in the future.</note>
     <description>Unassigned</description>
     <number>4622-4645</number>
   </record>
-  <record date="2020-01-16" updated="2020-11-19">
+  <record date="2020-01-16" updated="2021-06-11">
     <name>dots-signal</name>
     <protocol>tcp</protocol>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="rfc" data="rfc8782"/>
-	<xref type="rfc" data="rfc8973"/>
-    <description>DOTS Signal Channel Protocol.
-      The service name is used to construct the SRV service names "_dots-signal._udp" and
-      "_dots-signal._tcp" for discovering DOTS servers used to establish DOTS signal
-      channel.</description>
+    <xref type="draft" data="RFC-ietf-dots-rfc8782-bis-08"/>
+    <xref type="rfc" data="rfc8973"/>
+    <description>Distributed Denial-of-Service Open Threat Signaling
+      (DOTS) Signal Channel</description>
     <number>4646</number>
   </record>
-  <record date="2020-01-16" updated="2020-11-19">
+  <record date="2020-01-16" updated="2021-06-11">
     <name>dots-signal</name>
     <protocol>udp</protocol>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="rfc" data="rfc8782"/>
-	<xref type="rfc" data="rfc8973"/>
-    <description>DOTS Signal Channel Protocol.
-      The service name is used to construct the SRV service names "_dots-signal._udp" and
-      "_dots-signal._tcp" for discovering DOTS servers used to establish DOTS signal
-      channel.</description>
+    <xref type="draft" data="RFC-ietf-dots-rfc8782-bis-08"/>
+    <xref type="rfc" data="rfc8973"/>
+    <description>Distributed Denial-of-Service Open Threat Signaling
+      (DOTS) Signal Channel</description>
     <number>4646</number>
   </record>
   <record>
