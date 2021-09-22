@@ -16,6 +16,11 @@ fi
 
 find .
 
+export GIT_AUTHOR_NAME="Github update bot"
+export GIT_AUTHOR_EMAIL="git@github.com"
+export GIT_COMMITTER_NAME=$GIT_AUTHOR_NAME
+export GIT_COMMITTER_EMAIL=$GIT_AUTHOR_EMAIL
+
 git add --all .
 git commit -m "add new iana release $(cat .version)"
 git push origin iana-numbers
