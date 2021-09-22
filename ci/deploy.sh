@@ -14,7 +14,7 @@ if [ -z "$(git diff --exit-code)" ]; then
     exit 0
 fi
 
-find out
+find .
 
 git add --all .
 git commit -m "add new iana release $(cat .version)"
