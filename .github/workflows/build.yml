@@ -12,7 +12,7 @@ jobs:
     - name: Checkout data branch
       uses: actions/checkout@v2
       with:
-        branch: iana-numbers
+        ref: iana-numbers
         path: out
         fetch-depth: 0
     - name: Create new iana-etc releases
