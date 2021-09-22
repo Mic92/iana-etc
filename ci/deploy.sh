@@ -23,7 +23,7 @@ export GIT_COMMITTER_EMAIL=$GIT_AUTHOR_EMAIL
 
 git add --all .
 git commit -m "add new iana release $(cat .version)"
-git push origin iana-numbers
+git push origin HEAD:iana-numbers
 
 tag=$(cat .version)
 gh release delete "$tag" </dev/null || true
