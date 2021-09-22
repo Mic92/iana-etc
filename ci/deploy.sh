@@ -27,4 +27,4 @@ git push origin HEAD:iana-numbers
 
 tag=$(cat .version)
 gh release delete "$tag" </dev/null || true
-gh release create --title "$tag" "$tag" dist/* </dev/null
+gh release create --title "$tag" "$tag" dist/iana-etc-* </dev/null
