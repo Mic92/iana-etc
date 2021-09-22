@@ -5,7 +5,7 @@ set -eux # Exit with nonzero exit code if anything fails
 # Clean out existing contents
 rm -rf out/**/* || exit 0
 
-python ~/iana-etc/update.py out
+python3 ~/iana-etc/update.py out
 
 cd out
 
