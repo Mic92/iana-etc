@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-09-21</updated>
+  <updated>2021-09-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -67413,19 +67413,25 @@ common service discovery mechanisms.</note>
     <description>MPS Server</description>
     <number>6106</number>
   </record>
-  <record>
+  <record updated="2021-09-24">
     <name>etc-control</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Steve_Polishinski"/>
+    <assignee>
+      <xref type="person" data="Electronic_Theatre_Controls_Inc"/>
+    </assignee>
     <description>ETC Control</description>
     <number>6107</number>
+    <xref type="person" data="ETC_IANA_Registration"/>
   </record>
-  <record>
+  <record updated="2021-09-24">
     <name>etc-control</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Steve_Polishinski"/>
+    <assignee>
+      <xref type="person" data="Electronic_Theatre_Controls_Inc"/>
+    </assignee>
     <description>ETC Control</description>
     <number>6107</number>
+    <xref type="person" data="ETC_IANA_Registration"/>
   </record>
   <record>
     <name>sercomm-scadmin</name>
@@ -105697,6 +105703,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:eldark&amp;infinidat.com</uri>
       <updated>2015-05-01</updated>
     </person>
+    <person id="Electronic_Theatre_Controls_Inc">
+      <org>Electronic Theatre Controls, Inc.</org>
+      <uri>mailto:ianaregistration&amp;etcconnect.com</uri>
+      <updated>2021-09-24</updated>
+    </person>
     <person id="Eleks_Ltd">
       <org>Eleks, Ltd.</org>
       <uri>mailto:eleksinfo&amp;eleks.com</uri>
@@ -106113,6 +106124,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Etai Lev-Ran</name>
       <uri>mailto:elevran&amp;cisco.com</uri>
       <updated>2005-02</updated>
+    </person>
+    <person id="ETC_IANA_Registration">
+      <name>ETC IANA Registration</name>
+      <org>Electronic Theatre Controls, Inc.</org>
+      <uri>mailto:ianaregistration&amp;etcconnect.com</uri>
+      <updated>2021-09-24</updated>
     </person>
     <person id="Ethan_Fremen">
       <name>Ethan Fremen</name>
@@ -120784,10 +120801,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Steve_Olson">
       <name>Steve Olson</name>
       <uri>mailto:solson&amp;cognex.com</uri>
-    </person>
-    <person id="Steve_Polishinski">
-      <name>Steve Polishinski</name>
-      <uri>mailto:spolishinski&amp;etcconnect.com</uri>
     </person>
     <person id="Steve_Qi">
       <name>Steve Qi</name>
