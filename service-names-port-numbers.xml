@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-09-24</updated>
+  <updated>2021-10-01</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -1174,38 +1174,59 @@ common service discovery mechanisms.</note>
     <number>79</number>
     <unauthorized>Unauthorized use by some mail users (see [RFC4146] for details)</unauthorized>
   </record>
-  <record>
+  <record updated="2021-10-01">
     <name>http</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
     <description>World Wide Web HTTP</description>
     <number>80</number>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path to document&gt;</note>
   </record>
-  <record>
+  <record updated="2021-10-01">
     <name>http</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
     <description>World Wide Web HTTP</description>
     <number>80</number>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path to document&gt;</note>
   </record>
-  <record>
+  <record updated="2021-10-01">
     <name>www</name>
     <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
     <description>World Wide Web HTTP</description>
     <number>80</number>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
     <note>This is a duplicate of the "http" service and should not be used for discovery purposes.</note>
   </record>
-  <record>
+  <record updated="2021-10-01">
     <name>www</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
     <description>World Wide Web HTTP</description>
     <number>80</number>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
     <note>This is a duplicate of the "http" service and should not be used for discovery purposes.</note>
   </record>
-  <record>
+  <record updated="2021-10-01">
     <name>www-http</name>
     <protocol>tcp</protocol>
     <xref type="person" data="Tim_Berners_Lee"/>
+    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
     <description>World Wide Web HTTP</description>
     <number>80</number>
     <note>This is a duplicate of the "http" service and should not be used for discovery purposes.
@@ -1230,10 +1251,11 @@ common service discovery mechanisms.</note>
         own DNS-SD service type, for example, XUL (XML User Interface Language)
         transported over HTTP is advertised explicitly as DNS-SD service type "xul-http".</note>
   </record>
-  <record>
+  <record updated="2021-10-01">
     <name>www-http</name>
     <protocol>udp</protocol>
     <xref type="person" data="Tim_Berners_Lee"/>
+    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
     <description>World Wide Web HTTP</description>
     <number>80</number>
     <note>This is a duplicate of the "http" service and should not be used for discovery purposes.
@@ -5536,7 +5558,7 @@ IANA assigned this well-formed service name as a replacement for "cvc_hostd".</d
 This entry is now historic, not usable for use with many
 common service discovery mechanisms.</note>
   </record>
-  <record updated="2018-07-06">
+  <record updated="2021-10-01">
     <name>https</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -5545,8 +5567,9 @@ common service discovery mechanisms.</note>
     <xref type="person" data="IETF_Chair"/>
     <description>http protocol over TLS/SSL</description>
     <number>443</number>
+    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
   </record>
-  <record updated="2018-07-06">
+  <record updated="2021-10-01">
     <name>https</name>
     <protocol>udp</protocol>
     <assignee>
@@ -5555,6 +5578,7 @@ common service discovery mechanisms.</note>
     <xref type="person" data="IETF_Chair"/>
     <description>http protocol over TLS/SSL</description>
     <number>443</number>
+    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
   </record>
   <record>
     <name>https</name>
@@ -87996,9 +88020,28 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>28011-28118</number>
+    <number>28011-28079</number>
     <unauthorized>Unauthorized Use Known on ports 28017, 28018 and 28019</unauthorized>
     
+  </record>
+  <record date="2021-09-29" updated="2021-10-01">
+    <name>thor-engine</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Aronetics_LLC"/>
+    </assignee>
+    <description>thor/server - ML engine</description>
+    <number>28080</number>
+    <xref type="person" data="John_Aron"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>28080</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>28081-28118</number>
   </record>
   <record>
     <protocol>tcp</protocol>
@@ -92199,6 +92242,16 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: Proprietary</note>
     <xref type="person" data="Around_Sound"/>
   </record>
+  <record date="2021-09-29">
+    <name>asam-cmp</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="ASAM_e_V"/>
+    </assignee>
+    <description>ASAM Capture Module Protocol</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Bernd_Wenzel"/>
+  </record>
   <record date="2016-08-18">
     <name>aseba</name>
     <protocol>tcp</protocol>
@@ -93758,6 +93811,16 @@ reserved for use in illustrative examples in books and other documentation.</not
     <description>Fish</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Oriol_Ferrer_Mesia"/>
+  </record>
+  <record date="2021-09-27">
+    <name>fisk</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Armando_Vrushi"/>
+    </assignee>
+    <description>Fiscalization service of Click.al</description>
+    <note>Defined TXT keys: fisk-srv</note>
+    <xref type="person" data="Armando_Vrushi"/>
   </record>
   <record>
     <name>fix</name>
@@ -100449,6 +100512,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:Arman.Bedonian&amp;asg.com</uri>
       <updated>2009-07-15</updated>
     </person>
+    <person id="Armando_Vrushi">
+      <name>Armando Vrushi</name>
+      <uri>mailto:mandi&amp;vrushi.me</uri>
+      <updated>2021-09-27</updated>
+    </person>
     <person id="Armin_Liebchen">
       <name>Armin Liebchen</name>
       <uri>mailto:armin&amp;anteradesign.com</uri>
@@ -100524,6 +100592,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Connectivity Standards Alliance</org>
       <uri>mailto:arosenberg&amp;logitech.com</uri>
       <updated>2021-07-16</updated>
+    </person>
+    <person id="Aronetics_LLC">
+      <org>Aronetics LLC</org>
+      <uri>mailto:john&amp;aronetics.com</uri>
+      <updated>2021-09-29</updated>
     </person>
     <person id="Arrow_Bit_SL">
       <org>Arrow Bit SL</org>
@@ -100602,6 +100675,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Ascom Austria GmbH</org>
       <uri>mailto:info&amp;ascom.at</uri>
       <updated>2008-05-01</updated>
+    </person>
+    <person id="ASAM_e_V">
+      <org>ASAM e.V.</org>
+      <uri>mailto:peter.voss&amp;asam.net</uri>
+      <updated>2021-09-29</updated>
     </person>
     <person id="ASCOM_Initiative">
       <org>ASCOM Initiative</org>
@@ -100998,6 +101076,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Bernd Paradies</name>
       <uri>mailto:bparadie&amp;adobe.com</uri>
       <updated>2008-01-14</updated>
+    </person>
+    <person id="Bernd_Wenzel">
+      <name>Bernd Wenzel</name>
+      <org>ASAM e.V.</org>
+      <uri>mailto:bernd.wenzel&amp;asam.net</uri>
+      <updated>2021-09-29</updated>
     </person>
     <person id="Bernie_Malkowski">
       <name>Bernie Malkowski</name>
@@ -110151,6 +110235,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Johannes Skov Frandsen</name>
       <uri>mailto:joe&amp;42tools.com</uri>
       <updated>2008-02-28</updated>
+    </person>
+    <person id="John_Aron">
+      <name>John Aron</name>
+      <org>Aronetics LLC</org>
+      <uri>mailto:john&amp;aronetics.com</uri>
+      <updated>2021-09-29</updated>
     </person>
     <person id="John_Aquilino">
       <name>John Aquilino</name>
