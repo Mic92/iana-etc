@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-10-01</updated>
+  <updated>2021-10-04</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -1222,11 +1222,10 @@ common service discovery mechanisms.</note>
     <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
     <note>This is a duplicate of the "http" service and should not be used for discovery purposes.</note>
   </record>
-  <record updated="2021-10-01">
+  <record>
     <name>www-http</name>
     <protocol>tcp</protocol>
     <xref type="person" data="Tim_Berners_Lee"/>
-    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
     <description>World Wide Web HTTP</description>
     <number>80</number>
     <note>This is a duplicate of the "http" service and should not be used for discovery purposes.
@@ -1251,11 +1250,10 @@ common service discovery mechanisms.</note>
         own DNS-SD service type, for example, XUL (XML User Interface Language)
         transported over HTTP is advertised explicitly as DNS-SD service type "xul-http".</note>
   </record>
-  <record updated="2021-10-01">
+  <record>
     <name>www-http</name>
     <protocol>udp</protocol>
     <xref type="person" data="Tim_Berners_Lee"/>
-    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
     <description>World Wide Web HTTP</description>
     <number>80</number>
     <note>This is a duplicate of the "http" service and should not be used for discovery purposes.
