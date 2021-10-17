@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-10-04</updated>
+  <updated>2021-10-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -66506,7 +66506,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>5795-5812</number>
+    <number>5795-5797</number>
+  </record>
+  <record date="2021-10-12">
+    <name>enlabel-dpl</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="enLabel_Global_Services"/>
+    </assignee>
+    <description>Proprietary Website deployment service</description>
+    <number>5798</number>
+    <xref type="person" data="Clay_S_Didier"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>5798</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>5799-5812</number>
   </record>
   <record>
     <name>icmpd</name>
@@ -103160,6 +103179,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Clay Maeckel</name>
       <uri>mailto:clay_maeckel&amp;filemaker.com</uri>
     </person>
+    <person id="Clay_S_Didier">
+      <name>Clay S. Didier</name>
+      <org>enLabel Global Services</org>
+      <uri>mailto:cdidier&amp;enlabel.com</uri>
+      <updated>2021-10-12</updated>
+    </person>
     <person id="Clayton_Haapala">
       <name>Clayton Haapala</name>
       <uri>mailto:clay.haapala&amp;veritas.com</uri>
@@ -105892,6 +105917,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Enguity Technology Corp.</org>
       <uri>mailto:kraig.beahn&amp;enguity.com</uri>
       <updated>2017-06-28</updated>
+    </person>
+    <person id="enLabel_Global_Services">
+      <org>enLabel Global Services</org>
+      <uri>mailto:support&amp;enlabel.com</uri>
+      <updated>2021-10-12</updated>
     </person>
     <person id="Enphase_Energy_Inc">
       <org>Enphase Energy, Inc.</org>
