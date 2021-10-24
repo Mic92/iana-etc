@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-10-12</updated>
+  <updated>2021-10-19</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Allison Mankin, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Lars Eggert, Alexey Melnikov, Wes Eddy, Alexander Zimmermann, Brian Trammell, and Jana Iyengar
@@ -97431,6 +97431,16 @@ b. bssid=&lt;Wi-Fi BSSID of the device&gt;
     <note>Defined TXT keys: Proprietary</note>
     <xref type="person" data="Justin_Cepelak"/>
   </record>
+  <record date="2021-10-19">
+    <name>split-dns64</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Kasper_Dupont"/>
+    </assignee>
+    <description>DNS64 in split configuration</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Kasper_Dupont"/>
+  </record>
   <record date="2012-10-09">
     <name>spres</name>
     <protocol>tcp</protocol>
@@ -111285,6 +111295,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Karthik Sundaresan</name>
       <uri>mailto:k.sundaresan&amp;cablelabs.com</uri>
       <updated>2015-11-24</updated>
+    </person>
+    <person id="Kasper_Dupont">
+      <name>Kasper Dupont</name>
+      <uri>mailto:kasperd&amp;xwhfx.16.oct.2021.kasperd.dk</uri>
+      <updated>2021-10-19</updated>
     </person>
     <person id="Katherine_Wattwood">
       <name>Katherine Wattwood</name>
