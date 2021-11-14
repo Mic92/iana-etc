@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-10-25</updated>
+  <updated>2021-11-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -36754,9 +36754,25 @@ common service discovery mechanisms.</note>
     <description>RADIX</description>
     <number>2872</number>
   </record>
-  <record updated="2003-07-23">
-    <description>Unassigned</description>
+  <record date="2021-11-12">
+    <name>psrt</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Altertech"/>
+    </assignee>
+    <description>PubSub Realtime Telemetry Protocol</description>
     <number>2873</number>
+    <xref type="person" data="Serhij_Symonenko"/>
+  </record>
+  <record date="2021-11-12">
+    <name>psrt</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Altertech"/>
+    </assignee>
+    <description>PubSub Realtime Telemetry Protocol</description>
+    <number>2873</number>
+    <xref type="person" data="Serhij_Symonenko"/>
   </record>
   <record>
     <name>dxmessagebase1</name>
@@ -99689,6 +99705,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:support&amp;altsolve.com</uri>
       <updated>2019-07-24</updated>
     </person>
+    <person id="Altertech">
+      <org>Altertech</org>
+      <uri>mailto:pr&amp;altertech.com</uri>
+      <updated>2021-11-12</updated>
+    </person>
     <person id="Altova">
       <org>Altova</org>
       <uri>mailto:has&amp;altova.com</uri>
@@ -105808,6 +105829,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Eivan Cerasi</name>
       <uri>mailto:eivan.cerasi&amp;eurocontrol.int</uri>
       <updated>2008-10-10</updated>
+    </person>
+    <person id="Ekaterina_Polyakova">
+      <name>Ekaterina Polyakova</name>
+      <org>GS Labs</org>
+      <uri>mailto:ekaterina.polyakova&amp;gs-labs.ru</uri>
+      <updated>2020-09-08</updated>
     </person>
     <person id="Ekkehard_Morgenstern">
       <name>Ekkehard Morgenstern</name>
@@ -119899,12 +119926,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:sergey.burnevsky&amp;nokia.com</uri>
       <updated>2006-08</updated>
     </person>
-    <person id="Ekaterina_Polyakova">
-      <name>Ekaterina Polyakova</name>
-      <org>GS Labs</org>
-      <uri>mailto:ekaterina.polyakova&amp;gs-labs.ru</uri>
-      <updated>2020-09-08</updated>
-    </person>
     <person id="Sergey_Zubov_2">
       <name>Sergey Zubov</name>
       <org>IK SATPROF LLC</org>
@@ -119928,6 +119949,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Serguei Tevs</name>
       <uri>mailto:STevs&amp;ivecon.com</uri>
       <updated>2002-02</updated>
+    </person>
+    <person id="Serhij_Symonenko">
+      <name>Serhij Symonenko</name>
+      <org>Altertech</org>
+      <uri>mailto:div&amp;altertech.com</uri>
+      <updated>2021-11-12</updated>
     </person>
     <person id="Service_Desk_Product">
       <name>Service Desk Product Manager</name>
