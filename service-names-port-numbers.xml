@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-11-24</updated>
+  <updated>2021-12-03</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -33513,19 +33513,25 @@ common service discovery mechanisms.</note>
     <description>Import Document Service</description>
     <number>2637</number>
   </record>
-  <record>
+  <record updated="2021-12-03">
     <name>sybaseanywhere</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Dave_Neudoerffer"/>
+    <assignee>
+      <xref type="person" data="SAP"/>
+    </assignee>
     <description>Sybase Anywhere</description>
     <number>2638</number>
+    <xref type="person" data="Jason_Noack"/>
   </record>
-  <record>
+  <record updated="2021-12-03">
     <name>sybaseanywhere</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Dave_Neudoerffer"/>
+    <assignee>
+      <xref type="person" data="SAP"/>
+    </assignee>
     <description>Sybase Anywhere</description>
     <number>2638</number>
+    <xref type="person" data="Jason_Noack"/>
   </record>
   <record>
     <name>aminet</name>
@@ -109296,6 +109302,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:jmcneil&amp;x2studios.com</uri>
       <updated>2020-05-06</updated>
     </person>
+    <person id="Jason_Noack">
+      <name>Jason Noack</name>
+      <org>SAP</org>
+      <uri>mailto:jason.noack&amp;sap.com</uri>
+      <updated>2021-12-03</updated>
+    </person>
     <person id="Jason_Reskin">
       <name>Jason Reskin</name>
       <uri>mailto:cases&amp;unistellar.fogbugz.com</uri>
@@ -119603,6 +119615,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Santorini, LLC</org>
       <uri>mailto:cameron&amp;santorinillc.com</uri>
       <updated>2011-10-25</updated>
+    </person>
+    <person id="SAP">
+      <org>SAP</org>
+      <uri>mailto:jason.noack&amp;sap.com</uri>
+      <updated>2021-12-03</updated>
     </person>
     <person id="SAP_SE">
       <org>SAP SE</org>
