@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-12-03</updated>
+  <updated>2021-12-10</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -98022,6 +98022,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Alex_Belliotti"/>
   </record>
+  <record date="2021-12-10">
+    <name>trel</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Thread_Group_Inc"/>
+    </assignee>
+    <description>Thread Radio Encapsulation Link</description>
+    <note>Defined TXT keys: mac, xpan</note>
+    <xref type="person" data="Tom_Sciorilli"/>
+  </record>
   <record>
     <name>tri-vis-client</name>
     <description>triCerat Simplify Visibility Client</description>
@@ -122030,7 +122040,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Thread_Group_Inc">
       <org>Thread Group, Inc.</org>
       <uri>mailto:help&amp;threadgroup.org</uri>
-      <updated>2020-11-20</updated>
+      <updated>2021-12-10</updated>
     </person>
     <person id="Three_Lights_Software_LLC">
       <org>3 Lights Software LLC</org>
@@ -122489,6 +122499,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Green Hills Software</org>
       <uri>mailto:iana-contact&amp;ghs.com</uri>
       <updated>2012-02-07</updated>
+    </person>
+    <person id="Tom_Sciorilli">
+      <name>Tom Sciorilli</name>
+      <org>Thread Group, Inc.</org>
+      <uri>mailto:tom&amp;threadgroup.org</uri>
+      <updated>2021-12-10</updated>
     </person>
     <person id="Tom_Snauwaert">
       <name>Tom Snauwaert</name>
