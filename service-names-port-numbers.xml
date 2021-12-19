@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-12-10</updated>
+  <updated>2021-12-15</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -97360,6 +97360,28 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
       osver=&lt;operating system version&gt;</note>
     <xref type="person" data="Gord_Peters"/>
   </record>
+  <record date="2021-12-15">
+    <name>snif-cln</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="VESvault_Corp"/>
+    </assignee>
+    <description>End-to-end TLS Relay Client Connection</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Jim_Zubov"/>
+    <xref type="uri" data="https://snif.host/relay-proto#snif-cln"/>
+  </record>
+  <record date="2021-12-15">
+    <name>snif-fifo</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="VESvault_Corp"/>
+    </assignee>
+    <description>End-to-end TLS Relay Cluster</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Jim_Zubov"/>
+    <xref type="uri" data="https://snif.host/relay-proto#snif-fifo"/>
+  </record>
   <record>
     <name>soap</name>
     <description>Simple Object Access Protocol</description>
@@ -110138,6 +110160,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Jim_Youll">
       <name>Jim Youll</name>
       <uri>mailto:jim&amp;media.mit.edu</uri>
+    </person>
+    <person id="Jim_Zubov">
+      <name>Jim Zubov</name>
+      <org>VESvault Corp</org>
+      <uri>mailto:jz&amp;vesvault.com</uri>
+      <updated>2021-12-15</updated>
     </person>
     <person id="Jimmy_Olsen">
       <name>Jimmy Olsen</name>
@@ -123146,6 +123174,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Vestas Wind Systems</org>
       <uri>mailto:tdwi&amp;vestas.com</uri>
       <updated>2013-10-30</updated>
+    </person>
+    <person id="VESvault_Corp">
+      <org>VESvault Corp</org>
+      <uri>mailto:jz&amp;vesvault.com</uri>
+      <updated>2021-12-15</updated>
     </person>
     <person id="Vick_Keshishian">
       <name>Vick Keshishian</name>
