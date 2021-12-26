@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-12-15</updated>
+  <updated>2021-12-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -71925,7 +71925,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>7122-7127</number>
+    <number>7122</number>
+  </record>
+  <record date="2021-12-24">
+    <name>snif</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="VESvault_Corp"/>
+    </assignee>
+    <description>End-to-end TLS Relay Control Connection</description>
+    <number>7123</number>
+    <xref type="person" data="Jim_Zubov"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>7123</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>7124-7127</number>
   </record>
   <record date="2006-03">
     <name>scenidm</name>
@@ -90071,7 +90090,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>38866-39680</number>
+    <number>38866-39062</number>
+  </record>
+  <record date="2021-12-23">
+    <name>vroa</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Hearing_Australia"/>
+    </assignee>
+    <description>Children's hearing test/Telemedicine</description>
+    <number>39063</number>
+    <xref type="person" data="Dan_Zhou"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>39063</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>39064-39680</number>
   </record>
   <record>
     <name>turbonote-1</name>
@@ -103665,9 +103703,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:contact&amp;cx5software.com</uri>
       <updated>2013-02-04</updated>
     </person>
-    <person id="DARcorp">
-      <uri>mailto:DARcorp&amp;aol.com</uri>
-    </person>
     <person id="d_b_audiotechnik">
       <org>d&amp;b audiotechnik</org>
       <uri>mailto:software.support&amp;dbaudio.com</uri>
@@ -103841,6 +103876,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:dwing&amp;cisco.com</uri>
       <updated>2015-10-08</updated>
     </person>
+    <person id="Dan_Zhou">
+      <name>Dan Zhou</name>
+      <org>Hearing Australia</org>
+      <uri>mailto:dan.zhou&amp;hearing.com.au</uri>
+      <updated>2021-12-23</updated>
+    </person>
     <person id="Dana_Blair">
       <name>Dana Blair</name>
       <uri>mailto:dblair&amp;cisco.com</uri>
@@ -104001,6 +104042,9 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Symantec</org>
       <uri>mailto:Danzhou_Liu&amp;symantec.com</uri>
       <updated>2012-05-07</updated>
+    </person>
+    <person id="DARcorp">
+      <uri>mailto:DARcorp&amp;aol.com</uri>
     </person>
     <person id="Dario_S_Tonesi">
       <name>Dario S. Tonesi</name>
@@ -107977,6 +108021,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>HbbTV Association</name>
       <uri>mailto:info&amp;hbbtv.org</uri>
     </person>
+    <person id="Hearing_Australia">
+      <org>Hearing Australia</org>
+      <uri>mailto:dan.zhou&amp;hearing.com.au</uri>
+      <updated>2021-12-23</updated>
+    </person>
     <person id="Heath_Barber">
       <name>Heath Barber</name>
       <org>Datacolor</org>
@@ -110165,7 +110214,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jim Zubov</name>
       <org>VESvault Corp</org>
       <uri>mailto:jz&amp;vesvault.com</uri>
-      <updated>2021-12-15</updated>
+      <updated>2021-12-24</updated>
     </person>
     <person id="Jimmy_Olsen">
       <name>Jimmy Olsen</name>
@@ -123177,8 +123226,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="VESvault_Corp">
       <org>VESvault Corp</org>
-      <uri>mailto:jz&amp;vesvault.com</uri>
-      <updated>2021-12-15</updated>
+      <uri>mailto:info&amp;vesvault.com</uri>
+      <updated>2021-12-24</updated>
     </person>
     <person id="Vick_Keshishian">
       <name>Vick Keshishian</name>
