@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2021-12-29</updated>
+  <updated>2022-01-10</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -55572,8 +55572,19 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>4193</number>
   </record>
+  <record date="2022-01-10">
+    <name>spdm</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Intel_Corporation"/>
+    </assignee>
+    <description>Security Protocol and Data Model</description>
+    <number>4194</number>
+    <xref type="person" data="Eduardo_Cabre"/>
+  </record>
   <record>
-    <description>Unassigned</description>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
     <number>4194</number>
   </record>
   <record date="2020-04-06">
@@ -60993,19 +61004,17 @@ common service discovery mechanisms.</note>
     <description>Infobright Database Server</description>
     <number>5029</number>
   </record>
-  <record date="2006-12">
-    <name>surfpass</name>
+  <record date="2006-12" updated="2022-01-10">
     <protocol>tcp</protocol>
-    <xref type="person" data="Olivier_Guezenec"/>
-    <description>SurfPass</description>
+    <description>Reserved</description>
     <number>5030</number>
+    <note>Historic usage was surfpass. De-Assigned on 2022-01-10</note>
   </record>
-  <record date="2006-12">
-    <name>surfpass</name>
+  <record date="2006-12" updated="2022-01-10">
     <protocol>udp</protocol>
-    <xref type="person" data="Olivier_Guezenec"/>
-    <description>SurfPass</description>
+    <description>Reserved</description>
     <number>5030</number>
+    <note>Historic usage was surfpass. De-Assigned on 2022-01-10</note>
   </record>
   <record>
     <protocol>tcp</protocol>
@@ -105847,6 +105856,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:domains&amp;dejongfrz.nl</uri>
       <updated>2013-01-22</updated>
     </person>
+    <person id="Eduardo_Cabre">
+      <name>Eduardo Cabre</name>
+      <org>Intel Corporation</org>
+      <uri>mailto:eduardo.cabre&amp;intel.com</uri>
+      <updated>2022-01-10</updated>
+    </person>
     <person id="Eduardo_Fernandez">
       <name>Eduardo Fernandez</name>
       <uri>mailto:eduardo.fernandez&amp;avocent.com</uri>
@@ -108817,6 +108832,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Intel</org>
       <uri>mailto:joshua.boelter&amp;intel.com</uri>
       <updated>2011-10-18</updated>
+    </person>
+    <person id="Intel_Corporation">
+      <org>Intel Corporation</org>
+      <uri>mailto:eduardo.cabre&amp;intel.com</uri>
+      <updated>2022-01-10</updated>
     </person>
     <person id="IntelliAdmin_LLC">
       <org>IntelliAdmin, LLC</org>
@@ -116085,11 +116105,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Olivier_Delecluse">
       <name>Olivier Delecluse</name>
       <uri>mailto:odelecluse&amp;intego.com</uri>
-    </person>
-    <person id="Olivier_Guezenec">
-      <name>Olivier Guezenec</name>
-      <uri>mailto:olivier.guezenec&amp;cogilab.com</uri>
-      <updated>2006-12</updated>
     </person>
     <person id="Olivier_Mascia">
       <name>Olivier Mascia</name>
