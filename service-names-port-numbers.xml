@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-01-10</updated>
+  <updated>2022-01-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -55924,7 +55924,27 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>4318-4319</number>
+    <number>4318</number>
+  </record>
+  <record date="2022-01-20">
+    <name>fox-skytale</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Fox_Crypto_BV"/>
+    </assignee>
+    <description>Fox SkyTale encrypted communication</description>
+    <number>4319</number>
+    <xref type="person" data="Frans_van_Dorsselaer"/>
+  </record>
+  <record date="2022-01-20">
+    <name>fox-skytale</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Fox_Crypto_BV"/>
+    </assignee>
+    <description>Fox SkyTale encrypted communication</description>
+    <number>4319</number>
+    <xref type="person" data="Frans_van_Dorsselaer"/>
   </record>
   <record date="2006-03">
     <name>fdt-rcatp</name>
@@ -106637,6 +106657,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:john&amp;foundapp.com</uri>
       <updated>2012-04-11</updated>
     </person>
+    <person id="Fox_Crypto_BV">
+      <org>Fox Crypto B.V.</org>
+      <uri>mailto:iana&amp;fox-it.com</uri>
+      <updated>2022-01-20</updated>
+    </person>
     <person id="Francesco_Rosi">
       <name>Francesco Rosi</name>
       <uri>mailto:frosi&amp;orenburg.com</uri>
@@ -106792,6 +106817,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Frans_S_C_Witte">
       <name>Frans S.C. Witte</name>
       <uri>mailto:fscwitte&amp;dicgroep.nl</uri>
+    </person>
+    <person id="Frans_van_Dorsselaer">
+      <name>Frans van Dorsselaer</name>
+      <org>Fox Crypto B.V.</org>
+      <uri>mailto:frans.vandorsselaer&amp;foxcrypto.com</uri>
+      <updated>2022-01-20</updated>
     </person>
     <person id="Franz_Josef_Leuders">
       <name>Franz-Josef Leuders</name>
