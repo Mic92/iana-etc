@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-01-20</updated>
+  <updated>2022-01-28</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -6743,41 +6743,41 @@ common service discovery mechanisms.</note>
     <description>newdate</description>
     <number>526</number>
   </record>
-  <record updated="2012-03-21">
+  <record updated="2022-01-25">
     <name>stx</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Fraxion_Software"/>
+      <xref type="person" data="Ferdi_Ladeira"/>
     </assignee>
     <description>Stock IXChange</description>
     <xref type="person" data="Ferdi_Ladeira"/>
     <number>527</number>
   </record>
-  <record updated="2012-03-21">
+  <record updated="2022-01-25">
     <name>stx</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="Fraxion_Software"/>
+      <xref type="person" data="Ferdi_Ladeira"/>
     </assignee>
     <description>Stock IXChange</description>
     <xref type="person" data="Ferdi_Ladeira"/>
     <number>527</number>
   </record>
-  <record updated="2012-03-21">
+  <record updated="2022-01-25">
     <name>custix</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Fraxion_Software"/>
+      <xref type="person" data="Ferdi_Ladeira"/>
     </assignee>
     <xref type="person" data="Ferdi_Ladeira"/>
     <description>Customer IXChange</description>
     <number>528</number>
   </record>
-  <record updated="2012-03-21">
+  <record updated="2022-01-25">
     <name>custix</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="Fraxion_Software"/>
+      <xref type="person" data="Ferdi_Ladeira"/>
     </assignee>
     <xref type="person" data="Ferdi_Ladeira"/>
     <description>Customer IXChange</description>
@@ -76906,7 +76906,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>8424-8441</number>
+    <number>8424-8431</number>
+  </record>
+  <record date="2022-01-26">
+    <name>pgbackrest</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="David_Steele"/>
+    </assignee>
+    <description>PostgreSQL Backup</description>
+    <number>8432</number>
+    <xref type="person" data="David_Steele"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8432</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>8433-8441</number>
   </record>
   <record date="2007-05">
     <name>cybro-a-bus</name>
@@ -99699,11 +99718,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:nav&amp;amicon.ru</uri>
       <updated>2013-04-25</updated>
     </person>
-    <person id="Alexey_Vlaskin">
-      <name>Alexey Vlaskin</name>
-      <uri>mailto:avlaskin&amp;visicron.com</uri>
-      <updated>2007-10-22</updated>
-    </person>
     <person id="Alexey_Y_Woronov">
       <name>Alexey Y. Woronov</name>
       <uri>mailto:wra&amp;ngs.ru</uri>
@@ -100185,11 +100199,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Andrew Borisov</name>
       <uri>mailto:hdr&amp;chat.ru</uri>
     </person>
-    <person id="Andrew_Chernow">
-      <name>Andrew Chernow</name>
-      <uri>mailto:andrew&amp;esilo.com</uri>
-      <updated>2007-01</updated>
-    </person>
     <person id="Andrew_Crockford">
       <name>Andrew Crockford</name>
       <uri>mailto:andrew.crockford&amp;modus-interactive.co.uk</uri>
@@ -100369,7 +100378,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Andy Krouwel</name>
       <uri>mailto:andy&amp;kar2ouche.com</uri>
     </person>
-    
     <person id="Andy_McKeen">
       <name>Andy McKeen</name>
       <uri>mailto:mckeen&amp;osf.org</uri>
@@ -100392,10 +100400,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Andy Shellam</name>
       <uri>mailto:andy&amp;networkmail.eu</uri>
       <updated>2008-02-19</updated>
-    </person>
-    <person id="Andy_Stanford_Clark">
-      <name>Andy Stanford-Clark</name>
-      <uri>mailto:andysc&amp;uk.ibm.com</uri>
     </person>
     <person id="Andy_Valencia">
       <name>Andy Valencia</name>
@@ -100756,11 +100760,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Arnold Dittmann</name>
       <uri>mailto:dittmann&amp;isbcad.de</uri>
     </person>
-    <person id="Arnold_E_Mauer">
-      <name>Arnold E. Mauer</name>
-      <uri>mailto:amauer&amp;vrms.com</uri>
-      <updated>2003-04</updated>
-    </person>
     <person id="Aron_Rosenberg">
       <name>Aron Rosenberg</name>
       <org>Connectivity Standards Alliance</org>
@@ -100782,16 +100781,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:ajc&amp;citadel.org</uri>
       <updated>2015-02-18</updated>
     </person>
-    
     <person id="Art_Pope">
       <name>Art Pope</name>
       <uri>mailto:apope&amp;sarnoff.com</uri>
       <updated>2002-10</updated>
-    </person>
-    <person id="Arthur_Barr">
-      <name>Arthur Barr</name>
-      <uri>mailto:arthur.barr&amp;uk.ibm.com</uri>
-      <updated>2008-02-27</updated>
     </person>
     <person id="Arthur_Castonguay">
       <name>Arthur Castonguay</name>
@@ -100806,11 +100799,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Arthur Wilton</name>
       <uri>mailto:art&amp;awilton.com</uri>
       <updated>2006-03</updated>
-    </person>
-    <person id="Arttu_Leinonen">
-      <name>Arttu Leinonen</name>
-      <uri>mailto:arttu.leinonen&amp;kpatents.com</uri>
-      <updated>2015-12-02</updated>
     </person>
     <person id="Arturo_Falck">
       <name>Arturo Falck</name>
@@ -101589,10 +101577,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Bob Purvy</name>
       <uri>mailto:bpurvy&amp;us.oracle.com</uri>
     </person>
-    <person id="Bob_Rennie">
-      <name>Bob Rennie</name>
-      <uri>mailto:rjrennie&amp;wizvax.net</uri>
-    </person>
     <person id="Bob_Rundle">
       <name>Bob Rundle</name>
       <uri>mailto:rundle&amp;rundle.com</uri>
@@ -102361,10 +102345,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Carl Obsorn</name>
       <uri>mailto:carl_osborn&amp;sabre.com</uri>
     </person>
-    <person id="Carl_Uno_Manros">
-      <name>Carl-Uno Manros</name>
-      <uri>mailto:manros&amp;cp10.es.xerox.com</uri>
-    </person>
     <person id="Carla_Caputo">
       <name>Carla Caputo</name>
       <uri>mailto:caputo&amp;emc.com</uri>
@@ -102884,7 +102864,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Chris Wells</name>
       <uri>mailto:chris_wells&amp;lansource.com</uri>
     </person>
-    
     <person id="Chris_Wilcox">
       <name>Chris Wilcox</name>
       <uri>mailto:cwilcox&amp;cd3o.com</uri>
@@ -104848,6 +104827,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:DavidTSpivey&amp;gmail.com</uri>
       <updated>2010-08-30</updated>
     </person>
+    <person id="David_Steele">
+      <name>David Steele</name>
+      <uri>mailto:david&amp;pgbackrest.org</uri>
+      <updated>2022-01-26</updated>
+    </person>
     <person id="David_Stephenson">
       <name>David Stephenson</name>
       <uri>mailto:david_stephenson&amp;hp.com</uri>
@@ -105248,12 +105232,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Diego Crupnicoff (IBTA TWG Chair)</name>
       <uri>mailto:diego&amp;mellanox.com</uri>
       <updated>2014-10-17</updated>
-    </person>
-    <person id="Diego_Dias">
-      <name>Diego Dias</name>
-      <org>SIMB Tecnologia</org>
-      <uri>mailto:diego&amp;simb.com.br</uri>
-      <updated>2014-11-07</updated>
     </person>
     <person id="Diego_Friedel">
       <name>Diego Friedel</name>
@@ -105730,10 +105708,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Dror Harari</name>
       <uri>mailto:Dror.Harari&amp;isgsoft.com</uri>
     </person>
-    <person id="Duane_Gibson">
-      <name>Duane Gibson</name>
-      <uri>mailto:ianaportmaster&amp;unify.com</uri>
-    </person>
     <person id="Duane_Kiser">
       <name>Duane Kiser</name>
       <uri>mailto:dkiser&amp;jsexpress.com</uri>
@@ -105785,11 +105759,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Earl_Wallace">
       <name>Earl Wallace</name>
       <uri>mailto:earlw&amp;apple.com</uri>
-    </person>
-    <person id="Ecamm_Network_LLC">
-      <org>Ecamm Network, LLC</org>
-      <uri>mailto:chris&amp;ecamm.com</uri>
-      <updated>2011-10-24</updated>
     </person>
     <person id="Eckhard_Grieger">
       <name>Eckhard Grieger</name>
@@ -105954,11 +105923,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Egon Meier-Engelen</name>
       <uri>mailto:egon.meier-engelen&amp;dlr.de</uri>
     </person>
-    <person id="Egon_Technolgies_LLC">
-      <name>Egon Technologies, LLC</name>
-      <uri>mailto:james.downs&amp;egontech.com</uri>
-      <updated>2015-10-05</updated>
-    </person>
     <person id="Eiki_Iwata">
       <name>Eiki Iwata</name>
       <uri>mailto:eiki&amp;nd.net.fujitsu.co.jp</uri>
@@ -106007,10 +105971,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Eli_Sternheim">
       <name>Eli Sternheim</name>
       <uri>mailto:eli&amp;interhdl.com</uri>
-    </person>
-    <person id="Elias_Sabbagh">
-      <name>Elias Sabbagh</name>
-      <uri>mailto:ehs&amp;sabbagh.com</uri>
     </person>
     <person id="Eliot_Blennerhassett">
       <name>Eliot Blennerhassett</name>
@@ -106574,9 +106534,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Ferdi_Ladeira">
       <name>Ferdi Ladeira</name>
-      <org>Fraxion Software</org>
       <uri>mailto:f.lad.mail&amp;gmail.com</uri>
-      <updated>2012-03-21</updated>
+      <updated>2022-01-25</updated>
     </person>
     <person id="Fermilab">
       <org>Fermilab</org>
@@ -106827,11 +106786,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Franz_Josef_Leuders">
       <name>Franz-Josef Leuders</name>
       <uri>mailto:development&amp;tobit.com</uri>
-    </person>
-    <person id="Fraxion_Software">
-      <org>Fraxion Software</org>
-      <uri>mailto:info&amp;fraxion.biz</uri>
-      <updated>2012-03-21</updated>
     </person>
     <person id="Fred_Cohen">
       <name>Fred Cohen</name>
@@ -107865,7 +107819,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:gkimchi&amp;microsoft.com</uri>
       <updated>2008-05-20</updated>
     </person>
-    
     <person id="Gus_Asadi">
       <name>Gus Asadi</name>
       <org>3 Lights Software LLC</org>
@@ -107956,11 +107909,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Hans Joachim Krueger</name>
       <uri>mailto:hkrueger&amp;libelle.com</uri>
       <updated>2016-02-17</updated>
-    </person>
-    <person id="Hans_Kruse">
-      <name>Hans Kruse</name>
-      <uri>mailto:kruse&amp;ohio.edu</uri>
-      <updated>2013-11-12</updated>
     </person>
     <person id="Hans_Peter_Heffels">
       <name>Hans-Peter Heffels</name>
@@ -108172,10 +108120,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Henning Mersch</name>
       <uri>mailto:support&amp;beckhoff.com</uri>
       <updated>2019-02-28</updated>
-    </person>
-    <person id="Henning_Schulzrinne">
-      <name>Henning Schulzrinne</name>
-      <uri>mailto:hgs&amp;cs.columbia.edu</uri>
     </person>
     <person id="Henning_Smith">
       <name>Henning Smith</name>
@@ -108534,12 +108478,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>IETF Chair</name>
       <org>IETF</org>
       <uri>mailto:chair&amp;ietf.org</uri>
-    </person>
-    <person id="IETF_DPRIVE_Working_Group_Chairs">
-      <name>IETF DPRIVE Working Group Chairs</name>
-      <org>IETF</org>
-      <uri>mailto:dns-privacy-chairs&amp;tools.ietf.org</uri>
-    </person>    
+    </person>  
     <person id="IFSF_Secretary">
       <name>IFSF Secretary</name>
       <uri>mailto:secretary&amp;ifsf.org</uri>
@@ -109994,11 +109933,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:jesse&amp;boutfitness.com</uri>
       <updated>2014-06-16</updated>
     </person>
-    <person id="Jesse_Gross">
-      <name>Jesse Gross</name>
-      <uri>mailto:jesse&amp;kernel.org</uri>
-      <updated>2018-10-23</updated>
-    </person>
     <person id="Jesse_McKay">
       <name>Jesse McKay</name>
       <uri>mailto:jesse&amp;spandata.com</uri>
@@ -110072,10 +110006,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jim Binkley</name>
       <uri>mailto:jrb&amp;cs.pdx.edu</uri>
       <updated>2002-06</updated>
-    </person>
-    <person id="Jim_Bound">
-      <name>Jim Bound</name>
-      <uri>mailto:bound&amp;zk3.dec.com</uri>
     </person>
     <person id="Jim_Cleppe">
       <name>Jim Cleppe</name>
@@ -110243,7 +110173,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jim Thompson</name>
       <uri>mailto:jim.thompson&amp;powerware.com</uri>
     </person>
-    
     <person id="Jim_Trek">
       <name>Jim Trek</name>
       <uri>mailto:jtrek&amp;rochester.rr.com</uri>
@@ -110290,11 +110219,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Jindra_Ryvola">
       <name>Jindra Ryvola</name>
       <uri>mailto:jryvola&amp;ledalite.com</uri>
-    </person>
-    <person id="JMAP_editor">
-      <name>JMAP editor</name>
-      <uri>mailto:editor&amp;jmap.io</uri>
-      <updated>2016-01-22</updated>
     </person>
     <person id="Jiri_Merth">
       <name>Jiri Merth</name>
@@ -111217,11 +111141,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:joshua.boelter&amp;intel.com</uri>
       <updated>2011-10-18</updated>
     </person>
-    <person id="Joshua_Graessley">
-      <name>Joshua Graessley</name>
-      <uri>mailto:jgraessley&amp;apple.com</uri>
-      <updated>2004-12</updated>
-    </person>
     <person id="Joshua_Hawkins">
       <name>Joshua Hawkins</name>
       <uri>mailto:joshua.hawkins&amp;hp.com</uri>
@@ -111318,11 +111237,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:julian.simpson&amp;neotechnology.com</uri>
       <updated>2016-09-29</updated>
     </person>
-    <person id="Julian_Smith">
-      <name>Julian Smith</name>
-      <uri>mailto:jsmith&amp;undo-software.com</uri>
-      <updated>2010-04-19</updated>
-    </person>
     <person id="Juliana_Hsu">
       <name>Juliana Hsu</name>
       <uri>mailto:jhsu&amp;ca.ibm.com</uri>
@@ -111358,11 +111272,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Juniper Networks</org>
       <uri>mailto:brijsman&amp;juniper.net</uri>
       <updated>2013-02-01</updated>
-    </person>
-    <person id="Juniper_Networks_2">
-      <org>Juniper Networks</org>
-      <uri>mailto:rbonica&amp;juniper.net</uri>
-      <updated>2015-06-10</updated>
     </person>
     <person id="Juraj_Zopp">
       <name>Juraj Zopp</name>
@@ -111773,7 +111682,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:kensarno&amp;insightbb.com</uri>
       <updated>2005-08</updated>
     </person>
-    
     <person id="Ken_Wittmer">
       <name>Ken Wittmer</name>
       <uri>mailto:kenneth.m.wittmer&amp;accenture.com</uri>
@@ -111881,11 +111789,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Kevin_Collins_2">
       <name>Kevin Collins</name>
       <uri>mailto:kevinc&amp;cnd.hp.com</uri>
-    </person>
-    <person id="Kevin_Copas">
-      <name>Kevin Copas</name>
-      <uri>mailto:Kevin.Copas&amp;lsi.com</uri>
-      <updated>2008-02-07</updated>
     </person>
     <person id="Kevin_DeVault">
       <name>Kevin DeVault</name>
@@ -112069,14 +111972,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:kip&amp;thevertigo.com</uri>
       <updated>2020-02-28</updated>
     </person>
-    <person id="Kipp_E_B_Hickman">
-      <name>Kipp E.B. Hickman</name>
-      <uri>mailto:kipp&amp;mcom.com</uri>
-    </person>
-    <person id="Kipp_E_B_Hickman_2">
-      <name>Kipp E.B. Hickman</name>
-      <uri>mailto:kipp&amp;netscape.com</uri>
-    </person>
     <person id="Kirill_Marinushkin">
       <name>Kirill Marinushkin</name>
       <org>Argus-Spectr</org>
@@ -112151,11 +112046,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Konstantin_Iavid">
       <name>Konstantin Iavid</name>
       <uri>mailto:kiavid&amp;highcriteria.com</uri>
-    </person>
-    <person id="Konstantin_Schauweck">
-      <name>Konstantin Schauwecker</name>
-      <uri>mailto:hi&amp;konstantin-schauwecker.de</uri>
-      <updated>2007-02</updated>
     </person>
     <person id="Konstantin_V_Vyazni">
       <name>Konstantin V. Vyaznikov</name>
@@ -112455,7 +112345,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Lawrence Lebahn</name>
       <uri>mailto:DIA3&amp;paxrv-nes.navy.mil</uri>
     </person>
-    
     <person id="Lawrence_Tarbox">
       <name>Lawrence Tarbox</name>
       <uri>mailto:ltarbox&amp;scr.siemens.com</uri>
@@ -113247,10 +113136,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Marius Matioc</name>
       <uri>mailto:marius&amp;lavenir.com</uri>
     </person>
-    <person id="Mark_Ainsley">
-      <name>Mark Ainsley</name>
-      <uri>mailto:ianaportmaster&amp;unify.com</uri>
-    </person>
     <person id="Mark_Armstrong">
       <name>Mark Armstrong</name>
       <uri>mailto:Mark.Armstrong&amp;soleratec.com</uri>
@@ -113297,10 +113182,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Mark_Crispin">
       <name>Mark Crispin</name>
       <uri>mailto:MRC&amp;panda.com</uri>
-    </person>
-    <person id="Mark_Crispin_2">
-      <name>Mark Crispin</name>
-      <uri>mailto:MRC&amp;cac.washington.edu</uri>
     </person>
     <person id="Mark_Crother">
       <name>Mark Crother</name>
@@ -113910,11 +113791,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:mathew_waters&amp;geode.co.uk</uri>
       <updated>2014-05-14</updated>
     </person>
-    <person id="Mathieu_Baissac">
-      <name>Mathieu Baissac</name>
-      <uri>mailto:mbaissac&amp;flexerasoftware.com</uri>
-      <updated>2016-07-19</updated>
-    </person>
     <person id="Mathieu_Garcia">
       <name>Mathieu Garcia</name>
       <uri>mailto:mathieu.garcia&amp;intua.net</uri>
@@ -114410,11 +114286,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Michael DeMoney</name>
       <uri>mailto:demoney&amp;eng.sun.com</uri>
     </person>
-    <person id="Michael_Demmer">
-      <name>Michael Demmer</name>
-      <uri>mailto:demmer&amp;cs.berkeley.edu</uri>
-      <updated>2006-11</updated>
-    </person>
     <person id="Michael_Dodge">
       <name>Michael Dodge</name>
       <uri>mailto:sarge&amp;centerspan.com</uri>
@@ -114661,12 +114532,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Michael Sparks</name>
       <uri>mailto:msparks&amp;telequiplabs.com</uri>
       <updated>2002-06</updated>
-    </person>
-    <person id="Michael_Spratte">
-      <name>Michael Spratte</name>
-      <org>Hewlett Packard</org>
-      <uri>mailto:michael.spratte&amp;hp.com</uri>
-      <updated>2014-04-09</updated>
     </person>
     <person id="Michael_Stapelberg">
       <name>Michael Stapelberg</name>
@@ -115053,11 +114918,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Mike_Marshburn">
       <name>Mike Marshburn</name>
       <uri>mailto:paul&amp;softarc.com</uri>
-    </person>
-    <person id="Mike_McCauley">
-      <name>Mike McCauley</name>
-      <uri>mailto:mikem&amp;open.com.au</uri>
-      <updated>2005-05</updated>
     </person>
     <person id="Mike_Morgan">
       <name>Mike Morgan</name>
@@ -115877,7 +115737,6 @@ implementations.  See RFC 3692 for details.</footnote>
         <uri>mailto:nils.langhammer&amp;miele.de</uri>
         <updated>2018-04-20</updated>
     </person>
-    
     <person id="Nimrod_Diamant">
       <name>Nimrod Diamant</name>
       <uri>mailto:nimrod.diamant&amp;intel.com</uri>
@@ -115958,11 +115817,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Norman_Brie">
       <name>Norman Brie</name>
       <uri>mailto:norm_brie&amp;sns.ca</uri>
-    </person>
-    <person id="Norman_Safeground_AS">
-      <org>Norman Safeground AS</org>
-      <uri>mailto:kristian.bognaes&amp;norman.com</uri>
-      <updated>2014-01-15</updated>
     </person>
     <person id="Norman_Wilson">
       <name>Norman Wilson</name>
@@ -116357,11 +116211,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:allen&amp;paceap.com</uri>
       <updated>2014-04-28</updated>
     </person>
-    <person id="Panasonic_Intranet_Panasonic_North_America_PEWLA">
-      <org>Panasonic Intranet, Panasonic North America (PEWLA)</org>
-      <uri>mailto:protocols&amp;pewla.us.pewg.panasonic.com</uri>
-      <updated>2012-11-12</updated>
-    </person>
     <person id="Panic_Inc">
       <org>Panic Inc.</org>
       <uri>mailto:cabel&amp;panic.com</uri>
@@ -116667,10 +116516,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Paul Hoffman</name>
       <uri>mailto:phoffman&amp;imc.org</uri>
     </person>
-    <person id="Paul_Hoffman_1">
-      <name>Paul Hoffman</name>
-      <uri>mailto:paul.hoffman&amp;icann.org</uri>
-    </person> 
     <person id="Paul_Horton">
       <name>Paul Horton</name>
       <uri>mailto:paul.horton&amp;dxstro.com</uri>
@@ -117329,10 +117174,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:phil&amp;plus24.com</uri>
       <updated>2002-02</updated>
     </person>
-    <person id="Phil_Lapsley">
-      <name>Phil Lapsley</name>
-      <uri>mailto:phil&amp;ucbarpa.berkeley.edu</uri>
-    </person>
     <person id="Phil_Maker">
       <name>Phil Maker</name>
       <uri>mailto:pjm&amp;gnu.org</uri>
@@ -117830,7 +117671,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:ralf.schwarzer&amp;sevenstax.de</uri>
       <updated>2015-11-05</updated>
     </person>
-    
     <person id="Ralph_Campbell">
       <name>Ralph Campbell</name>
       <uri>mailto:ralph.campbell&amp;xasystems.com</uri>
@@ -118023,10 +117863,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Ray_Gwinn">
       <name>Ray Gwinn</name>
       <uri>mailto:p00321&amp;psilink.com</uri>
-    </person>
-    <person id="Ray_Jantz">
-      <name>Ray Jantz</name>
-      <uri>mailto:ray.jantz&amp;lsil.com</uri>
     </person>
     <person id="Ray_Ozzie">
       <name>Ray Ozzie</name>
@@ -118381,7 +118217,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:richard&amp;cambridgepixel.com</uri>
       <updated>2008-09-17</updated>
     </person>
-    
     <person id="Richard_de_Mornay">
       <name>Richard de Mornay</name>
       <uri>mailto:rdemornay&amp;norton-lambert.com</uri>
@@ -118577,10 +118412,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>DEVONtechnologies, LLC</org>
       <uri>mailto:rrix&amp;devontechnologies.com</uri>
       <updated>2011-10-18</updated>
-    </person>
-    <person id="Rob_Robertson">
-      <name>Rob Robertson</name>
-      <uri>mailto:rob&amp;gangrene.berkeley.edu</uri>
     </person>
     <person id="Rob_Scott">
       <name>Rob Scott</name>
@@ -118813,11 +118644,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Tunstall Healthcare (UK) Ltd.</org>
       <uri>mailto:robert.moore&amp;tunstall.com</uri>
       <updated>2014-12-10</updated>
-    </person>
-    <person id="Robert_Norris">
-      <name>Robert Norris</name>
-      <uri>mailto:robn&amp;fastmail.com</uri>
-      <updated>2016-01-22</updated>
     </person>
     <person id="Robert_Orr">
       <name>Robert Orr</name>
@@ -119169,11 +118995,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:rherardi&amp;aethercloud.net</uri>
       <updated>2019-11-11</updated>
     </person>
-    <person id="Ron_Kuris">
-      <name>Ron Kuris</name>
-      <uri>mailto:rk&amp;unify.com</uri>
-      <updated>2006-05</updated>
-    </person>
     <person id="Ron_Lawson">
       <name>Ron Lawson</name>
       <uri>mailto:ronaldl&amp;hpindacx.cup.hp.com</uri>
@@ -119417,11 +119238,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Russell_Crook">
       <name>Russell Crook</name>
       <uri>mailto:rmc&amp;sni.ca</uri>
-    </person>
-    <person id="Russell_M_Taylor_II">
-      <name>Russell M. Taylor II</name>
-      <uri>mailto:taylor&amp;cs.unc.edu</uri>
-      <updated>2003-10</updated>
     </person>
     <person id="Russell_P_Holsclaw">
       <name>Russell P. Holsclaw</name>
@@ -120380,16 +120196,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:rdegiorgio&amp;silverstring.com</uri>
       <updated>2011-09-15</updated>
     </person>
-    <person id="Silvia_Veronese">
-      <name>Silvia Veronese</name>
-      <uri>mailto:silvia.veronese2&amp;hp.com</uri>
-      <updated>2016-01-13</updated>
-    </person>
-    <person id="SIMB_Tecnologia">
-      <org>SIMB Tecnologia</org>
-      <uri>mailto:devel&amp;simb.com.br</uri>
-      <updated>2014-11-07</updated>
-    </person>
     <person id="Simon_Baldwin">
       <name>Simon Baldwin</name>
       <uri>mailto:simonb&amp;sco.com</uri>
@@ -120584,11 +120390,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>SmarDTV</org>
       <uri>mailto:vincent.demortier&amp;smardtv.com</uri>
       <updated>2015-03-04</updated>
-    </person>
-    <person id="Small_Apps_LTD">
-      <org>Smart Apps LTD</org>
-      <uri>mailto:info&amp;smartapps.co</uri>
-      <updated>2011-10-11</updated>
     </person>
     <person id="Smith_Micro">
       <name>Smith Micro</name>
@@ -121224,7 +121025,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:steve&amp;aster.is</uri>
       <updated>2016-09-16</updated>
     </person>
-    
     <person id="Steven_Emmerson">
       <name>Steven Emmerson</name>
       <org>The University Corporation for Atmospheric Research</org>
@@ -121731,7 +121531,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ted J. Socolofsky</name>
       <uri>mailto:Teds&amp;spider.co.uk</uri>
     </person>
-    
     <person id="Ted_McFadden">
       <name>Ted McFadden</name>
       <uri>mailto:mcfadden&amp;dstc.edu.au</uri>
@@ -123695,7 +123494,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:bill&amp;pangolin.com</uri>
       <updated>2002-03</updated>
     </person>
-    
     <person id="William_David">
       <name>William David</name>
       <uri>mailto:william.david&amp;lmco.com</uri>
@@ -123737,8 +123535,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="William_Oldwin">
       <name>William Oldwin</name>
-      <uri>mailto:william&amp;patalogic.ie</uri>
-      <updated>2019-04-22</updated>
+      <uri>mailto:william&amp;bitsome.ie</uri>
+      <updated>2022-01-28</updated>
     </person>
     <person id="William_Orme">
       <name>William Orme</name>
@@ -123893,10 +123691,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>X2 Studios Ltd</org>
       <uri>mailto:support&amp;x2studios.com</uri>
       <updated>2020-05-06</updated>
-    </person>
-    <person id="Xavier_Roques">
-      <name>Xavier Roques</name>
-      <uri>mailto:xroques&amp;infovista.fr</uri>
     </person>
     <person id="XCDS_International_Ltd.">
       <org>XCDS International Ltd.</org>
@@ -124241,11 +124035,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Zenon Fortuna</name>
       <uri>mailto:zenon&amp;mips.com</uri>
       <updated>2007-02</updated>
-    </person>
-    <person id="ZeroMQ.org">
-      <org>ZeroMQ.org</org>
-      <uri>mailto:ph&amp;imatix.com</uri>
-      <updated>2012-11-01</updated>
     </person>
     <person id="Zhai_Zhaoxuan">
       <name>Zhai Zhaoxuan</name>
