@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-01-28</updated>
+  <updated>2022-02-04</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -57954,7 +57954,7 @@ common service discovery mechanisms.</note>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>DTN Bundle TCP CL Protocol</description>
-    <xref type="draft" data="RFC-ietf-dtn-tcpclv4-28"/>
+    <xref type="rfc" data="rfc9174"/>
     <number>4556</number>
   </record>
   <record date="2006-11" updated="2014-02-21">
@@ -59298,7 +59298,7 @@ Further keys may be added in the future.</note>
     <name>buschtrommel</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="None"/>
+      <xref type="person" data="Tobias_Sturm"/>
     </assignee>
     <description>peer-to-peer file exchange protocol</description>
     <number>4747</number>
@@ -60282,7 +60282,7 @@ common service discovery mechanisms.</note>
     <name>an-signaling</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="Cisco_systems_3"/>
+      <xref type="person" data="Cisco_Systems_3"/>
     </assignee>
     <description>Signal protocol port for autonomic networking</description>
     <number>4936</number>
@@ -65285,15 +65285,15 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>5606-5617</number>
   </record>
-  <record date="2013-08-13">
+  <record date="2013-08-13" updated="2022-02-02">
     <name>efr</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="efsta"/>
+      <xref type="person" data="efsta_IT_Services_GmbH"/>
     </assignee>
     <description>Fiscal Registering Protocol</description>
     <number>5618</number>
-    <xref type="person" data="Alois_Reisinger"/>
+    <xref type="person" data="Ernst_Bewersdorff"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -74993,7 +74993,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Beckhoff Automation Device Specification</description>
     <number>8016</number>
-    <xref type="person" data="Henning_Mersch_2"/>
+    <xref type="person" data="Henning_Mersch"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -97568,13 +97568,13 @@ b. bssid=&lt;Wi-Fi BSSID of the device&gt;
     <name>spl-itunes</name>
     <description>launchTunes</description>
     <note>Defined TXT keys: None</note>
-    <xref type="person" data="David_Nanian_2"/>
+    <xref type="person" data="David_Nanian"/>
   </record>
   <record>
     <name>spr-itunes</name>
     <description>netTunes</description>
     <note>Defined TXT keys: None</note>
-    <xref type="person" data="David_Nanian_2"/>
+    <xref type="person" data="David_Nanian"/>
   </record>
   <record>
     <name>splashsync</name>
@@ -99814,12 +99814,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:almira_niciu&amp;intuit.com</uri>
       <updated>2003-07</updated>
     </person>
-    <person id="Alois_Reisinger">
-      <name>Alois Reisinger</name>
-      <org>European Fiscal Standards Association</org>
-      <uri>mailto:alois.reisinger&amp;efsta.org</uri>
-      <updated>2013-08-13</updated>
-    </person>
     <person id="Alon_Kantor">
       <name>Alon Kantor</name>
       <uri>mailto:alonk&amp;checkpoint.com</uri>
@@ -99875,9 +99869,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Amahi</org>
       <uri>mailto:iana&amp;amahi.org</uri>
       <updated>2014-02-27</updated>
-    </person>
-    <person id="Amanda">
-      <uri>mailto:amanda-core&amp;amanda.org</uri>
     </person>
     <person id="Amandeep_Jawa">
       <name>Amandeep Jawa</name>
@@ -104724,10 +104715,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:dnanian&amp;shirt-pocket.com</uri>
       <updated>2007-09-28</updated>
     </person>
-    <person id="David_Nanian_2">
-      <name>David Nanian</name>
-      <uri>mailto:dnanian&amp;shirt-pocket.com</uri>
-    </person>
     <person id="David_Nash">
       <name>David Nash</name>
       <uri>mailto:dnash&amp;ford.com</uri>
@@ -105909,6 +105896,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:t.kemmer&amp;efkon.com</uri>
       <updated>2011-10-20</updated>
     </person>
+    <person id="efsta_IT_Services_GmbH">
+      <org>efsta IT Services GmbH</org>
+      <uri>mailto:admin&amp;efsta.eu</uri>
+      <updated>2022-02-02</updated>
+    </person>
     <person id="Eggert_Thorlacius">
       <name>Eggert Thorlacius</name>
       <uri>mailto:eggert&amp;menandmice.com</uri>
@@ -105922,6 +105914,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Egon_Meier_Engelen">
       <name>Egon Meier-Engelen</name>
       <uri>mailto:egon.meier-engelen&amp;dlr.de</uri>
+    </person>
+    <person id="Egon_Technologies_LLC">
+      <name>Egon Technologies, LLC</name>
+      <uri>mailto:james.downs&amp;egontech.com</uri>
+      <updated>2015-10-05</updated>
     </person>
     <person id="Eiki_Iwata">
       <name>Eiki Iwata</name>
@@ -106335,6 +106332,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:epmd&amp;erix.ericsson.se</uri>
       <updated>2004-12</updated>
     </person>
+    <person id="Ernst_Bewersdorff">
+      <name>Ernst Bewersdorff</name>
+      <org>efsta IT Services GmbH</org>
+      <uri>mailto:e.bewersdorff&amp;efsta.eu</uri>
+      <updated>2022-02-02</updated>
+    </person>
     <person id="Erwin_Hogeweg">
       <name>Erwin Hogeweg</name>
       <uri>mailto:erwin&amp;airtech.demon.nl</uri>
@@ -106344,11 +106347,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>FEHCom</org>
       <uri>mailto:feh&amp;fehcom.de</uri>
       <updated>2015-01-09</updated>
-    </person>
-    <person id="efsta">
-      <org>European Fiscal Standards Association</org>
-      <uri>mailto:dot&amp;efsta.org</uri>
-      <updated>2013-08-13</updated>
     </person>
     <person id="Esko_Dijk">
       <name>Esko Dijk</name>
@@ -108112,11 +108110,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <updated>2002-10</updated>
     </person>
     <person id="Henning_Mersch">
-      <name>Henning Mersch</name>
-      <uri>mailto:h.mersch&amp;plt.rwth-aachen.de</uri>
-      <updated>2010-12-07</updated>
-    </person>
-    <person id="Henning_Mersch_2">
       <name>Henning Mersch</name>
       <uri>mailto:support&amp;beckhoff.com</uri>
       <updated>2019-02-28</updated>
@@ -110547,6 +110540,7 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="John_Jackson">
       <name>John Jackson</name>
+      <org>amanda.org</org>
       <uri>mailto:jrj&amp;gandalf.cc.purdue.edu</uri>
     </person>
     <person id="John_Jobe">
@@ -112154,7 +112148,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:christophe.pignon&amp;l-acoustics.com</uri>
       <updated>2012-08-13</updated>
     </person>
-    <person id="LAN-ACES">
+    <person id="LAN-ACES_Inc">
       <org>LAN-ACES</org>
       <uri>mailto:rip&amp;lan-aces.com</uri>
       <updated>2017-02-08</updated>
@@ -120386,6 +120380,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:Richard&amp;smallcellforum.org</uri>
       <updated>2017-01-24</updated>
     </person>
+    <person id="Smart_Apps_LTD">
+      <org>Smart Apps LTD</org>
+      <uri>mailto:info&amp;smartapps.co</uri>
+      <updated>2011-10-11</updated>
+    </person>
     <person id="SmarDTV">
       <org>SmarDTV</org>
       <uri>mailto:vincent.demortier&amp;smardtv.com</uri>
@@ -123748,8 +123747,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Yaakov_Stein">
       <name>Yaakov Stein</name>
-      <uri>mailto:yaakov_s&amp;rad.com</uri>
-      <updated>2016-09-21</updated>
+      <uri>mailto:yaakovjstein&amp;gmail.com</uri>
+      <updated>2022-02-04</updated>
     </person>
     <person id="Yacince_Felk">
       <name>Yacince Felk</name>
