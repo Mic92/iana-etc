@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-02-04</updated>
+  <updated>2022-02-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -169,11 +169,11 @@ or prior to IANA registration.
     <description>Discard</description>
     <number>9</number>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>discard</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>Discard</description>
     <number>9</number>
   </record>
@@ -320,11 +320,11 @@ or prior to IANA registration.
     <description>File Transfer [Default Data]</description>
     <number>20</number>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>ftp-data</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>FTP</description>
     <number>20</number>
   </record>
@@ -346,11 +346,11 @@ or prior to IANA registration.
     <number>21</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path&gt;</note>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>ftp</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>FTP</description>
     <number>21</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path&gt;</note>
@@ -371,11 +371,11 @@ or prior to IANA registration.
     <number>22</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt;</note>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>ssh</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>SSH</description>
     <number>22</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt;</note>
@@ -1278,11 +1278,11 @@ common service discovery mechanisms.</note>
       own DNS-SD service type, for example, XUL (XML User Interface Language)
       transported over HTTP is advertised explicitly as DNS-SD service type "xul-http".</note>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>http</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>HTTP</description>
     <number>80</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path to document&gt;</note>
@@ -2688,11 +2688,11 @@ common service discovery mechanisms.</note>
     <description>Border Gateway Protocol</description>
     <number>179</number>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>bgp</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>BGP</description>
     <number>179</number>
   </record>
@@ -5578,11 +5578,11 @@ common service discovery mechanisms.</note>
     <number>443</number>
     <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
   </record>
-  <record>
+  <record updated="2022-02-07">
     <name>https</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="rfc" data="rfc4960"/>
+    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
     <description>HTTPS</description>
     <number>443</number>
   </record>
