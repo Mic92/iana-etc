@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-02-18</updated>
+  <updated>2022-02-22</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -20,7 +20,7 @@ documented in <xref type="rfc" data="rfc6335"/>.
 
 Port numbers are assigned in various ways, based on three ranges: System
 Ports (0-1023), User Ports (1024-49151), and the Dynamic and/or Private
-Ports (49152-65535); the difference uses of these ranges is described in
+Ports (49152-65535); the different uses of these ranges are described in
 <xref type="rfc" data="rfc6335"/>. According to Section 8.1.2 of <xref type="rfc" data="rfc6335"/>, System Ports are 
 assigned by the "IETF Review" or "IESG Approval" procedures described in 
 <xref type="rfc" data="rfc8126"/>. User Ports are assigned by IANA using the "IETF Review" process, 
@@ -76893,7 +76893,7 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>8418-8422</number>
   </record>
-  <record date="2017-03-30">
+  <record date="2017-03-30" updated="2022-02-22">
     <name>aritts</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -76901,7 +76901,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Aristech text-to-speech server</description>
     <number>8423</number>
-    <xref type="person" data="Mirko_Hering"/>
+    <xref type="person" data="Martin_Mende"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -100686,8 +100686,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Aristech_GmbH">
       <org>Aristech GmbH</org>
-      <uri>mailto:mirko.hering&amp;aristech.de</uri>
-      <updated>2017-03-30</updated>
+      <uri>mailto:aritts&amp;aristech.de</uri>
+      <updated>2022-02-22</updated>
     </person>
     <person id="Arjen_Lentz">
       <name>Arjen Lentz</name>
@@ -113618,6 +113618,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Martin Lichtin</name>
       <uri>mailto:lichtin&amp;oanda.com</uri>
     </person>
+    <person id="Martin_Mende">
+      <name>Martin Mende</name>
+      <org>Aristech GmbH</org>
+      <uri>mailto:martin.mende&amp;aristech.de</uri>
+      <updated>2022-02-22</updated>
+    </person>
     <person id="Martin_Norman">
       <name>Martin Norman</name>
       <uri>mailto:martin&amp;ndl.co.uk</uri>
@@ -115098,12 +115104,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Miriam_Wohlgelernter">
       <name>Miriam Wohlgelernter</name>
       <uri>mailto:miriamw&amp;adirtech.com</uri>
-    </person>
-    <person id="Mirko_Hering">
-      <name>Mirko Hering</name>
-      <org>Aristech GmbH</org>
-      <uri>mailto:mirko.hering&amp;aristech.de</uri>
-      <updated>2017-03-30</updated>
     </person>
     <person id="MirrorWeb_LTD">
       <org>MirrorWeb LTD</org>
