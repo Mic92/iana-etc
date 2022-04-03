@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-03-25</updated>
+  <updated>2022-04-01</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, and Jana Iyengar
@@ -10086,7 +10086,7 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>849-852</number>
   </record>
-  <record date="2015-10-08" updated="2017-01-23">
+  <record date="2015-10-08" updated="2022-04-01">
     <name>domain-s</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -10095,11 +10095,11 @@ common service discovery mechanisms.</note>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7858"/>
     <xref type="rfc" data="rfc8094"/>
-    <description>DNS query-response protocol run over TLS/DTLS</description>
+    <description>DNS query-response protocol run over TLS</description>
     <number>853</number>
     <note/>
   </record>
-  <record date="2015-10-08" updated="2017-01-23">
+  <record date="2015-10-08" updated="2022-04-01">
     <name>domain-s</name>
     <protocol>udp</protocol>
     <assignee>
@@ -10108,7 +10108,8 @@ common service discovery mechanisms.</note>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7858"/>
     <xref type="rfc" data="rfc8094"/>
-    <description>DNS query-response protocol run over TLS/DTLS</description>
+    <xref type="draft" data="RFC-ietf-dprive-dnsoquic-11"/>
+    <description>DNS query-response protocol run over DTLS or QUIC</description>
     <number>853</number>
     <note/>
   </record>
@@ -79768,9 +79769,24 @@ any port number, but the default port for this protocol is 9100.</note>
     <description>Reserved</description>
     <number>9339</number>
   </record>
+  <record date="2022-03-29">
+    <name>gribi</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Google_Networking"/>
+    </assignee>
+    <description>gRPC Routing Information Base Interface</description>
+    <number>9340</number>
+    <xref type="person" data="Rob_Shakir"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>9340</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>9340-9342</number>
+    <number>9341-9342</number>
   </record>
   <record>
     <name>mpidcmgr</name>
@@ -98229,6 +98245,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Acertant"/>
   </record>
+  <record date="2022-03-29">
+    <name>tvm</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Vogels_Products"/>
+    </assignee>
+    <description>Vogel's TV mount control</description>
+    <note>Defined TXT keys: txtvers, model</note>
+    <xref type="person" data="Remco_Poelstra"/>
+  </record>
   <record date="2012-09-05">
     <name>twinlevel</name>
     <protocol>tcp</protocol>
@@ -107528,6 +107554,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Google Netops</org>
       <uri>mailto:gnxi-maintainers&amp;google.com</uri>
       <updated>2019-05-09</updated>
+    </person>
+    <person id="Google_Networking">
+      <org>Google Networking</org>
+      <uri>mailto:gribi-maintainers&amp;google.com</uri>
+      <updated>2022-03-29</updated>
     </person>
     <person id="Gopikrishna_Sandra">
       <name>Gopikrishna Sandra</name>
@@ -118001,6 +118032,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:freeciv&amp;freeciv.org</uri>
       <updated>2006-01</updated>
     </person>
+    <person id="Remco_Poelstra">
+      <name>Remco Poelstra</name>
+      <org>Vogel's Products</org>
+      <uri>mailto:r.poelstra&amp;vogels.com</uri>
+      <updated>2022-03-29</updated>
+    </person>
     <person id="Remi_Lefebvre">
       <name>Remi Lefebvre</name>
       <uri>mailto:remi&amp;debian.org</uri>
@@ -118447,6 +118484,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Rob Scott</name>
       <uri>mailto:rscott&amp;rs.com</uri>
       <updated>2007-05</updated>
+    </person>
+    <person id="Rob_Shakir">
+      <name>Rob Shakir</name>
+      <org>Google Networking</org>
+      <uri>mailto:robjs&amp;google.com</uri>
+      <updated>2022-03-29</updated>
     </person>
     <person id="Rob_Tao">
       <name>Rob Tao</name>
@@ -123270,6 +123313,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Voalte, Inc.</org>
       <uri>mailto:engops&amp;voalte.com</uri>
       <updated>2019-01-22</updated>
+    </person>
+    <person id="Vogels_Products">
+      <org>Vogel's Products</org>
+      <uri>mailto:r.poelstra&amp;vogels.com</uri>
+      <updated>2022-03-29</updated>
     </person>
     <person id="Voiko_Loukanov">
       <name>Voiko Loukanov</name>
