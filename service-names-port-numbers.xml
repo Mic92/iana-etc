@@ -4,10 +4,10 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-04-01</updated>
+  <updated>2022-04-14</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
-Wes Eddy, Brian Trammell, and Jana Iyengar
+Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
 SCTP: Michael Tuexen
 DCCP: Eddie Kohler and Yoshifumi Nishida</expert>
   <note>
@@ -10086,7 +10086,7 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>849-852</number>
   </record>
-  <record date="2015-10-08" updated="2022-04-01">
+  <record date="2015-10-08" updated="2022-04-11">
     <name>domain-s</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -10094,7 +10094,6 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7858"/>
-    <xref type="rfc" data="rfc8094"/>
     <description>DNS query-response protocol run over TLS</description>
     <number>853</number>
     <note/>
@@ -93196,8 +93195,8 @@ common service discovery mechanisms.</note>
 	<xref type="draft" data="RFC-ietf-core-resource-directory-28"/>
     <xref type="person" data="IETF_Chair"/>
   </record>
-  <record date="2021-03-16">
-    <name>core-rd-dtls</name>
+  <record date="2021-03-16" updated="2022-04-14">
+    <name>core-rd-tls</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="IESG"/>
