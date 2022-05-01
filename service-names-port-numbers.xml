@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-04-14</updated>
+  <updated>2022-04-27</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
@@ -42991,7 +42991,7 @@ common service discovery mechanisms.</note>
     <description>Ceph monitor</description>
     <number>3300</number>
     <xref type="person" data="Sage_Weil"/>
-    <unauthorized>Knwon Unauthorized Use on 3300-3301</unauthorized>
+    <unauthorized>Known Unauthorized Use on 3300-3301</unauthorized>
     
   </record>
   <record>
@@ -43002,7 +43002,7 @@ common service discovery mechanisms.</note>
   <record>
     <description>unassigned</description>
     <number>3301</number>
-    <unauthorized>Knwon Unauthorized Use on 3300-3301</unauthorized>
+    <unauthorized>Known Unauthorized Use on 3300-3301</unauthorized>
     
   </record>
   <record>
@@ -93181,7 +93181,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Resource Directory accessed using CoAP over TCP</description>
     <note>Defined TXT keys: None</note>
-	<xref type="draft" data="RFC-ietf-core-resource-directory-28"/>
+	<xref type="rfc" data="rfc9176"/>
     <xref type="person" data="IETF_Chair"/>
   </record>
   <record date="2021-03-16">
@@ -93192,7 +93192,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Resource Directory accessed using CoAP</description>
     <note>Defined TXT keys: None</note>
-	<xref type="draft" data="RFC-ietf-core-resource-directory-28"/>
+    <xref type="rfc" data="rfc9176"/>
     <xref type="person" data="IETF_Chair"/>
   </record>
   <record date="2021-03-16" updated="2022-04-14">
@@ -93203,7 +93203,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Resource Directory accessed using CoAP over TLS</description>
     <note>Defined TXT keys: None</note>
-	<xref type="draft" data="RFC-ietf-core-resource-directory-28"/>
+    <xref type="rfc" data="rfc9176"/>
     <xref type="person" data="IETF_Chair"/>
   </record>
   <record date="2021-03-16">
@@ -93214,7 +93214,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Resource Directory accessed using CoAP over DTLS</description>
     <note>Defined TXT keys: None</note>
-	<xref type="draft" data="RFC-ietf-core-resource-directory-28"/>
+    <xref type="rfc" data="rfc9176"/>
     <xref type="person" data="IETF_Chair"/>
   </record>
   <record>
