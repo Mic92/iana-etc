@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-04-27</updated>
+  <updated>2022-05-04</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
@@ -73730,19 +73730,25 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>7678-7679</number>
   </record>
-  <record date="2008-02-27">
-    <name>pando-pub</name>
+  <record date="2008-02-27" updated="2022-05-03">
+    <name>ms-do</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Laird_Popkin"/>
-    <description>Pando Media Public Distribution</description>
+    <assignee>
+      <xref type="person" data="Microsoft_Corporation_6"/>
+    </assignee>
+    <description>Microsoft Delivery Optimization Peer-to-Peer</description>
     <number>7680</number>
+    <xref type="person" data="Narkis_Engler"/>
   </record>
-  <record date="2008-02-27">
-    <name>pando-pub</name>
+  <record date="2008-02-27" updated="2022-05-03">
+    <name>ms-do</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Laird_Popkin"/>
-    <description>Pando Media Public Distribution</description>
+    <assignee>
+      <xref type="person" data="Microsoft_Corporation_6"/>
+    </assignee>
+    <description>Microsoft Delivery Optimization Peer-to-Peer</description>
     <number>7680</number>
+    <xref type="person" data="Narkis_Engler"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -76413,19 +76419,25 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>8271-8275</number>
   </record>
-  <record date="2008-02-27">
-    <name>pando-sec</name>
+  <record date="2008-02-27" updated="2022-05-03">
+    <name>ms-mcc</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Laird_Popkin"/>
-    <description>Pando Media Controlled Distribution</description>
+    <assignee>
+      <xref type="person" data="Microsoft_Corporation_6"/>
+    </assignee>
+    <description>Microsoft Connected Cache</description>
     <number>8276</number>
+    <xref type="person" data="Narkis_Engler"/>
   </record>
-  <record date="2008-02-27">
-    <name>pando-sec</name>
+  <record date="2008-02-27" updated="2022-05-03">
+    <name>ms-mcc</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Laird_Popkin"/>
-    <description>Pando Media Controlled Distribution</description>
+    <assignee>
+      <xref type="person" data="Microsoft_Corporation_6"/>
+    </assignee>
+    <description>Microsoft Connected Cache</description>
     <number>8276</number>
+    <xref type="person" data="Narkis_Engler"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -93865,8 +93877,18 @@ the target host and port where DNS Dynamic Update Service is provided for the na
     <assignee>
       <xref type="person" data="Jack_Visoky"/>
     </assignee>
-    <note><xref type="rfc" data="rfc7030"/>. Defined TXT keys: none</note>
+    <note><xref type="rfc" data="rfc7030"/>. Defined TXT keys: None</note>
     <xref type="person" data="Jack_Visoky"/>
+  </record>
+  <record date="2022-05-03" updated="2022-05-04">
+    <name>est-coaps</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Toerless_Eckert_3"/>
+    </assignee>
+    <description>EST over secure CoAP (EST-coaps)</description>
+    <note><xref type="rfc" data="rfc9148"/>. Defined TXT keys: None</note>
+    <xref type="person" data="Toerless_Eckert_3"/>
   </record>
   <record>
     <name>eucalyptus</name>
@@ -112225,11 +112247,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Lai Zit Seng</name>
       <uri>mailto:lzs&amp;pobox.com</uri>
     </person>
-    <person id="Laird_Popkin">
-      <name>Laird Popkin</name>
-      <uri>mailto:laird&amp;pando.com</uri>
-      <updated>2008-02-27</updated>
-    </person>
     <person id="Lal_Samuel_Varghese">
       <name>Lal Samuel Varghese</name>
       <uri>mailto:lalsam&amp;hp.com</uri>
@@ -114772,6 +114789,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:hirsin&amp;microsoft.com</uri>
       <updated>2016-03-03</updated>
     </person>
+    <person id="Microsoft_Corporation_6">
+      <org>Microsoft Corporation</org>
+      <uri>mailto:naengler&amp;microsoft.com</uri>
+      <updated>2022-05-03</updated>
+    </person>
     <person id="Microtec_Informatique">
       <org>Microtec Informatique</org>
       <uri>mailto:raph&amp;microtec.fr</uri>
@@ -115410,6 +115432,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Narendra Kumar Reddy Thummaluru</name>
       <uri>mailto:narendrakumar.narribits&amp;gmail.com</uri>
       <updated>2016-06-01</updated>
+    </person>
+    <person id="Narkis_Engler">
+      <name>Narkis Engler</name>
+      <org>Microsoft Corporation</org>
+      <uri>mailto:naengler&amp;microsoft.com</uri>
+      <updated>2022-05-03</updated>
     </person>
     <person id="Nasuni_Corporation">
       <org>Nasuni Corporation</org>
@@ -122395,6 +122423,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Cisco Systems</org>
       <uri>mailto:eckert&amp;cisco.com</uri>
       <updated>2014-06-06</updated>
+    </person>
+    <person id="Toerless_Eckert_3">
+      <name>Toerless Eckert</name>
+      <uri>mailto:tte&amp;cs.fau.de</uri>
+      <updated>2022-05-03</updated>
     </person>
     <person id="Tohru_Mori">
       <name>Tohru Mori</name>
