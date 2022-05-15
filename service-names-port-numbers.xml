@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-05-04</updated>
+  <updated>2022-05-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
@@ -10107,7 +10107,7 @@ common service discovery mechanisms.</note>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7858"/>
     <xref type="rfc" data="rfc8094"/>
-    <xref type="draft" data="RFC-ietf-dprive-dnsoquic-11"/>
+    <xref type="rfc" data="rfc9250"/>
     <description>DNS query-response protocol run over DTLS or QUIC</description>
     <number>853</number>
     <note/>
@@ -84812,7 +84812,27 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>17008-17183</number>
+    <number>17008-17009</number>
+  </record>
+  <record date="2022-05-13">
+    <name>ncpu</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Ronald_G_Minnich"/>
+    </assignee>
+    <description>Plan 9 cpu port</description>
+    <number>17010</number>
+	<note>Defined TXT keys: u=username; k=keypattern; f=fstabFILE; n=namespace; h=hostkey; r=root</note>
+    <xref type="person" data="Ronald_G_Minnich"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>17010</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>17011-17183</number>
   </record>
   <record date="2013-10-30">
     <name>vestasdlp</name>
@@ -119143,6 +119163,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ron Zuckerman</name>
       <uri>mailto:ron.zuckerman&amp;lsi.com</uri>
       <updated>2007-08-30</updated>
+    </person>
+    <person id="Ronald_G_Minnich">
+      <name>Ronald G. Minnich</name>
+      <uri>mailto:rminnich&amp;gmail.com</uri>
+      <updated>2022-05-13</updated>
     </person>
     <person id="Ronald_Jimmink">
       <name>Ronald Jimmink</name>
