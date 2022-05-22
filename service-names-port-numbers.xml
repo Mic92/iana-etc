@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-05-13</updated>
+  <updated>2022-05-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
@@ -45571,9 +45571,10 @@ common service discovery mechanisms.</note>
     <description>TVDUM Tray Port</description>
     <number>3492</number>
   </record>
-  <record date="2002-05" updated="2020-12-16">
+  <record date="2002-05" updated="2022-05-18">
     <name>nut</name>
     <protocol>tcp</protocol>
+    <xref type="draft" data="RFC-rprice-ups-management-protocol-15"/>
     <assignee>
       <xref type="person" data="Network_UPS_Tools_Project"/>
     </assignee>
@@ -98221,14 +98222,14 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Alex_Belliotti"/>
   </record>
-  <record date="2021-12-10">
+  <record date="2021-12-10" updated="2022-05-20">
     <name>trel</name>
     <protocol>udp</protocol>
     <assignee>
       <xref type="person" data="Thread_Group_Inc"/>
     </assignee>
     <description>Thread Radio Encapsulation Link</description>
-    <note>Defined TXT keys: mac, xpan</note>
+    <note>Defined TXT keys: xa, xp</note>
     <xref type="person" data="Tom_Sciorilli"/>
   </record>
   <record>
