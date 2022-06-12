@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-06-03</updated>
+  <updated>2022-06-10</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
@@ -173,7 +173,7 @@ or prior to IANA registration.
     <name>discard</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>Discard</description>
     <number>9</number>
   </record>
@@ -324,7 +324,7 @@ or prior to IANA registration.
     <name>ftp-data</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>FTP</description>
     <number>20</number>
   </record>
@@ -350,7 +350,7 @@ or prior to IANA registration.
     <name>ftp</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>FTP</description>
     <number>21</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path&gt;</note>
@@ -375,7 +375,7 @@ or prior to IANA registration.
     <name>ssh</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>SSH</description>
     <number>22</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt;</note>
@@ -1183,7 +1183,7 @@ common service discovery mechanisms.</note>
     <description>World Wide Web HTTP</description>
     <number>80</number>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
+    <xref type="rfc" data="rfc9110"/>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path to document&gt;</note>
   </record>
   <record updated="2021-10-01">
@@ -1195,7 +1195,7 @@ common service discovery mechanisms.</note>
     <description>World Wide Web HTTP</description>
     <number>80</number>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
+    <xref type="rfc" data="rfc9110"/>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path to document&gt;</note>
   </record>
   <record updated="2021-10-01">
@@ -1207,7 +1207,7 @@ common service discovery mechanisms.</note>
     <description>World Wide Web HTTP</description>
     <number>80</number>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
+    <xref type="rfc" data="rfc9110"/>
     <note>This is a duplicate of the "http" service and should not be used for discovery purposes.</note>
   </record>
   <record updated="2021-10-01">
@@ -1219,7 +1219,7 @@ common service discovery mechanisms.</note>
     <description>World Wide Web HTTP</description>
     <number>80</number>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
+    <xref type="rfc" data="rfc9110"/>
     <note>This is a duplicate of the "http" service and should not be used for discovery purposes.</note>
   </record>
   <record>
@@ -1282,7 +1282,7 @@ common service discovery mechanisms.</note>
     <name>http</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>HTTP</description>
     <number>80</number>
     <note>Defined TXT keys: u=&lt;username&gt; p=&lt;password&gt; path=&lt;path to document&gt;</note>
@@ -2694,7 +2694,7 @@ common service discovery mechanisms.</note>
     <name>bgp</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>BGP</description>
     <number>179</number>
   </record>
@@ -5567,7 +5567,7 @@ common service discovery mechanisms.</note>
     <xref type="person" data="IETF_Chair"/>
     <description>http protocol over TLS/SSL</description>
     <number>443</number>
-    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
+    <xref type="rfc" data="rfc9110"/>
   </record>
   <record updated="2021-10-01">
     <name>https</name>
@@ -5578,13 +5578,13 @@ common service discovery mechanisms.</note>
     <xref type="person" data="IETF_Chair"/>
     <description>http protocol over TLS/SSL</description>
     <number>443</number>
-    <xref type="draft" data="RFC-ietf-httpbis-semantics-19"/>
+    <xref type="rfc" data="rfc9110"/>
   </record>
   <record updated="2022-02-07">
     <name>https</name>
     <protocol>sctp</protocol>
     <xref type="person" data="Randall_Stewart"/>
-    <xref type="draft" data="RFC-ietf-tsvwg-rfc4960-bis-19"/>
+    <xref type="rfc" data="rfc9260"/>
     <description>HTTPS</description>
     <number>443</number>
   </record>
@@ -42991,7 +42991,7 @@ common service discovery mechanisms.</note>
     <description>Ceph monitor</description>
     <number>3300</number>
     <xref type="person" data="Sage_Weil"/>
-    <unauthorized>Known Unauthorized Use on 3300-3301</unauthorized>
+    <unauthorized>Known Unauthorized Use on port 3300</unauthorized>
     
   </record>
   <record>
@@ -42999,11 +42999,29 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>3300</number>
   </record>
-  <record>
-    <description>unassigned</description>
+  <record date="2022-06-10">
+    <name>tarantool</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Tarantool"/>
+    </assignee>
+    <description>Tarantool in-memory computing platform</description>
     <number>3301</number>
-    <unauthorized>Known Unauthorized Use on 3300-3301</unauthorized>
+    <unauthorized>Known Unauthorized Use on port 3301</unauthorized>
     
+    <xref type="person" data="Alexander_Turenko"/>
+  </record>
+  <record date="2022-06-10">
+    <name>tarantool</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Tarantool"/>
+    </assignee>
+    <description>Tarantool in-memory computing platform</description>
+    <number>3301</number>
+    <unauthorized>Known Unauthorized Use on port 3301</unauthorized>
+    
+    <xref type="person" data="Alexander_Turenko"/>
   </record>
   <record>
     <name>mcs-fastmail</name>
@@ -62910,9 +62928,24 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>5242</number>
   </record>
+  <record date="2022-06-06">
+    <name>xycstatus</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Xycare_Ltd"/>
+    </assignee>
+    <description>xyClient Status API and rendevous point</description>
+    <number>5243</number>
+    <xref type="person" data="Luke_Bailey"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>5243</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>5243-5244</number>
+    <number>5244</number>
   </record>
   <record date="2009-04-07">
     <name>downtools</name>
@@ -66632,7 +66665,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>5815-5840</number>
+    <number>5815-5819</number>
+  </record>
+  <record date="2022-06-10">
+    <name>autopassdaemon</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Micro_Focus_2"/>
+    </assignee>
+    <description>AutoPass licensing</description>
+    <number>5820</number>
+    <xref type="person" data="AutoPass"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>5820</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>5821-5840</number>
   </record>
   <record date="2014-08-22">
     <name>shiprush-d-ch</name>
@@ -100042,6 +100094,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:alexander.sahler&amp;brodos.de</uri>
       <updated>2002-02</updated>
     </person>
+    <person id="Alexander_Turenko">
+      <name>Alexander Turenko</name>
+      <org>Tarantool</org>
+      <uri>mailto:alexander.turenko&amp;tarantool.org</uri>
+      <updated>2022-06-10</updated>
+    </person>
     <person id="Alexander_V_Ivanov">
       <name>Alexander V. Ivanov</name>
       <uri>mailto:support&amp;aidaim.com</uri>
@@ -101300,6 +101358,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Automated Target Solutions, Inc.</org>
       <uri>mailto:sales&amp;autotargets.com</uri>
       <updated>2015-12-28</updated>
+    </person>
+    <person id="AutoPass">
+      <name>AutoPass</name>
+      <uri>mailto:swpdl.apls_core&amp;microfocus.com</uri>
+      <updated>2022-06-10</updated>
     </person>
     <person id="AVG_Technologies_Norway_AS">
       <org>AVG Technologies Norway AS</org>
@@ -108447,7 +108510,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Heiko_Schlichting">
       <name>Heiko Schlichting</name>
-      <uri>mailto:heiko&amp;fu-berlin.de</uri>
+      <uri>mailto:heiko.schlichting&amp;fu-berlin.de</uri>
+      <updated>2022-06-07</updated>
     </person>
     <person id="Heiner_Erne">
       <name>Heiner Erne</name>
@@ -113097,8 +113161,8 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Ludwig_Kannicht">
       <name>Ludwig Kannicht</name>
       <org>Dark Horse GmbH &amp; Co KG</org>
-        <uri>mailto:l.kannicht&amp;thedarkhorse.de</uri>
-        <updated>2015-06-02</updated>
+      <uri>mailto:l.kannicht&amp;thedarkhorse.de</uri>
+      <updated>2015-06-02</updated>
     </person>
     <person id="Luis_Lopes">
       <name>Luis Lopes</name>
@@ -113109,6 +113173,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Luis Zugasti</name>
       <uri>mailto:lzugasti&amp;fagorautomation.es</uri>
       <updated>2003-11</updated>
+    </person>
+    <person id="Luke_Bailey">
+      <name>Luke Bailey</name>
+      <org>Xycare Ltd</org>
+      <uri>mailto:luke.bailey&amp;xycare.co.uk</uri>
+      <updated>2022-06-06</updated>
     </person>
     <person id="Luke_Bowen">
       <name>Luke Bowen</name>
@@ -115071,6 +115141,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Micro Focus</org>
       <uri>mailto:swpdl.dp.rd&amp;microfocus.com</uri>
       <updated>2019-09-30</updated>
+    </person>
+    <person id="Micro_Focus_2">
+      <org>Micro Focus</org>
+      <uri>mailto:swpdl.apls_core&amp;microfocus.com</uri>
+      <updated>2022-06-10</updated>
     </person>
     <person id="Micromat">
       <name>Micromat</name>
@@ -121906,6 +121981,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Tamir Zegman</name>
       <uri>mailto:zegman&amp;checkpoint.com</uri>
     </person>
+    <person id="Tarantool">
+      <org>Tarantool</org>
+      <uri>mailto:admin&amp;tarantool.org</uri>
+      <updated>2022-06-10</updated>
+    </person>
     <person id="Tarek_Nabhan">
       <name>Tarek Nabhan</name>
       <uri>mailto:standards&amp;itworx.com</uri>
@@ -123492,7 +123572,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Vera_Heinau">
       <name>Vera Heinau</name>
-      <uri>mailto:heinau&amp;fu-berlin.de</uri>
+      <uri>mailto:vera.heinau&amp;fu-berlin.de</uri>
+      <updated>2022-06-07</updated>
     </person>
     <person id="Verek">
       <name>Verek</name>
@@ -124176,6 +124257,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>XXT LLC</org>
       <uri>mailto:xxt.matt&amp;sbcglobal.net</uri>
       <updated>2012-07-12</updated>
+    </person>
+    <person id="Xycare_Ltd">
+      <org>Xycare Ltd</org>
+      <uri>mailto:luke.bailey&amp;xycare.co.uk</uri>
+      <updated>2022-06-06</updated>
     </person>
     <person id="Y_Ohiwa">
       <name>Y. Ohiwa</name>
