@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-06-10</updated>
+  <updated>2022-07-01</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
@@ -74128,9 +74128,24 @@ common service discovery mechanisms.</note>
     <description>Collaber Network Service</description>
     <number>7689</number>
   </record>
+  <record date="2022-07-01">
+    <name>sovd</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="ASAM_e_V"/>
+    </assignee>
+    <description>Service-Oriented Vehicle Diagnostics</description>
+    <number>7690</number>
+    <xref type="person" data="Bernd_Wenzel"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>7690</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>7690-7696</number>
+    <number>7691-7696</number>
   </record>
   <record date="2005-08">
     <name>klio</name>
@@ -101250,7 +101265,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="ASAM_e_V">
       <org>ASAM e.V.</org>
       <uri>mailto:marius.dupuis&amp;asam.net</uri>
-      <updated>2022-06-01</updated>
+      <updated>2022-07-01</updated>
     </person>
     <person id="ASCOM_Initiative">
       <org>ASCOM Initiative</org>
@@ -101663,7 +101678,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Bernd Wenzel</name>
       <org>ASAM e.V.</org>
       <uri>mailto:bernd.wenzel&amp;asam.net</uri>
-      <updated>2021-09-29</updated>
+      <updated>2022-07-01</updated>
     </person>
     <person id="Bernie_Malkowski">
       <name>Bernie Malkowski</name>
