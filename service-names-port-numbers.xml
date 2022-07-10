@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-07-01</updated>
+  <updated>2022-07-08</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
@@ -59582,9 +59582,29 @@ Further keys may be added in the future.</note>
     <description>Reserved</description>
     <number>4791</number>
   </record>
+  <record date="2022-07-08">
+    <name>unified-bus</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Huawei"/>
+    </assignee>
+    <description>IP Routable Unified Bus</description>
+    <number>4792</number>
+    <xref type="person" data="Luoqing_Zhou"/>
+  </record>
+  <record date="2022-07-08">
+    <name>unified-bus</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Huawei"/>
+    </assignee>
+    <description>IP Routable Unified Bus</description>
+    <number>4792</number>
+    <xref type="person" data="Luoqing_Zhou"/>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>4792-4799</number>
+    <number>4793-4799</number>
   </record>
   <record>
     <name>iims</name>
@@ -86675,9 +86695,19 @@ common service discovery mechanisms.</note>
     <description>TVNC Pro Multiplexing</description>
     <number>21800</number>
   </record>
+  <record date="2022-07-05" updated="2022-07-06">
+    <name>sal</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="WM_Software_Inc."/>
+    </assignee>
+    <description>Safe AutoLogon</description>
+    <number>21801</number>
+    <xref type="person" data="WM_Software_Inc."/>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>21801-21844</number>
+    <number>21802-21844</number>
   </record>
   <record>
     <name>webphone</name>
@@ -93520,6 +93550,16 @@ common service discovery mechanisms.</note>
     <name>contactserver</name>
     <description>Now Contact</description>
     <note>Defined TXT keys: None</note>
+  </record>
+  <record date="2022-07-05">
+    <name>controllerplus</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Apps_From_Outer_Space_LLC"/>
+    </assignee>
+    <description>game controller forwarding protocol</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="John_Haney"/>
   </record>
   <record date="2020-03-27">
     <name>convert</name>
@@ -101044,6 +101084,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Apple_Computer">
       <name>Apple Computer</name>
       <uri>mailto:perftools-feedback&amp;group.apple.com</uri>
+    </person>
+    <person id="Apps_From_Outer_Space_LLC">
+      <org>Apps From Outer Space, LLC</org>
+      <uri>mailto:john&amp;appsfromouterspace.com</uri>
+      <updated>2022-07-05</updated>
     </person>
     <person id="Apsolab_Inc">
       <org>Apsolab Inc.</org>
@@ -108859,6 +108904,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Huang Yu</name>
       <uri>mailto:llw&amp;ftsafe.com</uri>
     </person>
+    <person id="Huawei">
+      <org>Huawei</org>
+      <uri>mailto:zhouluoqing&amp;huawei.com</uri>
+      <updated>2022-07-08</updated>
+    </person>
     <person id="Huawei_Technologies_France">
       <org>Huawei Technologies France</org>
       <uri>mailto:yangxudong&amp;huawei.com</uri>
@@ -110985,6 +111035,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="John_Hadjioannou">
       <name>John Hadjioannou</name>
       <uri>mailto:john&amp;minster.co.uk</uri>
+    </person>
+    <person id="John_Haney">
+      <name>John Haney</name>
+      <org>Apps From Outer Space, LLC</org>
+      <uri>mailto:john&amp;appsfromouterspace.com</uri>
+      <updated>2022-07-05</updated>
     </person>
     <person id="John_Harvey">
       <name>John Harvey</name>
@@ -113221,6 +113277,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Lumis</org>
       <uri>mailto:rterra&amp;lumis.com.br</uri>
       <updated>2011-10-24</updated>
+    </person>
+    <person id="Luoqing_Zhou">
+      <name>Luoqing Zhou</name>
+      <org>Huawei</org>
+      <uri>mailto:zhouluoqing&amp;huawei.com</uri>
+      <updated>2022-07-08</updated>
     </person>
     <person id="Lutz_Karras">
       <name>Lutz Karras</name>
@@ -124160,6 +124222,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>2Wire IANA Contact</name>
       <uri>mailto:iana&amp;2wire.com</uri>
       <updated>2002-04</updated>
+    </person>
+    <person id="WM_Software_Inc.">
+      <org>WM Software Inc.</org>
+      <uri>mailto:support&amp;wmsoftware.com</uri>
+      <updated>2022-07-06</updated>
     </person>
     <person id="Wo_o_Ideafarm">
       <name>Wo'o Ideafarm</name>
