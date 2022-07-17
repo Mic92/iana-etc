@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-07-08</updated>
+  <updated>2022-07-15</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
 Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
@@ -92448,6 +92448,26 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Skip_Levens"/>
   </record>
+  <record date="2022-07-15">
+    <name>adamhall</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Adam_Hall_Group"/>
+    </assignee>
+    <description>Adam Hall network control and monitoring</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Eric_Sawade"/>
+  </record>
+  <record date="2022-07-15">
+    <name>adamhall</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Adam_Hall_Group"/>
+    </assignee>
+    <description>Adam Hall network control and monitoring</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Eric_Sawade"/>
+  </record>
   <record>
     <name>addressbook</name>
     <description>Address-O-Matic</description>
@@ -96383,6 +96403,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Michael_Cartmel"/>
   </record>
+  <record date="2022-07-11">
+    <name>nq</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Stuart_Cheshire"/>
+    </assignee>
+    <description>Network Quality test server endpoint</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Stuart_Cheshire"/>
+  </record>
   <record>
     <name>ntlx-arch</name>
     <description>American Dynamics Intellex Archive Management Service</description>
@@ -99642,6 +99672,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Adam Golovenko</name>
       <uri>mailto:golovenko&amp;gmail.com</uri>
       <updated>2006-10</updated>
+    </person>
+    <person id="Adam_Hall_Group">
+      <org>Adam Hall Group</org>
+      <uri>mailto:eric.sawade&amp;adamhall.com</uri>
+      <updated>2022-07-15</updated>
     </person>
     <person id="Adam_Kerrison">
       <name>Adam Kerrison</name>
@@ -106716,6 +106751,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Eric S. Raymond</name>
       <uri>mailto:esr&amp;thyrsus.com</uri>
       <updated>2010-04-19</updated>
+    </person>
+    <person id="Eric_Sawade">
+      <name>Eric Sawade</name>
+      <org>Adam Hall Group</org>
+      <uri>mailto:eric.sawade&amp;adamhall.com</uri>
+      <updated>2022-07-15</updated>
     </person>
     <person id="Eric_Sean_Conner">
       <name>Eric Sean Conner</name>
@@ -121759,7 +121800,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Stuart_Cheshire">
       <name>Stuart Cheshire</name>
       <uri>mailto:cheshire&amp;apple.com</uri>
-      <updated>2019-05-31</updated>
+      <updated>2022-07-11</updated>
     </person>
     <person id="Stuart_Cheshire_3">
       <name>Stuart Cheshire</name>
