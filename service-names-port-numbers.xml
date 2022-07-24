@@ -4,10 +4,10 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-07-15</updated>
+  <updated>2022-07-19</updated>
   <xref type="rfc" data="rfc6335"/>
-  <expert>TCP/UDP: Joe Touch; Eliot Lear, Markku Kojo, Kumiko Ono, Martin Stiemerling, 
-Wes Eddy, Brian Trammell, Jana Iyengar, and Michael Scharf
+  <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
+Jana Iyengar, and Michael Scharf
 SCTP: Michael Tuexen
 DCCP: Eddie Kohler and Yoshifumi Nishida</expert>
   <note>
@@ -41862,17 +41862,17 @@ common service discovery mechanisms.</note>
     <description>EMC SmartPackets</description>
     <number>3218</number>
   </record>
-  <record>
+  <record updated="2022-07-18">
     <name>wms-messenger</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Michael_Monasterio"/>
+    <xref type="person" data="WM_Software_Inc."/>
     <description>WMS Messenger</description>
     <number>3219</number>
   </record>
-  <record>
+  <record updated="2022-07-18">
     <name>wms-messenger</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Michael_Monasterio"/>
+    <xref type="person" data="WM_Software_Inc."/>
     <description>WMS Messenger</description>
     <number>3219</number>
   </record>
@@ -124267,7 +124267,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="WM_Software_Inc.">
       <org>WM Software Inc.</org>
       <uri>mailto:support&amp;wmsoftware.com</uri>
-      <updated>2022-07-06</updated>
+      <updated>2022-07-18</updated>
     </person>
     <person id="Wo_o_Ideafarm">
       <name>Wo'o Ideafarm</name>
