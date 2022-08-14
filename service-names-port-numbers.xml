@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-08-03</updated>
+  <updated>2022-08-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -45592,7 +45592,7 @@ common service discovery mechanisms.</note>
   <record date="2002-05" updated="2022-05-18">
     <name>nut</name>
     <protocol>tcp</protocol>
-    <xref type="draft" data="RFC-rprice-ups-management-protocol-15"/>
+    <xref type="rfc" data="rfc9271"/>
     <assignee>
       <xref type="person" data="Network_UPS_Tools_Project"/>
     </assignee>
@@ -56030,30 +56030,38 @@ common service discovery mechanisms.</note>
     <number>4324</number>
     <note>This entry is being removed on 2015-05-12.</note>
   </record>
-  <record>
-    <name>geognosisman</name>
+  <record updated="2022-08-12">
+    <name>geognosisadmin</name>
     <protocol>tcp</protocol>
-    <description>Cadcorp GeognoSIS Manager Service</description>
+    <assignee>
+      <xref type="person" data="Computer_Aided_Development_Corporation_Ltd"/>
+    </assignee>
+    <description>Cadcorp GeognoSIS Administrator</description>
     <number>4325</number>
+    <xref type="person" data="Martin_Daly"/>
   </record>
-  <record>
+  <record updated="2022-08-12">
     <name>geognosisman</name>
     <protocol>udp</protocol>
-    <description>Cadcorp GeognoSIS Manager Service</description>
+    <assignee>
+      <xref type="person" data="Computer_Aided_Development_Corporation_Ltd"/>
+    </assignee>
+    <description>Cadcorp GeognoSIS Administrator</description>
     <number>4325</number>
+    <xref type="person" data="Martin_Daly"/>
   </record>
-  <record date="2006-11">
+  <record date="2006-11" updated="2022-08-12">
     <name>geognosis</name>
     <protocol>tcp</protocol>
     <xref type="person" data="Martin_Daly"/>
-    <description>Cadcorp GeognoSIS Service</description>
+    <description>Cadcorp GeognoSIS</description>
     <number>4326</number>
   </record>
-  <record date="2006-11">
+  <record date="2006-11" updated="2022-08-12">
     <name>geognosis</name>
     <protocol>udp</protocol>
     <xref type="person" data="Martin_Daly"/>
-    <description>Cadcorp GeognoSIS Service</description>
+    <description>Cadcorp GeognoSIS</description>
     <number>4326</number>
   </record>
   <record date="2008-01-07">
@@ -67065,19 +67073,25 @@ common service discovery mechanisms.</note>
     <number>5909</number>
   	<xref type="person" data="Greg_Saccone"/>
   </record>
-  <record date="2008-10-10">
-    <name>cm</name>
+  <record date="2008-10-10" updated="2022-08-08">
+    <name>ats-atn</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Eivan_Cerasi"/>
-    <description>Context Management</description>
+    <assignee>
+      <xref type="person" data="Eivan_Cerasi"/>
+	  </assignee>
+    <description>Air Traffic Services applications using ATN</description>
     <number>5910</number>
+    <xref type="person" data="Greg_Saccone"/>
   </record>
-  <record date="2008-10-10">
-    <name>cm</name>
+  <record date="2008-10-10" updated="2022-08-08">
+    <name>ats-atn</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Eivan_Cerasi"/>
-    <description>Context Management</description>
+    <assignee>
+      <xref type="person" data="Eivan_Cerasi"/>
+	  </assignee>
+    <description>Air Traffic Services applications using ATN</description>
     <number>5910</number>
+    <xref type="person" data="Greg_Saccone"/>
   </record>
   <record date="2011-05-19">
     <name>cm</name>
@@ -67086,19 +67100,25 @@ common service discovery mechanisms.</note>
     <description>Context Management</description>
     <number>5910</number>
   </record>
-  <record date="2008-10-10">
-    <name>cpdlc</name>
+  <record date="2008-10-10" updated="2022-08-08">
+    <name>ats-acars</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Eivan_Cerasi"/>
-    <description>Controller Pilot Data Link Communication</description>
+    <assignee>
+      <xref type="person" data="Eivan_Cerasi"/>
+	  </assignee>
+    <description>Air Traffic Services applications using ACARS</description>
     <number>5911</number>
+    <xref type="person" data="Greg_Saccone"/>
   </record>
-  <record date="2008-10-10">
-    <name>cpdlc</name>
+  <record date="2008-10-10" updated="2022-08-08">
+    <name>ats-acars</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Eivan_Cerasi"/>
-    <description>Controller Pilot Data Link Communication</description>
+    <assignee>
+      <xref type="person" data="Eivan_Cerasi"/>
+	  </assignee>
+    <description>Air Traffic Services applications using ACARS</description>
     <number>5911</number>
+    <xref type="person" data="Greg_Saccone"/>
   </record>
   <record date="2011-05-18">
     <name>cpdlc</name>
@@ -67107,19 +67127,25 @@ common service discovery mechanisms.</note>
     <description>Controller Pilot Data Link Communication</description>
     <number>5911</number>
   </record>
-  <record date="2008-10-10">
-    <name>fis</name>
+  <record date="2008-10-10" updated="2022-08-08">
+    <name>ais-met</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Eivan_Cerasi"/>
-    <description>Flight Information Services</description>
+    <assignee>
+      <xref type="person" data="Eivan_Cerasi"/>
+	  </assignee>
+    <description>Aeronautical Information Service/Meteorological applications using ACARS</description>
     <number>5912</number>
+    <xref type="person" data="Greg_Saccone"/>
   </record>
-  <record date="2008-10-10">
-    <name>fis</name>
+  <record date="2008-10-10" updated="2022-08-08">
+    <name>ais-met</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Eivan_Cerasi"/>
-    <description>Flight Information Services</description>
+    <assignee>
+      <xref type="person" data="Eivan_Cerasi"/>
+	  </assignee>
+    <description>Aeronautical Information Service/Meteorological applications using ACARS</description>
     <number>5912</number>
+    <xref type="person" data="Greg_Saccone"/>
   </record>
   <record date="2011-05-25">
     <name>fis</name>
@@ -67128,19 +67154,25 @@ common service discovery mechanisms.</note>
     <description>Flight Information Services</description>
     <number>5912</number>
   </record>
-  <record date="2008-10-10">
-    <name>ads-c</name>
+  <record date="2008-10-10" updated="2022-08-08">
+    <name>aoc-acars</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Eivan_Cerasi"/>
-    <description>Automatic Dependent Surveillance</description>
+    <assignee>
+      <xref type="person" data="Eivan_Cerasi"/>
+	  </assignee>
+    <description>Airline operational communications applications using ACARS</description>
     <number>5913</number>
+    <xref type="person" data="Greg_Saccone"/>
   </record>
-  <record date="2008-10-10">
-    <name>ads-c</name>
+  <record date="2008-10-10" updated="2022-08-08">
+    <name>aoc-acars</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Eivan_Cerasi"/>
-    <description>Automatic Dependent Surveillance</description>
+    <assignee>
+      <xref type="person" data="Eivan_Cerasi"/>
+	  </assignee>
+    <description>Airline operational communications applications using ACARS</description>
     <number>5913</number>
+    <xref type="person" data="Greg_Saccone"/>
   </record>
   <record date="2011-05-25">
     <name>ads-c</name>
@@ -104001,6 +104033,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:knut&amp;winpcs.com</uri>
       <updated>2006-02</updated>
     </person>
+    <person id="Computer_Aided_Development_Corporation_Ltd">
+      <org>Computer Aided Development Corporation Ltd (Cadcorp)</org>
+      <uri>mailto:martin.daly&amp;cadcorp.com</uri>
+      <updated>2022-08-12</updated>
+    </person>
     <person id="Computer_Software_Gm">
       <org>Computer Software GmbH</org>
       <uri>mailto:BrunoRistok&amp;cs-ag.de</uri>
@@ -106459,7 +106496,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Eivan_Cerasi">
       <name>Eivan Cerasi</name>
       <uri>mailto:eivan.cerasi&amp;eurocontrol.int</uri>
-      <updated>2008-10-10</updated>
+      <updated>2022-08-08</updated>
     </person>
     <person id="Ekaterina_Polyakova">
       <name>Ekaterina Polyakova</name>
@@ -108269,7 +108306,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Greg_Saccone">
       <name>Greg Saccone</name>
       <uri>mailto:gregory.t.saccone&amp;boeing.com</uri>
-      <updated>2022-06-03</updated>
+      <updated>2022-08-08</updated>
     </person>
     <person id="Greg_Sidebottom">
       <name>Greg Sidebottom</name>
@@ -114131,7 +114168,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Martin_Daly">
       <name>Martin Daly</name>
       <uri>mailto:martin.daly&amp;cadcorp.com</uri>
-      <updated>2006-11</updated>
+      <updated>2022-08-12</updated>
     </person>
     <person id="Martin_Ellis">
       <name>Martin Ellis</name>
