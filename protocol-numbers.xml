@@ -3,7 +3,7 @@
 <?xml-model href="protocol-numbers.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="protocol-numbers">
   <title>Protocol Numbers</title>
-  <updated>2021-04-07</updated>
+  <updated>2022-08-19</updated>
   <registry id="protocol-numbers-1">
     <title>Assigned Internet Protocol Numbers</title>
     <xref type="rfc" data="rfc5237"/><xref type="rfc" data="rfc7045"/>
@@ -58,7 +58,7 @@ IPv6 Extension Header Types registry at <xref type="registry" data="ipv6-paramet
       <value>6</value>
       <name>TCP</name>
       <description>Transmission Control</description>
-      <xref type="draft" data="RFC-ietf-tcpm-rfc793bis-28"/>
+      <xref type="rfc" data="rfc9293"/>
     </record>
     <record>
       <value>7</value>
