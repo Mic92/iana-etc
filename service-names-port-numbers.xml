@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-09-15</updated>
+  <updated>2022-09-22</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -97223,6 +97223,16 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="BonjourDev"/>
   </record>
+  <record date="2022-09-22">
+    <name>rapta</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Rapta_Inc"/>
+    </assignee>
+    <description>Industrial IOT self-discovery network</description>
+    <note>Defined TXT keys: version</note>
+    <xref type="person" data="Matt_Daue"/>
+  </record>
   <record>
     <name>rbr</name>
     <description>RBR Instrument Communication</description>
@@ -114402,6 +114412,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Massive Flow Productions</name>
       <uri>mailto:info&amp;massiveflow.de</uri>
     </person>
+    <person id="Mat_Henshall">
+      <name>Mat Henshall</name>
+      <org>Square Connect, Inc.</org>
+      <uri>mailto:mat&amp;squareconnect.com</uri>
+      <updated>2011-10-07</updated>
+    </person>
     <person id="Matahari_Project">
       <org>Matahari Project</org>
       <uri>mailto:matahari&amp;lists.fedorahosted.org</uri>
@@ -114415,16 +114431,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Math_Game_House_Soft">
       <name>Math Game House Software</name>
       <uri>mailto:mathgamehouse&amp;mac.com</uri>
-    </person>
-    <person id="Matthew_Lucas">
-      <name>Matthew Lucas</name>
-      <uri>mailto:mcl&amp;apple.com</uri>
-      <updated>2020-06-03</updated>
-    </person>
-    <person id="Matthew_Margolis">
-      <name>Matthew Margolis</name>
-      <uri>mailto:matthew.margolis&amp;gettyimages.com</uri>
-      <updated>2019-04-18</updated>
     </person>
     <person id="Mathew_Pitchforth">
       <name>Mathew Pitchforth</name>
@@ -114440,12 +114446,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Mathieu_Garcia">
       <name>Mathieu Garcia</name>
       <uri>mailto:mathieu.garcia&amp;intua.net</uri>
-    </person>
-    <person id="Mat_Henshall">
-      <name>Mat Henshall</name>
-      <org>Square Connect, Inc.</org>
-      <uri>mailto:mat&amp;squareconnect.com</uri>
-      <updated>2011-10-07</updated>
     </person>
     <person id="Mats_Nilsson">
       <name>Mats Nilsson</name>
@@ -114484,6 +114484,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Matt Craighead</name>
       <uri>mailto:matt.craighead&amp;conifersystems.com</uri>
       <updated>2008-09-11</updated>
+    </person>
+    <person id="Matt_Daue">
+      <name>Matt Daue</name>
+      <org>Rapta, Inc</org>
+      <uri>mailto:mdaue&amp;rapta.ai</uri>
+      <updated>2022-09-22</updated>
     </person>
     <person id="Matt_Eagar">
       <name>Matt Eagar</name>
@@ -114567,9 +114573,19 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:mlloyd&amp;google.com</uri>
       <updated>2010-04-26</updated>
     </person>
+    <person id="Matthew_Lucas">
+      <name>Matthew Lucas</name>
+      <uri>mailto:mcl&amp;apple.com</uri>
+      <updated>2020-06-03</updated>
+    </person>
     <person id="Matthew_MacKenzie">
       <name>Matthew MacKenzie</name>
       <uri>mailto:mattm&amp;adobe.com</uri>
+    </person>
+    <person id="Matthew_Margolis">
+      <name>Matthew Margolis</name>
+      <uri>mailto:matthew.margolis&amp;gettyimages.com</uri>
+      <updated>2019-04-18</updated>
     </person>
     <person id="Matthew_Orzen">
       <name>Matthew Orzen</name>
@@ -118486,6 +118502,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ralph Greenwell</name>
       <uri>mailto:iana&amp;cognima.com</uri>
       <updated>2012-03-15</updated>
+    </person>
+    <person id="Rapta_Inc">
+      <org>Rapta, Inc</org>
+      <uri>mailto:admin&amp;rapta.ai</uri>
+      <updated>2022-09-22</updated>
     </person>
     <person id="Ratnadeep_Bhattachar">
       <name>Ratnadeep Bhattacharjee</name>
