@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-09-22</updated>
+  <updated>2022-10-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -44,7 +44,13 @@ or prior to IANA registration.
 * CHOOSE HOW TO CONFIGURE THEIR SYSTEMS BASED ON THEIR KNOWLEDGE OF    *
 * THE TRAFFIC IN QUESTION, NOT WHETHER THERE IS A PORT NUMBER          *
 * REGISTERED OR NOT.                                                   *
-************************************************************************</note>
+************************************************************************
+
+</note>
+<note title="Request an Assignment">
+  <xref type="uri" data="https://www.iana.org/protocols/apply"/>
+
+</note>
   <record>
     <protocol>tcp</protocol>
     <xref type="person" data="Jon_Postel"/>
@@ -83860,7 +83866,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>12346-12752</number>
+    <number>12346-12545</number>
+  </record>
+  <record date="2022-10-07">
+    <name>carb-repl-ctrl</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Open_Text_Corporation"/>
+    </assignee>
+    <description>Carbonite Server Replication Control</description>
+    <number>12546</number>
+    <xref type="person" data="Tony_Ponzo"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>12546</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>12547-12752</number>
   </record>
   <record>
     <name>tsaf</name>
@@ -116716,6 +116741,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:iana&amp;sensics.com</uri>
       <updated>2015-07-14</updated>
     </person>
+    <person id="Open_Text_Corporation">
+      <org>Open Text Corporation</org>
+      <uri>mailto:tponzo&amp;opentext.com</uri>
+      <updated>2022-10-07</updated>
+    </person>
     <person id="OpenDOF">
       <org>OpenDOF</org>
       <uri>mailto:protocol&amp;opendof.org</uri>
@@ -123333,6 +123363,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Tony Matthews</name>
       <uri>mailto:tmatthews&amp;triomotion.com</uri>
       <updated>2002-02</updated>
+    </person>
+    <person id="Tony_Ponzo">
+      <name>Tony Ponzo</name>
+      <org>Open Text Corporation</org>
+      <uri>mailto:tponzo&amp;opentext.com</uri>
+      <updated>2022-10-07</updated>
     </person>
     <person id="Tony_Sawyer">
       <name>Tony Sawyer</name>
