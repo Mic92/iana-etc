@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-10-07</updated>
+  <updated>2022-10-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -66741,15 +66741,15 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>5841</number>
   </record>
-  <record date="2011-09-26">
+  <record date="2011-09-26" updated="2022-10-12">
     <name>reversion</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Cameo_Systems_Inc"/>
+      <xref type="person" data="Pincoder_Diagnostics_Inc"/>
     </assignee>
-    <xref type="person" data="Craig_Nelson"/>
     <description>Reversion Backup/Restore</description>
     <number>5842</number>
+    <xref type="person" data="Craig_Nelson"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -102860,11 +102860,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:development&amp;caldsoft.co.uk</uri>
       <updated>2011-08-12</updated>
     </person>
-    <person id="Cameo_Systems_Inc">
-      <org>Cameo Systems Inc.</org>
-      <uri>mailto:craig&amp;reversion.ca</uri>
-      <updated>2011-09-26</updated>
-    </person>
     <person id="Cameron_Colpitts">
       <name>Cameron Colpitts</name>
       <org>Santorini, LLC</org>
@@ -104234,9 +104229,9 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Craig_Nelson">
       <name>Craig Nelson</name>
-      <org>Cameo Systems Inc.</org>
-      <uri>mailto:craig&amp;reversion.ca</uri>
-      <updated>2011-09-26</updated>
+      <org>Pincoder Diagnostics Inc.</org>
+      <uri>mailto:craig&amp;pincoder.ca</uri>
+      <updated>2022-10-12</updated>
     </person>
     <person id="Craig_Rogers">
       <name>Craig Rogers</name>
@@ -118038,6 +118033,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Pim van Riezen</name>
       <uri>mailto:registries&amp;panelsix.com</uri>
       <updated>2006-07</updated>
+    </person>
+    <person id="Pincoder_Diagnostics_Inc">
+      <org>Pincoder Diagnostics Inc.</org>
+      <uri>mailto:craig&amp;pincoder.ca</uri>
+      <updated>2022-10-12</updated>
     </person>
     <person id="Piotr_Parlewicz">
       <name>Piotr Parlewicz</name>
