@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-10-12</updated>
+  <updated>2022-10-21</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -95574,6 +95574,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: kiwin, top</note>
     <xref type="person" data="Stephen_kiwin_PALM"/>
   </record>
+  <record date="2022-10-21">
+    <name>knx</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="KNX_Association"/>
+    </assignee>
+    <description>Discovery in KNX IoT Point API</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Joost_Demarest"/>
+  </record>
   <record>
     <name>ktp</name>
     <description>Kabira Transaction Platform</description>
@@ -111685,6 +111695,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:support&amp;toltec.co.za</uri>
       <updated>2008-10-21</updated>
     </person>
+    <person id="Joost_Demarest">
+      <name>Joost Demarest</name>
+      <org>KNX Association</org>
+      <uri>mailto:joost.demarest&amp;knx.org</uri>
+      <updated>2022-10-21</updated>
+    </person>
     <person id="Jordan_Hrycaj">
       <name>Jordan Hrycaj</name>
       <uri>mailto:jordan&amp;mjh.teddy-net.com</uri>
@@ -112691,6 +112707,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Klaus_Wolf">
       <name>Klaus Wolf</name>
       <uri>mailto:wolf&amp;cobrow.com</uri>
+    </person>
+    <person id="KNX_Association">
+      <org>KNX Association</org>
+      <uri>mailto:joost.demarest&amp;knx.org</uri>
+      <updated>2022-10-21</updated>
     </person>
     <person id="Koen_Schoofs">
       <name>Koen Schoofs</name>
