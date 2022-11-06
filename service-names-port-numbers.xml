@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-10-25</updated>
+  <updated>2022-11-03</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -44116,17 +44116,17 @@ common service discovery mechanisms.</note>
     <description>CB Server</description>
     <number>3388</number>
   </record>
-  <record>
+  <record updated="2022-11-03">
     <name>ms-wbt-server</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Ritu_Bahl"/>
+    <xref type="person" data="Jordan_Marchese"/>
     <description>MS WBT Server</description>
     <number>3389</number>
   </record>
   <record>
     <name>ms-wbt-server</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Ritu_Bahl"/>
+    <xref type="person" data="Jordan_Marchese"/>
     <description>MS WBT Server</description>
     <number>3389</number>
   </record>
@@ -111705,6 +111705,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jordan Hrycaj</name>
       <uri>mailto:jordan&amp;mjh.teddy-net.com</uri>
     </person>
+    <person id="Jordan_Marchese">
+      <name>Jordan Marchese</name>
+      <uri>mailto:jordanm&amp;microsoft.com</uri>
+      <updated>2022-11-03</updated>
+    </person>
     <person id="Jordi_Lisbona">
       <name>Jordi Lisbona</name>
       <uri>mailto:jlisbona&amp;tango04.net</uri>
@@ -119042,10 +119047,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ritsuto Sako</name>
       <uri>mailto:sakou.ritsuto&amp;canon.co.jp</uri>
       <updated>2009-05-04</updated>
-    </person>
-    <person id="Ritu_Bahl">
-      <name>Ritu Bahl</name>
-      <uri>mailto:ritub&amp;microsoft.com</uri>
     </person>
     <person id="Rituparna_Agrawal">
       <name>Rituparna Agrawal</name>
