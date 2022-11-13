@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-11-03</updated>
+  <updated>2022-11-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -77341,8 +77341,23 @@ common service discovery mechanisms.</note>
     <number>8432</number>
   </record>
   <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>8433</number>
+  </record>
+  <record date="2022-11-07">
+    <name>aws-as2</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Amazon.com_Services_LLC"/>
+    </assignee>
+    <description>Non Persistent Desktop and Application Streaming</description>
+    <number>8433</number>
+    <xref type="person" data="Ivan_O_Mahony"/>
+  </record>
+  <record>
     <description>Unassigned</description>
-    <number>8433-8441</number>
+    <number>8434-8441</number>
   </record>
   <record date="2007-05">
     <name>cybro-a-bus</name>
@@ -100501,7 +100516,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Amazon.com_Services_LLC">
       <org>Amazon.com Services LLC</org>
       <uri>mailto:aws-iana&amp;amazon.com</uri>
-      <updated>2020-04-06</updated>
+      <updated>2022-11-07</updated>
     </person>
     <person id="Amber_Huffman">
       <name>Amber Huffman</name>
@@ -104517,8 +104532,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Dan_Wing">
       <name>Dan Wing</name>
-      <uri>mailto:dwing&amp;cisco.com</uri>
-      <updated>2015-10-08</updated>
+      <uri>mailto:danwing&amp;gmail.com</uri>
+      <updated>2022-11-07</updated>
     </person>
     <person id="Dan_Zhou">
       <name>Dan Zhou</name>
@@ -109554,6 +109569,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Ivan_Berardinelli">
       <name>Ivan Berardinelli</name>
       <uri>mailto:ivan&amp;gestweb.com</uri>
+    </person>
+    <person id="Ivan_O_Mahony">
+      <name>Ivan O'Mahony</name>
+      <org>Amazon.com Services LLC</org>
+      <uri>mailto:iomahony&amp;amazon.com</uri>
+      <updated>2022-11-07</updated>
     </person>
     <person id="Ivana_Cuozzo">
       <name>Ivana Cuozzo</name>
