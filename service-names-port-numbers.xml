@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-11-07</updated>
+  <updated>2022-11-22</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -96349,6 +96349,26 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: Contact The ZAZ Software &lt;networkclipboard at thezaz.com&gt;</note>
     <xref type="person" data="Thom_McGrath"/>
   </record>
+  <record date="2022-11-22">
+    <name>ndi</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="NewTek_Inc"/>
+    </assignee>
+    <description>IP based video discovery and usage</description>
+    <note>Defined TXT keys: Proprietary</note>
+    <xref type="person" data="Brad_McFarland"/>
+  </record>
+  <record date="2022-11-22">
+    <name>ndi</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="NewTek_Inc"/>
+    </assignee>
+    <description>IP based video discovery and usage</description>
+    <note>Defined TXT keys: Proprietary</note>
+    <xref type="person" data="Brad_McFarland"/>
+  </record>
   <record date="2014-08-28">
     <name>nedap-aepu</name>
     <protocol>tcp</protocol>
@@ -99350,6 +99370,26 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: version=? description=?</note>
     <xref type="person" data="Brady_Anderson"/>
   </record>
+  <record date="2022-11-22">
+    <name>wot</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="W3C_Web_of_Things_Working_Group"/>
+    </assignee>
+    <description>W3C WoT Thing Description or Directory</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Kazuyuki_Ashimura"/>
+  </record>
+  <record date="2022-11-22">
+    <name>wot</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="W3C_Web_of_Things_Working_Group"/>
+    </assignee>
+    <description>W3C WoT Thing Description or Directory</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Kazuyuki_Ashimura"/>
+  </record>
   <record date="2017-03-17">
     <name>wpl-ers-http</name>
     <protocol>tcp</protocol>
@@ -102326,6 +102366,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Brad Johanson</name>
       <uri>mailto:bradj&amp;tidebreak.com</uri>
       <updated>2005-08</updated>
+    </person>
+    <person id="Brad_McFarland">
+      <name>Brad McFarland</name>
+      <org>NewTek Inc</org>
+      <uri>mailto:bmcfarland&amp;newtek.com</uri>
+      <updated>2022-11-22</updated>
     </person>
     <person id="Brad_Parker">
       <name>Brad Parker</name>
@@ -112193,6 +112239,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Kazuya Ogata</name>
       <uri>mailto:info&amp;sepv.jp</uri>
     </person>
+    <person id="Kazuyuki_Ashimura">
+      <name>Kazuyuki Ashimura</name>
+      <uri>mailto:ashimura&amp;w3.org</uri>
+      <updated>2022-11-22</updated>
+    </person>
     <person id="Kedar_Mhaswade">
       <name>Kedar Mhaswade</name>
       <uri>mailto:kedar.Mhaswade&amp;sun.com</uri>
@@ -116275,6 +116326,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Nevil Brownlee</name>
       <uri>mailto:n.brownlee&amp;auckland.ac.nz</uri>
       <updated>2006-10</updated>
+    </person>
+    <person id="NewTek_Inc">
+      <org>NewTek Inc</org>
+      <uri>mailto:cs&amp;newtek.com</uri>
+      <updated>2022-11-22</updated>
     </person>
     <person id="Nexenta">
       <name>John S. Howard</name>
@@ -124080,6 +124136,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>VSN International Ltd.</org>
       <uri>mailto:sean&amp;vsni.co.uk</uri>
       <updated>2011-09-28</updated>
+    </person>
+    <person id="W3C_Web_of_Things_Working_Group">
+      <org>W3C Web of Things Working Group</org>
+      <uri>mailto:team-wot&amp;w3.org</uri>
+      <updated>2022-11-22</updated>
     </person>
     <person id="WAP_Forum">
       <name>WAP Forum</name>
