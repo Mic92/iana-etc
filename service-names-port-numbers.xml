@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-11-22</updated>
+  <updated>2022-12-02</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -57734,7 +57734,7 @@ common service discovery mechanisms.</note>
   <record updated="2022-09-15">
     <name>ipsec-nat-t</name>
     <protocol>tcp</protocol>
-    <xref type="draft" data="RFC-ietf-ipsecme-rfc8229bis-09"/>
+    <xref type="rfc" data="rfc9329"/>
     <description>IPsec NAT-Traversal</description>
     <number>4500</number>
   </record>
@@ -96915,6 +96915,26 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: Proprietary</note>
     <xref type="person" data="Oskar_Persano"/>
   </record>
+  <record date="2022-12-02">
+    <name>payload-app</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Didrik_Nordström"/>
+    </assignee>
+    <description>Local and remote file transfers</description>
+    <note>Defined TXT keys: _payload._tcp.local, _payload._udp.local</note>
+    <xref type="person" data="Didrik_Nordström"/>
+  </record>
+  <record date="2022-12-02">
+    <name>payload-app</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Didrik_Nordström"/>
+    </assignee>
+    <description>Local and remote file transfers</description>
+    <note>Defined TXT keys: _payload._tcp.local, _payload._udp.local</note>
+    <xref type="person" data="Didrik_Nordström"/>
+  </record>
   <record>
     <name>pgpkey-hkp</name>
     <description>Horowitz Key Protocol (HKP)</description>
@@ -105910,6 +105930,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Didier Lahay</name>
       <uri>mailto:dlahay&amp;sierrawireless.com</uri>
       <updated>2013-02-22</updated>
+    </person>
+    <person id="Didrik_Nordström">
+      <name>Didrik Nordström</name>
+      <uri>mailto:didrik.nordstrom&amp;gmail.com</uri>
+      <updated>2022-12-02</updated>
     </person>
     <person id="Diego_Crupnicoff">
       <name>Diego Crupnicoff (IBTA TWG Chair)</name>
