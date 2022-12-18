@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-12-09</updated>
+  <updated>2022-12-15</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -90692,17 +90692,19 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>39682-39999</number>
   </record>
-  <record date="2006-11">
+  <record date="2006-11" updated="2022-12-15">
     <name>safetynetp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Roland_Rupp"/>
+    <assignee><xref type="person" data="Pilz_GmbH_and_Co._KG"/></assignee>
+    <xref type="person" data="Matthias_Holzaepfel"/>
     <description>SafetyNET p</description>
     <number>40000</number>
   </record>
-  <record date="2006-11">
+  <record date="2006-11" updated="2022-12-15">
     <name>safetynetp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Roland_Rupp"/>
+    <assignee><xref type="person" data="Pilz_GmbH_and_Co._KG"/></assignee>
+    <xref type="person" data="Matthias_Holzaepfel"/>
     <description>SafetyNET p</description>
     <number>40000</number>
   </record>
@@ -99405,24 +99407,43 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: version=? description=?</note>
     <xref type="person" data="Brady_Anderson"/>
   </record>
-  <record date="2022-11-22">
+  <record date="2022-11-22" updated="2022-12-15">
     <name>wot</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="W3C_Web_of_Things_Working_Group"/>
     </assignee>
     <description>W3C WoT Thing Description or Directory</description>
-    <note>Defined TXT keys: None</note>
+    <note>
+      <paragraph>Defined TXT keys:</paragraph>
+      <paragraph>td: Absolute pathname of the Thing Description of the Thing or Thing Description of the Thing
+      Description Directory.</paragraph>
+      <paragraph>type: Type of the Thing Description, i.e. "Thing" or "Directory". If omitted, the type is assumed
+      to be Thing.</paragraph>
+      <paragraph>scheme: Scheme part of URL. One of the following values can be specified, with the standard
+      registered URI interpretations [RFC7595]: http (HTTP over TCP),https (HTTP over TLS/TCP),
+      coap+tcp (CoAP over TCP), or coaps+tcp (CoAP over TLS/TCP). If omitted, the scheme is
+      assumed to be http.</paragraph>
+    </note>
     <xref type="person" data="Kazuyuki_Ashimura"/>
   </record>
-  <record date="2022-11-22">
+  <record date="2022-11-22" updated="2022-12-15">
     <name>wot</name>
     <protocol>udp</protocol>
     <assignee>
       <xref type="person" data="W3C_Web_of_Things_Working_Group"/>
     </assignee>
     <description>W3C WoT Thing Description or Directory</description>
-    <note>Defined TXT keys: None</note>
+    <note>
+      <paragraph>Defined TXT keys:</paragraph>
+      <paragraph>td: Absolute pathname of the Thing Description of the Thing or Thing Description of the Thing
+      Description Directory.</paragraph>
+      <paragraph>type: Type of the Thing Description, i.e. "Thing" or "Directory". If omitted, the type is assumed
+      to be Thing.</paragraph>
+      <paragraph>scheme: Scheme part of URL. One of the following values can be specified, with the standard
+      registered URI interpretations [RFC7595]: coap (CoAP over UDP), coaps CoAP over DTLS/UDP.
+      If omitted, the scheme is assumed to be coap.</paragraph>
+    </note>
     <xref type="person" data="Kazuyuki_Ashimura"/>
   </record>
   <record date="2017-03-17">
@@ -114793,6 +114814,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:matthias-christian.ott&amp;fh-kiel.de</uri>
       <updated>2016-06-19</updated>
     </person>
+    <person id="Matthias_Holzaepfel">
+      <name>Matthias Holzaepfel</name>
+      <org>Pilz GmbH &amp; Co. KG</org>
+      <uri>mailto:m.holzaepfel&amp;pilz.de</uri>
+      <updated>2022-12-15</updated>
+    </person>
     <person id="Matthias_Juwan">
       <name>Matthias Juwan</name>
       <org>PreSonus Audio Electronics, Inc</org>
@@ -118176,7 +118203,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Pieter Hintjens</name>
       <uri>mailto:ph&amp;imatix.com</uri>
       <updated>2012-12-17</updated>
-    </person>	
+    </person>
+    <person id="Pilz_GmbH_and_Co._KG">
+      <org>Pilz GmbH &amp; Co. KG</org>
+      <uri>mailto:m.holzaepfel&amp;pilz.de</uri>
+      <updated>2022-12-15</updated>
+    </person>
     <person id="Pim_van_Riezen">
       <name>Pim van Riezen</name>
       <uri>mailto:registries&amp;panelsix.com</uri>
@@ -119799,11 +119831,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Roland Hedberg</name>
       <uri>mailto:roland&amp;catalogix.se</uri>
       <updated>2005-08</updated>
-    </person>
-    <person id="Roland_Rupp">
-      <name>Roland Rupp</name>
-      <uri>mailto:r.rupp&amp;pilz.de</uri>
-      <updated>2006-11</updated>
     </person>
     <person id="Roland_Schneider">
       <name>Roland Schneider</name>
