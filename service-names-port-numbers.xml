@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-12-15</updated>
+  <updated>2022-12-20</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -86262,6 +86262,16 @@ common service discovery mechanisms.</note>
     <description>Distributed Network Protocol - Secure</description>
     <number>19999</number>
   </record>
+  <record date="2022-12-20">
+    <name>dnp-sec</name>
+    <protocol>sctp</protocol>
+    <assignee>
+      <xref type="person" data="DNP_Users_Group"/>
+    </assignee>
+    <description>Distributed Network Protocol - secured</description>
+    <number>19999</number>
+    <xref type="person" data="Andrew_West"/>
+  </record>
   <record>
     <name>dnp</name>
     <protocol>tcp</protocol>
@@ -86275,6 +86285,16 @@ common service discovery mechanisms.</note>
     <xref type="person" data="Michael_Thesing"/>
     <description>DNP</description>
     <number>20000</number>
+  </record>
+  <record date="2022-12-20">
+    <name>dnp</name>
+    <protocol>sctp</protocol>
+    <assignee>
+      <xref type="person" data="DNP_Users_Group"/>
+    </assignee>
+    <description>Distributed Network Protocol</description>
+    <number>20000</number>
+    <xref type="person" data="Andrew_West"/>
   </record>
   <record date="2004-02">
     <name>microsan</name>
@@ -101013,6 +101033,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Andrew Watson</name>
       <uri>mailto:andrew&amp;omg.org</uri>
     </person>
+    <person id="Andrew_West">
+      <name>Andrew West</name>
+      <uri>mailto:andrew.west&amp;ieee.org</uri>
+      <updated>2022-12-20</updated>
+    </person>
     <person id="Andrew_Zamler_Carhar">
       <name>Andrew Zamler-Carhart</name>
       <uri>mailto:andrew&amp;zamler-carhart.com</uri>
@@ -106125,6 +106150,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Dmitry Odintsov</name>
       <uri>mailto:dimodin&amp;trueconf.com</uri>
       <updated>2017-05-12</updated>
+    </person>
+    <person id="DNP_Users_Group">
+      <name>DNP Users Group</name>
+      <uri>mailto:chair_tech&amp;dnp.org</uri>
+      <updated>2022-12-20</updated>
     </person>
     <person id="DOCKER">
       <org>DOCKER</org>
