@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2022-12-26</updated>
+  <updated>2023-01-04</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -43824,14 +43824,20 @@ common service discovery mechanisms.</note>
   <record>
     <name>nati-vi-server</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Robert_Dye"/>
+    <assignee>
+      <xref type="person" data="National_Instruments_2"/>
+    </assignee>
+    <xref type="person" data="Jeff_Peters"/>
     <description>NATI Vi Server</description>
     <number>3363</number>
   </record>
   <record>
     <name>nati-vi-server</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Robert_Dye"/>
+    <assignee>
+      <xref type="person" data="National_Instruments_2"/>
+    </assignee>
+    <xref type="person" data="Jeff_Peters"/>
     <description>NATI Vi Server</description>
     <number>3363</number>
   </record>
@@ -100828,8 +100834,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Andreas_Bergmaier">
       <name>Andreas Bergmaier</name>
-      <uri>mailto:a.bgm.info&amp;t-online.de</uri>
-      <updated>2022-12-26</updated>
+      <uri>mailto:andreas.bergmaier&amp;bidib.org</uri>
+      <updated>2022-01-04</updated>
     </person>
     <person id="Andreas_Fehr">
       <name>Andreas Fehr</name>
@@ -110537,6 +110543,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jeff Moffatt</name>
       <uri>mailto:jeff&amp;taurus.com</uri>
     </person>
+    <person id="Jeff_Peters">
+      <name>Jeff Peters</name>
+      <org> National Instruments</org>
+      <uri>mailto:VI.Server.Admin&amp;ni.com</uri>
+      <updated>2023-01-03</updated>
+    </person>
     <person id="Jeff_Roberts">
       <name>Jeff Roberts</name>
       <uri>mailto:jroberts&amp;microsoft.com</uri>
@@ -116330,6 +116342,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:joshua.prewitt&amp;ni.com</uri>
       <updated>2011-10-24</updated>
     </person>
+    <person id="National_Instruments_2">
+      <org> National Instruments</org>
+      <uri>mailto:VI.Server.Admin&amp;ni.com</uri>
+      <updated>2023-01-03</updated>
+    </person>
     <person id="National_Marine_Electronics_Association">
       <org>National Marine Electronics Association</org>
       <uri>mailto:sspitzer&amp;nmea.org</uri>
@@ -119468,10 +119485,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Robert Diamond</name>
       <uri>mailto:rmd6502&amp;gmail.com</uri>
       <updated>2012-07-06</updated>
-    </person>
-    <person id="Robert_Dye">
-      <name>Robert Dye</name>
-      <uri>mailto:rob&amp;natinst.com</uri>
     </person>
     <person id="Robert_E_Johnson_II">
       <name>Robert E. Johnson III</name>
