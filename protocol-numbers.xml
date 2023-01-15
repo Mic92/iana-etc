@@ -3,7 +3,7 @@
 <?xml-model href="protocol-numbers.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="protocol-numbers">
   <title>Protocol Numbers</title>
-  <updated>2022-09-28</updated>
+  <updated>2023-01-09</updated>
   <registry id="protocol-numbers-1">
     <title>Assigned Internet Protocol Numbers</title>
     <xref type="rfc" data="rfc5237"/><xref type="rfc" data="rfc7045"/>
@@ -109,11 +109,11 @@ Communication, Volume COM-28, Number 4, April 1980.</xref>
       <description>ARGUS</description>
       <xref type="person" data="Robert_W_Scheifler"/>
     </record>
-    <record>
+    <record updated="2023-01-09">
       <value>14</value>
       <name>EMCON</name>
       <description>EMCON</description>
-      <xref type="text">&lt;mystery contact&gt;</xref>
+      <xref type="person" data="Bich_Nguyen"/>
     </record>
     <record>
       <value>15</value>
@@ -218,12 +218,12 @@ Xerox Corporation, Stamford, CT., October 1980.</xref>
       <xref type="rfc" data="rfc938"/>
       <xref type="person" data="Trudy_Miller"/>
     </record>
-    <record>
+    <record updated="2023-01-09">
       <value>29</value>
       <name>ISO-TP4</name>
       <description>ISO Transport Protocol Class 4</description>
       <xref type="rfc" data="rfc905"/>
-      <xref type="text">&lt;mystery contact&gt;</xref>
+      <xref type="person" data="Robert_Cole"/>
     </record>
     <record>
       <value>30</value>
@@ -983,6 +983,11 @@ University of California at Berkeley, June 1986.</xref>
       <uri>mailto:bernhard.petri&amp;siemens.com</uri>
       <updated>2012-07-09</updated>
     </person>
+    <person id="Bich_Nguyen">
+      <name>Bich Nguyen</name>
+      <uri>mailto:bitnguyen&amp;gmail.com</uri>
+      <updated>2023-01-09</updated>
+    </person>
     <person id="Bill_McIntosh">
       <name>Bill McIntosh</name>
       <uri>mailto:BMcIntosh&amp;fortresstech.com</uri>
@@ -1195,6 +1200,10 @@ University of California at Berkeley, June 1986.</xref>
       <name>Randall R. Stewart</name>
       <uri>mailto:rrs&amp;lakerest.net</uri>
       <updated>2000-04</updated>
+    </person>
+    <person id="Robert_Cole">
+      <name>Robert Cole</name>
+      <uri>mailto:robert&amp;CS.UCL.AC.UK</uri>
     </person>
     <person id="Robert_Durst">
       <name>Robert Durst</name>
