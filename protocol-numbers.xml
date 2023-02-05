@@ -3,7 +3,7 @@
 <?xml-model href="protocol-numbers.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="protocol-numbers">
   <title>Protocol Numbers</title>
-  <updated>2023-01-09</updated>
+  <updated>2023-02-02</updated>
   <registry id="protocol-numbers-1">
     <title>Assigned Internet Protocol Numbers</title>
     <xref type="rfc" data="rfc5237"/><xref type="rfc" data="rfc7045"/>
@@ -939,7 +939,7 @@ University of California at Berkeley, June 1986.</xref>
       <value>144</value>
       <name>AGGFRAG</name>
       <description>AGGFRAG encapsulation payload for ESP</description>
-      <xref type="draft" data="RFC-ietf-ipsecme-iptfs-19"/>
+      <xref type="rfc" data="rfc9347"/>
     </record>
     <record date="1995-06">
       <value>145-252</value>
