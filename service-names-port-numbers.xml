@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-01-04</updated>
+  <updated>2023-02-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -10423,8 +10423,48 @@ common service discovery mechanisms.</note>
     <number>913</number>
   </record>
   <record>
+    <name/>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>914</number>
+  </record>
+  <record date="2023-02-17">
+    <name>rift-lies</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="RIFT_WG"/>
+    </assignee>
+    <xref type="person" data="Jordan_Head"/>
+    <xref type="person" data="Tony_Przygienda"/>
+    <xref type="draft" data="draft-ietf-rift-rift-16"/>
+    <description>Routing in Fat Trees Link Information Elements 
+      (TEMPORARY - registered 2023-02-17, expires 2024-02-17)
+    </description>
+    <number>914</number>
+  </record>
+  <record>
+    <name/>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>915</number>
+  </record>
+  <record date="2023-02-17">
+    <name>rift-ties</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="RIFT_WG"/>
+    </assignee>
+    <xref type="person" data="Jordan_Head"/>
+    <xref type="person" data="Tony_Przygienda"/>
+    <xref type="draft" data="draft-ietf-rift-rift-16"/>
+    <description>Routing in Fat Trees Topology Information Elements 
+      (TEMPORARY - registered 2023-02-17, expires 2024-02-17)
+    </description>
+    <number>915</number>
+  </record>
+  <record>
     <description>Unassigned</description>
-    <number>914-952</number>
+    <number>916-952</number>
   </record>
   <record date="2017-06-08">
     <name>rndc</name>
@@ -93259,6 +93299,26 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Joe_Senner_2"/>
   </record>
+  <record date="2023-02-15">
+    <name>bhipc</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Becker_Hickl_GmbH"/>
+    </assignee>
+    <description>Becker &amp; Hickl Inter Process Communication</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Enzo_Marscheck"/>
+  </record>
+  <record date="2023-02-15">
+    <name>bhipc</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Becker_Hickl_GmbH"/>
+    </assignee>
+    <description>Becker &amp; Hickl Inter Process Communication</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Enzo_Marscheck"/>
+  </record>
   <record date="2022-12-26">
     <name>bidib</name>
     <protocol>tcp</protocol>
@@ -101894,6 +101954,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:yunho.huh&amp;beatsbydre.com</uri>
       <updated>2014-06-27</updated>
     </person>
+    <person id="Becker_Hickl_GmbH">
+      <org>Becker &amp; Hickl GmbH</org>
+      <uri>mailto:info&amp;becker-hickl.com</uri>
+      <updated>2023-02-15</updated>
+    </person>
     <person id="Beckhoff_Automation_GmbH_Co_KG">
       <org>Beckhoff Automation GmbH &amp; Co. KG</org>
       <uri>mailto:legal&amp;beckhoff.com</uri>
@@ -106891,6 +106956,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Environics_Oy">
       <name>Environics Oy</name>
       <uri>mailto:pasi.nuutinmaki&amp;environics.fi</uri>
+    </person>
+    <person id="Enzo_Marscheck">
+      <name>Enzo Marscheck</name>
+      <org>Becker &amp; Hickl GmbH</org>
+      <uri>mailto:marscheck&amp;becker-hickl.de</uri>
+      <updated>2023-02-15</updated>
     </person>
     <person id="Epipole_Limited">
       <org>Epipole Limited</org>
@@ -111895,6 +111966,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>KNX Association</org>
       <uri>mailto:joost.demarest&amp;knx.org</uri>
       <updated>2022-10-21</updated>
+    </person>
+    <person id="Jordan_Head">
+      <name>Jordan Head</name>
+      <uri>mailto:jhead&amp;juniper.net</uri>
+      <updated>2023-02-17</updated>
     </person>
     <person id="Jordan_Hrycaj">
       <name>Jordan Hrycaj</name>
@@ -119247,6 +119323,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Rieko Asai</name>
       <uri>mailto:asai&amp;isl.mei.co.jp</uri>
     </person>
+    <person id="RIFT_WG">
+      <name>IETF RIFT WG</name>
+      <uri>mailto:rift&amp;ietf.org</uri>
+    </person>
     <person id="Rik_Ditter">
       <name>Rik Ditter</name>
       <uri>mailto:managers&amp;generationtechnologies.com</uri>
@@ -123608,6 +123688,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Open Text Corporation</org>
       <uri>mailto:tponzo&amp;opentext.com</uri>
       <updated>2022-10-07</updated>
+    </person>
+    <person id="Tony_Przygienda">
+      <name>Tony Przygienda</name>
+      <uri>mailto:prz&amp;juniper.net</uri>
+      <updated>2023-02-17</updated>
     </person>
     <person id="Tony_Sawyer">
       <name>Tony Sawyer</name>
