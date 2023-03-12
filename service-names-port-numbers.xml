@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-02-28</updated>
+  <updated>2023-03-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -28194,9 +28194,25 @@ common service discovery mechanisms.</note>
     <description>Rotorcraft Communications Test System</description>
     <number>2258</number>
   </record>
-  <record updated="2011-06-28">
-    <description>Unassigned</description>
+  <record date="2023-03-06">
+    <name>bid-serv</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Li_Zhiping"/>
+    </assignee>
+    <description>BIF identifiers resolution service</description>
     <number>2259</number>
+    <xref type="person" data="Zhang_Bo"/>
+  </record>
+  <record date="2023-03-06">
+    <name>bid-serv</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Li_Zhiping"/>
+    </assignee>
+    <description>BIF identifiers resolution service</description>
+    <number>2259</number>
+    <xref type="person" data="Zhang_Bo"/>
   </record>
   <record date="2002-02">
     <name>apc-2260</name>
@@ -113499,6 +113515,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:wolfgang&amp;kencast.com</uri>
       <updated>2006-05</updated>
     </person>
+    <person id="Li_Zhiping">
+      <name>Li Zhiping</name>
+      <org>CAICT</org>
+      <uri>mailto:lizhiping&amp;caict.ac.cn</uri>
+      <updated>2023-03-06</updated>
+    </person>
     <person id="Liam_Merwick">
       <name>Liam Merwick</name>
       <uri>mailto:ldoms-iana-ports&amp;sun.com</uri>
@@ -125149,6 +125171,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Guangdong OPPO Mobile Telecommunications Corp.,Ltd.</org>
       <uri>mailto:zhaizhaoxuan&amp;oppo.com</uri>
       <updated>2020-05-13</updated>
+    </person>
+    <person id="Zhang_Bo">
+      <name>Zhang Bo</name>
+      <org>CAICT</org>
+      <uri>mailto:zhangbo3&amp;caict.ac.cn</uri>
+      <updated>2023-03-06</updated>
     </person>
     <person id="Zhang_Xinnan">
       <name>Zhang Xinnan</name>
