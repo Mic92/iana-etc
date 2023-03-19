@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-03-06</updated>
+  <updated>2023-03-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -31381,19 +31381,25 @@ common service discovery mechanisms.</note>
     <description>SecurSight Event Logging Server (SSL)</description>
     <number>2479</number>
   </record>
-  <record>
+  <record updated="2023-03-13">
     <name>powerexchange</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Dale_Norman"/>
+    <assignee>
+    <xref type="person" data="Informatica"/>
+    </assignee>
     <description>Informatica PowerExchange Listener</description>
     <number>2480</number>
+    <xref type="person" data="Philip_Line"/>
   </record>
-  <record>
+  <record updated="2023-03-13">
     <name>powerexchange</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Dale_Norman"/>
+    <assignee>
+    <xref type="person" data="Informatica"/>
+    </assignee>
     <description>Informatica PowerExchange Listener</description>
     <number>2480</number>
+    <xref type="person" data="Philip_Line"/>
   </record>
   <record>
     <name>giop</name>
@@ -104649,10 +104655,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Dale Bethers</name>
       <uri>mailto:dbethers&amp;novell.com</uri>
     </person>
-    <person id="Dale_Norman">
-      <name>Dale Norman</name>
-      <uri>mailto:dnorman&amp;informatica.com</uri>
-    </person>
     <person id="Dalit_Naor">
       <name>Dalit Naor</name>
       <uri>mailto:dalit&amp;il.ibm.com</uri>
@@ -109667,6 +109669,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Ines_Homem_de_Melo">
       <name>Ines Homem de Melo</name>
       <uri>mailto:sidinf&amp;brfapesp.bitnet</uri>
+    </person>
+    <person id="Informatica">
+      <org>Informatica</org>
+      <uri>mailto:DLEnterpriseSupport&amp;informatica.com</uri>
+      <updated>2023-03-13</updated>
     </person>
     <person id="Ing_Markus_Huemer">
       <name>Ing. Markus Huemer</name>
@@ -118251,6 +118258,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Philip_Budne">
       <name>Philip Budne</name>
       <uri>mailto:budne&amp;auroratech.com</uri>
+    </person>
+    <person id="Philip_Line">
+      <name>Philip Line</name>
+      <org>Informatica</org>
+      <uri>mailto:pline&amp;informatica.com</uri>
+      <updated>2023-03-13</updated>
     </person>
     <person id="Philip_N_Bergstress">
       <name>Philip N. Bergstresser</name>

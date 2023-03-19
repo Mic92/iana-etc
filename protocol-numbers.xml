@@ -3,7 +3,7 @@
 <?xml-model href="protocol-numbers.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="protocol-numbers">
   <title>Protocol Numbers</title>
-  <updated>2023-02-02</updated>
+  <updated>2023-03-16</updated>
   <registry id="protocol-numbers-1">
     <title>Assigned Internet Protocol Numbers</title>
     <xref type="rfc" data="rfc5237"/><xref type="rfc" data="rfc7045"/>
@@ -563,15 +563,10 @@ Newman, January 1982.</xref>
     </record>
     <record>
       <value>84</value>
-      <name>TTP</name>
-      <description>Transaction Transport Protocol</description>
-      <xref type="person" data="Jim_Stevens"/>
-    </record>
-    <record>
-      <value>84</value>
       <name>IPTM</name>
       <description>Internet Protocol Traffic Manager</description>
       <xref type="person" data="Jim_Stevens"/>
+      <xref type="note" data="1"/>
     </record>
     <record>
       <value>85</value>
@@ -963,6 +958,7 @@ University of California at Berkeley, June 1986.</xref>
       <name>Reserved</name>
       <xref type="person" data="Internet_Assigned_Numbers_Authority"/>
     </record>
+    <footnote anchor="1">Until March 2023, value 84 was also assigned to TTP (Transaction Transport Protocol).</footnote>
   </registry>
   <people>
     <person id="Barry_Boehm">
