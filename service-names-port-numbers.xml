@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-03-20</updated>
+  <updated>2023-03-30</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -85172,11 +85172,11 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>16667-16788</number>
   </record>
-  <record date="2015-06-02">
+  <record date="2015-06-02" updated="2023-03-29">
     <name>cadsisvr</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="CA_Technologies"/>
+      <xref type="person" data="Broadcom"/>
     </assignee>
     <description>This server provides callable services to mainframe External Security Managers from any TCP/IP platform</description>
     <number>16789</number>
@@ -92728,6 +92728,46 @@ common service discovery mechanisms.</note>
     <description>Aerohive Proxy Configuration Service</description>
     <note>Defined TXT keys: name, port, username</note>
     <xref type="person" data="Matthew_Gast"/>
+  </record>
+  <record date="2023-03-30">
+    <name>affinity-docs0</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Serif_Europe_Ltd"/>
+    </assignee>
+    <description>Affinity Designer document sharing</description>
+    <note>Defined TXT keys: Proprietary</note>
+    <xref type="person" data="Tom_Lachecki"/>
+  </record>
+  <record date="2023-03-30">
+    <name>affinity-docs1</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Serif_Europe_Ltd"/>
+    </assignee>
+    <description>Affinity Photo document sharing</description>
+    <note>Defined TXT keys: Proprietary</note>
+    <xref type="person" data="Tom_Lachecki"/>
+  </record>
+  <record date="2023-03-30">
+    <name>affinity-docs2</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Serif_Europe_Ltd"/>
+    </assignee>
+    <description>Affinity Publisher document sharing</description>
+    <note>Defined TXT keys: Proprietary</note>
+    <xref type="person" data="Tom_Lachecki"/>
+  </record>
+  <record date="2023-03-30">
+    <name>affinity-cntent</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Serif_Europe_Ltd"/>
+    </assignee>
+    <description>Affinity content sharing</description>
+    <note>Defined TXT keys: Proprietary</note>
+    <xref type="person" data="Tom_Lachecki"/>
   </record>
   <record date="2012-03-02">
     <name>airdrop</name>
@@ -102945,6 +102985,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Brocade Communications Systems</name>
       <uri>mailto:ncarter&amp;brocade.com</uri>
       <updated>2015-11-17</updated>
+    </person>
+    <person id="Broadcom">
+      <org>Broadcom</org>
+      <uri>mailto:thomas.sakowski&amp;broadcom.com</uri>
+      <updated>2023-03-29</updated>
     </person> 
     <person id="Brooks_Bell">
       <name>Brooks Bell</name>
@@ -103131,11 +103176,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="C_Philip_Wood">
       <name>C. Philip Wood</name>
       <uri>mailto:cpw&amp;lanl.gov</uri>
-    </person>
-    <person id="CA_Technologies">
-      <org>CA Technologies</org>
-      <uri>mailto:sakth01&amp;ca.com</uri>
-      <updated>2015-06-02</updated>
     </person>
     <person id="Cabel_Sasser">
       <name>Cabel Sasser</name>
@@ -121077,6 +121117,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:div&amp;altertech.com</uri>
       <updated>2021-11-12</updated>
     </person>
+    <person id="Serif_Europe_Ltd">
+      <org>Serif (Europe) Ltd.</org>
+      <uri>mailto:affinity&amp;serif.com</uri>
+      <updated>2023-03-30</updated>
+    </person>
     <person id="Service_Desk_Product">
       <name>Service Desk Product Manager</name>
       <uri>mailto:info&amp;hp.com</uri>
@@ -123048,9 +123093,9 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Thomas_Sakowski">
       <name>Thomas Sakowski</name>
-      <org>CA Technologies</org>
-      <uri>mailto:sakth01&amp;ca.com</uri>
-      <updated>2015-06-02</updated>
+      <org>Broadcom</org>
+      <uri>mailto:thomas.sakowski&amp;broadcom.com</uri>
+      <updated>2023-03-29</updated>
     </person>
     <person id="Thomas_Schleu">
       <name>Thomas Schleu</name>
@@ -123532,6 +123577,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Tom_Kee">
       <name>Tom Kee</name>
       <uri>mailto:t.kee&amp;f5.com</uri>
+    </person>
+    <person id="Tom_Lachecki">
+      <name>Tom Lachecki</name>
+      <org>Serif (Europe) Ltd.</org>
+      <uri>mailto:tlachecki&amp;serif.com</uri>
+      <updated>2023-03-30</updated>
     </person>
     <person id="Tom_Lake">
       <name>Tom Lake</name>
