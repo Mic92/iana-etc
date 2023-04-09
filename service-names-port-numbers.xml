@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-03-30</updated>
+  <updated>2023-04-05</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -117930,8 +117930,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Pete_Camble">
       <name>Pete Camble</name>
-      <uri>mailto:pete.camble&amp;hp.com</uri>
-      <updated>2008-12-24</updated>
+      <uri>mailto:pete.camble&amp;hpe.com</uri>
+      <updated>2023-04-05</updated>
     </person>
     <person id="Pete_Loeffen">
       <name>Pete Loeffen</name>
