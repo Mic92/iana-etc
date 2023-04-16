@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-04-05</updated>
+  <updated>2023-04-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -59670,7 +59670,7 @@ Further keys may be added in the future.</note>
     <description>Reserved</description>
     <number>4791</number>
   </record>
-  <record date="2022-07-08">
+  <record date="2022-07-08" updated="2023-04-10">
     <name>unified-bus</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -59678,9 +59678,9 @@ Further keys may be added in the future.</note>
     </assignee>
     <description>IP Routable Unified Bus</description>
     <number>4792</number>
-    <xref type="person" data="Luoqing_Zhou"/>
+    <xref type="person" data="Wei_Pan"/>
   </record>
-  <record date="2022-07-08">
+  <record date="2022-07-08" updated="2023-04-10">
     <name>unified-bus</name>
     <protocol>udp</protocol>
     <assignee>
@@ -59688,7 +59688,7 @@ Further keys may be added in the future.</note>
     </assignee>
     <description>IP Routable Unified Bus</description>
     <number>4792</number>
-    <xref type="person" data="Luoqing_Zhou"/>
+    <xref type="person" data="Wei_Pan"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -87963,7 +87963,17 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>24681-24753</number>
+    <number>24681-24726</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>24727</number>
+    <unauthorized>Unauthorized Use Known on port 24727</unauthorized>
+    
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>24728-24753</number>
   </record>
   <record date="2009-04-17">
     <name>cslg</name>
@@ -109391,8 +109401,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Huawei">
       <org>Huawei</org>
-      <uri>mailto:zhouluoqing&amp;huawei.com</uri>
-      <updated>2022-07-08</updated>
+      <uri>mailto:tarzan.pan&amp;huawei.com</uri>
+      <updated>2023-04-10</updated>
     </person>
     <person id="Huawei_Technologies_France">
       <org>Huawei Technologies France</org>
@@ -113811,12 +113821,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Lumis</org>
       <uri>mailto:rterra&amp;lumis.com.br</uri>
       <updated>2011-10-24</updated>
-    </person>
-    <person id="Luoqing_Zhou">
-      <name>Luoqing Zhou</name>
-      <org>Huawei</org>
-      <uri>mailto:zhouluoqing&amp;huawei.com</uri>
-      <updated>2022-07-08</updated>
     </person>
     <person id="Lutz_Karras">
       <name>Lutz Karras</name>
@@ -124580,6 +124584,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Wei_Gao">
       <name>Wei Gao</name>
       <uri>mailto:wei&amp;mylex.com</uri>
+    </person>
+    <person id="Wei_Pan">
+      <name>Wei Pan</name>
+      <org>Huawei</org>
+      <uri>mailto:tarzan.pan&amp;huawei.com</uri>
+      <updated>2023-04-10</updated>
     </person>
     <person id="Wei_Wang">
       <name>Wei Wang</name>
