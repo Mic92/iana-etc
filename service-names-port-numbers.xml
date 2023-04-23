@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-04-13</updated>
+  <updated>2023-04-18</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -99307,6 +99307,26 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Roberto_De_Ioris"/>
   </record>
+  <record date="2023-04-18">
+    <name>vapix-http</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Axis_Communications"/>
+    </assignee>
+    <description>Indicator for VAPIX support over HTTP</description>
+    <note>Defined TXT keys: https://help.axis.com/en-us/axis-os#axis-bonjour-implementation</note>
+    <xref type="person" data="Christian_Storm"/>
+  </record>
+  <record date="2023-04-18">
+    <name>vapix-https</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Axis_Communications"/>
+    </assignee>
+    <description>Indicator for VAPIX support over HTTPS</description>
+    <note>Defined TXT keys: https://help.axis.com/en-us/axis-os#axis-bonjour-implementation</note>
+    <xref type="person" data="Christian_Storm"/>
+  </record>
   <record>
     <name>ve-decoder</name>
     <description>American Dynamics VideoEdge Decoder Control Service</description>
@@ -101934,6 +101954,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:obogush&amp;axiomatic.com</uri>
       <updated>2016-12-09</updated>
     </person>
+    <person id="Axis_Communications">
+      <org>Axis Communications</org>
+      <uri>mailto:christnn&amp;axis.com</uri>
+      <updated>2023-04-18</updated>
+    </person>
     <person id="Axis_Communications_AB">
       <org>Axis Communications AB</org>
       <uri>mailto:erik.linge&amp;axis.com</uri>
@@ -103916,6 +103941,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Christian_Schormann">
       <name>Christian Schormann</name>
       <uri>mailto:100410.3063&amp;compuserve.com</uri>
+    </person>
+    <person id="Christian_Storm">
+      <name>Christian Storm</name>
+      <org>Axis Communications</org>
+      <uri>mailto:christnn&amp;axis.com</uri>
+      <updated>2023-04-18</updated>
     </person>
     <person id="Christian_Stredicke">
       <name>Christian Stredicke</name>
