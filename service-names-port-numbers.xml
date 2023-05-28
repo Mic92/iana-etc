@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-04-18</updated>
+  <updated>2023-05-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -71271,21 +71271,21 @@ common service discovery mechanisms.</note>
     <description>HNMP</description>
     <number>6790</number>
   </record>
-  <record date="2005-05" updated="2021-07-20">
+  <record date="2005-05" updated="2023-05-24">
     <name>hnm</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="HelpSystems"/>
+      <xref type="person" data="Fortra"/>
     </assignee>
     <description>Halcyon Network Manager</description>
     <number>6791</number>
     <xref type="person" data="Henriët_Wilkinson"/>
   </record>
-  <record date="2005-05" updated="2021-07-20">
+  <record date="2005-05" updated="2023-05-24">
     <name>hnm</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="HelpSystems"/>
+      <xref type="person" data="Fortra"/>
     </assignee>
     <description>Halcyon Network Manager</description>
     <number>6791</number>
@@ -107631,6 +107631,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Forest Hill</name>
       <uri>mailto:forest&amp;apple.com</uri>
     </person>
+    <person id="Fortra">
+      <org>Fortra</org>
+      <uri>mailto:info&amp;fortra.com</uri>
+      <updated>2023-05-24</updated>
+    </person>
     <person id="Found_Software">
       <org>Found Software, Inc.</org>
       <uri>mailto:john&amp;foundapp.com</uri>
@@ -109132,11 +109137,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Helmuth Breitenfellner</name>
       <uri>mailto:hbreitenf&amp;vnet.imb.com</uri>
     </person>
-    <person id="HelpSystems">
-      <org>HelpSystems</org>
-      <uri>mailto:info&amp;helpsystems.com</uri>
-      <updated>2021-07-20</updated>
-    </person>
     <person id="Hennie_van_der_Merwe">
       <name>Hennie van der Merwe</name>
       <uri>mailto:hvandermerwe&amp;tellumat.com</uri>
@@ -109168,8 +109168,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Henriët_Wilkinson">
       <name>Henriët Wilkinson</name>
-      <uri>mailto:henriet.wilkinson&amp;helpsystems.com</uri>
-      <updated>2021-07-20</updated>
+      <uri>mailto:henriet.wilkinson&amp;fortra.com</uri>
+      <updated>2023-05-24</updated>
     </person>
     <person id="Henrik_Goldman">
       <name>Henrik Goldman</name>
