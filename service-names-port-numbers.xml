@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-05-24</updated>
+  <updated>2023-06-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -61795,7 +61795,7 @@ common service discovery mechanisms.</note>
   <record date="2006-11">
     <name>llrp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Margaret_Wasserman"/>
+    <xref type="person" data="Margaret_Cullen"/>
     <xref type="person" data="Paul_Dietrich"/>
     <description>EPCglobal Low-Level Reader Protocol</description>
     <note>Defined TXT keys: None. RFID reader Low Level Reader Protocol</note>
@@ -61804,7 +61804,7 @@ common service discovery mechanisms.</note>
   <record date="2006-11">
     <name>llrp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Margaret_Wasserman"/>
+    <xref type="person" data="Margaret_Cullen"/>
     <xref type="person" data="Paul_Dietrich"/>
     <description>EPCglobal Low-Level Reader Protocol</description>
     <note>Defined TXT keys: None. RFID reader Low Level Reader Protocol</note>
@@ -61813,14 +61813,14 @@ common service discovery mechanisms.</note>
   <record date="2006-11">
     <name>encrypted-llrp</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Margaret_Wasserman"/>
+    <xref type="person" data="Margaret_Cullen"/>
     <description>EPCglobal Encrypted LLRP</description>
     <number>5085</number>
   </record>
   <record date="2006-11">
     <name>encrypted-llrp</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Margaret_Wasserman"/>
+    <xref type="person" data="Margaret_Cullen"/>
     <description>EPCglobal Encrypted LLRP</description>
     <number>5085</number>
   </record>
@@ -84342,7 +84342,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>13824-13893</number>
+    <number>13824-13831</number>
+  </record>
+  <record date="2023-06-05">
+    <name>a-trust-rpc</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="A-Trust_Gesellschaft_für_Sicherheitssysteme_im_elektronischen_Datenverkehr_GmbH"/>
+    </assignee>
+    <description>Certificate Management and Issuing</description>
+    <number>13832</number>
+    <xref type="person" data="Patrick_Hagelkruys"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>13832</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>13833-13893</number>
   </record>
   <record date="2012-09-10">
     <name>ucontrol</name>
@@ -99972,6 +99991,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>A.P. Hobson</name>
       <uri>mailto:A.P.Hobson&amp;bra0112.wins.icl.co.uk</uri>
     </person>
+    <person id="A-Trust_Gesellschaft_für_Sicherheitssysteme_im_elektronischen_Datenverkehr_GmbH">
+      <org>A-Trust Gesellschaft für Sicherheitssysteme im elektronischen Datenverkehr GmbH</org>
+      <uri>mailto:technik&amp;a-trust.at</uri>
+      <updated>2023-06-05</updated>
+    </person>
     <person id="Aaltronav">
       <org>Aaltronav</org>
       <uri>mailto:hostmaster&amp;aaltronav.eu</uri>
@@ -114197,10 +114221,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Marek Buchler</name>
       <uri>mailto:Marek.Buchler&amp;entrust.com</uri>
     </person>
-    <person id="Margaret_Wasserman">
-      <name>Margaret Wasserman</name>
-      <uri>mailto:margaret&amp;thingmagic.com</uri>
-      <updated>2006-11</updated>
+    <person id="Margaret_Cullen">
+      <name>Margaret Cullen</name>
+      <uri>mailto:mrcullen42&amp;gmail.com</uri>
+      <updated>2023-06-07</updated>
     </person>
     <person id="Marie_France_Dubreui">
       <name>Marie-France Dubreuil</name>
@@ -117427,6 +117451,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Patrick H. Piper</name>
       <uri>mailto:ppiper&amp;netlinxinc.com</uri>
       <updated>2009-03-06</updated>
+    </person>
+    <person id="Patrick_Hagelkruys">
+      <name>Patrick Hagelkruys</name>
+      <uri>mailto:hagelkruys&amp;a-trust.at</uri>
+      <updated>2023-06-05</updated>
     </person>
     <person id="Patrick_Kara">
       <name>Patrick Kara</name>
