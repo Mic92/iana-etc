@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-06-07</updated>
+  <updated>2023-06-15</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -4906,18 +4906,18 @@ common service discovery mechanisms.</note>
     <description>ISO Transport Class 2 Non-Control over UDP</description>
     <number>399</number>
   </record>
-  <record date="2008-06-06">
+  <record date="2008-06-06" updated="2023-06-15">
     <name>osb-sd</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Joseph_Dziedzic"/>
+    <xref type="person" data="Steven_Fried"/>
     <description>Oracle Secure Backup</description>
     <number>400</number>
     <note>Formerly was Workstation Solutions</note>
   </record>
-  <record date="2008-06-06">
+  <record date="2008-06-06" updated="2023-06-15">
     <name>osb-sd</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Joseph_Dziedzic"/>
+    <xref type="person" data="Steven_Fried"/>
     <description>Oracle Secure Backup</description>
     <number>400</number>
     <note>Formerly was Workstation Solutions</note>
@@ -112190,11 +112190,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:joe.dipol&amp;sun.com</uri>
       <updated>2002-04</updated>
     </person>
-    <person id="Joseph_Dziedzic">
-      <name>Joseph Dziedzic</name>
-      <uri>mailto:tony.dziedzic&amp;oracle.com</uri>
-      <updated>2008-06-06</updated>
-    </person>
     <person id="Joseph_Geer">
       <name>Joseph Geer</name>
       <uri>mailto:jgeer&amp;peapod.com</uri>
@@ -122287,6 +122282,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Steven_Frare">
       <name>Steven Frare</name>
       <uri>mailto:stevefr&amp;mosaix.com</uri>
+    </person>
+    <person id="Steven_Fried">
+      <name>Steven Fried</name>
+      <uri>mailto:steven.fried&amp;oracle.com</uri>
+      <updated>2023-06-15</updated>
     </person>
     <person id="Steven_G_Loughner">
       <name>Steven G. Loughner</name>
