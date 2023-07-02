@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-06-15</updated>
+  <updated>2023-06-29</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -29804,10 +29804,25 @@ common service discovery mechanisms.</note>
     <description>OpenTable</description>
     <number>2368</number>
   </record>
-  <record>
-    <description>Unassigned</description>
+  <record date="2023-06-29">
+    <name>bif-p2p</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Li_Zhiping"/>
+    </assignee>
+    <description>Blockchain Identifier InFrastructure P2P</description>
     <number>2369</number>
-    <note>De-registered (28 March 2006)</note>
+    <xref type="person" data="Zhang_Bo"/>
+  </record>
+  <record date="2023-03-06">
+    <name>bif-p2p</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Li_Zhiping"/>
+    </assignee>
+    <description>Blockchain Identifier InFrastructure P2P</description>
+    <number>2369</number>
+    <xref type="person" data="Zhang_Bo"/>
   </record>
   <record updated="2014-04-09">
     <name>l3-hbmon</name>
@@ -113654,7 +113669,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Li Zhiping</name>
       <org>CAICT</org>
       <uri>mailto:lizhiping&amp;caict.ac.cn</uri>
-      <updated>2023-03-06</updated>
+      <updated>2023-06-29</updated>
     </person>
     <person id="Liam_Merwick">
       <name>Liam Merwick</name>
@@ -125343,7 +125358,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Zhang Bo</name>
       <org>CAICT</org>
       <uri>mailto:zhangbo3&amp;caict.ac.cn</uri>
-      <updated>2023-03-06</updated>
+      <updated>2023-06-29</updated>
     </person>
     <person id="Zhang_Xinnan">
       <name>Zhang Xinnan</name>
