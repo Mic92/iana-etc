@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-08-04</updated>
+  <updated>2023-08-10</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -95855,11 +95855,21 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: kiwin, top</note>
     <xref type="person" data="Stephen_kiwin_PALM"/>
   </record>
+  <record date="2023-08-10">
+    <name>knx</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="KNX_Association_cvba"/>
+    </assignee>
+    <description>KNX Discovery Protocol</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Joost_Demarest"/>
+  </record>
   <record date="2022-10-21">
     <name>knx</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="KNX_Association"/>
+      <xref type="person" data="KNX_Association_cvba"/>
     </assignee>
     <description>Discovery in KNX IoT Point API</description>
     <note>Defined TXT keys: None</note>
@@ -112169,9 +112179,9 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Joost_Demarest">
       <name>Joost Demarest</name>
-      <org>KNX Association</org>
+      <org>KNX Association cvba</org>
       <uri>mailto:joost.demarest&amp;knx.org</uri>
-      <updated>2022-10-21</updated>
+      <updated>2023-08-10</updated>
     </person>
     <person id="Jordan_Head">
       <name>Jordan Head</name>
@@ -113190,10 +113200,10 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Klaus Wolf</name>
       <uri>mailto:wolf&amp;cobrow.com</uri>
     </person>
-    <person id="KNX_Association">
-      <org>KNX Association</org>
+    <person id="KNX_Association_cvba">
+      <org>KNX Association cvba</org>
       <uri>mailto:joost.demarest&amp;knx.org</uri>
-      <updated>2022-10-21</updated>
+      <updated>2023-08-10</updated>
     </person>
     <person id="Koen_Schoofs">
       <name>Koen Schoofs</name>
