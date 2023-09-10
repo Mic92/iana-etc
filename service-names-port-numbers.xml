@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-08-10</updated>
+  <updated>2023-09-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -75901,9 +75901,24 @@ common service discovery mechanisms.</note>
     <description>Asymmetric Extended Route Optimization (AERO)</description>
     <number>8060</number>
   </record>
+  <record date="2023-09-07">
+    <name>nikatron-dev</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Nikatron"/>
+    </assignee>
+    <description>Nikatron Device Protocol</description>
+    <number>8061</number>
+    <xref type="person" data="Marcel_Uhlir"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>8061</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>8061-8065</number>
+    <number>8062-8065</number>
   </record>
   <record date="2013-04-19">
     <name>toad-bi-appsrvr</name>
@@ -114216,6 +114231,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:mr&amp;marcelruff.info</uri>
       <updated>2002-02</updated>
     </person>
+    <person id="Marcel_Uhlir">
+      <name>Marcel Uhlir</name>
+      <org>Nikatron</org>
+      <uri>mailto:marcel.uhlir&amp;nikatron.cz</uri>
+      <updated>2023-09-07</updated>
+    </person>
     <person id="Marcelo_Einhorn">
       <name>Marcelo Einhorn</name>
       <uri>mailto:KGUNE%25HUJIVM1.bitnet@taunivm.tau.ac.il</uri>
@@ -116942,6 +116963,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Nigel Warren</name>
       <uri>mailto:info&amp;flyobjectspace.com</uri>
       <updated>2009-02-12</updated>
+    </person>
+    <person id="Nikatron">
+      <org>Nikatron</org>
+      <uri>mailto:marcel.uhlir&amp;nikatron.cz</uri>
+      <updated>2023-09-07</updated>
     </person>
     <person id="Niklas_Weiss">
       <name>Niklas Weiss</name>
