@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-09-12</updated>
+  <updated>2023-09-29</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -100751,8 +100751,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Alexey_Y_Woronov">
       <name>Alexey Y. Woronov</name>
-      <uri>mailto:wra&amp;ngs.ru</uri>
-      <updated>2019-12-20</updated>
+      <uri>mailto:alexey&amp;woronov.ru</uri>
+      <updated>2023-09-29</updated>
     </person>
     <person id="Alexios_Vasileiadis">
       <name>Alexios Vasileiadis</name>
