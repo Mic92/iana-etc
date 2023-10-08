@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-09-29</updated>
+  <updated>2023-10-03</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -92606,6 +92606,26 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Roustem_Karimov"/>
   </record>
+  <record date="2023-10-03">
+    <name>7ksonar</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Teledyne_Marine"/>
+    </assignee>
+    <description>Teledyne Marine 7k Sonar Protocol</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Anders_Brandt_5"/>
+  </record>
+  <record date="2023-10-03">
+    <name>7ksonar</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Teledyne_Marine"/>
+    </assignee>
+    <description>Teledyne Marine 7k Sonar Protocol</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Anders_Brandt_5"/>
+  </record>
   <record>
     <name>a-d-sync</name>
     <description>Altos Design Synchronization protocol</description>
@@ -99037,6 +99057,26 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: protocol, path, swversion, platform, TSN</note>
     <xref type="person" data="Developer_Support"/>
   </record>
+  <record date="2023-10-03">
+    <name>tmsensor</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Teledyne_Marine"/>
+    </assignee>
+    <description>Teledyne Marine Sensor</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Anders_Brandt_5"/>
+  </record>
+  <record date="2023-10-03">
+    <name>tmsensor</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Teledyne_Marine"/>
+    </assignee>
+    <description>Teledyne Marine Sensor</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Anders_Brandt_5"/>
+  </record>
   <record>
     <name>todogwa</name>
     <description>2Do Sync Helper Tool for Mac OS X and PCs</description>
@@ -101036,6 +101076,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Sigma Designs</org>
       <uri>mailto:anders_brandt&amp;sigmadesigns.com</uri>
       <updated>2015-06-26</updated>
+    </person>
+    <person id="Anders_Brandt_5">
+      <name>Anders Brandt</name>
+      <org>Teledyne Marine</org>
+      <uri>mailto:Anders.Brandt&amp;Teledyne.com</uri>
+      <updated>2023-10-03</updated>
     </person>
     <person id="Anders_Hjelm">
       <name>Anders Hjelm</name>
@@ -122914,6 +122960,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Teledyne BlueView, Inc.</org>
       <uri>mailto:czimmermann&amp;teledyne.com</uri>
       <updated>2012-09-19</updated>
+    </person>
+    <person id="Teledyne_Marine">
+      <org>Teledyne Marine</org>
+      <uri>mailto:info&amp;teledynemarine.com</uri>
+      <updated>2023-10-03</updated>
     </person>
     <person id="Telefonbau_Behnke_GmbH">
       <org>Telefonbau Behnke GmbH</org>
