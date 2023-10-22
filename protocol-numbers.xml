@@ -3,7 +3,7 @@
 <?xml-model href="protocol-numbers.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="protocol-numbers">
   <title>Protocol Numbers</title>
-  <updated>2023-06-06</updated>
+  <updated>2023-10-19</updated>
   <registry id="protocol-numbers-1">
     <title>Assigned Internet Protocol Numbers</title>
     <xref type="rfc" data="rfc5237"/><xref type="rfc" data="rfc7045"/>
@@ -386,10 +386,11 @@ Livermore, California, June 1977.</xref>
       <description>NBMA Address Resolution Protocol</description>
       <xref type="rfc" data="rfc1735"/>
     </record>
-    <record date="1994-10">
+    <record date="1994-10" updated="2023-10-19">
       <value>55</value>
-      <name>MOBILE</name>
-      <description>IP Mobility</description>
+      <name>Min-IPv4</name>
+      <description>Minimal IPv4 Encapsulation</description>
+      <xref type="rfc" data="rfc2004"/>
       <xref type="person" data="Charlie_Perkins"/>
     </record>
     <record date="1994-10">
