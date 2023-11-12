@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-10-26</updated>
+  <updated>2023-11-07</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -41141,19 +41141,25 @@ common service discovery mechanisms.</note>
     <description>NavegaWeb Tarification</description>
     <number>3159</number>
   </record>
-  <record>
+  <record updated="2023-11-07">
     <name>tip-app-server</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Olivier_Mascia"/>
+    <assignee>
+    <xref type="person" data="Integral_Software"/>
+    </assignee>
     <description>TIP Application Server</description>
     <number>3160</number>
+    <xref type="person" data="Olivier_Mascia"/>
   </record>
-  <record>
+  <record updated="2023-11-07">
     <name>tip-app-server</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Olivier_Mascia"/>
+    <assignee>
+      <xref type="person" data="Integral_Software"/>
+      </assignee>
     <description>TIP Application Server</description>
     <number>3160</number>
+    <xref type="person" data="Olivier_Mascia"/>
   </record>
   <record>
     <name>doc1lm</name>
@@ -45185,19 +45191,25 @@ common service discovery mechanisms.</note>
     <description>D3WinOSFI</description>
     <number>3458</number>
   </record>
-  <record>
+  <record updated="2023-11-07">
     <name>integral</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Olivier_Mascia"/>
+    <assignee>
+    <xref type="person" data="Integral_Software"/>
+    </assignee>
     <description>TIP Integral</description>
     <number>3459</number>
+    <xref type="person" data="Olivier_Mascia"/>
   </record>
-  <record>
+  <record updated="2023-11-07">
     <name>integral</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Olivier_Mascia"/>
+    <assignee>
+      <xref type="person" data="Integral_Software"/>
+      </assignee>
     <description>TIP Integral</description>
     <number>3459</number>
+    <xref type="person" data="Olivier_Mascia"/>
   </record>
   <record>
     <name>edm-manager</name>
@@ -96417,6 +96429,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
 	<note>Defined TXT keys: txtvers version name uuid</note>
     <xref type="person" data="David_Mendels"/>
   </record>
+  <record date="2023-11-07">
+    <name>midi2</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="MIDI_Manufacturers_Association"/>
+    </assignee>
+    <description>MIDI 2.0 Device Discovery</description>
+    <note>Defined TXT keys: EndpointName, ProductInstanceId</note>
+    <xref type="person" data="Florian_Bomers"/>
+  </record>
   <record date="2018-04-20">
     <name>mieleacs</name>
     <protocol>tcp</protocol>
@@ -107769,6 +107791,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Florence Wyman</name>
       <uri>mailto:wyman&amp;peabody.plk.af.mil</uri>
     </person>
+    <person id="Florian_Bomers">
+      <name>Florian Bomers</name>
+      <uri>mailto:Florian.Bomers.iana&amp;bome.com</uri>
+      <updated>2023-11-07</updated>
+    </person>
     <person id="Florian_Weimer">
       <name>Florian Weimer</name>
       <uri>mailto:fweimer&amp;redhat.com</uri>
@@ -110006,6 +110033,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Insist">
       <org>Insist</org>
       <uri>mailto:support&amp;isticky.net</uri>
+    </person>
+    <person id="Integral_Software">
+      <org>Integral Software</org>
+      <uri>mailto:om&amp;integral.software</uri>
+      <updated>2023-11-07</updated>
     </person>
     <person id="Intel">
       <org>Intel</org>
@@ -116027,6 +116059,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:info&amp;midi.org</uri>
       <updated>2011-11-14</updated>
     </person>
+    <person id="MIDI_Manufacturers_Association">
+      <org>MIDI Manufacturers Association</org>
+      <uri>mailto:info&amp;midi.org</uri>
+      <updated>2023-11-07</updated>
+    </person>
     <person id="Midnight_Oil_Enterprises_LLC">
       <org>Midnight Oil Enterprises, LLC</org>
       <uri>mailto:corkill&amp;mn-oil.com</uri>
@@ -117303,7 +117340,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Olivier_Mascia">
       <name>Olivier Mascia</name>
-      <uri>mailto:om&amp;tipgroup.com</uri>
+      <uri>mailto:om&amp;integral.software</uri>
+      <updated>2023-11-07</updated>
     </person>
     <person id="Olivier_St-Laurent">
       <name>Olivier St-Laurent</name>
