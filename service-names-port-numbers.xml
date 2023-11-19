@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-11-07</updated>
+  <updated>2023-11-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -4320,19 +4320,19 @@ common service discovery mechanisms.</note>
     <description>Shrinkwrap</description>
     <number>358</number>
   </record>
-  <record>
-    <name>nsrmp</name>
+  <record updated="2023-11-16">
+    <name/>
     <protocol>tcp</protocol>
-    <xref type="person" data="Eric_Jacksch"/>
-    <description>Network Security Risk Management Protocol</description>
+    <description>Reserved</description>
     <number>359</number>
+    <note>De-Assigned on 2023-11-16.</note>
   </record>
-  <record>
-    <name>nsrmp</name>
+  <record updated="2023-11-16">
+    <name/>
     <protocol>udp</protocol>
-    <xref type="person" data="Eric_Jacksch"/>
-    <description>Network Security Risk Management Protocol</description>
+    <description>Reserved</description>
     <number>359</number>
+    <note>De-Assigned on 2023-11-16.</note>
   </record>
   <record>
     <name>scoi2odialog</name>
@@ -5864,17 +5864,17 @@ common service discovery mechanisms.</note>
     <description>alpes</description>
     <number>463</number>
   </record>
-  <record>
+  <record updated="2023-11-17">
     <name>kpasswd</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Theodore_Ts_o"/>
+    <xref type="person" data="Greg_Hudson_2"/>
     <description>kpasswd</description>
     <number>464</number>
   </record>
-  <record>
+  <record updated="2023-11-17">
     <name>kpasswd</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Theodore_Ts_o"/>
+    <xref type="person" data="Greg_Hudson_2"/>
     <description>kpasswd</description>
     <number>464</number>
   </record>
@@ -108907,7 +108907,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Greg_Hudson_2">
       <name>Greg Hudson</name>
       <uri>mailto:ghudson&amp;mit.edu</uri>
-      <updated>2003-01</updated>
+      <updated>2023-11-17</updated>
     </person>
     <person id="Greg_Johnson">
       <name>Greg Johnson</name>
@@ -123149,10 +123149,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Theo Schlossnagle</name>
       <uri>mailto:jesus&amp;omniti.com</uri>
       <updated>2009-05-19</updated>
-    </person>
-    <person id="Theodore_Ts_o">
-      <name>Theodore Ts'o</name>
-      <uri>mailto:tytso&amp;mit.edu</uri>
     </person>
     <person id="Therese_Hunt">
       <name>Therese Hunt</name>
