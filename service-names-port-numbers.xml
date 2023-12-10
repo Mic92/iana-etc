@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-11-17</updated>
+  <updated>2023-12-05</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -82587,12 +82587,11 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>10289-10320</number>
   </record>
-  <record date="2009-01-13">
-    <name>cosir</name>
+  <record updated="2023-12-05">
     <protocol>tcp</protocol>
-    <xref type="person" data="Kevin_C_Barber"/>
-    <description>Computer Op System Information Report</description>
+    <description>Reserved</description>
     <number>10321</number>
+    <note>De-Assigned on 2023-12-05.</note>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -93532,6 +93531,26 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Freeverse_Software"/>
   </record>
+  <record date="2023-12-05">
+    <name>BioSonics</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="BioSonics_Inc."/>
+    </assignee>
+    <description>BioSonics Echosounders</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Asa_Packer"/>
+  </record>
+  <record date="2023-12-05">
+    <name>BioSonics</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="BioSonics_Inc."/>
+    </assignee>
+    <description>BioSonics Echosounders</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Asa_Packer"/>
+  </record>
   <record date="2012-02-21">
     <name>bitflit</name>
     <protocol>tcp</protocol>
@@ -94061,6 +94080,16 @@ common service discovery mechanisms.</note>
     <description>Corroboree Server</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Heath_Raftery"/>
+  </record>
+  <record date="2009-01-13" updated="2023-12-05">
+    <name>cosir</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Kevin_C_Barber"/>
+    </assignee>
+    <description>Computer Op System Information Report</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Kevin_C_Barber"/>
   </record>
   <record date="2017-05-19">
     <name>coviot</name>
@@ -99243,6 +99272,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: txtvers, model</note>
     <xref type="person" data="Remco_Poelstra"/>
   </record>
+  <record date="2023-12-04">
+    <name>twiline-disc</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="W._Wahli_AG"/>
+    </assignee>
+    <description>Discovery for Twiline systems</description>
+    <note>Defined TXT keys: txtvers, protovers, caddr, xbusid</note>
+    <xref type="person" data="Michael_Voser"/>
+  </record>
   <record date="2012-09-05">
     <name>twinlevel</name>
     <protocol>tcp</protocol>
@@ -101953,6 +101992,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:arvind.srinivasan&amp;sun.com</uri>
       <updated>2005-08</updated>
     </person>
+    <person id="Asa_Packer">
+      <name>Asa Packer</name>
+      <uri>mailto:apacker&amp;biosonicsinc.com</uri>
+      <updated>2023-12-05</updated>
+    </person>
     <person id="Asaf_Kashi">
       <name>Asaf Kashi</name>
       <uri>mailto:asafk&amp;microsoft.com</uri>
@@ -102591,6 +102635,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>BioLink Support</name>
       <uri>mailto:reginfo&amp;biolinkusa.com</uri>
       <updated>2002-02</updated>
+    </person>
+    <person id="BioSonics_Inc.">
+      <org>BioSonics, Inc.</org>
+      <uri>mailto:engineering&amp;biosonicsinc.com</uri>
+      <updated>2023-12-05</updated>
     </person>
     <person id="Bizhan_Ghavami">
       <name>Bizhan Ghavami</name>
@@ -113057,7 +113106,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Kevin_C_Barber">
       <name>Kevin C. Barber</name>
       <uri>mailto:kevin.c.barber&amp;saic.com</uri>
-      <updated>2009-01-13</updated>
+      <updated>2023-12-05</updated>
     </person>
     <person id="Kevin_Calman">
       <name>Kevin Calman</name>
@@ -115956,6 +116005,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Michaela Vanderveen</name>
       <uri>mailto:mvandervn&amp;yahoo.com</uri>
       <updated>2007-02</updated>
+    </person>
+    <person id="Michael_Voser">
+      <name>Michael Voser</name>
+      <uri>mailto:support&amp;twiline.com</uri>
+      <updated>2023-12-04</updated>
     </person>
     <person id="Michal_Gruchala">
       <name>Michał Gruchała</name>
@@ -124750,6 +124804,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>VSN International Ltd.</org>
       <uri>mailto:sean&amp;vsni.co.uk</uri>
       <updated>2011-09-28</updated>
+    </person>
+    <person id="W._Wahli_AG">
+      <org>W. Wahli AG</org>
+      <uri>mailto:support&amp;twiline.com</uri>
+      <updated>2023-12-04</updated>
     </person>
     <person id="W3C_Web_of_Things_Working_Group">
       <org>W3C Web of Things Working Group</org>
