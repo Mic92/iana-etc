@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-12-05</updated>
+  <updated>2023-12-27</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -4906,18 +4906,18 @@ common service discovery mechanisms.</note>
     <description>ISO Transport Class 2 Non-Control over UDP</description>
     <number>399</number>
   </record>
-  <record date="2008-06-06" updated="2023-06-15">
+  <record date="2008-06-06" updated="2023-12-27">
     <name>osb-sd</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Steven_Fried"/>
+    <xref type="person" data="Steven_Wertheimer"/>
     <description>Oracle Secure Backup</description>
     <number>400</number>
     <note>Formerly was Workstation Solutions</note>
   </record>
-  <record date="2008-06-06" updated="2023-06-15">
+  <record date="2008-06-06" updated="2023-12-27">
     <name>osb-sd</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Steven_Fried"/>
+    <xref type="person" data="Steven_Wertheimer"/>
     <description>Oracle Secure Backup</description>
     <number>400</number>
     <note>Formerly was Workstation Solutions</note>
@@ -82288,13 +82288,13 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>10111</number>
   </record>
-  <record date="2011-09-15">
+  <record date="2011-09-15" updated="2023-12-27">
     <name>nmea-onenet</name>
     <protocol>udp</protocol>
     <assignee>
       <xref type="person" data="National_Marine_Electronics_Association"/>
     </assignee>
-    <xref type="person" data="Steve_Spitzer"/>
+    <xref type="person" data="Mark_Oslund"/>
     <description>NMEA OneNet multicast messaging</description>
     <number>10111</number>
   </record>
@@ -97150,7 +97150,7 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: Proprietary</note>
     <xref type="person" data="The_Omni_Group"/>
   </record>
-  <record date="2019-12-09">
+  <record date="2019-12-09" updated="2023-12-27">
     <name>onenet-info</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -97158,9 +97158,9 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     </assignee>
     <description>OneNet Application Information Service</description>
     <note>Defined TXT keys: txtvers, protovers, path</note>
-    <xref type="person" data="Steven_Spitzer"/>
+    <xref type="person" data="Mark_Oslund"/>
   </record>
-  <record date="2019-12-09">
+  <record date="2019-12-09" updated="2023-12-27">
     <name>onenet-pairing</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -97168,9 +97168,9 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     </assignee>
     <description>OneNet Pairing</description>
     <note>Defined TXT keys: txtvers, protovers, id, path</note>
-    <xref type="person" data="Steven_Spitzer"/>
+    <xref type="person" data="Mark_Oslund"/>
   </record>
-  <record date="2019-12-09">
+  <record date="2019-12-09" updated="2023-12-27">
     <name>onenet-pgn</name>
     <protocol>udp</protocol>
     <assignee>
@@ -97178,7 +97178,7 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     </assignee>
     <description>OneNet PGN Transport Service</description>
       <note>Defined TXT keys: txtvers, protovers, nmea-name</note>
-    <xref type="person" data="Steven_Spitzer"/>
+    <xref type="person" data="Mark_Oslund"/>
   </record>
   <record>
     <name>openbase</name>
@@ -114706,6 +114706,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:oconnell_marka&amp;emc.com</uri>
       <updated>2008-12-04</updated>
     </person>
+    <person id="Mark_Oslund">
+      <name>Mark Oslund</name>
+      <org>National Marine Electronics Association</org>
+      <uri>mailto:info&amp;nmea.org</uri>
+      <updated>2023-12-27</updated>
+    </person>
     <person id="Mark_Parenti">
       <name>Mark Parenti</name>
       <uri>mailto:map&amp;ntc.adaptec.com</uri>
@@ -116811,8 +116817,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="National_Marine_Electronics_Association">
       <org>National Marine Electronics Association</org>
-      <uri>mailto:sspitzer&amp;nmea.org</uri>
-      <updated>2019-12-09</updated>
+      <uri>mailto:standards&amp;nmea.org</uri>
+      <updated>2023-12-27</updated>
     </person>
     <person id="Navneet_Gupta">
       <name>Navneet Gupta</name>
@@ -122459,12 +122465,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Steve Spataro</name>
       <uri>mailto:spataro_steve&amp;emc.com</uri>
     </person>
-    <person id="Steve_Spitzer">
-      <name>Steve Spitzer</name>
-      <org>National Marine Electronics Association</org>
-      <uri>mailto:sspitzer&amp;nmea.org</uri>
-      <updated>2011-09-15</updated>
-    </person>
     <person id="Steve_Splonskowski">
       <name>Steve Splonskowski</name>
       <uri>mailto:splons&amp;splons.com</uri>
@@ -122525,11 +122525,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Steven Frare</name>
       <uri>mailto:stevefr&amp;mosaix.com</uri>
     </person>
-    <person id="Steven_Fried">
-      <name>Steven Fried</name>
-      <uri>mailto:steven.fried&amp;oracle.com</uri>
-      <updated>2023-06-15</updated>
-    </person>
     <person id="Steven_G_Loughner">
       <name>Steven G. Loughner</name>
       <uri>mailto:stevengloughner&amp;eaton.com</uri>
@@ -122583,11 +122578,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Steven Sawkins</name>
       <uri>mailto:ssawkins&amp;symantec.com</uri>
     </person>
-    <person id="Steven_Spitzer">
-      <name>Steven Spitzer</name>
-      <uri>mailto:sspitzer&amp;nmea.org</uri>
-      <updated>2019-12-09</updated>
-    </person>
     <person id="Steven_Sweeting">
       <name>Steven Sweeting</name>
       <uri>mailto:ssweeting&amp;sls-technology.com</uri>
@@ -122606,6 +122596,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Steven_W_Clark_2">
       <name>Steven W. Clark</name>
       <uri>mailto:sclark&amp;equinox.com</uri>
+    </person>
+    <person id="Steven_Wertheimer">
+      <name>Steven Wertheimer</name>
+      <uri>mailto:steven.wertheimer&amp;oracle.com</uri>
+      <updated>2023-12-27</updated>
     </person>
     <person id="Stinky_Kitten_Limited">
       <org>Stinky Kitten Limited</org>
