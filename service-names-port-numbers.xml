@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2023-12-27</updated>
+  <updated>2024-01-05</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -64998,7 +64998,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>5541-5549</number>
+    <number>5541-5542</number>
+  </record>
+  <record date="2024-01-05">
+    <name>qftest-licserve</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Quality_First_Software_GmbH"/>
+    </assignee>
+    <description>QF-Test License Server</description>
+    <number>5543</number>
+    <xref type="person" data="Gregor_Schmid"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>5543</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>5544-5549</number>
   </record>
   <record date="2017-01-03">
     <name>cbus</name>
@@ -76003,17 +76022,12 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>8075-8076</number>
   </record>
-  <record date="2017-02-24">
-    <name>mles</name>
+  <record updated="2024-01-05">
+    <name/>
     <protocol>tcp</protocol>
-    <assignee>
-      <xref type="person" data="Juhamatti_Kuusisaari"/>
-    </assignee>
-    <description>Mles is a client-server data distribution protocol 
-      targeted to serve as a lightweight and reliable distributed 
-      publish/subscribe database service.</description>
+    <description>Reserved</description>
     <number>8077</number>
-    <xref type="person" data="Juhamatti_Kuusisaari"/>
+    <note>De-Assigned on 2024-01-05.</note>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -96518,6 +96532,18 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: https://www.praesentia.com/medkit/mist-service-type (dn dt md mf pr sn vn)</note>
     <xref type="person" data="Jon_Griffeth"/>
   </record>
+  <record date="2017-02-24" updated="2024-01-05">
+    <name>mles</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Juhamatti_Kuusisaari"/>
+    </assignee>
+    <description>Mles is a client-server data distribution protocol 
+      targeted to serve as a lightweight and reliable distributed 
+      publish/subscribe database service.</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Juhamatti_Kuusisaari"/>
+  </record>
   <record date="2015-11-18">
     <name>mmm</name>
     <protocol>tcp</protocol>
@@ -109036,8 +109062,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Gregor_Schmid">
       <name>Gregor Schmid</name>
-      <uri>mailto:gs&amp;qfs.de</uri>
-      <updated>2002-07</updated>
+      <uri>mailto:gregor.schmid&amp;qfs.de</uri>
+      <updated>2024-01-05</updated>
     </person>
     <person id="Gregory_Dudek">
       <name>Gregory Dudek</name>
@@ -112541,7 +112567,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Juhamatti_Kuusisaari">
       <name>Juhamatti Kuusisaari</name>
       <uri>mailto:juhamatti.kuusisaari&amp;mles.io</uri>
-      <updated>2017-02-24</updated>
+      <updated>2024-01-05</updated>
     </person>
     <person id="Juho_Herttua">
       <name>Juho Vähä-Herttua</name>
@@ -118963,6 +118989,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Qualcomm Innovation Center, Inc.</org>
       <uri>mailto:cdowell&amp;quicinc.com</uri>
       <updated>2011-12-21</updated>
+    </person>
+    <person id="Quality_First_Software_GmbH">
+      <org>Quality First Software GmbH</org>
+      <uri>mailto:qfs&amp;qfs.de</uri>
+      <updated>2024-01-05</updated>
     </person>
     <person id="Quang_Thoi">
       <name>Quang Thoi</name>
