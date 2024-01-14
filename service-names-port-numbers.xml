@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2024-01-05</updated>
+  <updated>2024-01-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -10428,7 +10428,7 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>914</number>
   </record>
-  <record date="2023-02-17">
+  <record date="2023-02-17" updated="2024-01-12">
     <name>rift-lies</name>
     <protocol>udp</protocol>
     <assignee>
@@ -10438,7 +10438,7 @@ common service discovery mechanisms.</note>
     <xref type="person" data="Tony_Przygienda"/>
     <xref type="draft" data="draft-ietf-rift-rift-16"/>
     <description>Routing in Fat Trees Link Information Elements 
-      (TEMPORARY - registered 2023-02-17, expires 2024-02-17)
+      (TEMPORARY - registered 2023-02-17, extension registered 2024-01-12, expires 2025-02-17)
     </description>
     <number>914</number>
   </record>
@@ -10448,7 +10448,7 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>915</number>
   </record>
-  <record date="2023-02-17">
+  <record date="2023-02-17" updated="2024-01-12">
     <name>rift-ties</name>
     <protocol>udp</protocol>
     <assignee>
@@ -10458,7 +10458,7 @@ common service discovery mechanisms.</note>
     <xref type="person" data="Tony_Przygienda"/>
     <xref type="draft" data="draft-ietf-rift-rift-16"/>
     <description>Routing in Fat Trees Topology Information Elements 
-      (TEMPORARY - registered 2023-02-17, expires 2024-02-17)
+      (TEMPORARY - registered 2023-02-17, extension registered 2024-01-12, expires 2025-02-17)
     </description>
     <number>915</number>
   </record>

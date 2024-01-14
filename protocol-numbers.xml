@@ -3,7 +3,7 @@
 <?xml-model href="protocol-numbers.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
 <registry xmlns="http://www.iana.org/assignments" id="protocol-numbers">
   <title>Protocol Numbers</title>
-  <updated>2023-11-07</updated>
+  <updated>2024-01-08</updated>
   <registry id="protocol-numbers-1">
     <title>Assigned Internet Protocol Numbers</title>
     <xref type="rfc" data="rfc5237"/><xref type="rfc" data="rfc7045"/>
@@ -742,11 +742,11 @@ University of California at Berkeley, June 1986.</xref>
       <description>IPX in IP</description>
       <xref type="person" data="CJ_Lee"/>
     </record>
-    <record>
+    <record updated="2024-01-08">
       <value>112</value>
       <name>VRRP</name>
       <description>Virtual Router Redundancy Protocol</description>
-      <xref type="rfc" data="rfc5798"/>
+      <xref type="draft" data="RFC-ietf-rtgwg-vrrp-rfc5798bis-18"/>
     </record>
     <record date="1998-01">
       <value>113</value>
