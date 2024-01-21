@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2024-01-12</updated>
+  <updated>2024-01-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -93497,6 +93497,16 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: product version bus id featuremask</note>
     <xref type="person" data="Markus_Kremer"/>
   </record>
+  <record date="2024-01-17">
+    <name>beyondidentity</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Beyond_Identity_Inc."/>
+    </assignee>
+    <description>Beyond Identity Platform Authenticator S</description>
+    <note>Defined TXT keys: proprietary</note>
+    <xref type="person" data="Monty_Wiseman"/>
+  </record>
   <record>
     <name>bfagent</name>
     <description>BuildForge Agent</description>
@@ -102508,6 +102518,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Beverly_Moody">
       <name>Beverly Moody</name>
       <uri>mailto:Beverly_Moody&amp;stercomm.com</uri>
+    </person>
+    <person id="Beyond_Identity_Inc.">
+      <name>Beyond Identity Inc.</name>
+      <uri>mailto:iana&amp;beyondidentity.com</uri>
+      <updated>2024-01-17</updated>
     </person>
     <person id="BFD_Chairs">
       <name>IETF BFD Working Group Chairs</name>
@@ -116594,6 +116609,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Monty">
       <name>Monty</name>
       <uri>mailto:monty&amp;analytikerna.se</uri>
+    </person>
+    <person id="Monty_Wiseman">
+      <name>Monty Wiseman</name>
+      <uri>mailto:monty.wiseman&amp;beyondidentity.com</uri>
+      <updated>2024-01-17</updated>
     </person>
     <person id="Moon_Ho_Chung">
       <name>Moon Ho Chung</name>
