@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2024-01-17</updated>
+  <updated>2024-01-25</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -70005,12 +70005,13 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>6512-6512</number>
   </record>
-  <record updated="2015-04-15">
+  <record updated="2024-01-24">
     <name>netconf-tls</name>
     <protocol>tcp</protocol>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7589"/>
+    <xref type="draft" data="RFC-ietf-netconf-over-tls13-04"/>
     <description>NETCONF over TLS</description>
     <number>6513</number>
   </record>
@@ -96466,6 +96467,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: Thread 1.1 Specification, Section 8.4.1.1.2. https://www.threadgroup.org/ThreadSpec</note>
     <xref type="person" data="Esko_Dijk"/>
   </record>
+  <record date="2024-01-22">
+    <name>meshcop-e</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Thread_Group_Inc"/>
+    </assignee>
+    <description>Thread Mesh Commissioning Ephemeral-key</description>
+    <note>Defined TXT keys: TXT records keys, if any, will be defined in Section 8.12 of the Thread Specification. https://www.threadgroup.org/ThreadSpec</note>
+    <xref type="person" data="Esko_Dijk"/>
+  </record>
   <record>
     <name>mi-raysat</name>
     <description>Mental Ray for Maya</description>
@@ -103674,8 +103685,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Cartesian_Theatre">
       <org>Cartesian Theatre</org>
-      <uri>mailto:info&amp;cartesiantheatre.com</uri>
-      <updated>2020-02-28</updated>
+      <uri>mailto:kip&amp;heliosmusic.io</uri>
+      <updated>2024-01-25</updated>
     </person>
     <person id="Casey_Harrington">
       <name>Casey Harrington</name>
@@ -107648,7 +107659,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Esko Dijk</name>
       <org>Thread Group, Inc.</org>
       <uri>mailto:esko.dijk&amp;iotconsultancy.nl</uri>
-      <updated>2020-11-20</updated>
+      <updated>2024-01-22</updated>
     </person>
     <person id="ESPeasy">
       <org>ESPeasy</org>
@@ -113340,8 +113351,8 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Kip_Warner">
       <name>Kip Warner</name>
       <org>Cartesian Theatre</org>
-      <uri>mailto:kip&amp;thevertigo.com</uri>
-      <updated>2020-02-28</updated>
+      <uri>mailto:kip&amp;heliosmusic.io</uri>
+      <updated>2024-01-25</updated>
     </person>
     <person id="Kirill_Marinushkin">
       <name>Kirill Marinushkin</name>
@@ -123520,7 +123531,7 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Thread_Group_Inc">
       <org>Thread Group, Inc.</org>
       <uri>mailto:help&amp;threadgroup.org</uri>
-      <updated>2021-12-10</updated>
+      <updated>2024-01-22</updated>
     </person>
     <person id="Three_Lights_Software_LLC">
       <org>3 Lights Software LLC</org>
