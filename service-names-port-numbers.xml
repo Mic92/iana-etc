@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2024-02-22</updated>
+  <updated>2024-03-05</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -88283,7 +88283,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>25010-25470</number>
+    <number>25010-25099</number>
+  </record>
+  <record date="2024-03-05">
+    <name>db2c-tls</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IBM"/>
+    </assignee>
+    <description>IBM Db2 Client Interface - Encrypted</description>
+    <number>25100</number>
+    <xref type="person" data="Matthew_Emmerton"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>25100</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>25101-25470</number>
   </record>
   <record date="2011-02-07">
     <name>rna</name>
@@ -109818,6 +109837,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:info&amp;iba-ag.com</uri>
       <updated>2018-02-12</updated>
     </person>
+    <person id="IBM">
+      <org>IBM</org>
+      <uri>mailto:memmerto&amp;ca.ibm.com</uri>
+      <updated>2024-03-05</updated>
+    </person>
     <person id="IEEE_1722_1">
       <org>IEEE-1722.1</org>
       <uri>mailto:jeff.koftinoff&amp;ieee.com</uri>
@@ -115339,6 +115363,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Matthew Darwin</name>
       <uri>mailto:matthew.darwin&amp;hp.com</uri>
       <updated>2005-08</updated>
+    </person>
+    <person id="Matthew_Emmerton">
+      <name>Matthew Emmerton</name>
+      <org>IBM</org>
+      <uri>mailto:memmerto&amp;ca.ibm.com</uri>
+      <updated>2024-03-05</updated>
     </person>
     <person id="Matthew_Ford">
       <name>Matthew Ford</name>
