@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2024-03-05</updated>
+  <updated>2024-03-18</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -41099,18 +41099,18 @@ common service discovery mechanisms.</note>
     <description>Indura Collector</description>
     <number>3156</number>
   </record>
-  <record>
-    <name>e3consultants</name>
+  <record updated="2024-03-18">
+    <name>lsa-comm</name>
     <protocol>tcp</protocol>
     <xref type="person" data="Brian_Carnell"/>
-    <description>CCC Listener Port</description>
+    <description>LSA Communicator</description>
     <number>3157</number>
   </record>
-  <record>
-    <name>e3consultants</name>
+  <record updated="2024-03-18">
+    <name>lsa-comm</name>
     <protocol>udp</protocol>
     <xref type="person" data="Brian_Carnell"/>
-    <description>CCC Listener Port</description>
+    <description>LSA Communicator</description>
     <number>3157</number>
   </record>
   <record>
@@ -103188,7 +103188,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Brian_Carnell">
       <name>Brian Carnell</name>
-      <uri>mailto:brian&amp;e3consultants.com</uri>
+      <uri>mailto:brian&amp;carnellcrew.com</uri>
+      <updated>2024-03-18</updated>
     </person>
     <person id="Brian_Cully">
       <name>Brian Cully</name>
