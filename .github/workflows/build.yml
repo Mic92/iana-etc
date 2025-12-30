@@ -1,21 +1,27 @@
-name: "Build"
+name: "Release IANA ETC Updates"
+
 on:
   repository_dispatch:
   workflow_dispatch:
   schedule:
-    - cron:  '51 2 * * 0'
+    - cron: "0 0 * * 0"
+
 jobs:
   update:
+    name: "Build and release"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
-    - name: Checkout data branch
-      uses: actions/checkout@v6
-      with:
-        ref: iana-numbers
-        path: out
-        fetch-depth: 0
-    - name: Create new iana-etc releases
-      run: ./ci/deploy.sh
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Checkout IANA numbers data branch
+        uses: actions/checkout@v6
+        with:
+          ref: iana-numbers
+          path: out
+          fetch-depth: 0
+
+      - name: Build and publish iana-etc releases
+        run: ./ci/deploy.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

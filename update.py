@@ -13,7 +13,10 @@ from contextlib import contextmanager
 from datetime import datetime
 from typing import IO, Any, Iterator, Set
 
-SERVICES_URL = "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xml"
+SERVICES_URL = (
+    "https://www.iana.org/assignments/service-names-port-numbers/"
+    "service-names-port-numbers.xml"
+)
 SERVICES_XML = "service-names-port-numbers.xml"
 SERVICES_FILE = "services"
 SERVICES_HEADER = """# See also services(5) and IANA offical page :
@@ -22,7 +25,9 @@ SERVICES_HEADER = """# See also services(5) and IANA offical page :
 # (last updated {})
 """
 
-PROTOCOLS_URL = "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml"
+PROTOCOLS_URL = (
+    "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml"
+)
 PROTOCOLS_XML = "protocol-numbers.xml"
 PROTOCOLS_FILE = "protocols"
 PROTOCOLS_HEADER = """# See also protocols(5) and IANA official page :
@@ -61,11 +66,10 @@ def compute_sha256(fname: str) -> str:
 
 def parse_xml(source: str) -> ET.Element:
     it = ET.iterparse(open(source))
-    # strip namespaces
     for _, el in it:
         if "}" in el.tag:
             el.tag = el.tag.split("}", 1)[1]
-    root = it.root  # mypy: ignore
+    root = it.root
     return root
 
 
@@ -108,6 +112,7 @@ def write_services_file(source: str, destination: str) -> datetime:
                 or number_.text is None
             ):
                 continue
+
             name = name_.text.lower().replace("_", "-")
             protocol = protocol_.text.lower()
             number = int(number_.text.split("-")[0])
@@ -213,9 +218,8 @@ def main() -> None:
         add_entry(tar, name, protocols_xml)
         add_entry(tar, name, protocols_file)
 
-    with atomic_write(
-        os.path.join(dest, "dist/iana-etc-%s.tar.gz.sha256" % version)
-    ) as f:
+    sha_path = os.path.join(dest, "dist/iana-etc-%s.tar.gz.sha256" % version)
+    with atomic_write(sha_path) as f:
         f.write(compute_sha256(tarball))
 
     with atomic_write(os.path.join(dest, ".version")) as f:
