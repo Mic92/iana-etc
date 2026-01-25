@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2025-12-15</updated>
+  <updated>2026-01-23</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -57879,7 +57879,7 @@ common service discovery mechanisms.</note>
     <name>a25-fap-fgw</name>
     <protocol>sctp</protocol>
     <assignee>
-      <xref type="person" data="ThreeGPP_2"/>
+      <xref type="person" data="_3GPP_2"/>
     </assignee>
     <description>A25 (FAP-FGW)</description>
     <number>4502</number>
@@ -78573,15 +78573,16 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>8809</number>
   </record>
-  <record date="2019-04-15">
+  <record date="2019-04-15" updated="2026-01-23">
     <name>3gpp-monp</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="ThreeGPP_3"/>
+      <xref type="person" data="_3GPP"/>
     </assignee>
     <description>MCPTT Off-Network Protocol (MONP)</description>
     <number>8809</number>
-    <xref type="person" data="Frederic_Firmin"/>
+    <xref type="person" data="Dongwook_Kim"/>
+    <xref type="uri" data="http://www.3gpp.org/ftp//Specs/archive/24_series/24.379">3GPP TS 24.379 v13.5.0s</xref>
   </record>
   <record>
     <description>Unassigned</description>
@@ -89113,7 +89114,7 @@ common service discovery mechanisms.</note>
     <name>a27-ran-ran</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="ThreeGPP_2"/>
+      <xref type="person" data="_3GPP_2"/>
     </assignee>
     <description>A27 cdma2000 RAN Management</description>
     <number>28119</number>
@@ -89216,7 +89217,7 @@ common service discovery mechanisms.</note>
   <record date="2009-06-11">
     <name>sgsap</name>
     <protocol>sctp</protocol>
-    <xref type="person" data="GPP_Specifications"/>
+    <xref type="person" data="_3GPP_Specifications"/>
     <description>SGsAP in 3GPP</description>
     <number>29118</number>
   </record>
@@ -89251,14 +89252,14 @@ common service discovery mechanisms.</note>
   <record date="2009-06-11">
     <name>sbcap</name>
     <protocol>sctp</protocol>
-    <xref type="person" data="GPP_Specifications"/>
+    <xref type="person" data="_3GPP_Specifications"/>
     <description>SBcAP in 3GPP</description>
     <number>29168</number>
   </record>
-  <record date="2009-09-08">
+  <record date="2009-09-08" updated="2026-01-23">
     <name>iuhsctpassoc</name>
     <protocol>sctp</protocol>
-    <xref type="person" data="John_Meredith"/>
+    <xref type="person" data="Dongwook_Kim"/>
     <description>HNBAP and RUA Common Association</description>
     <number>29169</number>
   </record>
@@ -90578,15 +90579,15 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>36002-36410</number>
   </record>
-  <record date="2014-11-14">
+  <record date="2014-11-14" updated="2026-01-23">
     <name>wlcp</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="ThreeGPP_3"/>
+      <xref type="person" data="_3GPP"/>
     </assignee>
     <description>Wireless LAN Control plane Protocol (WLCP)</description>
     <number>36411</number>
-    <xref type="person" data="Frederic_Firmin"/>
+    <xref type="person" data="Dongwook_Kim"/>
   </record>
   <record>
     <protocol>tcp</protocol>
@@ -90635,7 +90636,7 @@ common service discovery mechanisms.</note>
     <name>slmap</name>
     <protocol>sctp</protocol>
     <assignee>
-      <xref type="person" data="ThreeGPP_4"/>
+      <xref type="person" data="_3GPP_4"/>
     </assignee>
     <description>SLm Interface Application Protocol</description>
     <number>36423</number>
@@ -90645,7 +90646,7 @@ common service discovery mechanisms.</note>
     <name>nq-ap</name>
     <protocol>sctp</protocol>
     <assignee>
-      <xref type="person" data="ThreeGPP_4"/>
+      <xref type="person" data="_3GPP_4"/>
     </assignee>
     <description>Nq and Nq' Application Protocol</description>
     <number>36424</number>
@@ -90780,7 +90781,7 @@ common service discovery mechanisms.</note>
     <name>3gpp-w1ap</name>
     <protocol>sctp</protocol>
     <assignee>
-      <xref type="person" data="ThreeGPP_5"/>
+      <xref type="person" data="_3GPP_3"/>
     </assignee>
     <description>W1 signalling transport</description>
     <number>37472</number>
@@ -100663,6 +100664,26 @@ configured experiments; they MUST NOT be shipped as defaults in
 implementations.  See RFC 3692 for details.</footnote>
 
   <people>
+    <person id="_3GPP">
+      <org>3GPP</org>
+      <uri>mailto:dongwook.kim&amp;etsi.org</uri>
+      <updated>2026-01-23</updated>
+    </person>
+    <person id="_3GPP_2">
+      <org>3GPP2</org>
+      <uri>mailto:lizhiming&amp;huawei.com</uri>
+      <updated>2012-01-11</updated>
+    </person>
+    <person id="_3GPP_3">
+      <org>3GPP</org>
+      <uri>mailto:lionel.morand&amp;orange.com</uri>
+      <updated>2020-07-16</updated>
+    </person>
+    <person id="_3GPP_4">
+      <org>3GPP</org>
+      <uri>mailto:kimmo.kymalainen&amp;etsi.org</uri>
+      <updated>2015-06-18</updated>
+    </person>
     <person id="_88solutions_Corporation">
       <org>88solutions Corporation</org>
       <uri>mailto:koethe&amp;88solutions.com</uri>
@@ -107364,6 +107385,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Dongling Wang</name>
       <uri>mailto:dongling&amp;finle.com</uri>
     </person>
+    <person id="Dongwook_Kim">
+      <name>Dongwook Kim</name>
+      <org>3GPP</org>
+      <uri>mailto:dongwook.kim&amp;etsi.org</uri>
+      <updated>2026-01-23</updated>
+    </person>
     <person id="Donna_Dillenberger">
       <name>Donna Dillenberger</name>
       <uri>mailto:engd&amp;us.ibm.com</uri>
@@ -108676,11 +108703,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:fayusohenson&amp;hillr.com</uri>
       <updated>2008-05-22</updated>
     </person>
-    <person id="Frederic_Firmin">
-      <name>Frederic Firmin</name>
-      <uri>mailto:frederic.firmin&amp;etsi.org</uri>
-      <updated>2014-11-14</updated>
-    </person>
     <person id="Frederic_Hemmer">
       <name>Frederic Hemmer</name>
       <uri>mailto:Frederic.Hemmer&amp;cern.ch</uri>
@@ -108742,11 +108764,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:contact&amp;g2metric.com</uri>
       <updated>2019-06-13</updated>
     </person>
-    <person id="GPP_Specifications">
-      <name>John M Meredith</name>
+    <person id="_3GPP_Specifications">
+      <name>Dongwook Kim</name>
       <org>3GPP Specifications Manager</org>
-      <uri>mailto:john.meredith&amp;etsi.org</uri>
-      <updated>2009-06-11</updated>
+      <uri>mailto:dongwook.kim&amp;etsi.org</uri>
+      <updated>2026-01-23</updated>
     </person>
     <person id="G_E_Ozz_Nixon_Jr">
       <name>G.E. Ozz Nixon Jr.</name>
@@ -112593,11 +112615,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="John_McKernan">
       <name>John McKernan</name>
       <uri>mailto:John.McKernan&amp;sun.com</uri>
-    </person>
-    <person id="John_Meredith">
-      <name>John Meredith</name>
-      <uri>mailto:John.Meredith&amp;etsi.org</uri>
-      <updated>2009-09-08</updated>
     </person>
     <person id="John_Mertus">
       <name>John Mertus</name>
@@ -124234,26 +124251,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>3 Lights Software LLC</org>
       <uri>mailto:support&amp;3lightssoftware.com</uri>
       <updated>2014-07-22</updated>
-    </person>
-    <person id="ThreeGPP_2">
-      <org>3GPP2</org>
-      <uri>mailto:lizhiming&amp;huawei.com</uri>
-      <updated>2012-01-11</updated>
-    </person>
-    <person id="ThreeGPP_3">
-      <org>3GPP</org>
-      <uri>mailto:frederic.firmin&amp;etsi.org</uri>
-      <updated>2014-11-14</updated>
-    </person>
-    <person id="ThreeGPP_4">
-      <org>3GPP</org>
-      <uri>mailto:kimmo.kymalainen&amp;etsi.org</uri>
-      <updated>2015-06-18</updated>
-    </person>
-    <person id="ThreeGPP_5">
-      <org>3GPP</org>
-      <uri>mailto:lionel.morand&amp;orange.com</uri>
-      <updated>2020-07-16</updated>
     </person>
     <person id="Tiago_Bittencourt_Si">
       <name>Tiago Bittencourt Silva</name>
