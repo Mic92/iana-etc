@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-01-23</updated>
+  <updated>2026-02-02</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -7047,7 +7047,7 @@ common service discovery mechanisms.</note>
       <xref type="person" data="IESG"/>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-dhc-rfc8415bis-12"/>
+    <xref type="rfc" data="rfc9915"/>
     <number>546</number>
   </record>
   <record updated="2018-05-21">
@@ -7068,7 +7068,7 @@ common service discovery mechanisms.</note>
       <xref type="person" data="IESG"/>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
-    <xref type="draft" data="RFC-ietf-dhc-rfc8415bis-12"/>
+    <xref type="rfc" data="rfc9915"/>
     <description>DHCPv6 Server</description>
     <number>547</number>
   </record>
@@ -83625,7 +83625,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>11431-11488</number>
+    <number>11431-11433</number>
+  </record>
+  <record date="2025-09-26">
+    <name>ollama</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Jesse_Gross"/>
+    </assignee>
+    <description>Ollama</description>
+    <number>11434</number>
+    <xref type="person" data="Jesse_Gross"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>11434</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>11435-11488</number>
     <unauthorized>Known UNAUTHORIZED USE: port 11488</unauthorized>
     
   </record>
@@ -111889,6 +111908,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Bout Fitness, LLC</org>
       <uri>mailto:jesse&amp;boutfitness.com</uri>
       <updated>2014-06-16</updated>
+    </person>
+    <person id="Jesse_Gross">
+      <name>Jesse Gross</name>
+      <uri>mailto:jesse&amp;ollama.com</uri>
+      <updated>2026-02-02</updated>
     </person>
     <person id="Jesse_McKay">
       <name>Jesse McKay</name>
