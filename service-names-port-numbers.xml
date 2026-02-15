@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-02-02</updated>
+  <updated>2026-02-13</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -63691,13 +63691,13 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>5317</number>
   </record>
-  <record>
+  <record updated="2026-02-13">
     <name>pkix-cmc</name>
     <protocol>tcp</protocol>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>PKIX Certificate Management using CMS (CMC)</description>
-    <xref type="rfc" data="rfc6402"/>
+    <xref type="draft" data="RFC-ietf-lamps-rfc5273bis-10"/>
     <number>5318</number>
   </record>
   <record>
