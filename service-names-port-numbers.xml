@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-02-13</updated>
+  <updated>2026-02-26</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -63697,7 +63697,7 @@ common service discovery mechanisms.</note>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>PKIX Certificate Management using CMS (CMC)</description>
-    <xref type="draft" data="RFC-ietf-lamps-rfc5273bis-10"/>
+    <xref type="draft" data="RFC-ietf-lamps-rfc5273bis-11"/>
     <number>5318</number>
   </record>
   <record>
@@ -100238,6 +100238,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Johan_Kool"/>
   </record>
+  <record date="2026-02-25">
+    <name>wchr</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Tolt_Technologies"/>
+    </assignee>
+    <description>Powered wheelchair command protocol</description>
+    <note>Defined TXT keys: model (device model identifier), sn (device serial number), app (firmware version), boot (bootloader version and signing status), githash (firmware build commit), crash (crash info present flag)</note>
+    <xref type="person" data="Jay_Beavers_2"/>
+  </record>
   <record date="2012-07-11">
     <name>wd-2go</name>
     <protocol>tcp</protocol>
@@ -111439,6 +111449,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jay Beavers</name>
       <uri>mailto:Jay.Beavers&amp;microsoft.com</uri>
       <updated>2006-02</updated>
+    </person>
+    <person id="Jay_Beavers_2">
+      <name>Jay Beavers</name>
+      <org>Tolt Technologies LLC</org>
+      <uri>mailto:jay&amp;tolttechnologies.com</uri>
+      <updated>2026-02-25</updated>
     </person>
     <person id="Jay_Cotton">
       <name>Jay Cotton</name>
@@ -124603,6 +124619,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Tohru_Mori">
       <name>Tohru Mori</name>
       <uri>mailto:tmori&amp;vnet.ibm.com</uri>
+    </person>
+    <person id="Tolt_Technologies">
+      <org>Tolt Technologies LLC</org>
+      <uri>mailto:jay&amp;tolttechnologies.com</uri>
+      <updated>2026-02-25</updated>
     </person>
     <person id="Tom_Belote">
       <name>Tom Belote</name>
