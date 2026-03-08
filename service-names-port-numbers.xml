@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-02-26</updated>
+  <updated>2026-03-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -59776,8 +59776,23 @@ Further keys may be added in the future.</note>
     <xref type="person" data="Vivek_Kashyap"/>
   </record>
   <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>4794</number>
+  </record>
+  <record date="2026-03-06">
+    <name>veroce</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="ByteDance"/>
+    </assignee>
+    <description>veRoCE Transport Protocol</description>
+    <number>4794</number>
+    <xref type="person" data="Dai_Huichen"/>
+  </record>
+  <record>
     <description>Unassigned</description>
-    <number>4794-4799</number>
+    <number>4795-4799</number>
   </record>
   <record>
     <name>iims</name>
@@ -104061,6 +104076,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Byron Jones</name>
       <uri>mailto:byronj&amp;bellsouth.net</uri>
     </person>
+    <person id="ByteDance">
+      <name>ByteDance</name>
+      <uri>mailto:daihuichen&amp;bytedance.com</uri>
+      <updated>2026-03-06</updated>
+    </person>
     <person id="C_Enrique_Ortiz">
       <name>C. Enrique Ortiz</name>
       <uri>mailto:eortiz&amp;j2medeveloper.com</uri>
@@ -105605,6 +105625,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Dagfinn_Saether">
       <name>Dagfinn Saether</name>
       <uri>mailto:Dagfinn&amp;admins.com</uri>
+    </person>
+     <person id="Dai_Huichen">
+      <name>Dai Huichen</name>
+      <uri>mailto:daihuichen&amp;bytedance.com</uri>
+      <updated>2026-03-06</updated>
     </person>
     <person id="Daisuke_Shinomiya">
       <name>Daisuke Shinomiya</name>
