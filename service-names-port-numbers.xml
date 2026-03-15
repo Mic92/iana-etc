@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-03-06</updated>
+  <updated>2026-03-10</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -55395,23 +55395,23 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>4171</number>
   </record>
-  <record date="2009-12-23" updated="2012-03-06">
+  <record date="2009-12-23" updated="2026-03-10">
     <name>pcoip</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Teradici"/>
+      <xref type="person" data="HP_Inc_2"/>
     </assignee>
-    <xref type="person" data="Jeff_Dillabough"/>
+    <xref type="person" data="Jeff_Jeansonne"/>
     <description>PC over IP</description>
     <number>4172</number>
   </record>
-  <record date="2009-12-23" updated="2012-03-06">
+  <record date="2009-12-23" updated="2026-03-10">
     <name>pcoip</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="Teradici"/>
+      <xref type="person" data="HP_Inc_2"/>
     </assignee>
-    <xref type="person" data="Jeff_Dillabough"/>
+    <xref type="person" data="Jeff_Jeansonne"/>
     <description>PC over IP</description>
     <number>4172</number>
   </record>
@@ -62644,15 +62644,15 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>5169-5171</number>
   </record>
-  <record date="2014-04-28">
+  <record date="2014-04-28" updated="2026-03-10">
     <name>pcoip-mgmt</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="Teradici_2"/>
+      <xref type="person" data="HP_Inc_2"/>
     </assignee>
     <description>PC over IP Endpoint Management</description>
     <number>5172</number>
-    <xref type="person" data="Paul_Helter"/>
+    <xref type="person" data="Jeff_Jeansonne"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -79871,7 +79871,31 @@ any port number, but the default port for this protocol is 9100.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>9165-9190</number>
+    <number>9165-9182</number>
+  </record>
+  <record date="2026-03-09">
+    <name>sirius-agent</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Sirius_Computer_Inc"/>
+    </assignee>
+    <description>Sirius Configuration Agent</description>
+    <number>9183</number>
+    <xref type="person" data="Jason_Van_der_Schyff"/>
+  </record>
+  <record date="2026-03-09">
+    <name>sirius-agent</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Sirius_Computer_Inc"/>
+    </assignee>
+    <description>Sirius Configuration Agent</description>
+    <number>9183</number>
+    <xref type="person" data="Jason_Van_der_Schyff"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>9184-9190</number>
   </record>
   <record date="2005-11">
     <name>sun-as-jpda</name>
@@ -90370,9 +90394,44 @@ common service discovery mechanisms.</note>
     <description>PROFInet Context Manager</description>
     <number>34964</number>
   </record>
+  <record date="2026-03-10">
+    <name>profinet-cm-sec</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="PNO_PROFIBUS_Nutzerorganisation_e.V."/>
+    </assignee>
+    <description>PROFINET secure connection management and key provisioning</description>
+    <number>34965</number>
+    <xref type="person" data="Dietmar_Bohn"/>
+  </record>
+  <record date="2026-03-10">
+    <name>profinet-cm-sec</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="PNO_PROFIBUS_Nutzerorganisation_e.V."/>
+    </assignee>
+    <description>PROFINET secure connection management and key provisioning</description>
+    <number>34965</number>
+    <xref type="person" data="Dietmar_Bohn"/>
+  </record>
+  <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>34966</number>
+  </record>
+  <record date="2026-03-10">
+    <name>profinet-rt-sec</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="PNO_PROFIBUS_Nutzerorganisation_e.V."/>
+    </assignee>
+    <description>PROFINET secure real-time data transfer over UDP (unicast and multicast)</description>
+    <number>34966</number>
+    <xref type="person" data="Dietmar_Bohn"/>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>34965-34979</number>
+    <number>34967-34979</number>
   </record>
   <record date="2003-11">
     <name>ethercat</name>
@@ -107150,6 +107209,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:dieter&amp;apple.com</uri>
       <updated>2007-10-22</updated>
     </person>
+    <person id="Dietmar_Bohn">
+      <name>Dietmar Bohn</name>
+      <uri>mailto:standards.central-office&amp;profibus.com</uri>
+      <updated>2026-03-10</updated>
+    </person>
     <person id="Dietmar_Finkler">
       <name>Dietmar Finkler</name>
       <uri>mailto:d.finkler&amp;hermstedt.de</uri>
@@ -110341,6 +110405,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:sanjay.kumar14&amp;hp.com</uri>
       <updated>2016-08-26</updated>
     </person>
+    <person id="HP_Inc_2">
+      <org>HP Inc.</org>
+      <uri>mailto:jeff.jeansonne&amp;hp.com</uri>
+      <updated>2026-03-10</updated>
+    </person>
     <person id="Huang_Jingnan">
       <name>Huang Jingnan</name>
       <uri>mailto:huangjnb&amp;lenovo.com</uri>
@@ -111434,6 +111503,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:thorpej&amp;apple.com</uri>
       <updated>2015-09-29</updated>
     </person>
+    <person id="Jason_Van_der_Schyff">
+      <name>Jason Van der Schyff</name>
+      <uri>mailto:jason&amp;sirius.computer</uri>
+      <updated>2026-03-09</updated>
+    </person>
     <person id="Jason_Volk">
       <name>Jason Volk</name>
       <uri>mailto:jason&amp;teknidude.com</uri>
@@ -111625,12 +111699,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jeff Conrad</name>
       <uri>mailto:jeff_conrad&amp;hp.com</uri>
     </person>
-    <person id="Jeff_Dillabough">
-      <name>Jeff Dillabough</name>
-      <org>Teradici</org>
-      <uri>mailto:jdillabough&amp;teradici.com</uri>
-      <updated>2012-03-06</updated>
-    </person>
     <person id="Jeff_Douglass">
       <name>Jeff Douglass</name>
       <uri>mailto:ist&amp;att.net</uri>
@@ -111672,6 +111740,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Jeff_Hughes">
       <name>Jeff Hughes</name>
       <uri>mailto:Jeff.Hughes&amp;columbiasc.ncr.com</uri>
+    </person>
+    <person id="Jeff_Jeansonne">
+      <name>Jeff Jeansonne</name>
+      <uri>mailto:jeff.jeansonne&amp;hp.com</uri>
+      <updated>2026-03-10</updated>
     </person>
     <person id="Jeff_Jones">
       <name>Jeff Jones</name>
@@ -118694,13 +118767,7 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Paul Harrison</name>
       <uri>mailto:paulh&amp;idonix.co.uk</uri>
     </person>
-    <person id="Paul_Helter">
-      <name>Paul Helter</name>
-      <org>Teradici</org>
-      <uri>mailto:phelter&amp;teradici.com</uri>
-      <updated>2014-04-28</updated>
-    </person>
-     <person id="Paul_Higgs">
+    <person id="Paul_Higgs">
         <name>Paul Higgs</name>
         <uri>mailto:paul.higgs&amp;ericsson.com</uri>
      </person>
@@ -119594,6 +119661,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Plex Inc.</name>
       <uri>mailto:sashahilton00&amp;gmail.com</uri>
       <updated>2016-06-02</updated>
+    </person>
+    <person id="PNO_PROFIBUS_Nutzerorganisation_e.V.">
+      <name>PNO – PROFIBUS Nutzerorganisation e.V.</name>
+      <uri>mailto:standards.central-office&amp;profibus.com</uri>
+      <updated>2026-03-10</updated>
     </person>
     <person id="Portnoy_Boxman">
       <name>Portnoy Boxman</name>
@@ -122639,6 +122711,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:sinnadurai.dharshan&amp;ni.com</uri>
       <updated>2002-07</updated>
     </person>
+    <person id="Sirius_Computer_Inc">
+      <name>Sirius Computer, Inc</name>
+      <uri>mailto:jason&amp;sirius.computer</uri>
+      <updated>2026-03-09</updated>
+    </person>
     <person id="Siva_Poobalasingam">
       <name>Siva Poobalasingam</name>
       <uri>mailto:siva&amp;towersoft.com.au</uri>
@@ -123932,16 +124009,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Teradactyl LLC</org>
       <uri>mailto:vendors&amp;teradactyl.com</uri>
       <updated>2019-05-17</updated>
-    </person>
-    <person id="Teradici">
-      <org>Teradici</org>
-      <uri>mailto:jdillabough&amp;teradici.com</uri>
-      <updated>2012-03-06</updated>
-    </person>
-    <person id="Teradici_2">
-      <org>Teradici</org>
-      <uri>mailto:phelter&amp;teradici.com</uri>
-      <updated>2014-04-28</updated>
     </person>
     <person id="Terrence_J_Talbot">
       <name>Terrence J. Talbot</name>
