@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-03-10</updated>
+  <updated>2026-03-18</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -90352,47 +90352,65 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>34568-34961</number>
   </record>
-  <record date="2004-11">
+  <record date="2004-11" updated="2026-03-16">
     <name>profinet-rt</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Peter_Wenzel"/>
+    <assignee>
+      <xref type="person" data="PNO_PROFIBUS_Nutzerorganisation_e.V."/>
+    </assignee>
     <description>PROFInet RT Unicast</description>
     <number>34962</number>
+    <xref type="person" data="Dietmar_Bohn"/>
   </record>
-  <record date="2004-11">
+  <record date="2004-11" updated="2026-03-16">
     <name>profinet-rt</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Peter_Wenzel"/>
+    <assignee>
+      <xref type="person" data="PNO_PROFIBUS_Nutzerorganisation_e.V."/>
+    </assignee>
     <description>PROFInet RT Unicast</description>
     <number>34962</number>
+    <xref type="person" data="Dietmar_Bohn"/>
   </record>
-  <record date="2004-11">
+  <record date="2004-11" updated="2026-03-16">
     <name>profinet-rtm</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Peter_Wenzel"/>
+    <assignee>
+      <xref type="person" data="PNO_PROFIBUS_Nutzerorganisation_e.V."/>
+    </assignee>
     <description>PROFInet RT Multicast</description>
     <number>34963</number>
+    <xref type="person" data="Dietmar_Bohn"/>
   </record>
-  <record date="2004-11">
+  <record date="2004-11" updated="2026-03-16">
     <name>profinet-rtm</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Peter_Wenzel"/>
+    <assignee>
+      <xref type="person" data="PNO_PROFIBUS_Nutzerorganisation_e.V."/>
+    </assignee>
     <description>PROFInet RT Multicast</description>
     <number>34963</number>
+    <xref type="person" data="Dietmar_Bohn"/>
   </record>
-  <record date="2004-11">
+  <record date="2004-11" updated="2026-03-16">
     <name>profinet-cm</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Peter_Wenzel"/>
+    <assignee>
+      <xref type="person" data="PNO_PROFIBUS_Nutzerorganisation_e.V."/>
+    </assignee>
     <description>PROFInet Context Manager</description>
     <number>34964</number>
+    <xref type="person" data="Dietmar_Bohn"/>
   </record>
-  <record date="2004-11">
+  <record date="2004-11" updated="2026-03-16">
     <name>profinet-cm</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Peter_Wenzel"/>
+    <assignee>
+      <xref type="person" data="PNO_PROFIBUS_Nutzerorganisation_e.V."/>
+    </assignee>
     <description>PROFInet Context Manager</description>
     <number>34964</number>
+    <xref type="person" data="Dietmar_Bohn"/>
   </record>
   <record date="2026-03-10">
     <name>profinet-cm-sec</name>
@@ -97108,6 +97126,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
       user-focused PKI.</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Phillip_Hallam-Baker"/>
+  </record>
+  <record date="2026-03-18">
+    <name>mms-edgerouter</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Radio_Technical_Commission_for_Maritime_Services"/>
+    </assignee>
+    <description>Maritime Messaging Service Edge Router</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="RTCM_President_or_Technical_Officer"/>
   </record>
   <record date="2013-07-09">
     <name>mn-passage</name>
@@ -119361,11 +119389,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:peterwaher&amp;hotmail.com</uri>
       <updated>2015-11-25</updated>
     </person>
-    <person id="Peter_Wenzel">
-      <name>Peter Wenzel</name>
-      <uri>mailto:Peter.Wenzel&amp;profibus.com</uri>
-      <updated>2004-11</updated>
-    </person>
     <person id="Peter_Weyman">
       <name>Peter Weyman</name>
       <uri>mailto:pjweyman&amp;noblenet.com</uri>
@@ -119893,6 +119916,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Radicle</org>
       <uri>mailto:team&amp;radicle.xyz</uri>
       <updated>2025-08-15</updated>
+    </person>
+    <person id="Radio_Technical_Commission_for_Maritime_Services">
+      <org>Radio Technical Commission for Maritime Services</org>
+      <uri>mailto:hq&amp;rtcm.org</uri>
+      <updated>2026-03-18</updated>
     </person>
     <person id="Radish_Systems">
       <org>Radish Systems</org>
@@ -121520,6 +121548,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>rtCamp Solutions Private Limited</org>
       <uri>mailto:admin&amp;rtcamp.com</uri>
       <updated>2014-03-10</updated>
+    </person>
+    <person id="RTCM_President_or_Technical_Officer">
+      <org>Radio Technical Commission for Maritime Services</org>
+      <uri>mailto:hq&amp;rtcm.org</uri>
+      <updated>2026-03-18</updated>
     </person>
     <person id="Ruben_Beltran">
       <name>Ruben Beltran del Rio</name>
