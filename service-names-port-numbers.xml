@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-03-18</updated>
+  <updated>2026-03-27</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -63720,8 +63720,22 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>5318</number>
   </record>
-  <record>
-    <description>Unassigned</description>
+  <record date="2026-03-27">
+    <name>roughtime</name>
+    <protocol>tcp</protocol>
+    <assignee><xref type="person" data="IESG"/></assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <description>Roughtime time synchronization</description>
+    <xref type="draft" data="RFC-ietf-ntp-roughtime-19"/>
+    <number>5319</number>
+  </record>
+  <record date="2026-03-27">
+    <name>roughtime</name>
+    <protocol>udp</protocol>
+    <assignee><xref type="person" data="IESG"/></assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <description>Roughtime time synchronization</description>
+    <xref type="draft" data="RFC-ietf-ntp-roughtime-19"/>
     <number>5319</number>
   </record>
   <record date="2008-05-01">
@@ -88255,7 +88269,7 @@ common service discovery mechanisms.</note>
       <xref type="person" data="IESG"/>
     </assignee>
     <xref type="draft" data="RFC-ietf-ippm-capacity-protocol-25"/>
-    <description>UDP-based IP-Layer Capacity and performance measurement protocol</description>
+    <description>UDP-based IP-Layer Capacity and Performance Measurement protocol</description>
     <number>24601</number>
     <xref type="person" data="IETF_Chair"/>
   </record>
@@ -98622,6 +98636,16 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <description>Raymarine remote control protocol</description>
     <note>Defined TXT keys: raymarine-mfd-rrc-version, raymarine-mfd-model, raymarine-mfd-serial</note>
     <xref type="person" data="Geoffrey_Beer"/>
+  </record>
+  <record date="2026-03-27">
+    <name>s2connect</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="TNO"/>
+    </assignee>
+    <description>S2 Connect energy management protocol</description>
+    <note>Defined TXT Keys: <xref type="uri" data="https://docs.s2standard.org/docs/communication-layer/discovery-pairing-authentication/#dns-sd-based-discovery"/></note>
+    <xref type="person" data="Wilco_Wijbrandi"/>
   </record>
   <record>
     <name>safarimenu</name>
@@ -124647,6 +124671,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:devsupport&amp;tivo.com</uri>
       <updated>2011-10-18</updated>
     </person>
+    <person id="TNO">
+      <name>TNO</name>
+      <uri>mailto:info&amp;tno.nl</uri>
+      <updated>2026-03-27</updated>
+    </person>
     <person id="Tobias_Erichsen">
       <name>Tobias Erichsen</name>
       <uri>mailto:erichsen&amp;te-systems.de</uri>
@@ -125938,6 +125967,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>WIBU-SYSTEMS AG</org>
       <uri>mailto:oliver.winzenried&amp;wibu.com</uri>
       <updated>2013-06-25</updated>
+    </person>
+    <person id="Wilco_Wijbrandi">
+      <name>Wilco Wijbrandi</name>
+      <uri>mailto:wilco.wijbrandi&amp;tno.nl</uri>
+      <updated>2026-03-27</updated>
     </person>
     <person id="Wilken_GmbH">
       <name>Wilken GmbH</name>
