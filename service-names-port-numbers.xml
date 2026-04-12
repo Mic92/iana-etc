@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-03-27</updated>
+  <updated>2026-04-09</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -14827,19 +14827,25 @@ common service discovery mechanisms.</note>
     <description>Optical Domain Service Interconnect (ODSI)</description>
     <number>1308</number>
   </record>
-  <record>
+  <record updated="2026-04-09">
     <name>jtag-server</name>
     <protocol>tcp</protocol>
-    <xref type="person" data="Andrew_Draper"/>
+    <assignee>
+    <xref type="person" data="Altera_Corporation"/>
+    </assignee>
     <description>JTAG server</description>
     <number>1309</number>
+    <xref type="person" data="Kok_Kuan_Chang"/>
   </record>
-  <record>
+  <record updated="2026-04-09">
     <name>jtag-server</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Andrew_Draper"/>
+    <assignee>
+    <xref type="person" data="Altera_Corporation"/>
+    </assignee>
     <description>JTAG server</description>
     <number>1309</number>
+    <xref type="person" data="Kok_Kuan_Chang"/>
   </record>
   <record>
     <name>husky</name>
@@ -101712,6 +101718,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:support&amp;altsolve.com</uri>
       <updated>2019-07-24</updated>
     </person>
+    <person id="Altera_Corporation">
+      <org>Altera Corporation</org>
+      <uri>mailto:kok.kuan.chang&amp;altera.com</uri>
+      <updated>2026-04-09</updated>
+    </person>
     <person id="Altertech">
       <org>Altertech</org>
       <uri>mailto:pr&amp;altertech.com</uri>
@@ -102087,10 +102098,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Andrew_Donoho">
       <name>Andrew Donoho</name>
       <uri>mailto:awd&amp;us.ibm.com</uri>
-    </person>
-    <person id="Andrew_Draper">
-      <name>Andrew Draper</name>
-      <uri>mailto:adraper&amp;altera.com</uri>
     </person>
     <person id="Andrew_Galloway">
       <name>Andrew Galloway</name>
@@ -114214,6 +114221,12 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Koich_Nakamura">
       <name>Koich Nakamura</name>
       <uri>mailto:naka&amp;case.nm.fujitsu.co.jp</uri>
+    </person>
+    <person id="Kok_Kuan_Chang">
+      <name>Kok Kuan Chang</name>
+      <org>Altera Corporation</org>
+      <uri>mailto:kok.kuan.chang&amp;altera.com</uri>
+      <updated>2026-04-09</updated>
     </person>
     <person id="Kollective_Technology_Inc">
       <org>Kollective Technology Inc.</org>
