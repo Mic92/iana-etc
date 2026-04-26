@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-04-09</updated>
+  <updated>2026-04-24</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -88274,7 +88274,7 @@ common service discovery mechanisms.</note>
     <assignee>
       <xref type="person" data="IESG"/>
     </assignee>
-    <xref type="draft" data="RFC-ietf-ippm-capacity-protocol-25"/>
+    <xref type="rfc" data="rfc9946"/>
     <description>UDP-based IP-Layer Capacity and Performance Measurement protocol</description>
     <number>24601</number>
     <xref type="person" data="IETF_Chair"/>
