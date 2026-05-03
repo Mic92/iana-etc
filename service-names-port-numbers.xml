@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-04-24</updated>
+  <updated>2026-04-30</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, 
 Jana Iyengar, and Michael Scharf
@@ -57786,7 +57786,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>4461-4483</number>
+    <number>4461-4479</number>
+  </record>
+  <record date="2026-04-30">
+    <name>agtp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Chris_Hood"/>
+    </assignee>
+    <description>Agent Transfer Protocol</description>
+    <number>4480</number>
+    <xref type="person" data="Chris_Hood"/>
+  </record>
+  <record date="2026-04-30">
+    <name>agtp-quic</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Chris_Hood"/>
+    </assignee>
+    <description>Agent Transfer Protocol over QUIC</description>
+    <number>4480</number>
+    <xref type="person" data="Chris_Hood"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>4481-4483</number>
   </record>
   <record date="2005-11">
     <name>hpssmgmt</name>
@@ -104705,6 +104729,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Chris Herzog</name>
       <uri>mailto:zog&amp;stg.com</uri>
       <updated>2006-05</updated>
+    </person>
+    <person id="Chris_Hood">
+      <name>Chris Hood</name>
+      <uri>mailto:chris&amp;nomotic.ai</uri>
+      <updated>2026-04-30</updated>
     </person>
     <person id="Chris_Horne">
       <name>Chris Horne</name>
