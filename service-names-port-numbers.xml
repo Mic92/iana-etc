@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-05-04</updated>
+  <updated>2026-05-11</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
 and Michael Scharf
@@ -94255,6 +94255,17 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys:  path, version</note>
     <xref type="person" data="Michel_Stam_2"/>
   </record>
+  <record date="2026-05-11">
+    <name>brski-pledge</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <description>The Bootstrapping Remote Secure Key Infrastructure Pledge</description>
+    <xref type="draft" data="RFC-ietf-anima-brski-prm-23"/>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="IETF_Chair"/>
+  </record>
   <record date="2020-04-29">
     <name>brski-proxy</name>
     <protocol>tcp</protocol>
@@ -94262,7 +94273,7 @@ common service discovery mechanisms.</note>
       <xref type="person" data="IESG"/>
     </assignee>
     <description>The Bootstrapping Remote Secure Key Infrastructure Proxy</description>
-	<xref type="rfc" data="rfc8995"/>
+    <xref type="rfc" data="rfc8995"/>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="IETF_Chair"/>
   </record>
@@ -94275,7 +94286,7 @@ common service discovery mechanisms.</note>
     <description> Bootstrapping Remote Secure Key Infrastructure
 registrar with CMP capabilities according to the Lightweight CMP
 Profile (LCMPP) <xref type="rfc" data="rfc9483"/></description>
-	<xref type="rfc" data="rfc9733"/>
+    <xref type="rfc" data="rfc9733"/>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="IETF_Chair"/>
   </record>
@@ -94286,7 +94297,7 @@ Profile (LCMPP) <xref type="rfc" data="rfc9483"/></description>
       <xref type="person" data="IESG"/>
     </assignee>
     <description>The Bootstrapping Remote Secure Key Infrastructure Registrar</description>
-	<xref type="rfc" data="rfc8995"/>
+    <xref type="rfc" data="rfc8995"/>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="IETF_Chair"/>
   </record>
