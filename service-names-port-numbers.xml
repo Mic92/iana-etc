@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-05-11</updated>
+  <updated>2026-05-29</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
 and Michael Scharf
@@ -69336,71 +69336,104 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>6391-6399</number>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-cms</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>Business Objects CMS contact port</description>
     <number>6400</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-was</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>boe-was</description>
     <number>6401</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-eventsrv</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>boe-eventsrv</description>
     <number>6402</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-cachesvr</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>boe-cachesvr</description>
     <number>6403</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-filesvr</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>Business Objects Enterprise internal server</description>
     <number>6404</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-pagesvr</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>Business Objects Enterprise internal server</description>
     <number>6405</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-processsvr</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>Business Objects Enterprise internal server</description>
     <number>6406</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-resssvr1</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>Business Objects Enterprise internal server</description>
     <number>6407</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-resssvr2</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>Business Objects Enterprise internal server</description>
     <number>6408</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-resssvr3</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>Business Objects Enterprise internal server</description>
     <number>6409</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
-  <record date="2008-05-05">
+  <record date="2008-05-05" updated="2026-05-27">
     <name>boe-resssvr4</name>
-    <xref type="person" data="Wade_Richards"/>
+    <assignee>
+    <xref type="person" data="SAP_2"/>
+    </assignee>
     <description>Business Objects Enterprise internal server</description>
     <number>6410</number>
+    <xref type="person" data="Giriraj_Harapanahalli"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -89540,7 +89573,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>30833-30998</number>
+    <number>30833-30938</number>
+  </record>
+  <record date="2026-05-28">
+    <name>dilithium3</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Juan_Jose_Todoli_de_Torres"/>
+    </assignee>
+    <description>Persistent peer-to-peer connections for block propagation, transaction relay, and BFT consensus message exchange.</description>
+    <number>30939</number>
+    <xref type="person" data="Juan_Jose_Todoli_de_Torres"/>
+  </record>
+  <record date="2026-05-28">
+    <name>dilithium3</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Juan_Jose_Todoli_de_Torres"/>
+    </assignee>
+    <description>Kademlia DHT peer discovery and routing table maintenance.</description>
+    <number>30939</number>
+    <xref type="person" data="Juan_Jose_Todoli_de_Torres"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>30940-30998</number>
   </record>
   <record date="2006-05">
     <name>ovobs</name>
@@ -93147,6 +93204,26 @@ common service discovery mechanisms.</note>
   version=&lt;firmware/instrument controller version&gt;</note>
     <xref type="person" data="Carlo_Quiñónez"/>
   </record>
+  <record date="2026-05-29">
+    <name>ab-secure</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Saso_Ahmed"/>
+    </assignee>
+    <description>AB Secure Protocol</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Saso_Ahmed"/>
+  </record>
+  <record date="2026-05-29">
+    <name>ab-secure</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Saso_Ahmed"/>
+    </assignee>
+    <description>AB Secure Protocol</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Saso_Ahmed"/>
+  </record>
   <record>
     <name>accessdata-f2d</name>
     <description>FTK2 Database Discovery Service</description>
@@ -94254,6 +94331,16 @@ common service discovery mechanisms.</note>
     <description>JSON RPC Bridge Protocol</description>
     <note>Defined TXT keys:  path, version</note>
     <xref type="person" data="Michel_Stam_2"/>
+  </record>
+  <record date="2026-05-26">
+    <name>brocoli-concert</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="brocoliconcert.corp"/>
+    </assignee>
+    <description>brocoliconcert telecom</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Jang_Hwanhee"/>
   </record>
   <record date="2026-05-11">
     <name>brski-pledge</name>
@@ -104051,6 +104138,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Broadcom</org>
       <uri>mailto:thomas.sakowski&amp;broadcom.com</uri>
       <updated>2023-03-29</updated>
+    </person>
+    <person id="brocoliconcert.corp">
+      <org>brocoliconcert.corp</org>
+      <uri>mailto:janghwanhee&amp;brocoliconcert.com</uri>
+      <updated>2026-05-26</updated>
     </person> 
     <person id="Brooks_Bell">
       <name>Brooks Bell</name>
@@ -109478,6 +109570,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Gilles Gameiro</name>
       <uri>mailto:ggameiro&amp;birdland.com</uri>
     </person>
+    <person id="Giriraj_Harapanahalli">
+      <name>Giriraj Harapanahalli</name>
+      <uri>mailto:giriraj.harapanahalli&amp;sap.com</uri>
+      <updated>2026-05-27</updated>
+    </person>
     <person id="Girish_Bhat">
       <name>Girish Bhat</name>
       <uri>mailto:gbhat&amp;cranite.com</uri>
@@ -111439,6 +111536,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Jane Dashevsky</name>
       <uri>mailto:jane.dashevsky&amp;intel.com</uri>
     </person>
+    <person id="Jang_Hwanhee">
+      <name>Jang Hwanhee</name>
+      <uri>mailto:janghwanhee&amp;brocoliconcert.com</uri>
+      <updated>2026-05-26</updated>
+    </person>
     <person id="Jane_Porter">
       <name>Jane Porter</name>
       <uri>mailto:janeporter&amp;uk.ibm.com</uri>
@@ -113397,6 +113499,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>fnxsoftware.com</org>
       <uri>mailto:ryoma.nagare&amp;gmail.com</uri>
       <updated>2015-06-30</updated>
+    </person>
+    <person id="Juan_Jose_Todoli_de_Torres">
+      <name>Juan Jose Todoli de Torres</name>
+      <uri>mailto:admin&amp;dilithium3.com</uri>
+      <updated>2026-05-28</updated>
     </person>
     <person id="Juha_Lindfors">
       <name>Juha Lindfors</name>
@@ -122045,6 +122152,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:jason.noack&amp;sap.com</uri>
       <updated>2021-12-03</updated>
     </person>
+    <person id="SAP_2">
+      <org>SAP</org>
+      <uri>mailto:Giriraj Harapanahalli</uri>
+      <updated>2026-05-27</updated>
+    </person>
     <person id="SAP_SE">
       <org>SAP SE</org>
       <uri>mailto:stefan.hagen&amp;sap.com</uri>
@@ -122076,6 +122188,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Sashi Madduri</name>
       <uri>mailto:sashi&amp;cohesity.com</uri>
       <updated>2019-08-01</updated>
+    </person>
+    <person id="Saso_Ahmed">
+      <name>Saso Ahmed</name>
+      <uri>mailto:NotDreamPVP&amp;gmail.com</uri>
+      <updated>2026-05-29</updated>
     </person>
     <person id="Satoshi_Matsumoto">
       <name>Satoshi Matsumoto</name>
@@ -125836,11 +125953,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="W_Jordan_Fitzhugh">
       <name>W. Jordan Fitzhugh</name>
       <uri>mailto:jfitz&amp;pcare.com</uri>
-    </person>
-    <person id="Wade_Richards">
-      <name>Wade Richards</name>
-      <uri>mailto:wade.richards&amp;sap.com</uri>
-      <updated>2008-05-05</updated>
     </person>
     <person id="Waher_Data_AB">
       <org>Waher Data AB</org>
