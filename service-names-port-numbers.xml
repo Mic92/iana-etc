@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-05-29</updated>
+  <updated>2026-06-12</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
 and Michael Scharf
@@ -93482,6 +93482,17 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: Proprietary</note>
     <xref type="person" data="Tom_Lachecki"/>
   </record>
+  <record date="2026-06-12">
+    <name>ai-adp</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Harry_Lian"/>
+    </assignee>
+    <description>AI Agent Discovery Protocol (ADP)</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Harry_Lian"/>
+    <xref type="draft" data="draft-pro-adp-agent-discovery-00"/>
+  </record>
   <record date="2012-03-02">
     <name>airdrop</name>
     <protocol>tcp</protocol>
@@ -110224,6 +110235,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Harry Lewis</name>
       <uri>mailto:harryl&amp;us.ibm.com</uri>
       <updated>2003-05</updated>
+    </person>
+    <person id="Harry_Lian">
+      <name>Harry Lian</name>
+      <uri>mailto:harrylian8766&amp;gmail.com</uri>
+      <updated>2026-06-12</updated>
     </person>
     <person id="Harry_T_Vennik">
       <name>Harry T. Vennik</name>
