@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-06-12</updated>
+  <updated>2026-06-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
 and Michael Scharf
@@ -70570,7 +70570,31 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>6603-6618</number>
+    <number>6603-6609</number>
+  </record>
+  <record date="2026-06-17">
+    <name>bencher</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Bencher"/>
+    </assignee>
+    <description>Bencher API</description>
+    <number>6610</number>
+	<xref type="person" data="Everett_Pompeii"/>
+  </record>
+  <record date="2026-06-17">
+    <name>bencher</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="Bencher"/>
+    </assignee>
+    <description>Bencher API</description>
+    <number>6610</number>
+    <xref type="person" data="Everett_Pompeii"/>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>6611-6618</number>
   </record>
   <record date="2006-03">
     <name>odette-ftps</name>
@@ -103253,6 +103277,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Ben Webster</name>
       <uri>mailto:b.webster&amp;itisint.com</uri>
     </person>
+    <person id="Bencher">
+      <org>Bencher</org>
+      <uri>mailto:info&amp;bencher.dev</uri>
+      <updated>2026-06-17</updated>
+    </person>
     <person id="Bender_GmbH_Co_KG">
       <org>Bender GmbH &amp; Co. KG</org>
         <uri>mailto:rnd&amp;bender-de.com</uri>
@@ -108618,6 +108647,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <org>Eventsourcing, Inc.</org>
       <uri>mailto:accounts&amp;eventsourcing.com</uri>
       <updated>2017-04-18</updated>
+    </person>
+    <person id="Everett_Pompeii">
+      <name>Everett Pompeii</name>
+      <uri>mailto:everett&amp;bencher.dev</uri>
+      <updated>2026-06-17</updated>
     </person>
     <person id="Evgeniy_Filatov">
       <name>Evgeniy Filatov</name>
