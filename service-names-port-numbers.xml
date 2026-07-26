@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-06-17</updated>
+  <updated>2026-07-23</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
 and Michael Scharf
@@ -9214,11 +9214,16 @@ common service discovery mechanisms.</note>
     <description>Extensible Provisioning Protocol</description>
     <number>700</number>
   </record>
-  <record>
+  <record updated="2026-07-23">
     <name>epp</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc5734"/>
-    <description>Extensible Provisioning Protocol</description>
+    <xref type="draft" data="RFC-ietf-regext-epp-quic-12"/>
+    <description>EPP running over QUIC</description>
     <number>700</number>
   </record>
   <record>
@@ -63742,7 +63747,7 @@ common service discovery mechanisms.</note>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <description>PKIX Certificate Management using CMS (CMC)</description>
-    <xref type="draft" data="RFC-ietf-lamps-rfc5273bis-11"/>
+    <xref type="rfc" data="rfc10003"/>
     <number>5318</number>
   </record>
   <record>
@@ -70208,7 +70213,7 @@ common service discovery mechanisms.</note>
     <assignee><xref type="person" data="IESG"/></assignee>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7589"/>
-    <xref type="draft" data="RFC-ietf-netconf-over-tls13-04"/>
+    <xref type="rfc" data="rfc9918"/>
     <description>NETCONF over TLS</description>
     <number>6513</number>
   </record>
@@ -72682,20 +72687,27 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>7122</number>
   </record>
-  <record date="2021-12-24">
+  <record date="2021-12-24" updated="2026-07-22">
     <name>snif</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="VESvault_Corp"/>
     </assignee>
-    <description>End-to-end TLS Relay Control Connection</description>
+    <description>SNIF End-to-End TLS Relay Control Connection</description>
     <number>7123</number>
     <xref type="person" data="Jim_Zubov"/>
+    <xref type="draft" data="draft-zubov-snif-05" section="4.3">draft-zubov-snif-05, Section 4.3</xref>
   </record>
-  <record>
+  <record date="2026-07-22" updated="2026-07-22">
+    <name>snif</name>
     <protocol>udp</protocol>
-    <description>Reserved</description>
+    <assignee>
+      <xref type="person" data="VESvault_Corp"/>
+    </assignee>
+    <description>SNIF End-to-End TLS Relay over QUIC</description>
     <number>7123</number>
+    <xref type="person" data="Jim_Zubov"/>
+    <xref type="draft" data="draft-zubov-snif-05" section="4.4">draft-zubov-snif-05, Section 4.4</xref>
   </record>
   <record>
     <description>Unassigned</description>
@@ -98441,6 +98453,16 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Simon_Haertel"/>
   </record>
+  <record date="2026-07-23">
+    <name>qwady-peer</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Qwady_Solutions_LLC"/>
+    </assignee>
+    <description>Encrypted nearby Peer media exchange</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Joseph_May"/>
+  </record>
   <record date="2015-09-21">
     <name>qwizcollab</name>
     <protocol>tcp</protocol>
@@ -99331,38 +99353,38 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
       osver=&lt;operating system version&gt;</note>
     <xref type="person" data="Gord_Peters"/>
   </record>
-  <record date="2021-12-15">
+  <record date="2021-12-15" updated="2026-07-22">
     <name>snif-cln</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="VESvault_Corp"/>
     </assignee>
-    <description>End-to-end TLS Relay Client Connection</description>
+    <description>SNIF End-to-End TLS Relay Client Connection</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Jim_Zubov"/>
-    <xref type="uri" data="https://snif.host/relay-proto#snif-cln"/>
+    <xref type="draft" data="draft-zubov-snif-05" section="4.5">draft-zubov-snif-05, Section 4.5</xref>
   </record>
-  <record date="2021-12-15">
+  <record date="2021-12-15" updated="2026-07-22">
     <name>snif-fifo</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="VESvault_Corp"/>
     </assignee>
-    <description>End-to-end TLS Relay Cluster</description>
+    <description>SNIF End-to-End TLS Relay Cluster</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Jim_Zubov"/>
-    <xref type="uri" data="https://snif.host/relay-proto#snif-fifo"/>
+    <xref type="draft" data="draft-zubov-snif-05" section="4.6">draft-zubov-snif-05, Section 4.6</xref>
   </record>
-  <record date="2021-12-29">
+  <record date="2021-12-29" updated="2026-07-22">
     <name>snif-srv</name>
     <protocol>tcp</protocol>
     <assignee>
       <xref type="person" data="VESvault_Corp"/>
     </assignee>
-    <description>End-to-end TLS Relay Service Connection</description>
+    <description>SNIF End-to-End TLS Relay Service Connection</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Jim_Zubov"/>
-    <xref type="uri" data="https://snif.host/relay-proto#snif-srv"/>
+    <xref type="draft" data="draft-zubov-snif-05" section="4.3">draft-zubov-snif-05, Section 4.3</xref>
   </record>
   <record>
     <name>soap</name>
@@ -100001,6 +100023,26 @@ cport= the port for the content HTTP server
     <description>2Do Sync Helper Tool for Mac OS X and PCs</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Fahad_Gilani"/>
+  </record>
+  <record date="2026-07-19">
+    <name>tokenlens</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="KuoChun_Fang"/>
+    </assignee>
+    <description>AI token usage and billing metering</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="KuoChun_Fang"/>
+  </record>
+  <record date="2026-07-19">
+    <name>tokenlens</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="KuoChun_Fang"/>
+    </assignee>
+    <description>AI token usage and billing metering</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="KuoChun_Fang"/>
   </record>
   <record>
     <name>tomboy</name>
@@ -113476,6 +113518,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Joseph Mathew</name>
       <uri>mailto:mjoseph&amp;dosa.cisco.com</uri>
     </person>
+    <person id="Joseph_May">
+      <name>Joseph May</name>
+      <uri>mailto:joedmay31&amp;gmail.com</uri>
+      <updated>2026-07-23</updated>
+    </person>
     <person id="Joseph_Sickel">
       <name>Joseph Sickel</name>
       <uri>mailto:joe&amp;ozate.com</uri>
@@ -114511,6 +114558,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Kunihiko Morota</name>
       <uri>mailto:morota.kunihiko&amp;jp.panasonic.com</uri>
       <updated>2005-08</updated>
+    </person>
+    <person id="KuoChun_Fang">
+      <name>KuoChun Fang</name>
+      <uri>mailto:RoyFang53&amp;gmail.com</uri>
+      <updated>2026-07-19</updated>
     </person>
     <person id="Kurt_Haubner">
       <name>Kurt Haubner</name>
@@ -120127,6 +120179,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Quinton_Tormanen">
       <name>Quinton Tormanen</name>
       <uri>mailto:quinton&amp;deltacompsys.com</uri>
+    </person>
+    <person id="Qwady_Solutions_LLC">
+      <org>Qwady Solutions LLC</org>
+      <uri>mailto:jdmay&amp;qwady.com</uri>
+      <updated>2026-07-23</updated>
     </person>
     <person id="Qwizdom_Inc.">
       <org>Qwizdom, Inc.</org>
