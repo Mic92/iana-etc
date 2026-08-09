@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-07-23</updated>
+  <updated>2026-08-05</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
 and Michael Scharf
@@ -94233,6 +94233,17 @@ common service discovery mechanisms.</note>
     <note>Defined TXT keys: role=&lt;master or slave&gt;</note>
     <xref type="person" data="Fabrizio_Guglielmino"/>
   </record>
+  <record date="2026-08-05">
+    <name>boardgame</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Tianren_Chen"/>
+    </assignee>
+    <description>Two-player board game play</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Tianren_Chen"/>
+    <xref type="uri" data="https://github.com/chentianren0/MiniXiangqi/blob/main/docs/boardgame-protocol.md"/>
+  </record>
   <record date="2013-02-04">
     <name>boardplus</name>
     <protocol>tcp</protocol>
@@ -124722,6 +124733,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Tiago Bittencourt Silva</name>
       <uri>mailto:tiagobs&amp;ufpr.br</uri>
       <updated>2005-08</updated>
+    </person>
+    <person id="Tianren_Chen">
+      <name>Tianren Chen</name>
+      <uri>mailto:chentianren0&amp;gmail.com</uri>
+      <updated>2026-08-05</updated>
     </person>
     <person id="Tido_de_Vries">
       <name>Tido de Vries</name>
