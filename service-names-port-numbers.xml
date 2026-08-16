@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-08-05</updated>
+  <updated>2026-08-11</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
 and Michael Scharf
@@ -100685,6 +100685,16 @@ cport= the port for the content HTTP server
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Shankar_Prasad_2"/>
   </record>
+  <record date="2026-08-11">
+    <name>wico</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="WISI_Group"/>
+    </assignee>
+    <description>Session-based protocol for embedded unit</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Patrik_Lantto"/>
+  </record>
   <record date="2011-10-25">
     <name>wicop</name>
     <protocol>udp</protocol>
@@ -118925,6 +118935,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:p.verbeek&amp;scottygroup.com</uri>
       <updated>2013-01-14</updated>
     </person>
+    <person id="Patrik_Lantto">
+      <name>Patrik Lantto</name>
+      <org>WISI Group</org>
+      <uri>mailto:patrik.lantto&amp;wisi.se</uri>
+      <updated>2026-08-11</updated>
+    </person>
     <person id="Patti_Jo_Newsom">
       <name>Patti Jo Newsom</name>
       <uri>mailto:pjn&amp;mcsdallas.com</uri>
@@ -126417,6 +126433,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>2Wire IANA Contact</name>
       <uri>mailto:iana&amp;2wire.com</uri>
       <updated>2002-04</updated>
+    </person>
+    <person id="WISI_Group">
+      <org>WISI Group</org>
+      <uri>mailto:patrik.lantto&amp;wisi.se</uri>
+      <updated>2026-08-11</updated>
     </person>
     <person id="WM_Software_Inc.">
       <org>WM Software Inc.</org>
