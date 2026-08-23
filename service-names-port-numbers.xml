@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-08-11</updated>
+  <updated>2026-08-17</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
 and Michael Scharf
@@ -97905,6 +97905,26 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: Proprietary</note>
     <xref type="person" data="Timothy_J_Wood"/>
   </record>
+  <record date="2026-08-17">
+    <name>ok-connect</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Educacion_Global"/>
+    </assignee>
+    <description>Peer-to-peer nearby audio communication</description>
+    <note>Defined TXT keys: txtvers,protovers</note>
+    <xref type="person" data="Luis_Xavier_Padilla_Sierra"/>
+  </record>
+  <record date="2026-08-17">
+    <name>ok-control</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Educacion_Global"/>
+    </assignee>
+    <description>Peer control and application data</description>
+    <note>Defined TXT keys: txtvers,protovers</note>
+    <xref type="person" data="Luis_Xavier_Padilla_Sierra"/>
+  </record>
   <record date="2013-12-09" updated="2014-02-25">
     <name>ola</name>
     <protocol>tcp</protocol>
@@ -108120,6 +108140,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Eduardo Rosenberg de Moura</name>
       <uri>mailto:eduardor&amp;spacenet.com.br</uri>
     </person>
+    <person id="Educacion_Global">
+      <name>Educacion Global, Inc</name>
+      <uri>mailto:luis&amp;educacion.global</uri>
+      <updated>2026-08-17</updated>
+    </person>
     <person id="Edward_Browdy">
       <name>Edward Browdy</name>
       <uri>mailto:ebrowdy&amp;cryptek.com</uri>
@@ -115193,6 +115218,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Luis Lopes</name>
       <uri>mailto:llopes&amp;qti.qualcomm.com</uri>
       <updated>2017-06-23</updated>
+    </person>
+    <person id="Luis_Xavier_Padilla_Sierra">
+      <name>Luis Xavier Padilla Sierra</name>
+      <org>Educacion Global, Inc</org>
+      <uri>mailto:luis&amp;educacion.global</uri>
+      <updated>2026-08-17</updated>
     </person>
     <person id="Luis_Zugasti">
       <name>Luis Zugasti</name>
