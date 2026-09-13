@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-09-04</updated>
+  <updated>2026-09-11</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
 and Michael Scharf
@@ -85587,7 +85587,7 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>16620-16664</number>
   </record>
-  <record date="2014-09-26">
+  <record date="2014-09-26" updated="2026-09-11">
     <name>axon-tunnel</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -85595,7 +85595,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Reliable multipath data transport for high latencies</description>
     <number>16665</number>
-    <xref type="person" data="Paul_Burgess"/>
+    <xref type="person" data="Mihai_Popa"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -99056,7 +99056,7 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Yazsoft"/>
   </record>
-  <record date="2026-09-04">
+  <record date="2026-09-04" updated="2026-09-07">
     <name>secugen-connect</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -99065,6 +99065,7 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <description>SecuGen Connect local biometric bridge</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="SecuGen_Corporation"/>
+    <xref type="uri" data="https://connect.secugen.com/dev-guide-doc/bridge-api-contract"/>
   </record>
   <record>
     <name>see</name>
@@ -104264,8 +104265,8 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Bridgeworks">
       <org>Bridgeworks</org>
-      <uri>mailto:paul.burgess&amp;4bridgeworks.com</uri>
-      <updated>2014-09-26</updated>
+      <uri>mailto:mihai.popa&amp;4bridgeworks.com</uri>
+      <updated>2026-09-11</updated>
     </person>
     <person id="Brigitte_Gagne">
       <name>Brigitte Gagne</name>
@@ -117350,6 +117351,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Miguel Angel Garcia</name>
       <uri>mailto:Miguel.A.Garcia&amp;ericsson.com</uri>
     </person>
+    <person id="Mihai_Popa">
+      <name>Mihai Popa</name>
+      <uri>mailto:mihai.popa&amp;4bridgeworks.com</uri>
+      <updated>2026-09-11</updated>
+    </person>
     <person id="Mike_Accetta">
       <name>Mike Accetta</name>
       <uri>mailto:MIKE.ACCETTA&amp;cmu-cs-a.edu</uri>
@@ -119077,12 +119083,6 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Paul_Bunn">
       <name>Paul Bunn</name>
       <uri>mailto:iana&amp;ultrabac.com</uri>
-    </person>
-    <person id="Paul_Burgess">
-      <name>Paul Burgess</name>
-      <org>Bridgeworks</org>
-      <uri>mailto:paul.burgess&amp;4bridgeworks.com</uri>
-      <updated>2014-09-26</updated>
     </person>
     <person id="Paul_Cadarette">
       <name>Paul Cadarette</name>
