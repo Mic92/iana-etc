@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-09-11</updated>
+  <updated>2026-09-30</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
 and Michael Scharf
@@ -57228,23 +57228,23 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>4415</number>
   </record>  
-  <record date="2015-11-18">
-    <name>pjj-player</name>
+  <record date="2015-11-18" updated="2026-09-30">
+    <name>newmood-player</name>
     <protocol>tcp</protocol>
     <assignee>
-      <xref type="person" data="PJJ_Productions_Inc"/>
+      <xref type="person" data="Creation_Newmood_Inc"/>
     </assignee>
-    <description>PJJ Media Player</description>
+    <description>Newmood Media Player</description>
     <number>4416</number>
     <xref type="person" data="Bruno_Frechette"/>
   </record>
-  <record date="2015-11-18">
-    <name>pjj-player-disc</name>
+  <record date="2015-11-18" updated="2026-09-30">
+    <name>newmood-player</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="PJJ_Productions_Inc"/>
+      <xref type="person" data="Creation_Newmood_Inc"/>
     </assignee>
-    <description>PJJ Media Player discovery</description>
+    <description>Newmood Media Player discovery</description>
     <number>4416</number>
     <xref type="person" data="Bruno_Frechette"/>
   </record>
@@ -96320,6 +96320,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Ricky_Sharp"/>
   </record>
+  <record date="2026-09-28">
+    <name>iip</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="LinuxMC"/>
+    </assignee>
+    <description>Tool to get infos about a host</description>
+    <note>Defined TXT keys: none</note>
+    <xref type="person" data="Tim_Möller"/>
+  </record>
   <record>
     <name>ilynx</name>
     <description>iLynX</description>
@@ -104385,9 +104395,9 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Bruno_Frechette">
       <name>Bruno Frechette</name>
-      <org>PJJ Productions Inc.</org>
-      <uri>mailto:bruno&amp;pjjproductions.com</uri>
-      <updated>2015-11-18</updated>
+      <org>Creation Newmood Inc.</org>
+      <uri>mailto:bruno&amp;newmood.com</uri>
+      <updated>2026-09-30</updated>
     </person>   
     <person id="Bruno_Rijsman">
       <name>Bruno Rijsman</name>
@@ -105904,6 +105914,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Craig_Weeks">
       <name>Craig Weeks</name>
       <uri>mailto:cweeks&amp;syspace.co.uk</uri>
+    </person>
+    <person id="Creation_Newmood_Inc">
+      <org>Creation Newmood Inc.</org>
+      <uri>mailto:it&amp;newmood.com</uri>
+      <updated>2026-09-30</updated>
     </person>
     <person id="Crestron_Electronics">
       <org>Crestron Electronics, Inc.</org>
@@ -115099,6 +115114,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:torvalds&amp;osdl.org</uri>
       <updated>2005-09</updated>
     </person>
+    <person id="LinuxMC">
+      <org>LinuxMC</org>
+      <uri>mailto:timalois&amp;ik.me</uri>
+      <updated>2026-09-28</updated>
+    </person>
     <person id="Lionel_Morand">
       <name>Lionel Morand</name>
       <uri>mailto:lionel.morand&amp;orange.com</uri>
@@ -120039,11 +120059,6 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:pit&amp;3dgo.com</uri>
       <updated>2002-05</updated>
     </person>
-    <person id="PJJ_Productions_Inc">
-      <org>PJJ Productions Inc.</org>
-      <uri>mailto:admin&amp;pjjproductions.com</uri>
-      <updated>2015-11-18</updated>
-    </person>
     <person id="PLASA">
       <org>PLASA</org>
       <uri>mailto:standards.na&amp;plasa.org</uri>
@@ -124936,6 +124951,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Tim_McGranaghan">
       <name>Tim McGranaghan</name>
       <uri>mailto:tim_mcgranaghan&amp;mech.disa.mil</uri>
+    </person>
+    <person id="Tim_Möller">
+      <name>Tim Möller</name>
+      <uri>mailto:timalois&amp;ik.me</uri>
+      <updated>2026-09-28</updated>
     </person>
     <person id="Tim_Morgan">
       <name>Tim Morgan</name>
