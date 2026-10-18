@@ -4,52 +4,39 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-10-09</updated>
+  <updated>2026-10-15</updated>
   <xref type="rfc" data="rfc6335"/>
-  <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell,
-and Michael Scharf
-SCTP: Michael Tuexen
-DCCP: Eddie Kohler and Yoshifumi Nishida</expert>
-  <note>
-Service names and port numbers are used to distinguish between different
-services that run over transport protocols such as TCP, UDP, DCCP, and
-SCTP.
+  <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, and Michael Scharf</expert>
+  <expert>SCTP: Michael Tuexen</expert>
+  <expert>DCCP: Eddie Kohler and Yoshifumi Nishida</expert>
+   <note>Service names and port numbers are used to distinguish between different services that run
+over transport protocols such as TCP, UDP, DCCP, and SCTP.
 
-Service names are assigned on a first-come, first-served process, as
-documented in <xref type="rfc" data="rfc6335"/>.
+Service names are assigned on a First Come First Served basis, as described in <xref type="rfc" data="rfc6335"/>.
 
-Port numbers are assigned in various ways, based on three ranges: System
-Ports (0-1023), User Ports (1024-49151), and the Dynamic and/or Private
-Ports (49152-65535); the different uses of these ranges are described in
-<xref type="rfc" data="rfc6335"/>. According to Section 8.1.2 of <xref type="rfc" data="rfc6335"/>, System Ports are 
-assigned by the "IETF Review" or "IESG Approval" procedures described in 
-<xref type="rfc" data="rfc8126"/>. User Ports are assigned by IANA using the "IETF Review" process, 
-the "IESG Approval" process, or the "Expert Review" process, as per 
-<xref type="rfc" data="rfc6335"/>. Dynamic Ports are not assigned.
+Port numbers are divided into three ranges, with their uses and assignment procedures specified in <xref type="rfc" data="rfc6335" section="8.1.2" label-format="of"/>:
 
-The registration procedures for service names and port numbers are
-described in <xref type="rfc" data="rfc6335"/>.
+- System Ports (0-1023) are assigned using the <xref type="rfc" data="rfc8126" section="4.8">IETF Review</xref> or <xref type="rfc" data="rfc8126" section="4.10">IESG Approval</xref> procedures.
+- User Ports (1024-49151) are assigned using the <xref type="rfc" data="rfc8126" section="4.8">IETF Review</xref>, <xref type="rfc" data="rfc8126" section="4.10">IESG Approval</xref>, or <xref type="rfc" data="rfc8126" section="4.5">Expert Review</xref> procedures.
+- Dynamic and/or Private Ports (49152-65535) are not assigned.
 
-Assigned ports both System and User ports SHOULD NOT be used without
-or prior to IANA registration.
+The registration procedures for service names and port numbers are specified in <xref type="rfc" data="rfc6335"/>, while the registration policies referenced above are defined in <xref type="rfc" data="rfc8126"/>.
 
-************************************************************************
-* PLEASE NOTE THE FOLLOWING:                                           *
-*                                                                      *
-* ASSIGNMENT OF A PORT NUMBER DOES NOT IN ANY WAY IMPLY AN             *
-* ENDORSEMENT OF AN APPLICATION OR PRODUCT, AND THE FACT THAT NETWORK  *
-* TRAFFIC IS FLOWING TO OR FROM A REGISTERED PORT DOES NOT MEAN THAT   *
-* IT IS "GOOD" TRAFFIC, NOR THAT IT NECESSARILY CORRESPONDS TO THE     *
-* ASSIGNED SERVICE. FIREWALL AND SYSTEM ADMINISTRATORS SHOULD          *
-* CHOOSE HOW TO CONFIGURE THEIR SYSTEMS BASED ON THEIR KNOWLEDGE OF    *
-* THE TRAFFIC IN QUESTION, NOT WHETHER THERE IS A PORT NUMBER          *
-* REGISTERED OR NOT.                                                   *
-************************************************************************
-
+Assigned ports both System and User ports SHOULD NOT be used without or prior to IANA registration.
 </note>
-<note title="Request an Assignment">
-  <xref type="uri" data="https://www.iana.org/protocols/apply"/>
 
+<note type="warning">Assignment of a port number does not in any way imply an
+endorsement of an application or product, and the fact that network
+traffic is flowing to or from a registered port does not mean that
+it is "good" traffic, nor that it necessarily corresponds to the
+assigned service. Firewall and system administrators should
+choose how to configure their systems based on their knowledge of
+the traffic in question, not whether there is a port number
+registered or not.</note>
+
+<note title="Registration Forms">
+- To request a new assignment, please use the <xref type="uri" data="https://www.iana.org/form/ports-services">Application for Service Names and User Port Numbers</xref> form.
+- To modify an existing assignment, please use the <xref type="uri" data="https://www.iana.org/form/port-modification">Modify a Port Number Assignment</xref> form.
 </note>
   <record updated="2024-12-20">
     <protocol>tcp</protocol>
@@ -25776,8 +25763,7 @@ common service discovery mechanisms.</note>
       previously assigned by IANA for "RadSec", an early implementation
       of RADIUS/TLS, prior to issuance of this RFC.  This early
       implementation can be configured to be compatible to RADIUS/TLS as
-      specified by the IETF.  See <xref type="rfc" data="rfc6614"/>,
-      Appendix A for details.</note>
+      specified by the IETF.  See <xref type="rfc" data="rfc6614" appendix="A"/> for details.</note>
   </record>
   <record date="2005-05" updated="2014-07-14">
     <name>radsec</name>
@@ -60542,7 +60528,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>4916-4935</number>
+    <number>4916-4929</number>
+  </record>
+  <record date="2026-10-15">
+    <name>fmsg</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="FMSG_AI_PTY_LTD"/>
+    </assignee>
+    <description>Host-to-host messaging</description>
+    <number>4930</number>
+    <xref type="person" data="Mark_Mennell"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>4930</number>
+  </record>
+  <record>
+    <description>Unassigned</description>
+    <number>4931-4935</number>
   </record>
   <record date="2014-06-06">
     <name>an-signaling</name>
@@ -72696,7 +72701,7 @@ common service discovery mechanisms.</note>
     <description>SNIF End-to-End TLS Relay Control Connection</description>
     <number>7123</number>
     <xref type="person" data="Jim_Zubov"/>
-    <xref type="draft" data="draft-zubov-snif-05" section="4.3">draft-zubov-snif-05, Section 4.3</xref>
+    <xref type="draft" data="draft-zubov-snif-05" section="4.3"/>
   </record>
   <record date="2026-07-22" updated="2026-07-22">
     <name>snif</name>
@@ -72707,7 +72712,7 @@ common service discovery mechanisms.</note>
     <description>SNIF End-to-End TLS Relay over QUIC</description>
     <number>7123</number>
     <xref type="person" data="Jim_Zubov"/>
-    <xref type="draft" data="draft-zubov-snif-05" section="4.4">draft-zubov-snif-05, Section 4.4</xref>
+    <xref type="draft" data="draft-zubov-snif-05" section="4.4"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -79705,7 +79710,7 @@ common service discovery mechanisms.</note>
     <description>Printer PDL Data Stream</description>
     <number>9100</number>
     <note>The protocol name "pdl-datastream" is primarily registered for use
-in DNS SRV records (RFC 2782). DNS SRV records allow a protocol to run on
+in DNS SRV records (<xref type="rfc" data="rfc2782"/>). DNS SRV records allow a protocol to run on
 any port number, but the default port for this protocol is 9100.</note>
   </record>
   <record date="2002-09">
@@ -79715,7 +79720,7 @@ any port number, but the default port for this protocol is 9100.</note>
     <description>Printer PDL Data Stream</description>
     <number>9100</number>
     <note>The protocol name "pdl-datastream" is primarily registered for use
-in DNS SRV records (RFC 2782). DNS SRV records allow a protocol to run on
+in DNS SRV records (<xref type="rfc" data="rfc2782"/>). DNS SRV records allow a protocol to run on
 any port number, but the default port for this protocol is 9100.</note>
   </record>
   <record date="2002-01">
@@ -91960,7 +91965,7 @@ common service discovery mechanisms.</note>
     <protocol>udp</protocol>
     <description>Unassigned</description>
     <number>44323</number>
-    <note>"pcp" assignment withdrawn, moved to port 5351 per RFC6887</note>
+    <note>"pcp" assignment withdrawn, moved to port 5351 per <xref type="rfc" data="rfc6887"/></note>
   </record>
   <record>
     <description>Unassigned</description>
@@ -93453,6 +93458,16 @@ common service discovery mechanisms.</note>
     <description>ADPRO Security Device Setup</description>
     <note>Defined TXT keys: txtvers, type</note>
     <xref type="person" data="Patrick_Noffke"/>
+  </record>
+  <record date="2026-10-13">
+    <name>ae-control</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Acoustics_Engineering"/>
+    </assignee>
+    <description>Acoustics Engineering network device control</description>
+    <note>Defined TXT keys: name, api-family, api, product, model, hw-rev, version</note>
+    <xref type="person" data="Han_Vertegaal"/>
   </record>
   <record>
     <name>aecoretech</name>
@@ -95145,7 +95160,7 @@ fwver=&lt;firmware version&gt;</note>
     </assignee>
     <description>DNS Push Notification Service Type</description>
     <note>Defined TXT Keys: None</note>
-    <xref type="rfc" data="rfc8765">RFC8765, Section 6.1</xref>
+    <xref type="rfc" data="rfc8765" section="6.1"/>
     <xref type="person" data="IETF_Chair"/>
   </record>
   <record date="2019-05-04">
@@ -98784,7 +98799,7 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
   <record date="2015-01-07">
     <name>robustirc</name>
     <protocol>tcp</protocol>
-    <description>Like ircu (RFC1459), but failure tolerant due to strong consistency among n&gt;=3 servers</description>
+    <description>Like ircu (<xref type="rfc" data="rfc1459"/>), but failure tolerant due to strong consistency among n&gt;=3 servers</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Michael_Stapelberg"/>
   </record>
@@ -99424,7 +99439,7 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <description>SNIF End-to-End TLS Relay Client Connection</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Jim_Zubov"/>
-    <xref type="draft" data="draft-zubov-snif-05" section="4.5">draft-zubov-snif-05, Section 4.5</xref>
+    <xref type="draft" data="draft-zubov-snif-05" section="4.5"/>
   </record>
   <record date="2021-12-15" updated="2026-07-22">
     <name>snif-fifo</name>
@@ -99435,7 +99450,7 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <description>SNIF End-to-End TLS Relay Cluster</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Jim_Zubov"/>
-    <xref type="draft" data="draft-zubov-snif-05" section="4.6">draft-zubov-snif-05, Section 4.6</xref>
+    <xref type="draft" data="draft-zubov-snif-05" section="4.6"/>
   </record>
   <record date="2021-12-29" updated="2026-07-22">
     <name>snif-srv</name>
@@ -99446,7 +99461,7 @@ Profiling and performance analysis protocol for Shark 4.0 and BigTop.</note>
     <description>SNIF End-to-End TLS Relay Service Connection</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Jim_Zubov"/>
-    <xref type="draft" data="draft-zubov-snif-05" section="4.3">draft-zubov-snif-05, Section 4.3</xref>
+    <xref type="draft" data="draft-zubov-snif-05" section="4.3"/>
   </record>
   <record>
     <name>soap</name>
@@ -99988,7 +100003,7 @@ cport= the port for the content HTTP server
     </assignee>
     <description>Time Zone Data Distribution Service - non-TLS</description>
     <note>This is an extension of the http service.  Defined
-      TXT keys: path=&lt;context path&gt; (as per Section 6 of <xref type="rfc" data="rfc6763"/>).</note>
+      TXT keys: path=&lt;context path&gt; (as per <xref type="rfc" data="rfc6763" section="6" label-format="of"/>).</note>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7808"/>
   </record>
@@ -100000,7 +100015,7 @@ cport= the port for the content HTTP server
     </assignee>
     <description>Time Zone Data Distribution Service - over TLS</description>
     <note>This is an extension of the https service.  Defined
-      TXT keys: path=&lt;context path&gt; (as per Section 6 of <xref type="rfc" data="rfc6763"/>).</note>
+      TXT keys: path=&lt;context path&gt; (as per <xref type="rfc" data="rfc6763" section="6" label-format="of"/>).</note>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc7808"/>
   </record>
@@ -100818,7 +100833,7 @@ cport= the port for the content HTTP server
       <paragraph>type: Type of the Thing Description, i.e. "Thing" or "Directory". If omitted, the type is assumed
       to be Thing.</paragraph>
       <paragraph>scheme: Scheme part of URL. One of the following values can be specified, with the standard
-      registered URI interpretations [RFC7595]: http (HTTP over TCP),https (HTTP over TLS/TCP),
+      registered URI interpretations <xref type="rfc" data="rfc7595"/>: http (HTTP over TCP),https (HTTP over TLS/TCP),
       coap+tcp (CoAP over TCP), or coaps+tcp (CoAP over TLS/TCP). If omitted, the scheme is
       assumed to be http.</paragraph>
     </note>
@@ -100838,7 +100853,7 @@ cport= the port for the content HTTP server
       <paragraph>type: Type of the Thing Description, i.e. "Thing" or "Directory". If omitted, the type is assumed
       to be Thing.</paragraph>
       <paragraph>scheme: Scheme part of URL. One of the following values can be specified, with the standard
-      registered URI interpretations [RFC7595]: coap (CoAP over UDP), coaps CoAP over DTLS/UDP.
+      registered URI interpretations <xref type="rfc" data="rfc7595"/>: coap (CoAP over UDP), coaps CoAP over DTLS/UDP.
       If omitted, the scheme is assumed to be coap.</paragraph>
     </note>
     <xref type="person" data="Kazuyuki_Ashimura"/>
@@ -101093,7 +101108,7 @@ cport= the port for the content HTTP server
   </record>
   <footnote anchor="1">It is only appropriate to use these values in explicitly-
 configured experiments; they MUST NOT be shipped as defaults in
-implementations.  See RFC 3692 for details.</footnote>
+implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
 
   <people>
     <person id="_3GPP">
@@ -101264,6 +101279,11 @@ implementations.  See RFC 3692 for details.</footnote>
     </person>
     <person id="Acertant">
       <org>Acertant Technologies, Inc.</org>
+    </person>
+    <person id="Acoustics_Engineering">
+      <org>Acoustics Engineering</org>
+      <uri>mailto:info&amp;acoustics-engineering.com</uri>
+      <updated>2026-10-13</updated>
     </person>
     <person id="Acronis">
       <org>Acronis</org>
@@ -108958,6 +108978,11 @@ implementations.  See RFC 3692 for details.</footnote>
       <uri>mailto:flynn&amp;oaklabs.is</uri>
       <updated>2017-02-09</updated>
     </person>
+    <person id="FMSG_AI_PTY_LTD">
+      <org>FMSG AI PTY LTD</org>
+      <uri>mailto:mark&amp;fmsg.ai</uri>
+      <updated>2026-10-15</updated>
+    </person>
     <person id="fnxsoftware.com">
       <org>fnxsoftware.com</org>
       <uri>mailto:juan.guerrero&amp;fnxsoftware.com</uri>
@@ -110276,6 +110301,12 @@ implementations.  See RFC 3692 for details.</footnote>
       <name>Hamed Ishbaitah</name>
       <uri>mailto:Hamed.i&amp;icloud.com</uri>
       <updated>2014-07-30</updated>
+    </person>
+    <person id="Han_Vertegaal">
+      <name>Han Vertegaal</name>
+      <org>Acoustics Engineering</org>
+      <uri>mailto:h.vertegaal&amp;acoustics-engineering.com</uri>
+      <updated>2026-10-13</updated>
     </person>
     <person id="Han_Yingying">
       <name>Han Yingying</name>
@@ -115903,6 +115934,11 @@ implementations.  See RFC 3692 for details.</footnote>
     <person id="Mark_McNamara">
       <name>Mark McNamara</name>
       <uri>mailto:markm&amp;research.canon.com.au</uri>
+    </person>
+    <person id="Mark_Mennell">
+      <name>Mark Mennell</name>
+      <uri>mailto:mark&amp;fmsg.ai</uri>
+      <updated>2026-10-15</updated>
     </person>
     <person id="Mark_Miller">
       <name>Mark Miller</name>
