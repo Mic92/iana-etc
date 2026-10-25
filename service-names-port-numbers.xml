@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-10-15</updated>
+  <updated>2026-10-22</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, and Michael Scharf</expert>
   <expert>SCTP: Michael Tuexen</expert>
@@ -75770,9 +75770,25 @@ common service discovery mechanisms.</note>
     <unauthorized>yes</unauthorized>
     
   </record>
+  <record date="2026-10-22">
+    <name>bier-echo</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <description>The UDP destination port number for the IP/UDP encapsulated BIER Echo Reply message.</description>
+    <xref type="draft" data="RFC-ietf-bier-ping-29"/>
+    <number>8011</number>
+  </record>
+  <record>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
+    <number>8011</number>
+  </record>
   <record>
     <description>Unassigned</description>
-    <number>8011-8014</number>
+    <number>8012-8014</number>
   </record>
   <record date="2019-01-09">
     <name>cfg-cloud</name>
@@ -101113,8 +101129,8 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
   <people>
     <person id="_3GPP">
       <org>3GPP</org>
-      <uri>mailto:dongwook.kim&amp;etsi.org</uri>
-      <updated>2026-01-23</updated>
+      <uri>mailto:info&amp;3gpp.org</uri>
+      <updated>2026-10-20</updated>
     </person>
     <person id="_3GPP_2">
       <org>3GPP2</org>
@@ -107881,8 +107897,8 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
     <person id="Dongwook_Kim">
       <name>Dongwook Kim</name>
       <org>3GPP</org>
-      <uri>mailto:dongwook.kim&amp;etsi.org</uri>
-      <updated>2026-01-23</updated>
+      <uri>mailto:info&amp;3gpp.org</uri>
+      <updated>2026-10-20</updated>
     </person>
     <person id="Donna_Dillenberger">
       <name>Donna Dillenberger</name>
@@ -109275,8 +109291,8 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
     <person id="_3GPP_Specifications">
       <name>Dongwook Kim</name>
       <org>3GPP Specifications Manager</org>
-      <uri>mailto:dongwook.kim&amp;etsi.org</uri>
-      <updated>2026-01-23</updated>
+      <uri>mailto:info&amp;3gpp.org</uri>
+      <updated>2026-10-20</updated>
     </person>
     <person id="G_E_Ozz_Nixon_Jr">
       <name>G.E. Ozz Nixon Jr.</name>
