@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-10-22</updated>
+  <updated>2026-10-27</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, and Michael Scharf</expert>
   <expert>SCTP: Michael Tuexen</expert>
@@ -93560,6 +93560,17 @@ common service discovery mechanisms.</note>
     <xref type="person" data="Harry_Lian"/>
     <xref type="draft" data="draft-pro-adp-agent-discovery-00"/>
   </record>
+  <record date="2026-10-27">
+    <name>ai-gateway</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Changshan_Su"/>
+    </assignee>
+    <description>AI Gateway Local Discovery</description>
+    <note>Defined TXT keys: txtvers, path, tls, auth, auth_type, protocols, product, id, role</note>
+    <xref type="person" data="Changshan_Su"/>
+    <xref type="draft" data="draft-su-ai-gateway-discovery-00"/>
+  </record>
   <record date="2012-03-02">
     <name>airdrop</name>
     <protocol>tcp</protocol>
@@ -97783,6 +97794,16 @@ There is no possibility of name conflict because (by definition) GUIDs are globa
     <description>Lightweight event based control protocol utilising JavaScript Object Notation</description>
     <note>Defined TXT keys: None</note>
     <xref type="person" data="Michael_Cartmel"/>
+  </record>
+  <record date="2026-10-26">
+    <name>noonien</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Sequi_Company"/>
+    </assignee>
+    <description>noonien peer-to-peer memory replication</description>
+    <note>Defined TXT keys: None</note>
+    <xref type="person" data="Samuele_Sequi_2"/>
   </record>
   <record date="2022-07-11">
     <name>nq</name>
@@ -104772,6 +104793,11 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
     <person id="Chandar_Venkataraman">
       <name>Chandar Venkataraman</name>
       <uri>mailto:CVENKATA&amp;us.oracle.com</uri>
+    </person>
+    <person id="Changshan_Su">
+      <name>Changshan Su</name>
+      <uri>mailto:suchangshan&amp;foxmail.com</uri>
+      <updated>2026-10-27</updated>
     </person>
     <person id="Chaoyi_Lang">
       <name>Chaoyi Lang</name>
@@ -122342,6 +122368,12 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
       <uri>mailto:samuelesequi&amp;defcom.it</uri>
       <updated>2004-02</updated>
     </person>
+    <person id="Samuele_Sequi_2">
+      <name>Samuele Sequi</name>
+      <org>Sequi Company</org>
+      <uri>mailto:info&amp;sequi.company</uri>
+      <updated>2026-10-26</updated>
+    </person>
     <person id="Sanchaita_Datta">
       <name>Sanchaita Datta</name>
       <uri>mailto:sdatta&amp;ragula.com</uri>
@@ -122742,6 +122774,11 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
       <org>Sentyron B.V.</org>
       <uri>mailto:iana&amp;sentyron.com</uri>
       <updated>2025-10-30</updated>
+    </person>
+    <person id="Sequi_Company">
+      <org>Sequi Company</org>
+      <uri>mailto:info&amp;sequi.company</uri>
+      <updated>2026-10-26</updated>
     </person>
     <person id="Serge_DE_LUCA">
       <name>Serge DE LUCA</name>
