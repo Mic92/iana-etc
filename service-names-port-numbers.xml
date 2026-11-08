@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-10-27</updated>
+  <updated>2026-11-06</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, and Michael Scharf</expert>
   <expert>SCTP: Michael Tuexen</expert>
@@ -59721,13 +59721,16 @@ Further keys may be added in the future.</note>
     <description>Reserved</description>
     <number>4788</number>
   </record>
-  <record date="2013-04-19" updated="2014-06-17">
+  <record date="2013-04-19" updated="2026-11-05">
     <name>vxlan</name>
     <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
     <description>Virtual eXtensible Local Area Network (VXLAN)</description>
     <number>4789</number>
-    <xref type="person" data="Lawrence_Kreeger"/>
-    <xref type="rfc" data="rfc7348"/>
+    <xref type="person" data="IETF_Chair"/>
+    <xref type="draft" data="RFC-ietf-nvo3-rfc7348bis-12"/>
   </record>
   <record>
     <protocol>tcp</protocol>
@@ -75915,8 +75918,20 @@ common service discovery mechanisms.</note>
     <number>8023</number>
     <xref type="person" data="Yacince_Felk"/>
   </record>
+  <record date="2026-11-06">
+    <name>gaap</name>
+    <protocol>udp</protocol>
+    <assignee>
+      <xref type="person" data="IESG"/>
+    </assignee>
+    <xref type="person" data="IETF_Chair"/>
+    <description>GAAP Control Packets</description>
+    <xref type="draft" data="RFC-ietf-pim-gaap-25"/>
+    <number>8024</number>
+  </record>
   <record>
-    <description>Unassigned</description>
+    <protocol>tcp</protocol>
+    <description>Reserved</description>
     <number>8024</number>
   </record>
   <record date="2006-07">
@@ -82048,7 +82063,7 @@ common service discovery mechanisms.</note>
     <description>Unassigned</description>
     <number>9982-9985</number>
   </record>
-  <record date="2025-10-30">
+  <record date="2025-10-30" updated="2026-11-04">
     <name>kaostransport</name>
     <protocol>tcp</protocol>
     <assignee>
@@ -82056,7 +82071,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>KAOS secure message transport protocol for safety-critical environments</description>
     <number>9986</number>
-    <xref type="person" data="Philip_Duvalsaint"/>
+    <xref type="person" data="Jason_C._McKenna"/>
   </record>
   <record>
     <protocol>udp</protocol>
@@ -111845,6 +111860,11 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
       <name>Jason Aubain</name>
       <uri>mailto:jaubain&amp;kjt.com</uri>
     </person>
+    <person id="Jason_C._McKenna">
+      <name>Jason C. McKenna</name>
+      <uri>mailto:jasonm&amp;GotKAOS.com</uri>
+      <updated>2026-11-04</updated>
+    </person>
     <person id="Jason_Case">
       <name>Jason Case</name>
       <uri>mailto:jason.case&amp;ni.com</uri>
@@ -113926,8 +113946,8 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
     </person>
     <person id="KAOS_Management_Group_LLC">
       <name>KAOS Management Group, LLC</name>
-      <uri>mailto:phil&amp;GotKAOS.com</uri>
-      <updated>2025-10-30</updated>
+      <uri>mailto:jasonm&amp;GotKAOS.com</uri>
+      <updated>2026-11-04</updated>
     </person>
     <person id="Karelia_Software">
       <name>Karelia Software</name>
@@ -119975,11 +119995,6 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
       <name>Philip Budne</name>
       <uri>mailto:budne&amp;auroratech.com</uri>
     </person>
-    <person id="Philip_Duvalsaint">
-      <name>Philip Duvalsaint</name>
-      <uri>mailto:phil&amp;GotKAOS.com</uri>
-      <updated>2025-10-30</updated>
-    </person>
     <person id="Philip_Line">
       <name>Philip Line</name>
       <org>Informatica</org>
@@ -122443,7 +122458,7 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
     </person>
     <person id="SAP_2">
       <org>SAP</org>
-      <uri>mailto:Giriraj Harapanahalli</uri>
+      <uri>mailto:giriraj.harapanahalli&amp;sap.com</uri>
       <updated>2026-05-27</updated>
     </person>
     <person id="SAP_SE">
