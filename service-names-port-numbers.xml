@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-11-06</updated>
+  <updated>2026-11-10</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, and Michael Scharf</expert>
   <expert>SCTP: Michael Tuexen</expert>
@@ -78688,15 +78688,15 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>8805</number>
   </record>
-  <record date="2017-05-08">
+  <record date="2017-05-08" updated="2026-11-10">
     <name>pfcp</name>
     <protocol>udp</protocol>
     <assignee>
-      <xref type="person" data="Kimmo_Kymalainen"/>
+      <xref type="person" data="Dongwook_Kim"/>
     </assignee>
     <description>Destination Port number for PFCP</description>
     <number>8805</number>
-    <xref type="person" data="Kimmo_Kymalainen"/>
+    <xref type="person" data="Dongwook_Kim"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -79549,10 +79549,10 @@ common service discovery mechanisms.</note>
     <number>9081</number>
     <xref type="person" data="Manish_Surolia"/>
   </record>
-  <record date="2010-06-04">
+  <record date="2010-06-04" updated="2026-11-10">
     <name>lcs-ap</name>
     <protocol>sctp</protocol>
-    <xref type="person" data="Kimmo_Kymalainen"/>
+    <xref type="person" data="Dongwook_Kim"/>
     <description>LCS Application Protocol</description>
     <number>9082</number>
   </record>
@@ -87959,10 +87959,10 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>23272</number>
   </record>
-  <record date="2009-08-26">
+  <record date="2009-08-26" updated="2026-11-10">
     <name>s102</name>
     <protocol>udp</protocol>
-    <xref type="person" data="Kimmo_Kymalainen"/>
+    <xref type="person" data="Dongwook_Kim"/>
     <description>S102 application</description>
     <number>23272</number>
   </record>
@@ -90888,10 +90888,10 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>36412</number>
   </record>
-  <record date="2009-09-01">
+  <record date="2009-09-01" updated="2026-11-10">
     <name>s1-control</name>
     <protocol>sctp</protocol>
-    <xref type="person" data="Kimmo_Kymalainen"/>
+    <xref type="person" data="Dongwook_Kim"/>
     <description>S1-Control Plane (3GPP)</description>
     <number>36412</number>
   </record>
@@ -90909,14 +90909,14 @@ common service discovery mechanisms.</note>
     <description>Reserved</description>
     <number>36422</number>
   </record>
-  <record date="2009-09-01">
+  <record date="2009-09-01" updated="2026-11-10">
     <name>x2-control</name>
     <protocol>sctp</protocol>
-    <xref type="person" data="Kimmo_Kymalainen"/>
+    <xref type="person" data="Dongwook_Kim"/>
     <description>X2-Control Plane (3GPP)</description>
     <number>36422</number>
   </record>
-  <record date="2015-06-18">
+  <record date="2015-06-18" updated="2026-11-10">
     <name>slmap</name>
     <protocol>sctp</protocol>
     <assignee>
@@ -90924,9 +90924,9 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>SLm Interface Application Protocol</description>
     <number>36423</number>
-    <xref type="person" data="Kimmo_Kymalainen"/>
+    <xref type="person" data="Dongwook_Kim"/>
   </record>  
-  <record date="2015-06-18">
+  <record date="2015-06-18" updated="2026-11-10">
     <name>nq-ap</name>
     <protocol>sctp</protocol>
     <assignee>
@@ -90934,7 +90934,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <description>Nq and Nq' Application Protocol</description>
     <number>36424</number>
-    <xref type="person" data="Kimmo_Kymalainen"/>
+    <xref type="person" data="Dongwook_Kim"/>
   </record>
   <record>
     <description>Unassigned</description>
@@ -101180,8 +101180,8 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
     </person>
     <person id="_3GPP_4">
       <org>3GPP</org>
-      <uri>mailto:kimmo.kymalainen&amp;etsi.org</uri>
-      <updated>2015-06-18</updated>
+      <uri>mailto:info&amp;3gpp.org</uri>
+      <updated>2026-11-10</updated>
     </person>
     <person id="_88solutions_Corporation">
       <org>88solutions Corporation</org>
@@ -114555,11 +114555,6 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
       <org>IDEAQUEST Inc.</org>
       <uri>mailto:engineering&amp;ideaquest4u.com</uri>
       <updated>2016-12-12</updated>
-    </person>
-    <person id="Kimmo_Kymalainen">
-      <name>Kimmo Kymalainen</name>
-      <uri>mailto:kimmo.kymalainen&amp;etsi.org</uri>
-      <updated>2017-05-08</updated>
     </person>
     <person id="Kin_Chan">
       <name>Kin Chan</name>
