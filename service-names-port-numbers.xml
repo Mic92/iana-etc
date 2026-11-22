@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="service-names-port-numbers">
   <title>Service Name and Transport Protocol Port Number Registry</title>
   <category>Service Names and Transport Protocol Port Numbers</category>
-  <updated>2026-11-10</updated>
+  <updated>2026-11-19</updated>
   <xref type="rfc" data="rfc6335"/>
   <expert>TCP/UDP: Joe Touch; Eliot Lear, Kumiko Ono, Wes Eddy, Brian Trammell, and Michael Scharf</expert>
   <expert>SCTP: Michael Tuexen</expert>
@@ -9209,7 +9209,7 @@ common service discovery mechanisms.</note>
     </assignee>
     <xref type="person" data="IETF_Chair"/>
     <xref type="rfc" data="rfc5734"/>
-    <xref type="draft" data="RFC-ietf-regext-epp-quic-12"/>
+    <xref type="rfc" data="rfc10087"/>
     <description>EPP running over QUIC</description>
     <number>700</number>
   </record>
@@ -72751,7 +72751,26 @@ common service discovery mechanisms.</note>
   </record>
   <record>
     <description>Unassigned</description>
-    <number>7130-7160</number>
+    <number>7130-7150</number>
+  </record>
+  <record date="2026-11-19">
+    <name>ambesasql</name>
+    <protocol>tcp</protocol>
+    <assignee>
+      <xref type="person" data="Sergi_Ortiz_Gómez"/>
+    </assignee>
+    <description>AmbesaSQL Database Server</description>
+    <number>7151</number>
+    <xref type="person" data="Sergi_Ortiz_Gómez"/>
+  </record>
+  <record>
+    <protocol>udp</protocol>
+    <description>Reserved</description>
+    <number>7151</number>
+  </record>
+   <record>
+    <description>Unassigned</description>
+    <number>7152-7160</number>
   </record>
   <record date="2004-11">
     <name>cabsm-comm</name>
@@ -122242,6 +122261,11 @@ implementations.  See <xref type="rfc" data="rfc3692"/> for details.</footnote>
       <org>SEIKO EPSON</org>
       <uri>mailto:ProjectorSoft&amp;exc.epson.co.jp</uri>
       <updated>2008-11-17</updated>
+    </person>
+    <person id="Sergi_Ortiz_Gómez">
+      <name>Sergi Ortiz Gómez</name>
+      <uri>mailto:admin&amp;ambesasql.com</uri>
+      <updated>2026-11-19</updated>
     </person>
     <person id="SGI">
       <org>SGI</org>
